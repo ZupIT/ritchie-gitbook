@@ -25,7 +25,7 @@ The executable commands in Ritchie are the commands located at the last level of
 ****For example, in the image above: 
 
 * The **rit set context** command is executable, as it is at the last level of the tree. 
-* The **rit kafka create** command is not executable, it has an executable **topic** subcommand, at the last level of the tree.
+* The **rit kafka create** command is not executable as there is an executable **topic** subcommand, at the last level of the tree.
 
 This command tree concept is the **core** of Ritchie's structure. All commands and sub-commands are mapped into a json that is updated or created when you download or update the CLI on your computer.  
 ****
