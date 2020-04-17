@@ -4,9 +4,9 @@
 
 ## ABOUT RITCHIE <a id="introducao"></a>
 
-* [What is Ritchie?](what-is-ritchie.md)
-* [What does Ritchie do?](what-does-ritchie-do.md)
-* [What makes Ritchie unique?](what-makes-ritchie-unique.md)
+* [What is Ritchie?](introducao/what-is-ritchie.md)
+* [What does Ritchie do?](introducao/what-does-ritchie-do.md)
+* [What makes Ritchie unique?](introducao/what-makes-ritchie-unique.md)
 
 ## GET STARTED
 
@@ -32,5 +32,5 @@
 
 ## CONTRIBUTE WITH RITCHIE <a id="contribute"></a>
 
-* [Community](community.md)
+* [Community](contribute/community.md)
 

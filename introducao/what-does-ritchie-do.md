@@ -14,11 +14,11 @@ This, especially in cases of onboarding into development teams, is very advantag
 
 ### Without Ritchie
 
-![](.gitbook/assets/en-sem-ritchie.png)
+![](../.gitbook/assets/en-sem-ritchie.png)
 
 ### With Ritchie
 
-![](.gitbook/assets/en-com-ritchie.png)
+![](../.gitbook/assets/en-com-ritchie.png)
 
 
 

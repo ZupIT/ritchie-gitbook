@@ -10,7 +10,7 @@ Ritchie is an open source tool that automates your daily and manual tasks with s
 
  This tool is structured on tree decisions, which allows you to execute your own commands whenever you want to.
 
-![Ritchie brings all the commands together in one place ](.gitbook/assets/animac-a-o-ritchie%20%281%29.gif)
+![Ritchie brings all the commands together in one place ](../.gitbook/assets/animac-a-o-ritchie%20%281%29.gif)
 
 ## **Where Ritchie came from?**
 
@@ -24,5 +24,5 @@ With that in mind, we bring a tool to the community that promotes a **NoOps** mo
 
 In that way, professionals - on all fronts - gain time to work on more complex and relevant tasks to generate value for their project.
 
-![Demonstration of a formula following the NoOps mindset](.gitbook/assets/rit-demo-deploy-project%20%281%29.gif)
+![Demonstration of a formula following the NoOps mindset](../.gitbook/assets/rit-demo-deploy-project%20%281%29.gif)
 
