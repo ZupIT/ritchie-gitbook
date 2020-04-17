@@ -6,7 +6,7 @@ description: >-
 
 # Introduction to Ritchie
 
-## Welcome to Ritchie documentation!
+## Welcome to Ritchie documentation
 
 Here, you will find the main information about the tool, and how you can contribute by updating the documentation or creating formulas for our repository.
 
