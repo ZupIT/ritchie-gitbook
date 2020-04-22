@@ -13,7 +13,7 @@ O comando**`rit add repo`** permite ao usuário de adicionar os comandos das fó
 O **tree.json** do repositório ritchie-formulas pode ser importando através da seguinte url :
 
 ```text
-https://ritchie-cli-bucket234376412767550.s3-sa-east-1.amazonaws.com/tree/tree.json
+http://ritchie-cli-bucket152849730126474.s3-website-sa-east-1.amazonaws.com/tree/tree.json
 ```
 
 Esse passo deve ser informado quando executar o comando `rit add repo` para ser adicionado à árvore local do CLI. 
