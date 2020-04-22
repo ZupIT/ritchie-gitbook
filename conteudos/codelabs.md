@@ -10,7 +10,7 @@ description: Passo a passo explicando como criar uma nova fórmula no Ritchie
 
 O comando _`rit create formula`_ cria a estrutura necessária para o usuário iniciar o desenvolvimento de uma nova fórmula na sua máquina.  
 ****  
-Antes de entrar em detalhes no passo a passo para criação de fórmula, é recomendado ler a [documentação referente ao funcionamento do Ritchie](https://app.gitbook.com/@zup-products/s/ritchie/primeiros-passos/entenda-o-ritchie).
+Antes de entrar em detalhes no passo a passo para criação de fórmula, é recomendado ler a [documentação referente ao funcionamento do Ritchie](https://docs.ritchiecli.io/v/doc-portuguese/primeiros-passos/entenda-o-ritchie).
 
 ## **Repositório de fórmulas**
 
