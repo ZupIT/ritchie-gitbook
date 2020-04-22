@@ -13,7 +13,7 @@ The**`rit add repo`** command allows the user to add the **formulas commands of 
 The tree.json of the ritchie-formulas repository is located on the following url :
 
 ```text
-https://ritchie-cli-bucket234376412767550.s3-sa-east-1.amazonaws.com/tree/tree.json
+http://ritchie-cli-bucket152849730126474.s3-website-sa-east-1.amazonaws.com/tree/tree.json
 ```
 
 This path must be informed through the `rit add repo` command to be added to the local Ritchie-CLI tree. As the example below :
