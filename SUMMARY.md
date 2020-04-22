@@ -28,7 +28,7 @@
 ## CONTEÚDOS
 
 * [Tutoriais](conteudos/tutorial.md)
-* [Primeira fórmula](conteudos/codelabs.md)
+* [Primeira fórmula](conteudos/primeira-formula.md)
 
 ## CONTRIBUA COM RITCHIE
 
