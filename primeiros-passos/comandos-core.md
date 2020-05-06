@@ -90,6 +90,10 @@ Os comandos do core do Ritchie são executados usando **rit** + **verbo** + **su
       <td style="text-align:left">configura um novo contexto na sess&#xE3;o</td>
     </tr>
     <tr>
+      <td style="text-align:left">rit set server</td>
+      <td style="text-align:left">configura a URL do servidor do time (<b>vers&#xE3;o Team</b>)</td>
+    </tr>
+    <tr>
       <td style="text-align:left"><a href="https://docs.ritchiecli.io/v/doc-portuguese/primeiros-passos/primeiros-comandos#context">rit show context</a>
       </td>
       <td style="text-align:left">mostra o contexto usado na sess&#xE3;o atual</td>
