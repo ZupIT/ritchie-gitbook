@@ -91,6 +91,10 @@ Core commands are executed using **rit** + command **verb** + command **noun**
       <td style="text-align:left">set a new context into the session</td>
     </tr>
     <tr>
+      <td style="text-align:left">rit set server</td>
+      <td style="text-align:left">set the team server URL (<b>Team version</b>)</td>
+    </tr>
+    <tr>
       <td style="text-align:left"><a href="https://docs.ritchiecli.io/get-started/first-commands#context">rit show context</a>
       </td>
       <td style="text-align:left">show the current session context</td>
