@@ -27,7 +27,7 @@
 
 ## Contents
 
-* [Tutorials](contents/tutorials.md)
+* [Contents](contents/contents.md)
 * [First formula](contents/first-formula.md)
 
 ## CONTRIBUTE WITH RITCHIE <a id="contribute"></a>
