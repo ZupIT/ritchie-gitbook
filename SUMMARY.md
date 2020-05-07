@@ -27,7 +27,7 @@
 
 ## CONTEÚDOS
 
-* [Tutoriais](conteudos/tutorial.md)
+* [Conteúdos](conteudos/conteudos.md)
 * [Primeira fórmula](conteudos/primeira-formula.md)
 
 ## CONTRIBUA COM RITCHIE
