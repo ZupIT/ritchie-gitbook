@@ -21,5 +21,5 @@ Ritchie é uma ferramenta comunitária em que cada indivíduo pode contribuir, c
 
 **Você tem alguma sugestão para a equipe de desenvolvimento do Ritchie?**  
   
-→ Entre em contato conosco : [ritchie@zup.com.br](mailto:ritchie@zup.com.br) ****ou no [ritchie-google-group](https://groups.google.com/a/zup.com.br/forum/?hl=en#!forum/ritchie)
+→ Entre em contato conosco : [ritchie@zup.com.br](mailto:ritchie@zup.com.br)
 
