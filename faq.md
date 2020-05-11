@@ -6,24 +6,25 @@ description: 'Nesta seção, você encontrará as principais perguntas sobre o R
 
 ## SOBRE RITCHIE 
 
-* O que é Ritchie ? 
-* De onde veio Ritchie ? 
-* O que Ritchie faz? 
-* O que torna o Ritchie único?
+* [O que é Ritchie ? ](https://docs.ritchiecli.io/v/doc-portuguese/#o-que-e-o-ritchie)
+* [De onde veio Ritchie ? ](https://docs.ritchiecli.io/v/doc-portuguese/#de-onde-veio-o-ritchie)
+* [O que Ritchie faz ? ](https://docs.ritchiecli.io/v/doc-portuguese/#o-que-faz-o-ritchie)
+* [O que torna o Ritchie único ?](https://docs.ritchiecli.io/v/doc-portuguese/#o-que-torna-o-ritchie-unico)
 
 ## INSTALAÇÃO E USO 
 
-* Como instalar o Ritchie? 
-* Como o Ritchie funciona? 
-* Como criar uma nova fórmula no Ritchie \(passo a passo - vídeo\)? 
-* Qual a diferença entre as duas versões do Ritchie? 
-* Com quais sistemas operacionais a Ritchie trabalha? 
-* Quais linguagens de programação posso usar para criar fórmulas? 
-* Quais ferramentas posso usar para criar fórmulas? 
+* [Como instalar o Ritchie? ](https://docs.ritchiecli.io/v/doc-portuguese/primeiros-passos-1/instalacao-do-ritchie)
+* [Como o Ritchie funciona? ](https://docs.ritchiecli.io/v/doc-portuguese/principais-conceitos)
+* [Como criar uma nova fórmula no Ritchie ? \(Passo a passo\) ](https://docs.ritchiecli.io/v/doc-portuguese/recursos-1/primeira-formula)
+* [Como criar uma nova fórmula no Ritchie ? \(Video\)](https://www.youtube.com/watch?v=B-6MFIIbpZI)
+* [Qual a diferença entre as duas versões do Ritchie? ](https://docs.ritchiecli.io/v/doc-portuguese/arquitetura-do-sistema-1)
+* [Com quais sistemas operacionais a Ritchie trabalha? ](https://docs.ritchiecli.io/v/doc-portuguese/principais-conceitos#sistemas-operacionais)
+* [Quais linguagens de programação posso usar para criar fórmulas? ](https://docs.ritchiecli.io/v/doc-portuguese/principais-conceitos#linguagens-de-programacao)
+* [Quais ferramentas posso usar para criar fórmulas? ](https://docs.ritchiecli.io/v/doc-portuguese/principais-conceitos#tools)
 
 ## COMUNIDADE 
 
-* Como acessar os repositórios de código aberto Ritchie? 
+* [Como acessar os repositórios de código aberto Ritchie? ](https://docs.ritchiecli.io/v/doc-portuguese/comunidade)
 * Como relatar um bug? 
 * Como contribuo com a documentação?
 
