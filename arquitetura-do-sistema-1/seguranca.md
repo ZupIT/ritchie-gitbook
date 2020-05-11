@@ -50,6 +50,9 @@ Consequentemente, para conseguir usar as credenciais do Github como input no `co
 
 Assim, quando o comando da fórmula será executado, as credenciais do Github serão buscadas diretamente na sessão, e poderão ser usadas na fórmulas sem o usuário informar-las novamente no terminal.
 
-Lembrando que para isso funcionar, é preciso o usuário ter efetuado o login \(rit login\), e ter setado as credenciais referentes a ferramenta \(rit set credential\).  
+{% hint style="warning" %}
+Lembrando que para isso funcionar, é preciso o usuário ter efetuado o login \(rit login\), e ter setado as credenciais referentes a ferramenta \(rit set credential\).
+{% endhint %}
 
+Com o comando `$ rit set credential`, também é possível para um **administrador da equipe** definir credenciais criptografadas na sessão de um usuário específico para permitir que ele execute comandos sem ter acesso a informações confidenciais.
 

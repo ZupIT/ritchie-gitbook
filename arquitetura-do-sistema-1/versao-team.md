@@ -11,7 +11,7 @@ A **versão** **Team** é composta de **pelo menos** 3 repositórios :
 3. \*\*\*\*[**ritchie-server**](https://github.com/ZupIT/ritchie-server): o repositório que contém as integrações com as plataformas do [Keycloak](https://www.keycloak.org/) e do [Vault](https://www.vaultproject.io/), usados para criar a sessão e armazenar os dados do usuário com segurança. 
 
 {% hint style="warning" %}
-Também é possível armazenar fórmulas organizacionais dentro de **outros repositórios** e acessar elas através do [comando do login](https://app.gitbook.com/@zup-products/s/ritchie/arquitetura-do-sistema/login).
+Também é possível armazenar fórmulas organizacionais dentro de **outros repositórios** e acessar elas através do [comando do login](https://docs.ritchiecli.io/v/doc-portuguese/arquitetura-do-sistema-1/seguranca#comando-do-login).
 {% endhint %}
 
 ![](../.gitbook/assets/team-ritchie-white.png)

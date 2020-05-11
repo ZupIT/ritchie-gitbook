@@ -1,3 +1,10 @@
+---
+description: >-
+  Nesta seção, você encontra definições para os principais termos e expressões
+  utilizados na documentação e no Ritchie, ou ainda em discussões dentro da
+  comunidade de desenvolvedores.
+---
+
 # Principais Conceitos
 
 {% hint style="info" %}
@@ -101,7 +108,7 @@ Essa regra permite que cada usuário \(single\) / empresa \(team\) defina a prio
 **Já, no cenário 2,** seria dado prioridade aos comandos do repositório sobre os comandos commons. Isso permitiria por exemplo a um usuário ou time de usar um comando que está na árvore do repositório do **ritchie-formulas** para uma fórmulas no repositório dele, realizando uma operação diferente com o mesmo comando, já que teria prioridade.  
 ****
 
-Por mais informações, confere a documentação sobre[ repositórios.](https://docs.ritchiecli.io/v/doc-portuguese/arquitetura-do-sistema/repositorios)
+Por mais informações, confere a documentação sobre[ repositórios.](https://docs.ritchiecli.io/v/doc-portuguese/primeiros-passos-1/comandos/repositorio)
 
 ## **Fórmulas**
 
