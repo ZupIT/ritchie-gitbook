@@ -7,7 +7,7 @@ The **Team Version** is composed of **at least** three repositories :
 3. \*\*\*\*[**ritchie-server**](https://github.com/ZupIT/ritchie-server): This repository contains the integrations with the platforms [Keycloak](https://www.keycloak.org/) & [Vault](https://www.vaultproject.io/), used to create the session and store datas securely.
 
 {% hint style="warning" %}
-It is also possible to store your team specific formulas in **other repositories**, and access them through [the login command](https://app.gitbook.com/@zup-products/s/ritchie/v/doc-english/arquitetura-do-sistema/login).
+It is also possible to store your team specific formulas in **other repositories**, and access them through [the login command](https://docs.ritchiecli.io/software-architecture-1/security#login-command).
 {% endhint %}
 
 ![](../.gitbook/assets/team-ritchie-white.png)
