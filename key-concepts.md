@@ -108,7 +108,7 @@ In **scenario 1**, priority would be given to commons commands over your team's 
 
 In **scenario 2**, priority would be given to team commands over commons commands. This would allow, for example, a user / team to use a command that is in the **ritchie-formulas** \(commons\) repository tree for a formula in their repository, performing a different operation with the same command, since it would have priority.
 
-For more informations, check the [repositories section](https://docs.ritchiecli.io/software-architecture/repositories).
+For more informations, check the [repositories section](https://docs.ritchiecli.io/get-started/core-commands/repository).
 
 ## **Formulas**
 
