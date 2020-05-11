@@ -56,3 +56,5 @@ When the formula command will be executed, the Github credentials will be fetche
 Remembering that the user must have logged in, and set the credentials \(**rit set credential**\) for this to work.
 {% endhint %}
 
+With the `$ rit set credential` command, it is also possible for a **team admin** to set encrypted credentials into the session of a specific user to allow him to execute commands without having access to any confidential informations.
+
