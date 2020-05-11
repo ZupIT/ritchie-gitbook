@@ -10,7 +10,7 @@ description: Step by step explaining how to create a new formula on Ritchie.
 
 The _`rit create formula`_ command creates the necessary structure for the user to start developing a new formula on his machine.
 
-Before going into detail in the step by step to create a formula, it is recommended to read the [documentation regarding the functioning of Ritchie.](https://docs.ritchiecli.io/get-started/understand-ritchie)
+Before going into detail in the step by step to create a formula, it is recommended to read the [documentation regarding Ritchie key concepts.](https://docs.ritchiecli.io/key-concepts)
 
 ## **Formulas repositories**
 
