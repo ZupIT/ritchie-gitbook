@@ -6,7 +6,7 @@ description: >-
 
 # Overview
 
-                                        ![](https://lh5.googleusercontent.com/hbu3-ApA65fnfDFRI5qtrQ52Oo_qS5VArO1YGvloCFZN0CCuVpKF8x3RyhrfcVCSBqo3-mPWGygZsqFoX953ghtNBlDswp29xoWQyGWoZxipOu9i9GVcMCCMElATK9GMXyX70bc6ye4)
+                                                 ![](https://lh5.googleusercontent.com/hbu3-ApA65fnfDFRI5qtrQ52Oo_qS5VArO1YGvloCFZN0CCuVpKF8x3RyhrfcVCSBqo3-mPWGygZsqFoX953ghtNBlDswp29xoWQyGWoZxipOu9i9GVcMCCMElATK9GMXyX70bc6ye4)
 
 ## **What is Ritchie ?**
 
