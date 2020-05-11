@@ -4,7 +4,7 @@
 
 Obter a última versão do Ritchie, informando a URL abaixo no seu navegador 
 
-[http://ritchie-cli-bucket152849730126474.s3-website-sa-east-1.amazonaws.com/stable.txt](http://ritchie-cli-bucket152849730126474.s3-website-sa-east-1.amazonaws.com/stable.txt)
+[https://commons-repo.ritchiecli.io/stable.txt](https://commons-repo.ritchiecli.io/stable.txt)
 
 Por exemplo, poderia retornar : **1.0.7** ou **2.0.0.2**  
 
@@ -15,23 +15,23 @@ Baixar o binário do Ritchie da versão, informando a URL abaixo no seu navegado
 
 **MAC  
   
-Versão Team :** http://ritchie-cli-bucket152849730126474.s3-website-sa-east-1.amazonaws.com/{versão}/team/mac/rit
+Versão Team :** https://commons-repo.ritchiecli.io/{versão}/team/mac/rit
 
-**Versão Single :** http://ritchie-cli-bucket152849730126474.s3-website-sa-east-1.amazonaws.com/{versão}/single/mac/rit  
+**Versão Single :** https://commons-repo.ritchiecli.io/{versão}/single/mac/rit  
 ****
 
 #### **LINUX**
 
-**Versão Team :** http://ritchie-cli-bucket152849730126474.s3-website-sa-east-1.amazonaws.com/{versão}/team/linux/rit
+**Versão Team :** https://commons-repo.ritchiecli.io/{versão}/team/linux/rit
 
-**Versão Single :** http://ritchie-cli-bucket152849730126474.s3-website-sa-east-1.amazonaws.com/{versão}/single/linux/rit  
+**Versão Single :** https://commons-repo.ritchiecli.io/{versão}/single/linux/rit  
 ****
 
 **WINDOW  
   
-Versão Team :** http://ritchie-cli-bucket152849730126474.s3-website-sa-east-1.amazonaws.com/{versão}/windows/team/rit.exe
+Versão Team :** https://commons-repo.ritchiecli.io/{versão}/windows/team/rit.exe
 
-**Versão Single :** http://ritchie-cli-bucket152849730126474.s3-website-sa-east-1.amazonaws.com/{versão}/windows/single/rit.exe  
+**Versão Single :** https://commons-repo.ritchiecli.io/{versão}/windows/single/rit.exe  
 
 
 ## **CONFIGURAÇÕES MANUAIS**

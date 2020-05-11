@@ -14,5 +14,5 @@ curl -fsSL https://commons-repo.ritchiecli.io/install.sh | bash
 curl -fsSL https://commons-repo.ritchiecli.io/install_single.sh | bash
 ```
 
-_Observação :_ [_Instalação manual_](https://docs.ritchiecli.io/v/doc-portuguese/primeiros-passos/instalacao-do-ritchie/instalacao-manual)\_\_
+_Observação :_ [_Instalação manual_](https://docs.ritchiecli.io/v/doc-portuguese/primeiros-passos-1/instalacao-do-ritchie/instalacao-manual)\_\_
 
