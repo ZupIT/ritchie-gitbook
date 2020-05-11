@@ -1,36 +1,26 @@
 # Table of contents
 
-* [Introdução ao Ritchie](README.md)
-
-## SOBRE O RITCHIE <a id="introducao"></a>
-
-* [O que é o Ritchie?](o-que-e-o-ritchie.md)
-* [O que faz o Ritchie?](o-que-faz-o-ritchie.md)
-* [O que torna o Ritchie único?](o-que-torna-o-ritchie-unico.md)
-
-## PRIMEIROS PASSOS
-
-* [Entenda o Ritchie](primeiros-passos/entenda-o-ritchie.md)
-* [Instalação do Ritchie](primeiros-passos/instalacao-do-ritchie/README.md)
-  * [Windows](primeiros-passos/instalacao-do-ritchie/windows.md)
-  * [Linux / Mac](primeiros-passos/instalacao-do-ritchie/linux-mac.md)
-  * [Instalação Manual](primeiros-passos/instalacao-do-ritchie/instalacao-manual.md)
-* [Comandos Core](primeiros-passos/comandos-core.md)
-* [Primeiros Comandos](primeiros-passos/primeiros-comandos.md)
-
-## ARQUITETURA DO SISTEMA
-
-* [Versão Single](arquitetura-do-sistema/versao-single.md)
-* [Versão Team](arquitetura-do-sistema/versao-team.md)
-* [Login](arquitetura-do-sistema/login.md)
-* [Repositórios](arquitetura-do-sistema/repositorios.md)
-
-## CONTEÚDOS
-
-* [Conteúdos](conteudos/conteudos.md)
-* [Primeira fórmula](conteudos/primeira-formula.md)
-
-## CONTRIBUA COM RITCHIE
-
-* [Comunidade](comunidade.md)
+* [Overview](README.md)
+* [Principais Conceitos](principais-conceitos.md)
+* [Arquitetura do Sistema](arquitetura-do-sistema-1/README.md)
+  * [Versão Single](arquitetura-do-sistema-1/versao-single.md)
+  * [Versão Team](arquitetura-do-sistema-1/versao-team.md)
+  * [Segurança](arquitetura-do-sistema-1/seguranca.md)
+* [Primeiros Passos](primeiros-passos-1/README.md)
+  * [Instalação do Ritchie](primeiros-passos-1/instalacao-do-ritchie/README.md)
+    * [Windows](primeiros-passos-1/instalacao-do-ritchie/windows.md)
+    * [Linux / Mac](primeiros-passos-1/instalacao-do-ritchie/linux-mac.md)
+    * [Instalação Manual](primeiros-passos-1/instalacao-do-ritchie/instalacao-manual.md)
+  * [Comandos](primeiros-passos-1/comandos/README.md)
+    * [Primeiros Comandos](primeiros-passos-1/comandos/primeiros-comandos.md)
+    * [Repositório](primeiros-passos-1/comandos/repositorio.md)
+* [Recursos](recursos-1/README.md)
+  * [Conteúdos](recursos-1/conteudos.md)
+  * [Primeira fórmula](recursos-1/primeira-formula.md)
+* [Comunidade](comunidade/README.md)
+  * [ritchie-cli](https://github.com/ZupIT/ritchie-cli)
+  * [ritchie-formulas](https://github.com/ZupIT/ritchie-formulas)
+  * [ritchie-server](https://github.com/ZupIT/ritchie-server)
+* [FAQ](faq.md)
+* [Releases Notes](releases-notes.md)
 

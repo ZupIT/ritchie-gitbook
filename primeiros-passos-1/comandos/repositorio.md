@@ -1,9 +1,8 @@
-# Repositórios
+# Repositório
 
 {% hint style="warning" %}
-Quando um usuário baixa o Ritchie, ele apenas terá acesso aos comandos core.
-
-O comando**`rit add repo`** permite ao usuário de adicionar os comandos das fórmulas de um repositório específico à árvore local do CLI.
+Você pode ter acesso a mais de um repositório usando o Ritchie.   
+Você encontrará aqui uma seção com comandos para manipulá-los.
 {% endhint %}
 
 ## Adicione o repositório _Commons_
@@ -18,7 +17,7 @@ https://commons-repo.ritchiecli.io/tree/tree.json
 
 Esse passo deve ser informado quando executar o comando `rit add repo` para ser adicionado à árvore local do CLI. 
 
-![Demonstra&#xE7;&#xE3;o de como adicionar os comandos do reposit&#xF3;rio Commons ao Ritchie](../.gitbook/assets/rit-add-repo-min.gif)
+![Demonstra&#xE7;&#xE3;o de como adicionar os comandos do reposit&#xF3;rio Commons ao Ritchie](../../.gitbook/assets/rit-add-repo-min.gif)
 
 Depois de adicionar o tree.json do novo repositório, os comandos executáveis das fórmulas são adicionadas ao _helper_ do Ritchie. Isso significa que eles estão agora disponíveis para o usuário.
 
@@ -36,7 +35,7 @@ Para adicionar outro repositório ao CLI, é possível seguir o mesmo processo d
 
 É possível atualizar todos os repositórios depois de configurados, usando o comando `rit update repo`. Esse comando atualizará os repositórios tree.json a partir da URL informada na adição dos repositórios.
 
-![comando rit update repo](../.gitbook/assets/rit-update-repo.png)
+![comando rit update repo](../../.gitbook/assets/rit-update-repo.png)
 
 ## **Remover** um repositório
 
@@ -44,9 +43,9 @@ Para adicionar outro repositório ao CLI, é possível seguir o mesmo processo d
 
 É possível verificar o nome dos repositórios atuais usando o comando `rit list repo`.
 
-![comando rit list repo](../.gitbook/assets/rit-list-repo.png)
+![comando rit list repo](../../.gitbook/assets/rit-list-repo.png)
 
-![Demonstra&#xE7;&#xE3;o de como remover a &#xE1;rvore do reposit&#xF3;rio Commons do Ritchie](../.gitbook/assets/rit-delete-repo-min.gif)
+![Demonstra&#xE7;&#xE3;o de como remover a &#xE1;rvore do reposit&#xF3;rio Commons do Ritchie](../../.gitbook/assets/rit-delete-repo-min.gif)
 
 ## **Limpar** um repositório
 

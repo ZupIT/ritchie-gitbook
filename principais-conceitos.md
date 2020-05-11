@@ -1,8 +1,40 @@
-# Entenda o Ritchie
+# Principais Conceitos
+
+{% hint style="info" %}
+Vamos supor que você esteja familiarizado com os conceitos de CLI, DevOps, NoOps e automações.
+{% endhint %}
+
+## Sistemas Operacionais
+
+{% hint style="info" %}
+Ritchie é um CLI que funciona para **todos os sistemas operacionais**
+{% endhint %}
+
+![](https://gblobscdn.gitbook.com/assets%2F-M-QT0ly86uQ2URUFYGO%2F-M6ptPEhAXXh4CHIC1XB%2F-M6q3nXhcN2HCWbXKY6N%2FScreenshot%202020-05-08%20at%2017.55.00.png?alt=media&token=64970202-83e5-49a1-b453-8a3e80e47015)
+
+## **Linguagens de programação**
+
+{% hint style="info" %}
+Ritchie foi desenvolvido usando a linguagem do Google : **Golang**
+{% endhint %}
+
+No entanto, as fórmulas podem ser escritas usando qualquer linguagem de programação.
+
+![](.gitbook/assets/screenshot-2020-05-08-at-17.54.34.png)
+
+## Tools
+
+{% hint style="info" %}
+Ritchie works with **any tool** you could use for automations.
+{% endhint %}
+
+![](.gitbook/assets/screenshot-2020-05-08-at-17.54.49%20%281%29.png)
 
 ## **Árvore de comandos**
 
+{% hint style="info" %}
 Primeiro, é importante conhecer esse conceito para de fato poder entender a estrutura do produto em si : Os comandos usados no Ritchie são agrupados conforme uma árvore. 
+{% endhint %}
 
 No caso do Ritchie, foi seguido o padrão do **Cobra** \(uma biblioteca da linguagem Golang\) usando a seguinte lógica de construção de comandos **core** :
 
@@ -14,7 +46,7 @@ E, para permitir mais opções e liberdade aos usuários, também foi permitido 
 
 O aplicativo chamando Ritchie, usamos o nome **rit** para iniciar nossa árvore de comandos.
 
-![](../.gitbook/assets/arvore-rit.png)
+![](.gitbook/assets/arvore-rit.png)
 
 O comando rit é consequentemente nosso comando pai, ou raíz. Ele não é executável \(significa que ele não vai iniciar nenhuma operação se você usa ele sozinho no terminal\). É necessário usar sub-comandos \(que são comandos filhos, ou ramos, do comando rit\) executáveis para conseguir iniciar algum processo.
 
@@ -45,7 +77,7 @@ Cada repositório de fórmulas vai ter a sua própria árvore de comando, num ar
 
 Quando um usuário vai baixar o Ritchie, ou efetuar o comando rit login para acessar o repositório de uma organização, o CLI realiza o merge dos tree.json dos repositórios de fórmulas aos quais ele tem acesso. 
 
-![](../.gitbook/assets/fluxo-cli.png)
+![](.gitbook/assets/fluxo-cli.png)
 
 A junção das árvores dos repositórios será a árvore de todos os comandos disponíveis via o CLI no computador do usuário.
 
@@ -73,7 +105,9 @@ Por mais informações, confere a documentação sobre[ repositórios.](https://
 
 ## **Fórmulas**
 
-Conforme explicado anteriormente, as fórmulas nada mais são do que automações. Ou seja, são códigos chamados através das linhas de comando para realizar alguma operação.
+{% hint style="info" %}
+Conforme explicado anteriormente, as **fórmulas nada mais são do que automações**. Ou seja, são códigos chamados através das linhas de comando para realizar alguma operação.
+{% endhint %}
 
 Após implementar uma fórmula, é gerado um binário ou script para cada sistema operacional \(Linux, MacOs ou Windows\). Esse binário / script contém o código necessário para executar a fórmula.
 
@@ -84,7 +118,7 @@ Além desse binário / script, é preciso baixar um arquivo json associado a fó
 Esses parâmetros de entrada serão informados pelo usuário após ele digitar o comando no terminal, antes de executar a fórmula de fato.  
 ****
 
-![](../.gitbook/assets/fluxo-formulas.png)
+![](.gitbook/assets/fluxo-formulas.png)
 
 
 

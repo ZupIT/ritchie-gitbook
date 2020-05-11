@@ -2,7 +2,7 @@
 description: Descrição dos comandos atuais do core do Ritchie
 ---
 
-# Comandos Core
+# Comandos
 
 Os comandos do core do Ritchie são executados usando **rit** + **verbo** + **substantivo**
 
@@ -114,7 +114,7 @@ Os comandos do core do Ritchie são executados usando **rit** + **verbo** + **su
 
 
 
-![comando rit --help](../.gitbook/assets/rit-help.png)
+![comando rit --help](../../.gitbook/assets/rit-help.png)
 
 
 
