@@ -1,3 +1,10 @@
+---
+description: >-
+  In this section, you will find definitions for the main terms and expressions
+  used in the documentation and in Ritchie, or in discussions within the
+  developer community.
+---
+
 # Key Concepts
 
 {% hint style="info" %}
