@@ -24,7 +24,7 @@ description: 'Nesta seção, você encontrará as principais perguntas sobre o R
 
 ## COMUNIDADE 
 
-* [Como acessar os repositórios de código aberto Ritchie? ](https://docs.ritchiecli.io/v/doc-portuguese/comunidade)
-* Como relatar um bug? 
-* Como contribuo com a documentação?
+* [Como acessar os repositórios de código aberto Ritchie? ](https://docs.ritchiecli.io/v/doc-portuguese/comunidade#quais-sao-os-repositorios-open-source-do-ritchie)
+* [Como relatar um bug? ](https://docs.ritchiecli.io/v/doc-portuguese/comunidade#voce-tem-alguma-sugestao-para-a-equipe-de-desenvolvimento-do-ritchie)
+* [Como contribuo com a documentação?](https://docs.ritchiecli.io/v/doc-portuguese/comunidade#voce-tem-alguma-sugestao-para-a-equipe-de-desenvolvimento-do-ritchie)
 
