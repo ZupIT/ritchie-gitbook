@@ -22,5 +22,5 @@
   * [ritchie-formulas](https://github.com/ZupIT/ritchie-formulas)
   * [ritchie-server](https://github.com/ZupIT/ritchie-server)
 * [FAQ](faq.md)
-* [Releases Notes](releases-notes.md)
+* [Releases Notes](https://github.com/ZupIT/ritchie-cli/releases)
 
