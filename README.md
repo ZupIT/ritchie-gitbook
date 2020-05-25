@@ -6,17 +6,21 @@ description: >-
 
 # Overview
 
-                                               ![](https://lh5.googleusercontent.com/hbu3-ApA65fnfDFRI5qtrQ52Oo_qS5VArO1YGvloCFZN0CCuVpKF8x3RyhrfcVCSBqo3-mPWGygZsqFoX953ghtNBlDswp29xoWQyGWoZxipOu9i9GVcMCCMElATK9GMXyX70bc6ye4)
-
 ## O que é o Ritchie ?
 
-{% hint style="warning" %}
-O Ritchie é uma ferramenta open source que **automatiza suas atividades manuais diárias** com comandos simples executados a partir da criação de **fórmulas no CLI**. 
+{% hint style="info" %}
+Ritchie é um **CLI** \(_Command Line Interface_\) que permite **criar, armazenar e compartilhar** automações de forma **simples** e **segura**🔓com uma equipe de profissionais ou com a comunidade inteira.
 {% endhint %}
 
-A plataforma está estruturada em "árvore de decisões", o que permite que você execute seus próprios comandos quando você quiser.
+{% embed url="https://www.youtube.com/watch?v=\_NZLDdn42wM&feature=youtu.be" %}
 
-![Ritchie reune todos os comandos em um lugar s&#xF3; !](.gitbook/assets/animac-a-o-ritchie.gif)
+## Instalação
+
+{% page-ref page="primeiros-passos/instalacao/linux-mac.md" %}
+
+{% page-ref page="primeiros-passos/instalacao/windows.md" %}
+
+{% page-ref page="primeiros-passos/instalacao/macos.md" %}
 
 ## De onde veio o Ritchie?
 
@@ -24,8 +28,7 @@ O produto foi criado com objetivo de melhorar a experiência dos desenvolvedores
 
 Seu nome é uma homenagem a Dennis Ritchie, um dos criadores do Unix \(predecessor do Linux\) e também da linguagem C, que permitiu a criação do mundo digital como o conhecemos hoje.  
   
-Apesar de existirem equipes mais multidisciplinares no mercado, um desafio ainda muito grande está em diminuir a dependência que desenvolvedores têm de insumos vindo dos times de infraestrutura e operações. O DevOps contribuiu muito para sanar esse gargalo, mas não eliminou completamente a dependência entre áreas.   
-
+Apesar de existirem equipes mais multidisciplinares no mercado, um desafio ainda muito grande está em diminuir a dependência que desenvolvedores têm de insumos vindo dos times de infraestrutura e operações. O DevOps contribuiu muito para sanar esse gargalo, mas não eliminou completamente a dependência entre áreas. 
 
 {% hint style="warning" %}
 Pensando nisso, trazemos uma ferramenta para a comunidade que promove um movimento **NoOps**, ou seja, uma solução que automatize operações repetitivas \(também conhecidas como toil\) e agilize processos muitas vezes travados na infraestrutura. 
