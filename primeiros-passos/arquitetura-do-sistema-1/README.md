@@ -1,6 +1,6 @@
 # Arquitetura do sistema
 
-![](../../.gitbook/assets/team-and-single%20%281%29.png)
+![](../../.gitbook/assets/team-and-single%20%282%29.png)
 
 ### O que você encontrará aqui? 
 
