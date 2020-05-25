@@ -4,7 +4,9 @@ description: Contribue com Ritchie !
 
 # Comunidade
 
+{% hint style="info" %}
 Ritchie é uma ferramenta comunitária em que cada indivíduo pode contribuir, compartilhando suas criações com o resto do mundo !
+{% endhint %}
 
 ### Quais são os repositórios open source do Ritchie ?
 
