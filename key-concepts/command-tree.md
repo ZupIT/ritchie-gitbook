@@ -29,3 +29,5 @@ The executable commands in Ritchie are the commands located at the last level of
 
 This command tree concept is the **core** of Ritchie's structure. All commands and sub-commands are mapped into a json that is updated or created when you download or update the CLI on your computer.
 
+{% page-ref page="open-source-repositories.md" %}
+

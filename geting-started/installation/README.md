@@ -1,4 +1,4 @@
-# How to install Ritchie
+# Install
 
 ### What will you find here?  
 

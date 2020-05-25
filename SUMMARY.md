@@ -9,7 +9,7 @@
 
 ## GETTING STARTED <a id="geting-started"></a>
 
-* [How to install Ritchie](geting-started/installation/README.md)
+* [Install](geting-started/installation/README.md)
   * [Linux](geting-started/installation/linux-mac.md)
   * [Windows](geting-started/installation/windows.md)
   * [MacOS](geting-started/installation/macos.md)
