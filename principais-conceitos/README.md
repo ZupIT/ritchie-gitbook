@@ -11,7 +11,7 @@ description: >-
 Para entender melhor o funcionamento do Ritchie, sugerimos que esteja familiarizado com os conceitos de **Standard Streams**, **CLI**, formato **JSON** e **automações.**
 {% endhint %}
 
-## O que você encontrará aqui
+### O que você encontrará aqui
 
 {% page-ref page="fundamentos.md" %}
 
