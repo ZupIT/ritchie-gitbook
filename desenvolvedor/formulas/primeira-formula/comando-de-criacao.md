@@ -8,3 +8,5 @@ Quando esse comando é executado no terminal, um input é pedido para o usuário
 
 A partir desse comando, serão criados e configurados todos os arquivos e a arquitetura comentados anteriormente.
 
+{% page-ref page="repositorio-da-formulas.md" %}
+

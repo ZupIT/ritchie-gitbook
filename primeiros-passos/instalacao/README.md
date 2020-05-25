@@ -2,7 +2,7 @@
 
 ### O que você encontrará aqui? 
 
-{% page-ref page="linux-mac.md" %}
+{% page-ref page="linux.md" %}
 
 {% page-ref page="windows.md" %}
 

@@ -29,5 +29,5 @@ Se você criou uma fórmula pela primeira criando o repositório local, o reposi
 
 ![](https://lh5.googleusercontent.com/6oPMzmvLxb9PGmC9a6U7KfLt4oCpEnFhOHXXOoGkgMgmaQi4kKHDo5epvU27HbWbBvM1mC1K2aruXfGPQrtWJMibeXmXmN19NbI7S81Djz11Axc0fCG2GtTNCAYivuI2iMMxMLZK)
 
-## \*\*\*\*
+{% page-ref page="implementacao-da-formula.md" %}
 

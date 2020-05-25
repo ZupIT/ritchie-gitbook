@@ -19,7 +19,7 @@ description: 'Nesta seção, você encontrará as principais perguntas sobre o R
 * [Como criar uma nova fórmula no Ritchie ? \(Passo a passo\) ](desenvolvedor/formulas/primeira-formula/)
 * [Como criar uma nova fórmula no Ritchie ? \(Video\)](https://www.youtube.com/watch?v=B-6MFIIbpZI)
 * [Como configurar um servidor do Ritchie ?](desenvolvedor/servidor/configuracoes.md)
-* [Qual a diferença entre as duas versões do Ritchie ? ](https://docs.ritchiecli.io/v/doc-portuguese/arquitetura-do-sistema-1)
+* [Qual a diferença entre as duas versões do Ritchie ? ](primeiros-passos/arquitetura-do-sistema/)
 * [Com quais sistemas operacionais a Ritchie trabalha ? ](https://docs.ritchiecli.io/v/doc-portuguese/principais-conceitos/fundamentos#sistemas-operacionais)
 * [Quais linguagens de programação posso usar para criar fórmulas ? ](https://docs.ritchiecli.io/v/doc-portuguese/principais-conceitos/fundamentos#linguagens-de-programacao)
 * [Quais ferramentas posso usar para criar fórmulas ? ](https://docs.ritchiecli.io/v/doc-portuguese/principais-conceitos/fundamentos#ferramentas)

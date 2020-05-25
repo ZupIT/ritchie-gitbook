@@ -41,7 +41,7 @@ Usage:
 Use "rit <command> --help" for more information about a given command.
 ```
 
-Quando um usuário vai baixar o Ritchie \([versão Single](../../../primeiros-passos/arquitetura-do-sistema-1/versao-single.md)\) ou efetuar o comando **rit login** \([versão Team](../../../primeiros-passos/arquitetura-do-sistema-1/versao-team.md)\) para acessar o repositório de uma organização, o **CLI** vai baixar e realizar o merge dos _tree.json_ dos repositórios de fórmulas aos quais o usuário tem acesso. 
+Quando um usuário vai baixar o Ritchie \([versão Single](../../../primeiros-passos/arquitetura-do-sistema/versao-single.md)\) ou efetuar o comando **rit login** \([versão Team](../../../primeiros-passos/arquitetura-do-sistema/versao-team.md)\) para acessar o repositório de uma organização, o **CLI** vai baixar e realizar o merge dos _tree.json_ dos repositórios de fórmulas aos quais o usuário tem acesso. 
 
 
 

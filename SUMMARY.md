@@ -10,17 +10,17 @@
 ## PRIMEIROS PASSOS
 
 * [Instalação](primeiros-passos/instalacao/README.md)
-  * [Linux](primeiros-passos/instalacao/linux-mac.md)
+  * [Linux](primeiros-passos/instalacao/linux.md)
   * [Windows](primeiros-passos/instalacao/windows.md)
   * [MacOS](primeiros-passos/instalacao/macos.md)
   * [Instalação Manual](primeiros-passos/instalacao/instalacao-manual.md)
-* [Arquitetura do sistema](primeiros-passos/arquitetura-do-sistema-1/README.md)
-  * [Versão Single](primeiros-passos/arquitetura-do-sistema-1/versao-single.md)
-  * [Versão Team](primeiros-passos/arquitetura-do-sistema-1/versao-team.md)
-  * [Segurança](primeiros-passos/arquitetura-do-sistema-1/seguranca/README.md)
-    * [Login](primeiros-passos/arquitetura-do-sistema-1/seguranca/login.md)
-    * [Credenciais](primeiros-passos/arquitetura-do-sistema-1/seguranca/credenciais.md)
-  * [Repositório](primeiros-passos/arquitetura-do-sistema-1/repositorio.md)
+* [Arquitetura do sistema](primeiros-passos/arquitetura-do-sistema/README.md)
+  * [Versão Single](primeiros-passos/arquitetura-do-sistema/versao-single.md)
+  * [Versão Team](primeiros-passos/arquitetura-do-sistema/versao-team.md)
+  * [Segurança](primeiros-passos/arquitetura-do-sistema/seguranca/README.md)
+    * [Login](primeiros-passos/arquitetura-do-sistema/seguranca/login.md)
+    * [Credenciais](primeiros-passos/arquitetura-do-sistema/seguranca/credenciais.md)
+  * [Repositório](primeiros-passos/arquitetura-do-sistema/repositorio.md)
 
 ## USUÁRIO
 

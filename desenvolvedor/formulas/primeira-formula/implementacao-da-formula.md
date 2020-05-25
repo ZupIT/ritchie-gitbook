@@ -22,3 +22,5 @@ _Obs : Portanto, é possível realizar alguns ajustes nesses arquivos se tiver n
   
 ****_**Por exemplo** : Se precisar alterar a mensagem _descriptíva_ ou o _helper_ do comando associado a sua fórmula, será necessário realizar essas modificações no **tree.json**.
 
+{% page-ref page="teste-da-formula.md" %}
+

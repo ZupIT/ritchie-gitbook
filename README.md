@@ -16,7 +16,7 @@ Ritchie é um **CLI** \(_Command Line Interface_\) que permite **criar, armazena
 
 ## Instalação
 
-{% page-ref page="primeiros-passos/instalacao/linux-mac.md" %}
+{% page-ref page="primeiros-passos/instalacao/linux.md" %}
 
 {% page-ref page="primeiros-passos/instalacao/windows.md" %}
 

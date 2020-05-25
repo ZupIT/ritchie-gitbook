@@ -18,5 +18,5 @@ Segue um exemplo da estrutura do repositório local com uma fórmula \(dentro da
 A estrutura dos repositórios usados para criar novas fórmulas deve seguir a nomenclatura indicada na página [repositórios de fórmulas](../estrutura/repositorios-de-formulas.md).
 {% endhint %}
 
-
+{% page-ref page="pasta-da-formula.md" %}
 
