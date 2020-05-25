@@ -22,3 +22,5 @@ A pasta **tree** é composta de um arquivo _**tree.json**_ que vai conter a árv
 
 O arquivo _**Makefile**_ contem uma referência a todas as fórmulas do repositório, assim que um comando executável manipulando os arquivos **copy-bin-configs.sh** e **unzip-bin-configs.sh,** a fim de gerar os arquivos necessários para testar as fórmula\(s\) localmente na [pasta .rit](../../cli/pasta-.rit.md).
 
+{% page-ref page="tree.json.md" %}
+

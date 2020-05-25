@@ -27,3 +27,5 @@ Os comandos executáveis no Ritchie são os comandos localizados no último nív
 
 Esse conceito de árvore de comandos é o núcleo da estrutura do Ritchie. Todos os comandos e sub-comandos são mapeados dentro de um json que é atualizado ou criado quando você baixar ou atualizar o CLI no seu computador.
 
+{% page-ref page="estrutura-do-cli.md" %}
+

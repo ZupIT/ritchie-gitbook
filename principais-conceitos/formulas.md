@@ -38,3 +38,5 @@ Essas informações são os 3 parâmetros de entrada da fórmula.
 
 Uma vez informados esses parâmetros, a fórmula foi executada com sucesso \(conforme o que os logs apresentaram\).
 
+{% page-ref page="arvores-de-comando.md" %}
+

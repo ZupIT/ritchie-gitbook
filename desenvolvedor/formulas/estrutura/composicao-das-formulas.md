@@ -16,3 +16,5 @@ O arquivo **config.json** contém os parâmetros de entrada \(_inputs_\) da fór
 
 O **arquivo executável** contém a implementação da fórmula. O CLI vai baixar esse arquivo de acordo com o sistema operacional do computador do usuário e executar essa fórmula enviando os parâmetros de entrada que terão sido informados.
 
+{% page-ref page="repositorios-de-formulas.md" %}
+

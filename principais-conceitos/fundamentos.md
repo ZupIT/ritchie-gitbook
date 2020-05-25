@@ -26,7 +26,5 @@ Ritchie works with **any tool** you could use for automations.
 
 ![](../.gitbook/assets/screenshot-2020-05-08-at-17.54.49%20%281%29.png)
 
-
-
-## 
+{% page-ref page="formulas.md" %}
 

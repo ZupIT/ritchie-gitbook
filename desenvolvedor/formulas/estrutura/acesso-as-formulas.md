@@ -49,3 +49,5 @@ Quando um usuário vai baixar o Ritchie \([versão Single](../../../primeiros-pa
 
 A junção das árvores dos repositórios será a árvore de todos os comandos disponíveis via o CLI no computador do usuário, que é apresentada no _Helper_.
 
+{% page-ref page="config.json.md" %}
+
