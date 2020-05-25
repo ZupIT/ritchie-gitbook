@@ -4,7 +4,9 @@ description: Contribute with Ritchie !
 
 # Community
 
+{% hint style="info" %}
 Ritchie is a community tool where each individual can contribute, sharing its creations with the rest of the world !
+{% endhint %}
 
 ### What are the Ritchie open source repositories ?
 
