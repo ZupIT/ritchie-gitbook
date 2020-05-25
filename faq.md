@@ -14,7 +14,7 @@ description: 'In this section, you will find the main questions about Ritchie.'
 ## INSTALLATION AND USE
 
 * [How to install Ritchie ? ](https://docs.ritchiecli.io/get-started/installation)
-* [How does Ritchie works ?](https://docs.ritchiecli.io/key-concepts#command-tree)
+* [How does Ritchie works ?](https://docs.ritchiecli.io/key-concepts)
 * [How to create a new formula on Ritchie ? \(Step By Step\) ](https://docs.ritchiecli.io/resources-1/first-formula)
 * [How to create a new formula on Ritchie ? \(Video\)](https://www.youtube.com/watch?v=O_rD-0o8FrM&feature=youtu.be)
 * [What the difference between Ritchie two versions ?](https://docs.ritchiecli.io/software-architecture-1)
