@@ -7,20 +7,20 @@
   * [Command tree](key-concepts/command-tree.md)
   * [Open Source repositories](key-concepts/open-source-repositories.md)
 
-## GETTING STARTED <a id="geting-started"></a>
+## GETTING STARTED
 
-* [Install](geting-started/installation/README.md)
-  * [Linux](geting-started/installation/linux-mac.md)
-  * [Windows](geting-started/installation/windows.md)
-  * [MacOS](geting-started/installation/macos.md)
-  * [Manual Installation](geting-started/installation/manual-installation.md)
-* [Software Architecture](geting-started/software-architecture-1/README.md)
-  * [Single Version](geting-started/software-architecture-1/single-version.md)
-  * [Team Version](geting-started/software-architecture-1/team-version.md)
-  * [Security](geting-started/software-architecture-1/security/README.md)
-    * [Login](geting-started/software-architecture-1/security/login.md)
-    * [Credentials](geting-started/software-architecture-1/security/credentials.md)
-  * [Repository](geting-started/software-architecture-1/repository.md)
+* [Install](getting-started/installation/README.md)
+  * [Linux](getting-started/installation/linux.md)
+  * [Windows](getting-started/installation/windows.md)
+  * [MacOS](getting-started/installation/macos.md)
+  * [Manual Installation](getting-started/installation/manual-installation.md)
+* [Software Architecture](getting-started/software-architecture/README.md)
+  * [Single Version](getting-started/software-architecture/single-version.md)
+  * [Team Version](getting-started/software-architecture/team-version.md)
+  * [Security](getting-started/software-architecture/security/README.md)
+    * [Login](getting-started/software-architecture/security/login.md)
+    * [Credentials](getting-started/software-architecture/security/credentials.md)
+  * [Repository](getting-started/software-architecture/repository.md)
 
 ## USER
 
@@ -41,8 +41,8 @@
   * [ritchie-cli](https://github.com/ZupIT/ritchie-cli)
 * [Formulas](developer/formulas/README.md)
   * [Structure](developer/formulas/structure/README.md)
-    * [Composition](developer/formulas/structure/composition.md)
-    * [Formula repositories](developer/formulas/structure/formula-repositories.md)
+    * [Formulas composition](developer/formulas/structure/composition.md)
+    * [Formulas repositories](developer/formulas/structure/formula-repositories.md)
     * [Tree.json](developer/formulas/structure/tree.json.md)
     * [Access to formulas](developer/formulas/structure/access-to-formulas.md)
     * [Config.json](developer/formulas/structure/config.json.md)

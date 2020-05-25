@@ -70,3 +70,5 @@ The **active** field indicates whether the cache is enabled or not. The qty fiel
 
 The **newLabel** field is for the user to enter another value for the variable if those saved in the cache do not meet their needs.
 
+{% page-ref page="priority.md" %}
+

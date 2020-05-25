@@ -19,7 +19,7 @@ description: 'In this section, you will find the main questions about Ritchie.'
 * [How to create a new formula on Ritchie ? \(Step By Step\) ](developer/formulas/first-formula/)
 * [How to create a new formula on Ritchie ? \(Video\)](https://www.youtube.com/watch?v=O_rD-0o8FrM&feature=youtu.be)
 * [How to configure a server on Ritchie ?](developer/server/configurations.md)
-* [What the difference between Ritchie two versions ?](https://docs.ritchiecli.io/software-architecture-1)
+* [What the difference between Ritchie two versions ?](getting-started/software-architecture/)
 * [Which operating systems does Ritchie work with ?](https://docs.ritchiecli.io/key-concepts/basics#operating-system)
 * [Which programming languages can I use to create formulas ?](https://docs.ritchiecli.io/key-concepts/basics#programming-languages)
 * [Which tools can I use to create formulas ?](https://docs.ritchiecli.io/key-concepts/basics#tools)

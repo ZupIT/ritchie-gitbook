@@ -1,4 +1,4 @@
-# Composition
+# Formulas composition
 
 {% hint style="info" %}
 Each formula is composed of several files allowing its execution by the CLI.
@@ -15,4 +15,6 @@ The **tree.json** file allows the CLI to know the commands and sub-commands asso
 The **config.json** file contains the formula's input parameters. It allows the CLI to know what datas to ask the user when he executes the command in the terminal in order to process the formula correctly.
 
 The **executable file** contains the implementation of the formula. The CLI will download this file according to the operating system of the user's computer and execute this formula sending the input parameters that have been informed.
+
+{% page-ref page="formula-repositories.md" %}
 

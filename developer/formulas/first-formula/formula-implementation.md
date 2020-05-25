@@ -20,5 +20,7 @@ If another language was used, it may be necessary to change more files.
 
 _Note: Therefore, it is possible to make some adjustments to these files if you need to._
 
-_**For example**: If you need to change the decrypted message or the command helper associated with your formula, you will need to make these changes in **tree.json**._
+_**For example**: If you need to change the decrypted message or the command helper associated with your formula, you will need to make these changes in **tree.json.**_
+
+{% page-ref page="formula-testing.md" %}
 

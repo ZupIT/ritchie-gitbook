@@ -18,3 +18,5 @@ Here is an example of the structure of the local repository with a formula \(ins
 The structure of the repositories used to create new formulas must follow the nomenclature indicated on the [formula repositories page](../structure/formula-repositories.md).
 {% endhint %}
 
+{% page-ref page="formula-folder.md" %}
+

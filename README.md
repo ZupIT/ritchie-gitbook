@@ -14,11 +14,11 @@ Ritchie is a **CLI** \(Command Line Interface\) which allows to **create**, **st
 
 ## Installation
 
-{% page-ref page="geting-started/installation/linux-mac.md" %}
+{% page-ref page="getting-started/installation/linux.md" %}
 
-{% page-ref page="geting-started/installation/windows.md" %}
+{% page-ref page="getting-started/installation/windows.md" %}
 
-{% page-ref page="geting-started/installation/macos.md" %}
+{% page-ref page="getting-started/installation/macos.md" %}
 
 ## **Where Ritchie came from?**
 

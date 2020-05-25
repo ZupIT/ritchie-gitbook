@@ -118,3 +118,5 @@ The first commands \(**`rit aws`** and **`rit aws apply`**\) returned the help f
 
 The **`rit aws apply terraform`** command downloaded the formula's executables and started asking the user for input parameters.
 
+{% page-ref page="access-to-formulas.md" %}
+

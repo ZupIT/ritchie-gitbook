@@ -8,3 +8,5 @@ When this command is executed on the terminal, an input is requested from the us
 
 All the files and architecture discussed above will be created and configured from this command.
 
+{% page-ref page="formula-repository.md" %}
+
