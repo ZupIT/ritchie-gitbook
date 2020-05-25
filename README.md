@@ -6,19 +6,19 @@ description: >-
 
 # Overview
 
-                                                 ![](https://lh5.googleusercontent.com/hbu3-ApA65fnfDFRI5qtrQ52Oo_qS5VArO1YGvloCFZN0CCuVpKF8x3RyhrfcVCSBqo3-mPWGygZsqFoX953ghtNBlDswp29xoWQyGWoZxipOu9i9GVcMCCMElATK9GMXyX70bc6ye4)
-
-## **What is Ritchie ?**
-
-{% hint style="warning" %}
-Ritchie is an open source tool that **automates your daily and manual tasks** with simple commands by creating **formulas** on a CLI.
+{% hint style="info" %}
+Ritchie is a **CLI** \(Command Line Interface\) which allows to **create**, **store** and **share** automations **efficiently** and **securely**, with a team or with the whole community.
 {% endhint %}
 
-This tool is structured on tree decisions, which allows you to execute your own commands whenever you want to.
+{% embed url="https://www.youtube.com/watch?v=5S9CHC3QarQ&feature=youtu.be" %}
 
-Created by [Zup Innovation](https://www.zup.com.br/en), **Ritchie** is part of the developer tools product line, formed by open source solutions that aim to improve the developer's experience in the projects it operates, in addition to adding value to the community.
+## Installation
 
-![Ritchie brings all the commands together in one place ](.gitbook/assets/animac-a-o-ritchie%20%281%29.gif)
+{% page-ref page="geting-started/installation/linux-mac.md" %}
+
+{% page-ref page="geting-started/installation/windows.md" %}
+
+{% page-ref page="geting-started/installation/macos.md" %}
 
 ## **Where Ritchie came from?**
 

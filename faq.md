@@ -13,14 +13,16 @@ description: 'In this section, you will find the main questions about Ritchie.'
 
 ## INSTALLATION AND USE
 
-* [How to install Ritchie ? ](https://docs.ritchiecli.io/get-started/installation)
+* [How to install Ritchie ? ](https://docs.ritchiecli.io/geting-started/installation)
 * [How does Ritchie works ?](https://docs.ritchiecli.io/key-concepts)
-* [How to create a new formula on Ritchie ? \(Step By Step\) ](https://docs.ritchiecli.io/resources-1/first-formula)
+* [How to execute commands on Ritchie ?](user/commands/)
+* [How to create a new formula on Ritchie ? \(Step By Step\) ](developer/formulas/first-formula/)
 * [How to create a new formula on Ritchie ? \(Video\)](https://www.youtube.com/watch?v=O_rD-0o8FrM&feature=youtu.be)
+* [How to configure a server on Ritchie ?](developer/server/configurations.md)
 * [What the difference between Ritchie two versions ?](https://docs.ritchiecli.io/software-architecture-1)
-* [Which operating systems does Ritchie work with ?](https://docs.ritchiecli.io/key-concepts#operating-system)
-* [Which programming languages can I use to create formulas ?](https://docs.ritchiecli.io/key-concepts#programming-languages)
-* [Which tools can I use to create formulas ?](https://docs.ritchiecli.io/key-concepts#tools)
+* [Which operating systems does Ritchie work with ?](https://docs.ritchiecli.io/key-concepts/basics#operating-system)
+* [Which programming languages can I use to create formulas ?](https://docs.ritchiecli.io/key-concepts/basics#programming-languages)
+* [Which tools can I use to create formulas ?](https://docs.ritchiecli.io/key-concepts/basics#tools)
 
 ## COMMUNITY 
 
