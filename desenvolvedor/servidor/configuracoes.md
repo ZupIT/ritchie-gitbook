@@ -12,24 +12,24 @@ A inteligência está toda no CLI, e as informações que o CLI precisa para fun
 
 O arquivo **file\_config.json** vai conter a parte de configuração e de autorização aos trees e comandos, isso envolve os seguintes campos :
 
-* nome \(da organização\)
+* tenant/time
 * keycloak
 * cliVersionPath
 * repositories
 * oauth
 * credentials
 
-O campo _**nome**_ representa a organização que deverá ser informada pelo usuário na hora de fazer o login com o Ritchie na versão Team.
+O **tenant/time** representa o nome da organização que deverá ser informada pelo usuário na hora de fazer o login com o Ritchie na versão Team.
 
-O campo _**keycloak**_ se refere as configurações do [Keycloak](https://www.keycloak.org/) \(url, realm, clientId e clientSecret\).
+O campo _**keycloak**_ se refere as configurações do client [Keycloak](https://www.keycloak.org/) utilizado pelo server para validar o token e gerenciar o keycloak \(url, realm, clientId e clientSecret\)
 
-O campo _**cliVersionPath**_ informa a URL que o servidor usa para saber a versão atual do CLI.
+O campo _**cliVersionPath**_ informa a URL para o provider afim de identificar a versão do CLI sendo usada.
 
-O campo _**repositories**_ indica os repositórios de fórmulas acessíveis pelo time, e contém as URLs que o CLI vai usar para baixar os tree.json que ficarão na [pasta .rit](../cli/pasta-.rit.md)
+O campo _**repositories**_ indica as configurações dos repositórios de fórmulas acessíveis pelo time \(com nome, prioridade, treePath, urls\) que o CLI vai usar para baixar os tree.json que ficarão na [pasta .rit](../cli/pasta-.rit.md)
 
-O campo _**oauth**_ contém a URL que será usada para realizar o login com o SSO da organização.
+O campo _**oauth**_ contém a URL que será usada para realizar o login via oauth da organização
 
-O campo _**credentials**_ contém uma lista das credenciais que podem ser configuradas dentro do ambiente da organização, que podem ser definidas tanto pelos usuários, quanto pelos administradores do servidor \(para usuários específicos, ou para a organização inteira\).
+O campo _**credentials**_ contém uma lista das credenciais que podem ser usadas dentro do ambiente da organização, que podem ser definidas tanto pelos usuários, quanto pelos administradores do servidor \(para usuários específicos, ou para a organização inteira\) através do comando **`rit set credential`**.
 
 ### Exemplo de um **file\_config.json**
 
