@@ -1,5 +1,7 @@
 # Install
 
+![](../../.gitbook/assets/ritchie-banner.png)
+
 ### What will you find here?  
 
 {% page-ref page="linux.md" %}
