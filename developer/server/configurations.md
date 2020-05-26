@@ -110,7 +110,7 @@ The _**credentials**_ field contains a list of credentials that can be used with
 
 ## Server testing
 
-For the Team version to work on the CLI, the organization will need to move up: 
+For the Team version to work on the CLI, the team will need : 
 
 * a server 
 * a [Keycloak](https://www.keycloak.org/) account \(open source tool\) 
@@ -118,23 +118,7 @@ For the Team version to work on the CLI, the organization will need to move up:
 
 It is possible to test these settings locally, observing through Postman files \(available in the **/testdata** folder\) how the server endpoints are handled by the CLI to work. 
 
-To start this test you need to run the file run-local.sh ****: `$ sh run-local.sh`
-
-```text
-#!/bin/bash
-
-./create-vault-approle.sh . http://0.0.0.0:8200
-
-export VAULT_ADDR=http://localhost:8200
-export VAULT_AUTHENTICATION=APPROLE
-export VAULT_ROLE_ID=$(cat /tmp/vault/role-id.txt)
-export VAULT_SECRET_ID=$(cat /tmp/vault/secret-id.txt)
-export FILE_CONFIG="$(pwd)/server/resources/file_config_local.json"
-
-go run server/cmd/server/main.go
-```
-
-As well as running the repository **docker-compose** file : `$ docker-compose up`
+To start this test you need to run the repository **docker-compose** file : `$ docker-compose up`
 
 ```text
 version: '3'
@@ -174,6 +158,22 @@ services:
     volumes:
       - ./testdata/stubby4j/integrations.yml:/usr/local/stubby.yml
       - ./testdata/stubby4j/response.zip:/usr/local/response.zip
+```
+
+And the run the **run-local.sh file** : `$ sh run-local.sh`
+
+```text
+#!/bin/bash
+
+./create-vault-approle.sh . http://0.0.0.0:8200
+
+export VAULT_ADDR=http://localhost:8200
+export VAULT_AUTHENTICATION=APPROLE
+export VAULT_ROLE_ID=$(cat /tmp/vault/role-id.txt)
+export VAULT_SECRET_ID=$(cat /tmp/vault/secret-id.txt)
+export FILE_CONFIG="$(pwd)/server/resources/file_config_local.json"
+
+go run server/cmd/server/main.go
 ```
 
 These 2 files work together with the file\_config-local.json located in the /server/resources folder of the ritchie-server repository. 
