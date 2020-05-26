@@ -14,24 +14,24 @@ All the intelligence is in the CLI, and the information the CLI needs to functio
 
 The file\_config.json will contain the configuration and authorization part of the trees and commands, this involves the following fields: 
 
-* name \(of the organization\) 
+* tenant / team
 * keycloak 
 * cliVersionPath 
 * repositories 
 * oauth 
 * credentials
 
-The _**name**_ field represents the organization that must be informed by the user when logging in with Ritchie in the Team version.
+The _**tenant / team**_ field represents the name of the team that must be informed by the user when logging in with Ritchie in the Team version.
 
-The _**keycloak**_ field refers to the [Keycloak](https://www.keycloak.org/) settings \(url, realm, clientId and clientSecret\). 
+The _**keycloak**_ field refers to the client [Keycloak](https://www.keycloak.org/) settings used by the server to validate the token and manage the keycloak \(url, realm, clientId and clientSecret\).
 
-The _**cliVersionPath**_ field tells you the URL that the server uses to find out the current version of the CLI. 
+The _**cliVersionPath**_ field informs the URL to the provider in order to identify the version of the CLI being used.
 
-The _**repositories**_ field indicates the formula repositories accessible by the team, and contains the URLs that the CLI will use to download the tree.json that will be in the [.rit folder ](../cli/.rit-folder.md)
+The _**repositories**_ field indicates the formula repositories accessible by the team \(with name, priority, treePath, urls\) that the CLI will use to download the tree.json that will be in the [.rit folder ](../cli/.rit-folder.md)
 
-The _**oauth**_ field contains the URL that will be used to login with the organization's SSO \(Single Sign On\) tool. 
+The _**oauth**_ field contains the URL that will be used to login with the team's SSO \(Single Sign On\) tool. 
 
-The _**credentials**_ field contains a list of credentials that can be configured within the organization's environment, which can be set by both users and server administrators \(for specific users, or for the entire organization\).
+The _**credentials**_ field contains a list of credentials that can be used within the team's environment, which can be set by both users and server administrators \(for specific users, or for the entire team\) using the **`rit set credential`** command.
 
 ### Here is an example of a file\_config.json
 
