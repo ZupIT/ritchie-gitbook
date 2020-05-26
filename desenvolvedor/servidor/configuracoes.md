@@ -27,9 +27,9 @@ O campo _**cliVersionPath**_ informa a URL para o provider afim de identificar a
 
 O campo _**repositories**_ indica as configurações dos repositórios de fórmulas acessíveis pelo time \(com nome, prioridade, treePath, urls\) que o CLI vai usar para baixar os tree.json que ficarão na [pasta .rit](../cli/pasta-.rit.md)
 
-O campo _**oauth**_ contém a URL que será usada para realizar o login via oauth da organização
+O campo _**oauth**_ contém a URL que será usada para realizar o login via a ferramenta SSO \(Single Sign On\) usada pelo time.
 
-O campo _**credentials**_ contém uma lista das credenciais que podem ser usadas dentro do ambiente da organização, que podem ser definidas tanto pelos usuários, quanto pelos administradores do servidor \(para usuários específicos, ou para a organização inteira\) através do comando **`rit set credential`**.
+O campo _**credentials**_ contém uma lista das credenciais que podem ser usadas dentro do ambiente da organização, que podem ser definidas tanto pelos usuários, quanto pelos administradores do servidor \(para usuários específicos, ou para o time inteiro\) através do comando **`rit set credential`**.
 
 ### Exemplo de um **file\_config.json**
 
