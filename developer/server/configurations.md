@@ -1,7 +1,5 @@
 # Configurations
 
-
-
 {% hint style="info" %}
 In the **Team version**, the ritchie-server repository provides the settings for the CLI. 
 
