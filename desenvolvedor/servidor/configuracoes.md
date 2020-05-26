@@ -108,7 +108,7 @@ O campo _**credentials**_ contém uma lista das credenciais que podem ser usadas
 
 ## Testar o servidor
 
-Para a versão **Team** funcionar no CLI, a organização vai precisar subir :
+Para a versão **Team** funcionar no CLI, a organização vai precisar ter :
 
 * um servidor
 * uma conta no [Keycloak](https://www.keycloak.org/) \(ferramenta open source\)
@@ -116,23 +116,7 @@ Para a versão **Team** funcionar no CLI, a organização vai precisar subir :
 
 É possível testar essas configurações localmente, observando através de arquivos do Postman \(disponibilizados na pasta **/testdata**\) como os endpoints do servidor são manipulados pelo CLI para funcionar.
 
-Para iniciar esse teste é preciso executar o arquivo **run-local.sh** : `$ sh run-local.sh`
-
-```text
-#!/bin/bash
-
-./create-vault-approle.sh . http://0.0.0.0:8200
-
-export VAULT_ADDR=http://localhost:8200
-export VAULT_AUTHENTICATION=APPROLE
-export VAULT_ROLE_ID=$(cat /tmp/vault/role-id.txt)
-export VAULT_SECRET_ID=$(cat /tmp/vault/secret-id.txt)
-export FILE_CONFIG="$(pwd)/server/resources/file_config_local.json"
-
-go run server/cmd/server/main.go
-```
-
-Em conjunto com o arquivo **docker-compose** : `$ docker-compose up`
+Para iniciar esse teste é preciso subir o **docker-compose** na raíz do produto : `$ docker-compose up`
 
 ```text
 version: '3'
@@ -172,6 +156,22 @@ services:
     volumes:
       - ./testdata/stubby4j/integrations.yml:/usr/local/stubby.yml
       - ./testdata/stubby4j/response.zip:/usr/local/response.zip
+```
+
+E depois executar o arquivo **run-local.sh** : `$ sh run-local.sh`
+
+```text
+#!/bin/bash
+
+./create-vault-approle.sh . http://0.0.0.0:8200
+
+export VAULT_ADDR=http://localhost:8200
+export VAULT_AUTHENTICATION=APPROLE
+export VAULT_ROLE_ID=$(cat /tmp/vault/role-id.txt)
+export VAULT_SECRET_ID=$(cat /tmp/vault/secret-id.txt)
+export FILE_CONFIG="$(pwd)/server/resources/file_config_local.json"
+
+go run server/cmd/server/main.go
 ```
 
 Esses 2 arquivos funcionam em conjunto com o **file\_config-local.json** localizado na pasta **/server/resources** do repositório do ritchie-server.
