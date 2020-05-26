@@ -158,7 +158,7 @@ services:
       - ./testdata/stubby4j/response.zip:/usr/local/response.zip
 ```
 
-And the run the **run-local.sh file** : `$ sh run-local.sh`
+Then run the **run-local.sh file** : `$ sh run-local.sh`
 
 ```text
 #!/bin/bash
@@ -174,11 +174,11 @@ export FILE_CONFIG="$(pwd)/server/resources/file_config_local.json"
 go run server/cmd/server/main.go
 ```
 
-These 2 files work together with the file\_config-local.json located in the /server/resources folder of the ritchie-server repository. 
+These 2 files work together with the **file\_config-local.json** located in the **/server/resources folder** of the ritchie-server repository. 
 
 Once everything is up, it will be possible to execute the requests via Postman that the CLI sends to the server to get the information necessary for its operation.
 
 {% hint style="warning" %}
-A core command is being developed to allow a team to be able to create the configuration files as soon as the realm in kubectl, to be able to generate a server already working with Ritchie in a simplified way.
+A **core command** is being developed to allow a team to be able to create the configuration files as soon as the realm in kubectl, to be able to generate a server already working with Ritchie in a simplified way.
 {% endhint %}
 
