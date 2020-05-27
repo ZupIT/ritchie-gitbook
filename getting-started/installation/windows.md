@@ -2,7 +2,7 @@
 
 **To download Ritchie on Windows**
 
-Current version : **1.0.0-beta.7**
+Current version : **1.0.0-beta.9**
 
 * [Team version](https://commons-repo.ritchiecli.io/1.0.0-beta.9/windows/team/rit.exe)
 * [Single version](https://commons-repo.ritchiecli.io/1.0.0-beta.9/windows/single/rit.exe)
