@@ -20,7 +20,6 @@
   * [Security](getting-started/software-architecture/security/README.md)
     * [Login](getting-started/software-architecture/security/login.md)
     * [Credentials](getting-started/software-architecture/security/credentials.md)
-  * [Repository](getting-started/software-architecture/repository.md)
 
 ## USER
 
@@ -49,6 +48,7 @@
     * [Access to formulas](developer/formulas/structure/access-to-formulas.md)
     * [Config.json](developer/formulas/structure/config.json.md)
     * [Priority](developer/formulas/structure/priority.md)
+  * [Repository](developer/formulas/repository.md)
   * [First formula](developer/formulas/first-formula/README.md)
     * [Creation command](developer/formulas/first-formula/creation-command.md)
     * [Formula repository](developer/formulas/first-formula/formula-repository.md)

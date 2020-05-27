@@ -10,5 +10,5 @@
 
 {% page-ref page="security/" %}
 
-{% page-ref page="repository.md" %}
+{% page-ref page="../../developer/formulas/repository.md" %}
 
