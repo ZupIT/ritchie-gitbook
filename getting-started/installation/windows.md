@@ -4,10 +4,8 @@
 
 Current version : **1.0.0-beta.7**
 
-* [Team version](https://commons-repo.ritchiecli.io/1.0.0-beta.7/windows/team/rit.exe)
-* [Single version](https://commons-repo.ritchiecli.io/1.0.0-beta.7/windows/single/rit.exe)
+* [Team version](https://commons-repo.ritchiecli.io/1.0.0-beta.9/windows/team/rit.exe)
+* [Single version](https://commons-repo.ritchiecli.io/1.0.0-beta.9/windows/single/rit.exe)
 
-_Note :_ [_Manual Installation_](https://docs.ritchiecli.io/get-started/installation/manual-installation)\_\_
-
-\_\_
+_Note :_ [_Manual Installation_](https://docs.ritchiecli.io/get-started/installation/manual-installation)
 
