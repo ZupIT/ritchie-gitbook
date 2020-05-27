@@ -1,6 +1,6 @@
 # Credenciais
 
-O comando **`rit set credential`** permitir salvar credenciais na sessão \(localmente na versão Single, no Vault na versão Team\) para o usuário aproveitar esses dados sem precisar informar-los novamente ao executar suas fórmulas.
+O comando **`rit set credential`** permitir salvar credenciais na sessão \(localmente na versão Single, no Vault na versão Team\) para o usuário aproveitar esses dados sem precisar informá-los novamente ao executar suas fórmulas.
 
 Para usar essas credenciais como inputs numa fórmula, existe uma palavra chave que precisa ser informado no arquivo config.json da fórmula. 
 
