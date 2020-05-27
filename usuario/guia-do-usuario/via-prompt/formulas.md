@@ -3,7 +3,7 @@
 {% hint style="info" %}
 Os comandos das fórmulas respeitam a seguinte nomenclatura
 
-**`RIT`** `+` **`GROUPO`**  `+` **`VERBO`** `+` **`SUBSTANTIVO`**
+**`RIT`** `+` **`GRUPO`**  `+` **`VERBO`** `+` **`SUBSTANTIVO`**
 {% endhint %}
 
 Confere os exemplos abaixo de execução de algumas fórmulas :
