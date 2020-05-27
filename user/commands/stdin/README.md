@@ -20,9 +20,7 @@ With **stdin**, the input parameters need to be informed in a JSON format, follo
 
 **`echo`**`'{"key":"value"}'`**`|`**`RIT (GROUP) VERB NOUN` **`--stdin`**
 
-
-
-### Examples with STDIN
+## Examples with STDIN
 
 {% page-ref page="core-commands.md" %}
 

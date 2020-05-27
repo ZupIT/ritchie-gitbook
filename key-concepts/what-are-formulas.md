@@ -12,7 +12,7 @@ The config.json file is downloaded at the same time, with the **formula input pa
 
 These input parameters will be informed by the user: 
 
-* after he types the command in the terminal \(if via [prompt](../user/commands/prompt.md)\) 
+* after he types the command in the terminal \(if via [prompt](../user/commands/prompt/)\) 
 * before typing the command in the terminal \(if via [stdin](../user/commands/stdin/)\) 
 
 ... before actually executing the formula.  

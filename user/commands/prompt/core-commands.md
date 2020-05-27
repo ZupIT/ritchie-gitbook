@@ -1,14 +1,10 @@
-# Prompt
+# Core Commands
 
 {% hint style="info" %}
-The first way of using Ritchie is through **prompt**, which means interacting with the CLI to inform input parameters.
-{% endhint %}
-
-Ritchie core commands are executed following this pattern :  
+Ritchie **core commands** are executed following this pattern :  
   
 **`RIT`** `+` **`VERB`** `+` **`NOUN`**
-
-## Core Commands
+{% endhint %}
 
 <table>
   <thead>
@@ -110,9 +106,7 @@ Ritchie core commands are executed following this pattern :
         <br />(to access new formulas from those repositories with Ritchie)</td>
     </tr>
   </tbody>
-</table>
-
-| Flags | Operation |
+</table>| Flags | Operation |
 | :--- | :--- |
 | rit --help | Help for any Ritchie command |
 | rit --version | Display Ritchie current version |

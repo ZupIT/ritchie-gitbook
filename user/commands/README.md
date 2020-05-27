@@ -4,7 +4,7 @@
 There is two ways of executing commands on Ritchie
 {% endhint %}
 
-{% page-ref page="prompt.md" %}
+{% page-ref page="prompt/" %}
 
 {% page-ref page="stdin/" %}
 

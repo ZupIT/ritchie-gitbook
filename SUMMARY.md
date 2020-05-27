@@ -25,7 +25,9 @@
 ## USER
 
 * [How to execute commands](user/commands/README.md)
-  * [Prompt](user/commands/prompt.md)
+  * [Prompt](user/commands/prompt/README.md)
+    * [Core Commands](user/commands/prompt/core-commands.md)
+    * [Formulas](user/commands/prompt/formulas.md)
   * [Stdin](user/commands/stdin/README.md)
     * [Core Commands](user/commands/stdin/core-commands.md)
     * [Formulas](user/commands/stdin/formulas.md)
