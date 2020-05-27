@@ -7,7 +7,7 @@ Para usar essas credenciais como inputs numa fórmula, existe uma palavra chave 
 {% hint style="warning" %}
 Esse arquivo é onde são configurados os parâmetros de entrada que serão pedidos ao usuário quando ele executará o comando no terminal para processar a fórmula.
 
-Essa palavra chave é **CREDENTIAL.**
+Essa palavra-chave é **CREDENTIAL.**
 {% endhint %}
 
 Para saber como usá-la, é preciso ter acesso ao repositório do `ritchie-server`, e observar como as credenciais de cada ferramenta são registrada no arquivo `resources/file_config_local.json`
