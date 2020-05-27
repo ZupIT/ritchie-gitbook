@@ -2,6 +2,7 @@
 
 ### **What will you find here?**  
 
-* Login
-* Credentials
+{% page-ref page="login.md" %}
+
+{% page-ref page="credentials.md" %}
 
