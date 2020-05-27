@@ -2,7 +2,7 @@
 
 ## Login Command
 
-Using the `rit login` command, it is possible to create a session to store data that can be reused in different formulas. 
+Using the **`rit login`** command, it is possible to create a session to store data that can be reused in different formulas. 
 
 Therefore, this does not work in the same way in each version:
 
@@ -14,7 +14,7 @@ In this case, the credentials are stored in the _Vault_. This allows that if the
 
 ### Single Version
 
-In this version, the previous scenario is not possible, as this rit login command is not even available. 
+In this version, the previous scenario is not possible, as this **`rit login`** command is not even available. 
 
 This version does not use _Keycloak_, instead an encrypted session is created on the user's machine through a _pathphrase_ that he will need to inform when executing the first Ritchie command. Here, the credentials will no longer be saved in the _Vault_, but will be encrypted locally via the informed _pathphrase_.
 
@@ -23,6 +23,6 @@ This version does not use _Keycloak_, instead an encrypted session is created on
 In the sample above, we can observe that the user got access to new commands after logging into the Zup organisation \(**Team** version\).
 
 {% hint style="warning" %}
-The command `rit logout` allows the user to end the current session.
+The command **`rit logout`** allows the user to end the current session.
 {% endhint %}
 
