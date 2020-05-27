@@ -1,3 +1,9 @@
+---
+description: >-
+  This section gives more information about the formulas structure and their
+  implementation with Ritchie.
+---
+
 # Structure
 
 ### What will you find here ?
