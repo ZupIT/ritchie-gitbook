@@ -12,7 +12,7 @@ This file is where the **input** **parameters** that will be requested from the 
 That keyword is **CREDENTIAL**. 
 {% endhint %}
 
-To know how to use it, you need to have access to the `ritchie-server` repository, and observe how the credentials of each tool are registered in the resources / file\_config\_local.json file. 
+To know how to use it, you need to have access to the `ritchie-server` repository, and observe how the credentials of each tool are registered in the `resources/file_config_local.json` file. 
 
 For example, Github credentials are configured as follows:
 
@@ -30,5 +30,5 @@ When the formula command will be executed, the Github credentials will be fetche
 Remembering that the user must have logged in, and set the credentials \(**rit set credential**\) for this to work.
 {% endhint %}
 
-With the `rit set credential` command, it is also possible for a **team admin** to set encrypted credentials into the session of specific users to allow them to execute commands without having access to any confidential informations.
+With the **`rit set credential`** command, it is also possible for a **team admin** to set encrypted credentials into the session of specific users to allow them to execute commands without having access to any confidential informations.
 
