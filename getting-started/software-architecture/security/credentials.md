@@ -14,7 +14,7 @@ That keyword is **CREDENTIAL**.
 
 To know how to use it, you need to have access to the `ritchie-server` repository, and observe how the credentials of each tool are registered in the `resources/file_config_local.json` file. 
 
-For example, Github credentials are configured as follows:
+For example, **Github credentials** are configured as follows:
 
 ```text
 "credentials": { 
