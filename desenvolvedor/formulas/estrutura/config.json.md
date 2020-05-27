@@ -50,8 +50,6 @@ Esses parâmetros de entrada são compostos dos seguintes campos :
 }
 ```
 
-
-
 O campo **nome** se refere ao nome da variável que será extraído na implementação da fórmula.
 
 O campo **tipo** representa o tipo da variável \(no momento só existe **TEXT** e **BOOL**\)
