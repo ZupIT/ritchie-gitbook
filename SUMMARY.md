@@ -9,7 +9,7 @@
 
 ## GETTING STARTED
 
-* [Install](getting-started/installation/README.md)
+* [Installation](getting-started/installation/README.md)
   * [Linux](getting-started/installation/linux.md)
   * [Windows](getting-started/installation/windows.md)
   * [MacOS](getting-started/installation/macos.md)

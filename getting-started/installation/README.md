@@ -1,4 +1,4 @@
-# Install
+# Installation
 
 ![](../../.gitbook/assets/ritchie-banner.png)
 
