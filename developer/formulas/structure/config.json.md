@@ -68,7 +68,7 @@ The **cache** field allows to configure whether it is necessary to store the use
 
 The **active** field indicates whether the cache is enabled or not. 
 
-The qtd field refers to the number of choices that can be stored in the cache.
+The **qtd** field refers to the number of choices that can be stored in the cache.
 
 The **newLabel** field is for the user to enter another value for the variable if those saved in the cache do not meet their needs.
 
