@@ -23,6 +23,6 @@ Essa versão não usa o _Keycloak_, no lugar é criada uma sessão criptografada
 No exemplo acima, podemos observar que o usuário teve acesso a novos comandos após efetuar o login na organização Zup \(versão **Team**\).
 
 {% hint style="warning" %}
-O comando`rit logout` permite ao usuário de finalizar a sessão atual.
+O comando`rit logout` permite ao usuário finalizar a sessão atual.
 {% endhint %}
 
