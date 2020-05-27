@@ -16,13 +16,35 @@ To know how to use it, you need to have access to the `ritchie-server` repositor
 
 For example, Github credentials are configured as follows:
 
-**`"credentials": { "github": [ { "field": "username", "type": "text" },  
-{ "field": "token", "type": "password" }  ] }`**
+```text
+"credentials": { 
+    "github": [ 
+        { 
+            "field": "username", 
+            "type": "text" 
+        },
+        { 
+            "field": "token", 
+            "type": "password" 
+        }  
+    ] 
+}
+```
 
 Therefore, to be able to use Github credentials as input to a formula's `config.json`, I would need to inform them as follows:
 
-**`"inputs": [ { "name": "git_user", "type": "CREDENTIAL_GITHUB_USERNAME" },  
-{ "name": "git_token",  "type": "CREDENTIAL_GITHUB_TOKEN"} ]`**
+```text
+"inputs": [ 
+    { 
+        "name": "git_user", 
+        "type": "CREDENTIAL_GITHUB_USERNAME" 
+    },
+    { 
+        "name": "git_token", 
+        "type": "CREDENTIAL_GITHUB_TOKEN"
+    } 
+]
+```
 
 When the formula command will be executed, the Github credentials will be fetched directly in the session, and can be used in the formulas without the user informing them again at the terminal. 
 
