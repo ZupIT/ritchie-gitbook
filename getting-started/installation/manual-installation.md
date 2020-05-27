@@ -1,6 +1,6 @@
 # Manual Installation
 
-## PREMISES
+## Premises
 
 Get the latest version of Ritchie by entering the URL below in your browser
 
@@ -9,7 +9,7 @@ Get the latest version of Ritchie by entering the URL below in your browser
 For example, it could return: **1.0.0-beta.7** or **1.0.0**  
 
 
-## **DOWNLOAD**
+## **Download**
 
 Download the Ritchie binary version by entering the URL below in your browser by informing **the version** as obtained in step 1.
 
@@ -41,7 +41,7 @@ https://commons-repo.ritchiecli.io/{versão}/team/linux/rit
 https://commons-repo.ritchiecli.io/{versão}/single/linux/rit
 ```
 
-### **WINDOW**
+### **WINDOWS**
 
 #### **Versão Team**
 
@@ -55,7 +55,7 @@ https://commons-repo.ritchiecli.io/{versão}/windows/team/rit.exe
 https://commons-repo.ritchiecli.io/{versão}/windows/single/rit.exe
 ```
 
-## MANUAL SETTINGS
+## Manual settings
 
 ### **Folder creation**
 
