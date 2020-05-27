@@ -1,6 +1,6 @@
 # Credenciais
 
-O comando `rit set credential` permitir salvar credenciais na sessão \(localmente na versão Single, no Vault na versão Team\) para o usuário aproveitar esses dados sem precisar informar-los novamente ao executar suas fórmulas.
+O comando **`rit set credential`** permitir salvar credenciais na sessão \(localmente na versão Single, no Vault na versão Team\) para o usuário aproveitar esses dados sem precisar informar-los novamente ao executar suas fórmulas.
 
 Para usar essas credenciais como inputs numa fórmula, existe uma palavra chave que precisa ser informado no arquivo config.json da fórmula. 
 
@@ -10,7 +10,7 @@ Esse arquivo é onde são configurados os parâmetros de entrada que serão pedi
 Essa palavra chave é **CREDENTIAL.**
 {% endhint %}
 
-Para saber como usá-la, é preciso ter acesso ao repositório do `ritchie-server`, e observar como as credenciais de cada ferramenta são registrada no arquivo r`esources/file_config_local.json`
+Para saber como usá-la, é preciso ter acesso ao repositório do `ritchie-server`, e observar como as credenciais de cada ferramenta são registrada no arquivo `resources/file_config_local.json`
 
 Por exemplo, as **credenciais do Github** são configuradas da seguinte forma :
 
@@ -50,5 +50,5 @@ Assim, quando o comando da fórmula será executado, as credenciais do Github se
 Lembrando que para isso funcionar, é preciso o usuário ter efetuado o login \(rit login\), e ter setado as credenciais referentes a ferramenta \(rit set credential\).
 {% endhint %}
 
-Com o comando `rit set credential`, também é possível para um **administrador da equipe** definir credenciais criptografadas na sessão de um usuário específico para permitir que ele execute comandos sem ter acesso a informações confidenciais.
+Com o comando **`rit set credential`**, também é possível para um **administrador da equipe** definir credenciais criptografadas na sessão de um usuário específico para permitir que ele execute comandos sem ter acesso a informações confidenciais.
 
