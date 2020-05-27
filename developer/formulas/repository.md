@@ -31,7 +31,13 @@ To add another repository to the CLI, follow the same process as above, except i
 
 It is possible to update all repositories once they have been setted, using the `rit update repo` command. It will update the repositories tree.json from the URL informed at the repositories additions.
 
-![rit update repo command](../../.gitbook/assets/rit-update-repo.png)
+```text
+➜ rit update repo
+
+Wait while we update your repositories...
+...Successfully got an update from the "commons" formula repository
+Done.
+```
 
 ## **Delete** a repository
 
@@ -39,7 +45,12 @@ It is possible to remove a repository tree from the CLI using the `rit delete re
 
 The user will need to inform the name he used when he added the repository. It is possible to check the name of the current repositories using the `rit list repo` command.
 
-![rit list repo command](../../.gitbook/assets/rit-list-repo.png)
+```text
+➜ rit list repo
+
+NAME   	URL
+commons	https://commons-repo.ritchiecli.io/tree/tree.json
+```
 
 ![Example of how to remove the commons repository commands from Ritchie](../../.gitbook/assets/rit-delete-repo-min.gif)
 
