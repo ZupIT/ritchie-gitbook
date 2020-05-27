@@ -1,6 +1,6 @@
 # Instalação Manual
 
-## **PREMISSAS**
+## **Premissas**
 
 Obter a última versão do Ritchie, informando a URL abaixo no seu navegador :
 
@@ -9,7 +9,7 @@ Obter a última versão do Ritchie, informando a URL abaixo no seu navegador :
 Por exemplo, poderia retornar : **1.0.0-beta.7** ou **1.0.0**  
 
 
-## **DOWNLOAD**
+## **Download**
 
 Baixar o binário do Ritchie da versão, informando a URL abaixo no seu navegador **alterando a versão** conforme obtido no passo 1.
 
@@ -41,7 +41,7 @@ https://commons-repo.ritchiecli.io/{versão}/team/linux/rit
 https://commons-repo.ritchiecli.io/{versão}/single/linux/rit
 ```
 
-### **WINDOW**
+### **WINDOWS**
 
 #### **Versão Team**
 
@@ -55,7 +55,7 @@ https://commons-repo.ritchiecli.io/{versão}/windows/team/rit.exe
 https://commons-repo.ritchiecli.io/{versão}/windows/single/rit.exe
 ```
 
-## **CONFIGURAÇÕES MANUAIS**
+## **Configurações manuais**
 
 ### **Criação da pasta**
 
