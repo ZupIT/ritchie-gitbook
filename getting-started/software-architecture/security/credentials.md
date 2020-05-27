@@ -2,7 +2,7 @@
 
 ## **Credentials**
 
-The `rit set credential`command allows to save credentials in the session \(locally in the Single version, in the Vault in the Team version\) for the user to take advantage of this data without having to inform them again when executing their formulas.
+The **`rit set credential`**command allows to save credentials in the session \(locally in the Single version, in the Vault in the Team version\) for the user to take advantage of this data without having to inform them again when executing their formulas.
 
 To use these credentials as inputs to a formula, there is a keyword that needs to be entered in the formula's **config.json** file. 
 
