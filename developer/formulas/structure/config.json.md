@@ -63,7 +63,7 @@ The **items** field is the list of possible options for the variable.
 The **cache** field allows to configure whether it is necessary to store the user's choices for this variable. It consists of 3 fields: 
 
 * active 
-* qty 
+* qtd 
 * newLabel. 
 
 The **active** field indicates whether the cache is enabled or not. The qty field refers to the number of choices that can be stored in the cache.
