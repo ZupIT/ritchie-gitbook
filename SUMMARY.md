@@ -25,7 +25,9 @@
 ## USUÁRIO
 
 * [Como executar comandos](usuario/guia-do-usuario/README.md)
-  * [Via prompt](usuario/guia-do-usuario/via-prompt.md)
+  * [Via prompt](usuario/guia-do-usuario/via-prompt/README.md)
+    * [Comandos core](usuario/guia-do-usuario/via-prompt/comandos-core.md)
+    * [Fórmulas](usuario/guia-do-usuario/via-prompt/formulas.md)
   * [Via stdin](usuario/guia-do-usuario/via-stdin/README.md)
     * [Comandos core](usuario/guia-do-usuario/via-stdin/comandos-core.md)
     * [Fórmulas](usuario/guia-do-usuario/via-stdin/formulas.md)

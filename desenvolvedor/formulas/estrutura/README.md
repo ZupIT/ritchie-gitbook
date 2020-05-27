@@ -1,3 +1,9 @@
+---
+description: >-
+  Essa seção fornece mais detalhes sobre a estrutura das fórmulas que podem ser
+  implementadas no Ritchie.
+---
+
 # Estrutura
 
 ### O que você encontrará aqui ?

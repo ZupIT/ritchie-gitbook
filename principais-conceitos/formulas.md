@@ -12,7 +12,7 @@ A primeira vez que o usuário executa o comando associado a uma fórmula no term
 
 Esses parâmetros de entrada serão informados pelo usuário :
 
-* após ele digitar o comando no terminal \(se for [via prompt](../usuario/guia-do-usuario/via-prompt.md)\)
+* após ele digitar o comando no terminal \(se for [via prompt](../usuario/guia-do-usuario/via-prompt/)\)
 * antes de digitar o comando no terminal \(se for [via stdin](../usuario/guia-do-usuario/via-stdin/)\)
 
 ... antes de executar a fórmula de fato.  
