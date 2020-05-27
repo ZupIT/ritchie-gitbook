@@ -20,7 +20,6 @@
   * [Segurança](primeiros-passos/arquitetura-do-sistema/seguranca/README.md)
     * [Login](primeiros-passos/arquitetura-do-sistema/seguranca/login.md)
     * [Credenciais](primeiros-passos/arquitetura-do-sistema/seguranca/credenciais.md)
-  * [Repositório](primeiros-passos/arquitetura-do-sistema/repositorio.md)
 
 ## USUÁRIO
 
@@ -49,6 +48,7 @@
     * [Acesso as fórmulas](desenvolvedor/formulas/estrutura/acesso-as-formulas.md)
     * [Config.json](desenvolvedor/formulas/estrutura/config.json.md)
     * [Prioridade](desenvolvedor/formulas/estrutura/prioridade.md)
+  * [Repositório](desenvolvedor/formulas/repositorio.md)
   * [Criar fórmulas](desenvolvedor/formulas/primeira-formula/README.md)
     * [Comando de criação](desenvolvedor/formulas/primeira-formula/comando-de-criacao.md)
     * [Repositório para fórmula](desenvolvedor/formulas/primeira-formula/repositorio-da-formulas.md)
