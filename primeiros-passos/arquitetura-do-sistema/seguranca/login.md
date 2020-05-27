@@ -2,7 +2,7 @@
 
 ## **Comando do Login**
 
-A partir do comando `rit login`, é possível criar uma sessão para armazenar dados que podem ser reaproveitadas em diversas fórmulas.
+A partir do comando **`rit login`**, é possível criar uma sessão para armazenar dados que podem ser reaproveitadas em diversas fórmulas.
 
 Portanto, isso não funciona da mesma forma para cada versão:
 
@@ -14,7 +14,7 @@ Nesse caso, as credenciais ficam armazenadas no _Vault_. Isso permite que se o u
 
 ### Versão Single 
 
-Já, na versão **Single**, o cenário anterior não é possível, pois esse comando `rit login` nem está disponível. 
+Já, na versão **Single**, o cenário anterior não é possível, pois esse comando **`rit login`** nem está disponível. 
 
 Essa versão não usa o _Keycloak_, no lugar é criada uma sessão criptografada na máquina do usuário através de um _pathphrase_ que ele precisará informar quando executar o primeiro comando do Ritchie. Aqui, as credenciais não serão mais salvas no _Vault_, mas ficarão criptografadas localmente através do _passphrase_ informado**.**
 
@@ -23,6 +23,6 @@ Essa versão não usa o _Keycloak_, no lugar é criada uma sessão criptografada
 No exemplo acima, podemos observar que o usuário teve acesso a novos comandos após efetuar o login na organização Zup \(versão **Team**\).
 
 {% hint style="warning" %}
-O comando`rit logout` permite ao usuário finalizar a sessão atual.
+O comando**`rit logout`** permite ao usuário finalizar a sessão atual.
 {% endhint %}
 
