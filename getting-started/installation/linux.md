@@ -14,5 +14,5 @@ curl -fsSL https://commons-repo.ritchiecli.io/install.sh | bash
 curl -fsSL https://commons-repo.ritchiecli.io/install_single.sh | bash
 ```
 
-_Note :_ [_Manual Installation_](https://docs.ritchiecli.io/get-started/installation/manual-installation)\_\_
+_Note :_ [_Manual Installation_](manual-installation.md)\_\_
 
