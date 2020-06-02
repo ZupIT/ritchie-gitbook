@@ -15,7 +15,7 @@ Para você conseguir usar eficientemente o Ritchie no Windows, sugerimos vocês 
 * **Powershell**
 * **Cygwin**
 
-Sobre o Cygwin : é preciso também configurar o arquivo contido dentro da pasta do Cygwin \(no ProgramFiles\)  **/etc/nsswitch.conf** e adicionar essa linha \(não comentada\) : **`db_home: /%H`**
+Sobre o Cygwin : é preciso também configurar o arquivo contido dentro da pasta do Cygwin \(no /ProgramFiles\)  **/etc/nsswitch.conf** e adicionar essa linha \(não comentada\) : **`db_home: /%H`**
 {% endhint %}
 
 _Observação :_ [_Instalação manual_](instalacao-manual.md)\_\_
