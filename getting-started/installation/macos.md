@@ -1,8 +1,10 @@
 # MacOS
 
-**To download Ritchie on MacOS**
+{% hint style="info" %}
+To download **the latest release of Ritchie** on MacOS, execute the following command on your favorite terminal.
+{% endhint %}
 
-* Team version
+Team version
 
 ```bash
 curl -fsSL https://commons-repo.ritchiecli.io/install.sh | bash

@@ -1,6 +1,8 @@
 # Linux
 
-**To download Ritchie on Linux**
+{% hint style="info" %}
+To download **the latest release of Ritchie** on Linux, execute the following command on your favorite terminal.
+{% endhint %}
 
 * Team version
 
