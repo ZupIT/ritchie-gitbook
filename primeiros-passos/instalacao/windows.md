@@ -1,7 +1,7 @@
 # Windows
 
 {% hint style="info" %}
-Para baixar a **versão mais atualizada do Ritchie** no Windows, baixe o executável abaixo :
+Para baixar a **versão mais atualizada do Ritchie** no Windows, clique num dos links abaixo :
 {% endhint %}
 
 Versão atual : **1.0.0-beta.11**
