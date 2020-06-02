@@ -106,7 +106,9 @@ Ritchie **core commands** are executed following this pattern :
         <br />(to access new formulas from those repositories with Ritchie)</td>
     </tr>
   </tbody>
-</table>| Flags | Operation |
+</table>
+
+| Flags | Operation |
 | :--- | :--- |
 | rit --help | Help for any Ritchie command |
 | rit --version | Display Ritchie current version |
