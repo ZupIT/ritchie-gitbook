@@ -1,7 +1,7 @@
 # Windows
 
 {% hint style="info" %}
-Para baixar a **versão mais atualizada do Ritchie** no Windows, execute o comando abaixo no seu terminal conforme a versão que deseja usar.
+Para baixar a **versão mais atualizada do Ritchie** no Windows, baixe o executável abaixo :
 {% endhint %}
 
 Versão atual : **1.0.0-beta.11**
