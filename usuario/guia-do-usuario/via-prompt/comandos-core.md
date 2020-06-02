@@ -108,6 +108,8 @@ Os **comandos do core** do Ritchie são executados seguindo a nomenclatura :
   </tbody>
 </table>
 
+
+
 | Flags | Operation |
 | :--- | :--- |
 | rit --help | Ajuda com os comandos do Ritchie |
