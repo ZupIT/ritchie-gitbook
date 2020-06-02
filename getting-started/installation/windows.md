@@ -18,8 +18,6 @@ To efficiently use Ritchie on Windows, we recommend to install :
 About Cygwin : You also need to configure the following file in Cygwin directory \(into /ProgramFiles\)  **/etc/nsswitch.conf** and add the uncommented following code line : **`db_home: /%H`**
 {% endhint %}
 
-
-
 _Note :_ [_Manual Installation_](manual-installation.md)
 
 \_\_
