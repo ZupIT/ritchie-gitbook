@@ -1,6 +1,8 @@
 # Linux
 
-**Para baixar o Ritchie no Linux**
+{% hint style="info" %}
+Para baixar a **versão mais atualizada do Ritchie** no Linux, execute o comando abaixo no seu terminal conforme a versão que deseja usar.
+{% endhint %}
 
 * Versão Team 
 

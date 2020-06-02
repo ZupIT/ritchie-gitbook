@@ -1,6 +1,8 @@
 # MacOS
 
-**Para baixar o Ritchie no Mac**
+{% hint style="info" %}
+Para baixar a **versão mais atualizada do Ritchie** no MacOS, execute o comando abaixo no seu terminal conforme a versão que deseja usar.
+{% endhint %}
 
 * Versão Team 
 
