@@ -12,7 +12,7 @@ The _**`rit create formula`**_ command creates the necessary structure for the u
 
 Before going into detail in the step by step to create a formula, it is recommended to read the following contents :
 
-{% page-ref page="../../../key-concepts/" %}
+{% page-ref page="../../../key-concepts.md" %}
 
 {% page-ref page="../structure/" %}
 

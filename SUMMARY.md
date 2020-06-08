@@ -1,11 +1,7 @@
 # Table of contents
 
 * [Overview](README.md)
-* [Key Concepts](key-concepts/README.md)
-  * [Basics](key-concepts/basics.md)
-  * [What are formulas ?](key-concepts/what-are-formulas.md)
-  * [Command tree](key-concepts/command-tree.md)
-  * [Open Source repositories](key-concepts/open-source-repositories.md)
+* [Key Concepts](key-concepts.md)
 
 ## GETTING STARTED
 
@@ -59,9 +55,11 @@
 * [Server](developer/server/README.md)
   * [Configurations](developer/server/configurations.md)
   * [ritchie-server](https://github.com/ZupIT/ritchie-server)
+* [Open Source repositories](developer/open-source-repositories.md)
 * [Releases](https://github.com/ZupIT/ritchie-cli/releases)
 * [Roadmap](https://github.com/ZupIT/ritchie-cli/issues)
 * [Community](community.md)
 * [Materials](contents.md)
+* [About Ritchie](about-ritchie.md)
 * [FAQ](faq.md)
 
