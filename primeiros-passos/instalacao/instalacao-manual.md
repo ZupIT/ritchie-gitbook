@@ -1,65 +1,73 @@
 # Instalação Manual
 
-## **Premissas**
+## Como funciona? 
 
-Obter a última versão do Ritchie, informando a URL abaixo no seu navegador :
+**Caso opte por realizar o processo manual de instalação do Ritchie**, é necessário obedecer à seguinte premissa: ****obtenha a última versão do Ritchie, informando a URL abaixo no seu navegador. 
 
-[https://commons-repo.ritchiecli.io/stable.txt](https://commons-repo.ritchiecli.io/stable.txt)
+O link é este: [https://commons-repo.ritchiecli.io/stable.txt](https://commons-repo.ritchiecli.io/stable.txt)
 
-Por exemplo, poderia retornar : **1.0.0-beta.7** ou **1.0.0**  
+Basicamente, ao indicar a URL acima para o navegador, o sistema retorna a versão do Ritchie mais atual. Logo, poderia retornar **1.0.0-beta.7** ou **1.0.0**  
 
 
-## **Download**
+## Passo 1: informar a URL 
 
-Baixar o binário do Ritchie da versão, informando a URL abaixo no seu navegador **alterando a versão** conforme obtido no passo 1.
+O primeiro passo é baixar o binário do Ritchie da versão, informando a URL abaixo no seu navegador **de acordo com a versão.**
 
-### **MAC**
+### **Instalando para MAC**
 
-#### **Versão Team** 
+URL para Versão Team 
 
 ```text
 https://commons-repo.ritchiecli.io/{versão}/team/mac/rit
 ```
 
-**Versão Single**
+URL para Versão Single
 
 ```text
 https://commons-repo.ritchiecli.io/{versão}/single/mac/rit
 ```
 
-### **LINUX**
+### \*\*\*\*
 
-#### **Versão Team**
+### **Instalando para Linux**
+
+URL para Versão Team 
 
 ```text
 https://commons-repo.ritchiecli.io/{versão}/team/linux/rit
 ```
 
-**Versão Single**
+URL para Versão Single
 
 ```text
 https://commons-repo.ritchiecli.io/{versão}/single/linux/rit
 ```
 
-### **WINDOWS**
+### \*\*\*\*
 
-#### **Versão Team**
+### **Instalando para Windows** 
+
+URL para Versão Team 
 
 ```text
 https://commons-repo.ritchiecli.io/{versão}/windows/team/rit.exe
 ```
 
-**Versão Single**
+URL para Versão Single
 
 ```text
 https://commons-repo.ritchiecli.io/{versão}/windows/single/rit.exe
 ```
 
-## **Configurações manuais**
+### \*\*\*\*
+
+## **Passo 2: Configurações manuais**
+
+Uma vez feita a instalação por meio da URL, você precisa realizar algumas configurações antes de utilizar o Ritchie. São elas: 
 
 ### **Criação da pasta**
 
-**→** Criar a pasta `$HOME/.rit/bin`
+**Passo 1:** Criar a pasta `$HOME/.rit/bin`
 
 ```text
 Comando Linux / MacOs
@@ -67,7 +75,7 @@ Comando Linux / MacOs
 mkdir -p $HOME/.rit/bin
 ```
 
-→ Copiar o binário para a pasta criada acima. 
+**Passo 2:** Copiar o binário para a pasta criada acima. 
 
 ```text
 Comandos Linux / MacOs
@@ -76,7 +84,7 @@ cd $HOME/.rit/bin
 cp $HOME/Downloads/rit
 ```
 
-→ Permissão de execução
+**Passo 3:** Permissão de execução
 
 ```
 Comando Linux / MacOs : 
@@ -110,14 +118,12 @@ source ~/.rit_completion
 
 ### **Configuração de variáveis de ambiente \(Windows\)**
 
-Nesse sistema operacional, é preciso chamar o rit no terminal diretamente a partir do rit.exe \(comando **rit.exe login** por exemplo\)
+Nesse sistema operacional, é preciso chamar o rit no terminal diretamente a partir do `rit.exe` \(comando **rit.exe login**, ****por exemplo\). 
 
-É possível \(e sugerido\) criar uma variável de ambiente para o rit para facilitar o uso do CLI.
+É possível e, inclusive, recomendável que você crie uma variável de ambiente para o rit, de modo que se torne mais fácil usar o CLI.
 
-Seguem alguns artigos explicando como adicionar uma variável de ambiente no Windows.
+Seguem alguns **artigos** explicando como adicionar uma variável de ambiente no Windows.
 
-[Via interface](https://professor-falken.com/pt/windows/como-configurar-la-ruta-y-las-variables-de-entorno-en-windows-10/)  
-[Via terminal](https://devcontent.com.br/artigos/windows/o-que-sao-como-alterar-criar-excluir-variaveis-de-ambiente)  
-  
-****
+📖 Como adicionar uma variável [via interface](https://professor-falken.com/pt/windows/como-configurar-la-ruta-y-las-variables-de-entorno-en-windows-10/)  
+📖Como adicionar uma variável[ via terminal](https://devcontent.com.br/artigos/windows/o-que-sao-como-alterar-criar-excluir-variaveis-de-ambiente)
 

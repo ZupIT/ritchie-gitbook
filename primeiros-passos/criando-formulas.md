@@ -1,0 +1,91 @@
+---
+description: Passo a passo explicando como criar uma nova fórmula no Ritchie
+---
+
+# Criando fórmulas
+
+## Introdução 
+
+O processo de criação de fórmulas é feito por meio da execução do comando _**`rit create formula`,**_ que cria a estrutura necessária para você começar a desenvolver uma nova fórmula na sua máquina.  
+****  
+É importante ter em mente que, antes de criar uma fórmula, você tem de ter configurado o Ritchie corretamente na sua máquina, bem como realizado testes para se certificar de que está rodando comandos corretamente. 
+
+## Passo 1: Executar a fórmula 
+
+Quando executamos o comando no terminal, um input é pedido para o usuário, no caso, o **comando** que executará a nova fórmula. 
+
+{% hint style="info" %}
+Lembre-se que o ideal é que a nova fórmula siga o padrão **rit + group + verb + noun**.
+{% endhint %}
+
+![Comando de rit create formula ](https://lh3.googleusercontent.com/Y84yqDkDGHpMS-LKxep44fo6HDDDD8N7P1ZLzNfiOrZpF-yYvnRbL4PRdNc5EthU-eeaENwpKiQQ3PRiDs0KsZCQWVeMHim2lZDshPiAr-mHSgG0cb-NLZZzzEBYUbM9V1dQtkrJ)
+
+## Passo 2: Direcionar para um repositório
+
+Quando é executado o comando para criação de fórmula, você tem a opção de informar o caminho para um repositório de fórmulas já existente na máquina.
+
+Caso você não tenha um repositório de fórmulas disponível, será criado um repositório de fórmulas automaticamente chamado **ritchie-formulas-local** na **HOME** da sua máquina.
+
+{% hint style="info" %}
+Se acontecer do Ritchie não informar nada e existir esse repositório local na sua máquina, a nova fórmula será adicionada lá e a sua estrutura será automaticamente atualizada. 
+{% endhint %}
+
+Segue um exemplo da estrutura do repositório local com uma fórmula \(dentro da pasta _group_\).
+
+![Estrutura do reposit&#xF3;rio local](https://lh3.googleusercontent.com/Tz7C28jLzbXdqABAVo1BUWXr_uMkBcIxwsEXvze8OYVOU3Gs6mLoMhIF5EFYp6bq7bQjE8wvyuFxLWR5Qx2xBLSCnLorRc9kc6DWZVHQu09P_WV4BL4TkQ4SsWrCez0nEmqCSiD4)
+
+## Passo 3: Organizar a pasta da fórmula 
+
+{% hint style="info" %}
+Vale reforçar que o comando `rit create formula` , por si só, já cria automaticamente uma pasta referente à fórmula no repositório, de acordo com o _input_ informado. 
+{% endhint %}
+
+A pasta de uma fórmula, por padrão, possui a seguinte estrutura:
+
+![](https://lh4.googleusercontent.com/lu-BipM4Ym4qc3EeGXLNoEyvDknCZ1ZUtAvUxWra0v4uyyKi71gZiUAJzwi2n4UlwqPwdhKROps945TJ6g6i_kfi_TmlqC-nC-JOVl7T3Oy6Ks5Fnoy8Ok1lwVViRn36JAV-JAg0)
+
+
+
+O conteúdo da pasta **SRC** é padronizado de acordo com a linguagem escolhida e é sempre composto dos seguintes elementos:
+
+* O arquivo main;
+* O arquivo Makefile \(da fórmula\);
+* O arquivo config.json;
+* A pasta pkg.
+
+O arquivo **main** é o executável da fórmula. Ele que inicia o código que será chamado pelo terminal. Ele será criado de acordo com a linguagem informado como _input_ no comando, e conterá um exemplo padrão de implementação.
+
+O arquivo _**Makefile \(fórmula\)**_ é diferente do arquivo _**Makefile**_ do repositório. O _**Makefile**_ _**\(fórmula\)**_ permite gerar os executáveis da fórmula, enquanto o _**Makefile**_ do repositório permite tanto gerar os executáveis de todas as formulas, quanto testar as formulas localmente adicionando esses executáveis na [pasta .rit](../referencia/cli/pasta-.rit.md).
+
+O arquivo **config.json** contem 3 _**inputs**_ padrões como exemplo, que são extraídos e manipulados no arquivo **main** da fórmula.
+
+A **pasta pkg** será composta dos demais arquivos do código que, junto com o arquivo **main** permitirão a execução da fórmula. Serão criados na linguagem escolhida.
+
+Se você criou uma fórmula pela primeira criando o repositório local, o repositório e a pasta da fórmula seguirão a estrutura abaixo :
+
+![](https://lh5.googleusercontent.com/6oPMzmvLxb9PGmC9a6U7KfLt4oCpEnFhOHXXOoGkgMgmaQi4kKHDo5epvU27HbWbBvM1mC1K2aruXfGPQrtWJMibeXmXmN19NbI7S81Djz11Axc0fCG2GtTNCAYivuI2iMMxMLZK)
+
+## Passo 4: Implemente a fórmula 
+
+{% hint style="info" %}
+O comando `rit create fórmula` cria um **template de fórmula** _**Hello World**_ que precisa ser alterado para executar a operação desejada.
+{% endhint %}
+
+É necessário alterar 3 lugares para implementar a operação desejada :
+
+* O _**config.json**_ da fórmula para configurar os inputs.
+* O arquivo _**main**_
+* Os arquivos da **pasta** **pkg**.
+
+Caso foi usado uma outra linguagem, poderá ser necessário alterar mais arquivos.
+
+{% hint style="warning" %}
+❗Não altere o nome das pastas raízes da fórmula \(group/verb/noun\) sem atualizar o **tree.json** e o **Makefile \(principal\)** com os paths adequados.
+
+❗Lembre que o **tree.json** e o **Makefile \(principal\)** já são criados / alterados com a execução do comando `rit create formula`. Consequentemente, não precisará alterar-los para conseguir testar a nova fórmula, mesmo após ter alterados os arquivos comentados acima.
+{% endhint %}
+
+_Obs : Portanto, é possível realizar alguns ajustes nesses arquivos se tiver necessidade.   
+  
+****_**Por exemplo** : Se precisar alterar a mensagem _descriptíva_ ou o _helper_ do comando associado a sua fórmula, será necessário realizar essas modificações no **tree.json**.
+

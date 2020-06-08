@@ -1,4 +1,4 @@
-# Teste da fórmula
+# Testando fórmulas
 
 {% hint style="info" %}
 Uma vez a fórmula implementada, existem vários métodos de testar ela. 

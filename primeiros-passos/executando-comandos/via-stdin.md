@@ -1,12 +1,104 @@
-# Comandos core
+# Via stdin
 
-Seguem os JSON usados para executar os **comandos core** do Ritchie através do **stdin**. 
+## Estrutura dos comandos 
 
-{% hint style="warning" %}
-Será necessário alterar os valores das **variáveis** nos JSON dos exemplos abaixo para realizar as operações desejadas.
+Quando usamos o **stdin**, os parâmetros de entrada precisam ser informados no formato JSON, seguindo a seguinte nomenclatura de acordo com o sistema operacional usado:
+
+### Linux & MacOS
+
+**`echo`** `"{\"key\":\"value\"}"`**`|`**`RIT (GROUPO) VERBO SUBSTANTIVO` **`--stdin`**
+
+###  ****Windows \(usando **PowerShell**\)
+
+{% hint style="danger" %}
+**STDIN** não funciona com o **Prompt de comandos** nativo do Windows.
 {% endhint %}
 
-### 
+**`echo`**`'{"key":"value"}'`**`|`**`RIT (GROUPO) VERBO SUBSTANTIVO` **`--stdin`**
+
+## Estrutura das fórmulas 
+
+O JSON é construído de acordo com o _config.json_ usado na implementação da fórmula. Por isso que, para o comando de uma fórmula funcionar pelo **stdin**, é necessário que ela funcione informe os _inputs_ **exclusivamente através do arquivo config.json.**   
+  
+Se, por exemplo, o código da fórmula pedir dados via prompt, não será possível usar somente o stdin para a fórmula ser executada com sucesso.
+
+{% hint style="warning" %}
+Vale lembrar que será necessário alterar os valores das **variáveis** nos JSON dos exemplos abaixo, para realizaras operações desejadas.
+{% endhint %}
+
+Seguem alguns exemplos de JSON usados para executar **fórmulas** do Ritchie através do **stdin:** 
+
+### Fórmulas 
+
+### RIT SCAFFOLD GENERATE COFFEE-GO
+
+Linux / Mac
+
+```
+echo "{\"name\":\"Dennis Ritchie\",\"coffee_type\":\"espresso\",\"delivery\":\"true\"}" | rit scaffold generate coffee-go --stdin
+```
+
+Windows \(PowerShell\)
+
+```
+echo '{"name":"Dennis Ritchie","coffee_type":"espresso","delivery":"true"}' | rit scaffold generate coffee-go --stdin
+```
+
+#### 
+
+### RIT SCAFFOLD GENERATE SPRING-STARTER
+
+Linux / Mac
+
+```text
+echo "{\"type\":\"maven-project\",\"language\":\"java\",\"boot_version\":\"2.2.5.BUILD-SNAPSHOT\",\"group_id\":\"br.com.zup\",\"artifact_id\":\"ritchie-project\",\"description\":\"ritchie\",\"packaging\":\"jar\",\"java_version\":\"11\",\"dependencies\":\"web\"}" | rit scaffold generate spring-starter --stdin
+```
+
+Windows \(PowerShell\)
+
+```text
+echo '{"type":"maven-project","language":"java","boot_version":"2.2.5.BUILD-SNAPSHOT","group_id":"br.com.zup","artifact_id":"ritchie-project","description":"ritchie","packaging":"jar","java_version":"11","dependencies":"web"}' | rit scaffold generate spring-starter --stdin
+```
+
+
+
+### RIT GITHUB FAST-MERGE
+
+Linux / Mac
+
+```text
+echo "{\"branch\":\"qa\",\"push\":\"false\"}" | rit github fast-merge --stdin
+```
+
+Windows \(PowerShell\)
+
+```text
+echo '{"branch":"qa","push":\"false\"}' | rit github fast-merge --stdin
+```
+
+
+
+### RIT AWS APPLY TERRAFORM
+
+{% hint style="warning" %}
+**Premissa** : Ter as credenciais do GITHUB e da AWS definidas na sessão.
+{% endhint %}
+
+Linux / Mac
+
+```text
+echo "{\"repository\":\"https://github.com/group/project\",\"terraform_path\":\"src\",\"environment\":\"qa\"}" | rit aws apply terraform --stdin
+```
+
+
+
+## Comandos Core 
+
+{% hint style="warning" %}
+Vale lembrar que será necessário alterar os valores das **variáveis** nos JSON dos exemplos abaixo, para realizar as operações desejadas.
+{% endhint %}
+
+Seguem alguns exemplos de JSON usados para executar **fórmulas** do Ritchie através do **stdin:** 
 
 ### RIT ADD REPO
 
@@ -189,4 +281,8 @@ echo '{"url":"serverUrl"}' | rit set server --stdin
 {% hint style="warning" %}
 O **stdin** ainda não foi implementado no comando **`rit login`**
 {% endhint %}
+
+
+
+
 

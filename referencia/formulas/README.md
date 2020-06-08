@@ -4,7 +4,7 @@
 
 {% page-ref page="estrutura/" %}
 
-{% page-ref page="primeira-formula/" %}
+{% page-ref page="../../primeiros-passos/criando-formulas.md" %}
 
 {% page-ref page="repositorio.md" %}
 
