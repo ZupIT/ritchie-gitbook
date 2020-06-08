@@ -1,11 +1,7 @@
 # Table of contents
 
 * [Overview](README.md)
-* [Principais conceitos](principais-conceitos/README.md)
-  * [Fundamentos](principais-conceitos/fundamentos.md)
-  * [O que são fórmulas](principais-conceitos/formulas.md)
-  * [Árvores de comando](principais-conceitos/arvores-de-comando.md)
-  * [Repositórios Open Source](principais-conceitos/estrutura-do-cli.md)
+* [Principais conceitos](principais-conceitos.md)
 
 ## PRIMEIROS PASSOS
 
@@ -59,9 +55,11 @@
 * [Servidor](desenvolvedor/servidor/README.md)
   * [Configurações](desenvolvedor/servidor/configuracoes.md)
   * [ritchie-server](https://github.com/ZupIT/ritchie-server)
+* [Repositórios Open Source](desenvolvedor/estrutura-do-cli.md)
 * [Releases](https://github.com/ZupIT/ritchie-cli/releases)
 * [Roadmap](https://github.com/ZupIT/ritchie-cli/issues)
 * [Comunidade](comunidade.md)
 * [Conteúdos](conteudos.md)
+* [Sobre o Ritchie](historia-do-ritchie.md)
 * [FAQ](faq.md)
 

@@ -1,8 +1,6 @@
 # Instalação
 
-![](../../.gitbook/assets/ritchie-banner.png)
-
-### O que você encontrará aqui? 
+Para **iniciar a instalação do Ritchi**e na sua máquina, siga os passos para cada sistema operacional ou, se preferir, realize a instalação manual: 
 
 {% page-ref page="linux.md" %}
 

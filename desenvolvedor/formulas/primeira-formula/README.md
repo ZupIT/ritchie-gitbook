@@ -12,7 +12,7 @@ O comando _**`rit create formula`**_ cria a estrutura necessária para o usuári
 ****  
 Antes de entrar em detalhes no passo a passo para criação de fórmula, é recomendado ler os seguintes conteúdos da documentação :
 
-{% page-ref page="../../../principais-conceitos/" %}
+{% page-ref page="../../../principais-conceitos.md" %}
 
 {% page-ref page="../estrutura/" %}
 
