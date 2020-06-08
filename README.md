@@ -22,11 +22,11 @@ Confira no nosso vídeo um pouco mais do projeto:
 
 Ritchie é um CLI que funciona para **todos os sistemas operacionais.** Para saber mais informações de como instalar na sua máquina, basta clicar no sistema de sua preferência:
 
-{% page-ref page="primeiros-passos/instalacao/linux.md" %}
+{% page-ref page="primeiros-passos/instalando-ritchie/linux.md" %}
 
-{% page-ref page="primeiros-passos/instalacao/windows.md" %}
+{% page-ref page="primeiros-passos/instalando-ritchie/windows.md" %}
 
-{% page-ref page="primeiros-passos/instalacao/macos.md" %}
+{% page-ref page="primeiros-passos/instalando-ritchie/macos.md" %}
 
 ### **Linguagens de programação**
 

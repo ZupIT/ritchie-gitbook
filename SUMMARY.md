@@ -5,12 +5,12 @@
 
 ## PRIMEIROS PASSOS
 
-* [Escolhendo uma versão](primeiros-passos/arquitetura-do-sistema.md)
-* [Instalando o Ritchie](primeiros-passos/instalacao/README.md)
-  * [Linux](primeiros-passos/instalacao/linux.md)
-  * [Windows](primeiros-passos/instalacao/windows.md)
-  * [MacOS](primeiros-passos/instalacao/macos.md)
-  * [Instalação Manual](primeiros-passos/instalacao/instalacao-manual.md)
+* [Escolhendo uma versão](primeiros-passos/escolhendo-versao.md)
+* [Instalando o Ritchie](primeiros-passos/instalando-ritchie/README.md)
+  * [Linux](primeiros-passos/instalando-ritchie/linux.md)
+  * [Windows](primeiros-passos/instalando-ritchie/windows.md)
+  * [MacOS](primeiros-passos/instalando-ritchie/macos.md)
+  * [Instalação Manual](primeiros-passos/instalando-ritchie/instalacao-manual.md)
 * [Usando primeiros comandos](primeiros-passos/primeiros-comandos.md)
 * [Executando mais comandos](primeiros-passos/executando-comandos/README.md)
   * [Via prompt](primeiros-passos/executando-comandos/via-prompt.md)
