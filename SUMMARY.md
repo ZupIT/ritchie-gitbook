@@ -21,8 +21,7 @@
 
 ## REFERÊNCIA
 
-* [CLI](referencia/cli/README.md)
-  * [ritchie-cli](https://github.com/ZupIT/ritchie-cli)
+* [CLI](referencia/cli.md)
 * [Fórmulas](referencia/formulas/README.md)
   * [Tree.json](referencia/formulas/tree.json.md)
   * [Acesso as fórmulas](referencia/formulas/acesso-as-formulas.md)

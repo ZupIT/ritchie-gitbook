@@ -30,11 +30,11 @@ Esses repositórios precisam ter uma estrutura particular.
 
 Cada repositório deve conter os seguintes elementos :
 
-* as pastas das fórmulas.
-* uma pasta tree
-* um arquivo Makefile
-* um arquivo copy-bin-configs.sh 
-* um arquivo unzip-bin-configs.sh
+* As pastas das fórmulas.
+* Uma pasta tree
+* Um arquivo Makefile
+* Um arquivo copy-bin-configs.sh 
+* Um arquivo unzip-bin-configs.sh
 
 ![Reposit&#xF3;rio de f&#xF3;rmulas da comunidade](../../.gitbook/assets/screenshot-2020-05-22-at-17.27.48.png)
 
