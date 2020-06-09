@@ -1,5 +1,7 @@
 # Segurança
 
+O ritchie armazena dados de formas diferente para suas versões e também salva as suas credenciais criptografadas. Veja os detalhes abaixo:
+
 ## **Comando do** Login
 
 A partir do comando **`rit login`**, é possível criar uma sessão para armazenar dados que podem ser reaproveitadas em diversas fórmulas.
