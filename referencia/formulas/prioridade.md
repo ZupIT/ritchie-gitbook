@@ -38,5 +38,3 @@ Isso permitiria por exemplo a um usuário, ou time, de usar um comando que está
 Por mais informações sobre como manipular repositórios, confere a documentação aqui :[ Repositório.](https://docs.ritchiecli.io/v/doc-portuguese/primeiros-passos-1/comandos/repositorio)
 {% endhint %}
 
-
-

@@ -72,5 +72,3 @@ O campo **qtd** se refere a quantidade de escolhas que podem ser armazenadas no 
   
 O campo **newLabel** é para o usuário informar um outro valor para a variável caso aquelas salvas no cache não atendem sua necessidade.
 
-{% page-ref page="prioridade.md" %}
-

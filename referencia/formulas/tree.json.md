@@ -118,5 +118,3 @@ Os primeiros comandos \(**`rit aws`** e **`rit aws apply`**\) retornaram o campo
 
 Já, o comando **`rit aws apply terraform`** baixou os executáveis da fórmula e começou a pedir os parâmetros de entrada ao usuário.
 
-{% page-ref page="acesso-as-formulas.md" %}
-
