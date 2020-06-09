@@ -18,7 +18,7 @@ Quando executamos o comando no terminal, um input é pedido para o usuário, no 
 Lembre-se que o ideal é que a nova fórmula siga o padrão **rit + group + verb + noun**.
 {% endhint %}
 
-![Comando de rit create formula ](https://lh3.googleusercontent.com/Y84yqDkDGHpMS-LKxep44fo6HDDDD8N7P1ZLzNfiOrZpF-yYvnRbL4PRdNc5EthU-eeaENwpKiQQ3PRiDs0KsZCQWVeMHim2lZDshPiAr-mHSgG0cb-NLZZzzEBYUbM9V1dQtkrJ)
+![Exemplo do comando create new formula](https://lh5.googleusercontent.com/O9s2UpIovVyG4h2p1kuX8kLvASX_YS0mAKRSQWXxwoe2Tmr-R1r8xWSKH-nq2uCAfQSG4EcZC1tYPnICeh34coLM5ZsfIU38zTHDRwf6q3cqY_e1KWABAjX-hA_zfqOntFuA-WWX)
 
 ## Passo 2: Direcionar para um repositório
 
