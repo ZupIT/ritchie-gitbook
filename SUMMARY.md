@@ -15,8 +15,8 @@
 * [Executing more commands](getting-started/commands/README.md)
   * [Via Prompt](getting-started/commands/prompt.md)
   * [Via Stdin](getting-started/commands/stdin.md)
-* [Creating formulas](getting-started/creating-formulas.md)
-* [Testing formulas](getting-started/testing-formulas.md)
+* [Creating formulas](getting-started/creating-formulas/README.md)
+  * [Testing formulas](getting-started/creating-formulas/testing-formulas.md)
 
 ## Reference <a id="developer"></a>
 
@@ -40,7 +40,6 @@
   * [Configurations](developer/server/configurations.md)
   * [ritchie-server](https://github.com/ZupIT/ritchie-server)
 * [Security](developer/security/README.md)
-  * [Login](developer/security/login.md)
   * [Credentials](developer/security/credentials.md)
 * [Open Source repositories](developer/open-source-repositories.md)
 * [Releases](https://github.com/ZupIT/ritchie-cli/releases)
