@@ -15,8 +15,8 @@
 * [Executando mais comandos](primeiros-passos/executando-comandos/README.md)
   * [Via prompt](primeiros-passos/executando-comandos/via-prompt.md)
   * [Via stdin](primeiros-passos/executando-comandos/via-stdin.md)
-* [Criando fórmulas](primeiros-passos/criando-formulas.md)
-* [Testando fórmulas](primeiros-passos/testando-formulas.md)
+* [Criando fórmulas](primeiros-passos/criando-formulas/README.md)
+  * [Testando fórmulas](primeiros-passos/criando-formulas/testando-formulas.md)
 
 ## REFERÊNCIA
 
