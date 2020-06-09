@@ -16,11 +16,11 @@ Por isso, reunimos aqui comandos iniciais para você ganhar confiança no uso da
 
 ### **Comando Context**
 
-**Comandos :**     _`rit set context`    +    `rit show context`    +     `rit delete context`_
+**Comandos:**     _`rit set context`    +    `rit show context`    +     `rit delete context`_
 
 ![](https://lh6.googleusercontent.com/nSp8JByYbWSojwR4LPk-itqC8Dt23bSmFWf6wzes-oKqRkOFspjGBqNiam8eEI3YOCBp67IQaPpPKZCqXQEiBG56rqyWIAChUdNO1thIdRA46MrNMH5McpCW0zoWOFxYMVkVx2eE)
 
-**Explicação :** Esses comandos são dentro dos mais úteis e simples do core do Ritchie. 
+Estes comandos são dentro dos mais úteis e simples do core do Ritchie. 
 
 * O **set context:** permite definir um contexto na sessão. Assim, informações que serão definidas dentro desse contexto poderão ser reaproveitadas executando outros comandos precisando desse input. Esse comando possui um cache caso seja necessário voltar a aplicar um contexto já usado anteriormente.
 
@@ -39,11 +39,11 @@ O **show context** permite conferir qual contexto está definido atualmente na s
 
 ### **Comando Spring Starter**
 
-**Comando :** _`rit docker generate compose`_
+**Comando:** _`rit docker generate compose`_
 
 ![](https://lh6.googleusercontent.com/X5kec7ahhVEKNLx8CBJZhZuX7c_yiDcRe4ZJuEcziuGYMgunrFtx82Kq56SNti6DQsB9FK0iNSOG4ALQ-qAbC6TFVllIsksWuQpeRe0jZoDO-1Bmfp2QTvyFloAyFvFG42_O0NWN)
 
-**Explicação** : Esse comando permite criar um arquivo _docker-compose.yml_ na pasta onde a fórmula é executada. 
+Este comando permite criar um arquivo _docker-compose.yml_ na pasta onde a fórmula é executada. 
 
 O usuário pode escolher quais ferramentas ele quer incluir no arquivo a partir dos inputs pedidos no terminal \(se necessário, são pedidos informações adicionais\).
 
@@ -53,17 +53,17 @@ Uma vez o arquivo criado, é possível executar ele através normalmente, via o 
 
 ### Comando Docker Compose 
 
-**Comando :** _`rit docker generate compose`_
+**Comando:** _`rit docker generate compose`_
 
-![](https://lh6.googleusercontent.com/X5kec7ahhVEKNLx8CBJZhZuX7c_yiDcRe4ZJuEcziuGYMgunrFtx82Kq56SNti6DQsB9FK0iNSOG4ALQ-qAbC6TFVllIsksWuQpeRe0jZoDO-1Bmfp2QTvyFloAyFvFG42_O0NWN)
-
-**Explicação** : Esse comando permite criar um arquivo _docker-compose.yml_ na pasta onde a fórmula é executada. 
+Este comando permite criar um arquivo _docker-compose.yml_ na pasta onde a fórmula é executada. 
 
 O usuário pode escolher quais ferramentas ele quer incluir no arquivo a partir dos inputs pedidos no terminal \(se necessário, são pedidos informações adicionais\).
 
 Uma vez o arquivo criado, é possível executar ele através normalmente, via o comando **docker-compose up**.
 
-
+{% hint style="info" %}
+No caso do comando docker-compose up, é necessário ter o docker instalado na sua máquina.
+{% endhint %}
 
 
 
