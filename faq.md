@@ -18,7 +18,7 @@ description: 'Nesta seção, você encontrará as principais perguntas sobre o R
 * [Como executar comandos com Ritchie ?](primeiros-passos/executando-comandos/)
 * [Como criar uma nova fórmula no Ritchie ? \(Passo a passo\) ](primeiros-passos/criando-formulas/)
 * [Como criar uma nova fórmula no Ritchie ? \(Video\)](https://www.youtube.com/watch?v=B-6MFIIbpZI)
-* [Como configurar um servidor do Ritchie ?](referencia/servidor/configuracoes.md)
+* [Como configurar um servidor do Ritchie ?]()
 * [Qual a diferença entre as duas versões do Ritchie ? ](primeiros-passos/escolhendo-versao.md)
 * [Com quais sistemas operacionais a Ritchie trabalha ? ](https://docs.ritchiecli.io/v/doc-portuguese/principais-conceitos/fundamentos#sistemas-operacionais)
 * [Quais linguagens de programação posso usar para criar fórmulas ? ](https://docs.ritchiecli.io/v/doc-portuguese/principais-conceitos/fundamentos#linguagens-de-programacao)

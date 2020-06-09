@@ -1,11 +1,13 @@
-# Configurações
+# Servidor
 
-{% hint style="info" %}
-**Na versão Team**, o repositório do ritchie-server prove as configurações para o CLI. 
-
-A inteligência está toda no CLI, e as informações que o CLI precisa para funcionar são fornecidas pelo servidor através desse repositório.
+As informações que o CLI precisa para funcionar são fornecidas pelo servidor através do seu repositório.
 
 **Cada time** precisa ter um arquivo de configuração para iniciar o seu servidor quando usar o Ritchie. Esse arquivo é o **file\_config.json**. 
+
+**Na versão Team**, o repositório do ritchie-server providencia as configurações para o CLI. 
+
+{% hint style="info" %}
+Para conhecer o repositório do servidor no gitbub acesse [ritchie-server](https://github.com/ZupIT/ritchie-server).
 {% endhint %}
 
 ## Configurar o servidor
