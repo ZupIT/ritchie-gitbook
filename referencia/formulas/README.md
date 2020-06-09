@@ -8,7 +8,7 @@
 Cada fórmula é composta de vários arquivos permitindo sua execução pelo CLI.
 {% endhint %}
 
-Para uma fórmula poder ser executada pelo terminal, é preciso ter :
+Para uma fórmula poder ser executada pelo terminal, é preciso ter:
 
 * O arquivo tree.json do repositório onde se encontra a fórmula configurado
 * Um arquivo config.json
