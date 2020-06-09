@@ -11,6 +11,10 @@ Nesta pasta, são armazenados :
 * Os arquivos **temporários** usados no Ritchie
 * Os arquivos de _passphrase_ e _session_ para a versão **Single**
 
+{% hint style="info" %}
+Para conhecer mais sobre nosso repositório do CLI, acesse [**ritchie-cli**](https://github.com/ZupIT/ritchie-cli) no Github. 
+{% endhint %}
+
 ## Pastas do CLI 
 
 ### Pasta Repo
