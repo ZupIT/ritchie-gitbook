@@ -33,7 +33,7 @@ Isso permitiria por exemplo a um usuário, ou time, de usar um comando que está
 ****
 
 {% hint style="warning" %}
-É possível configurar a prioridade entre os repositórios na pasta **repo** da [pasta .rit](../cli/pasta-.rit.md) onde tem um arquivo **repositories.json** configurável.
+É possível configurar a prioridade entre os repositórios na pasta **repo** da [pasta .rit]() onde tem um arquivo **repositories.json** configurável.
 
 Por mais informações sobre como manipular repositórios, confere a documentação aqui :[ Repositório.](https://docs.ritchiecli.io/v/doc-portuguese/primeiros-passos-1/comandos/repositorio)
 {% endhint %}

@@ -54,7 +54,7 @@ O conteúdo da pasta **SRC** é padronizado de acordo com a linguagem escolhida 
 
 ### O arquivo Makefile \(da fórmula\)
 
-O arquivo _**Makefile \(fórmula\)**_ é diferente do arquivo _**Makefile**_ do repositório. O _**Makefile**_ _**\(fórmula\)**_ permite gerar os executáveis da fórmula, enquanto o _**Makefile**_ do repositório permite tanto gerar os executáveis de todas as formulas, quanto testar as formulas localmente adicionando esses executáveis na [pasta .rit](../../referencia/cli/pasta-.rit.md).
+O arquivo _**Makefile \(fórmula\)**_ é diferente do arquivo _**Makefile**_ do repositório. O _**Makefile**_ _**\(fórmula\)**_ permite gerar os executáveis da fórmula, enquanto o _**Makefile**_ do repositório permite tanto gerar os executáveis de todas as formulas, quanto testar as formulas localmente adicionando esses executáveis na [pasta .rit]().
 
 ### O arquivo config.json
 
