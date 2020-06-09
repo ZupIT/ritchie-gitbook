@@ -11,12 +11,13 @@
   * [Windows](primeiros-passos/instalando-ritchie/windows.md)
   * [MacOS](primeiros-passos/instalando-ritchie/macos.md)
   * [Instalação Manual](primeiros-passos/instalando-ritchie/instalacao-manual.md)
-* [Usando primeiros comandos](primeiros-passos/primeiros-comandos.md)
-* [Executando mais comandos](primeiros-passos/executando-comandos/README.md)
-  * [Via prompt](primeiros-passos/executando-comandos/via-prompt.md)
-  * [Via stdin](primeiros-passos/executando-comandos/via-stdin.md)
+* [Inicialização](primeiros-passos/inicializacao.md)
 * [Criando fórmulas](primeiros-passos/criando-formulas/README.md)
   * [Testando fórmulas](primeiros-passos/criando-formulas/testando-formulas.md)
+* [Executando comandos](primeiros-passos/executando-comandos/README.md)
+  * [Via prompt](primeiros-passos/executando-comandos/via-prompt.md)
+  * [Via stdin](primeiros-passos/executando-comandos/via-stdin.md)
+  * [Outros comandos](primeiros-passos/executando-comandos/outros-comandos.md)
 
 ## REFERÊNCIA
 

@@ -2,7 +2,7 @@
 description: Descrição dos comandos atuais do core do Ritchie
 ---
 
-# Executando mais comandos
+# Executando comandos
 
 Se você já ganhou mais segurança para usar o Ritchie, é o momento de se aventurar por mais comandos. 
 
