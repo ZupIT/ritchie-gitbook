@@ -2,9 +2,9 @@
 
 ## Introdução 
 
-O CLI, ou Command Line Interface, é o **recurso base** que permite o Ritchie funcionar.  Por padrão, o CLI manipula uma pasta à medida que executa os comandos sinalizados no terminal. 
+O CLI, ou Command Line Interface, é o **recurso base** que permite o Ritchie funcionar.  Por padrão, o CLI manipula uma pasta \(a **pasta .rit**\) à medida que executa os comandos sinalizados no terminal. 
 
-Nesta pasta, são armazenados :
+Nesta pasta, são armazenados:
 
 * Os arquivos **tree.json** dos repositórios de fórmulas acessíveis na máquina do usuário
 * Os arquivos executáveis das **fórmulas** 
@@ -15,7 +15,7 @@ Nesta pasta, são armazenados :
 Para conhecer mais sobre nosso repositório do CLI, acesse [**ritchie-cli**](https://github.com/ZupIT/ritchie-cli) no Github. 
 {% endhint %}
 
-## Pastas do CLI 
+## O que compõe a pasta .rit?
 
 ### Pasta Repo
 

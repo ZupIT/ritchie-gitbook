@@ -1,30 +1,26 @@
 # Inicialização
 
-{% hint style="info" %}
-**Ritchie** has 2 versions available : **Single** and **Team**. 
+## **Introdução** 
 
-Before using the CLI, the user need to configure Ritchie through a specific command, **according to the installed version**.
+Quando você finalizar o [**processo de instalação**](https://docs.ritchiecli.io/v/doc-portuguese/primeiros-passos/instalando-ritchie), é preciso realizar a inicialização da ferramenta e este procedimento varia conforme a [**versão**](https://docs.ritchiecli.io/v/doc-portuguese/primeiros-passos/escolhendo-versao) que você estiver utilizando. 
 
-This command is : **`$ rit init`**
-{% endhint %}
+O comando necessário para rodar a inicialização é:**`$ rit init`**
 
-## Single Version
+## Versão Single
 
-On this version, it will be necessary to inform :
-
-* a **passphrase** that will be used to encrypt datas locally with Ritchie.
+Para inicializar o Ritchie nesta versão, é necessário executar o comando abaixo, no caso, a **passphrase** que será usada para criptografar as informações localmente. 
 
 ```text
 ➜ rit init
 Define a passphrase for your machine: ******
 ```
 
-## Team Version
+## Versão Team
 
-On this version, it will be necessary to inform  :
+Para inicializar o Ritchie nesta versão, é necessário informar: 
 
-* the **organization** which the user plan to access.
-* the **server URL** used by this organization.
+* A **organização** na qual você quer acessar; 
+* A **URL do servidor** usada pela organização.
 
 {% hint style="warning" %}
 You can't use the **Team** version **without having a configured server**.

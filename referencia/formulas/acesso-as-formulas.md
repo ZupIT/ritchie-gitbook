@@ -1,51 +1,74 @@
-# Acesso as fórmulas
+# Config.json
 
 {% hint style="info" %}
-Todos os **comandos acessíveis pelo CLI** podem ser observados através do _Helper_
+Os parâmetros de entradas das fórmulas são configurados dentro do arquivo **config.json** contido na pasta da fórmula.
 {% endhint %}
 
+Esse arquivo contém as seguintes informações :
+
+* uma descrição
+* os parâmetros de entrada da fórmula
+
+Esses parâmetros de entrada são compostos dos seguintes campos :
+
+* nome
+* tipo
+* label
+* default \(facultativo\)
+* items \(facultativo\)
+* cache \(facultativo\)
+
 ```text
-➜ rit --help
-
-A CLI that developers can build and operate
-your applications without help from the infra staff.
-Complete documentation is available at https://github.com/ZupIT/ritchie-cli
-
-core commands:
-  add         add objects
-  completion  Add autocomplete for terminal
-  clean       clean objects
-  create      Create objects
-  delete      Delete objects
-  list        list objects
-  set         Set objects
-  show        Show objects
-  update      update objects
-
-commons commands:
-  aws         Apply Aws objects
-  docker      Manipulate docker objects
-  github      Manipulate GitHub objects
-  k8s         Manipulate k8s objects
-  kafka       Kafka commands
-  scaffold    Manipulate scaffold objects
-
-Other Commands:
-
-Options:
-  -v, --version: version for rit
-
-Usage:
-  rit [flags] [options]
-
-Use "rit <command> --help" for more information about a given command.
+{
+  "description": "Sample inputs in Ritchie.",
+  "inputs" : [
+    {
+      "name" : "sample_text",
+      "type" : "text",
+      "label" : "Type : ",
+      "cache" : {
+        "active": true,
+        "qtd" : 6,
+        "newLabel" : "Type new value. "
+      }
+    },
+    {
+      "name" : "sample_list",
+      "type" : "text",
+      "default" : "in1",
+      "items" : ["in_list1", "in_list2", "in_list3", "in_listN"],
+      "label" : "Pick your : "
+    },
+    {
+      "name" : "sample_bool",
+      "type" : "bool",
+      "default" : "false",
+      "items" : ["false", "true"],
+      "label" : "Pick: "
+    }
+  ]
+}
 ```
 
-Quando um usuário vai baixar o Ritchie \([versão Single]()\) ou efetuar o comando **rit login** \([versão Team]()\) para acessar o repositório de uma organização, o **CLI** vai baixar e realizar o merge dos _tree.json_ dos repositórios de fórmulas aos quais o usuário tem acesso. 
+O campo **nome** se refere ao nome da variável que será extraído na implementação da fórmula.
 
+O campo **tipo** representa o tipo da variável \(no momento só existe **TEXT** e **BOOL**\)
 
+O campo **label** é o texto que vai aparecer para o usuário via PROMPT para informar essa variável.
 
-![](../../.gitbook/assets/fluxo-cli.png)
+O campo **default** é o valor da variável que virá por padrão caso a escolha seja uma lista de opões.
 
-A junção das árvores dos repositórios será a árvore de todos os comandos disponíveis via o CLI no computador do usuário, que é apresentada no _Helper_.
+O campo **items** é a lista de opções possíveis para a variável.
+
+O campo **cache** permite configurar se será necessário armazenar as escolhas do usuário para essa variável. Ele é composto de 3 campos : 
+
+* active
+* qtd 
+* newLabel.
+
+O campo **active** indica se o cache está habilitado ou não.
+
+O campo **qtd** se refere a quantidade de escolhas que podem ser armazenadas no cache.  
+  
+O campo **newLabel** é para o usuário informar um outro valor para a variável caso aquelas salvas no cache não atendem sua necessidade.
 
