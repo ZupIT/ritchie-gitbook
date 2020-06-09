@@ -8,7 +8,7 @@ description: >-
 
 ## What is Ritchie?
 
-Ritchie is a **CLI** \(Command Line Interface\) which allows to **create**, **store** and **share** automation efficiently and securely with a team or with the whole community. 
+Ritchie is an **automation tool** which allows to **create**, **store** and **share** automation efficiently and securely with a team or with the whole community. 
 
 ## What does Ritchie do?
 
@@ -28,7 +28,7 @@ Ritchie is a **cross-plataform** CLI. For more information on how to install, ju
 
 {% page-ref page="getting-started/installation/macos.md" %}
 
-### **Programming Languages**
+## **Programming Languages**
 
 {% hint style="info" %}
 Ritchie has been developed using the **Golang** language. 
@@ -38,7 +38,7 @@ However, formulas can be written using **any programming language**.
 
 ![](.gitbook/assets/screenshot-2020-05-08-at-17.54.34%20%281%29.png)
 
-### Tools
+## Tools
 
 {% hint style="info" %}
 Ritchie works with **any tool** you could use for automations.
