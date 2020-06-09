@@ -41,11 +41,11 @@ Usage:
 Use "rit <command> --help" for more information about a given command.
 ```
 
-When a user will download Ritchie \([Single](../../../getting-started/software-architecture/single-version.md) version\) or execute the `rit login` command \([Team](../../../getting-started/software-architecture/team-version.md) version\) to access an organization's repositories, the CLI will download and merge the tree.json from the formula repositories to which the user has access.
+When a user will download Ritchie \([Single]() version\) or execute the `rit login` command \([Team]() version\) to access an organization's repositories, the CLI will download and merge the tree.json from the formula repositories to which the user has access.
 
 
 
-![](../../../.gitbook/assets/fluxo-cli%20%281%29.png)
+![](../../.gitbook/assets/fluxo-cli%20%281%29.png)
 
 The junction of the repository trees will be the tree of all commands available via the CLI on the user's computer, which is presented in the _Helper_.
 

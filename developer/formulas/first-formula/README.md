@@ -14,5 +14,5 @@ Before going into detail in the step by step to create a formula, it is recommen
 
 {% page-ref page="../../../key-concepts.md" %}
 
-{% page-ref page="../structure/" %}
+{% page-ref page="../structure.md" %}
 

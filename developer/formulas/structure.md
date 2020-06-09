@@ -120,3 +120,7 @@ The **`rit aws apply terraform`** command downloaded the formula's executables a
 
 {% page-ref page="access-to-formulas.md" %}
 
+{% page-ref page="config.json.md" %}
+
+{% page-ref page="priority.md" %}
+

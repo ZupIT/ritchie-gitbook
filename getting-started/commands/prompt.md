@@ -1,10 +1,20 @@
-# Core Commands
+# Via Prompt
 
-{% hint style="info" %}
-Ritchie **core commands** are executed following this pattern :  
-  
-**`RIT`** `+` **`VERB`** `+` **`NOUN`**
-{% endhint %}
+## Commands structure
+
+Ritchie core commands are executed following this pattern: 
+
+**`RIT`** `+` **`VERBO`** `+` **`SUBSTANTIVO`**
+
+## Formulas structure
+
+Formula commands are executed following this pattern:
+
+**`RIT`** `+` **`GRUPO`**  `+` **`VERBO`** `+` **`SUBSTANTIVO`**
+
+If you want to see more formulas, check the [**github community repository**](https://github.com/ZupIT/ritchie-formulas)**.**
+
+## Core commands
 
 <table>
   <thead>

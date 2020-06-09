@@ -15,11 +15,11 @@ description: 'In this section, you will find the main questions about Ritchie.'
 
 * [How to install Ritchie ? ](https://docs.ritchiecli.io/geting-started/installation)
 * [How does Ritchie works ?](https://docs.ritchiecli.io/key-concepts)
-* [How to execute commands on Ritchie ?](user/commands/)
+* [How to execute commands on Ritchie ?](getting-started/commands/)
 * [How to create a new formula on Ritchie ? \(Step By Step\) ](developer/formulas/first-formula/)
 * [How to create a new formula on Ritchie ? \(Video\)](https://www.youtube.com/watch?v=O_rD-0o8FrM&feature=youtu.be)
 * [How to configure a server on Ritchie ?](developer/server/configurations.md)
-* [What the difference between Ritchie two versions ?](getting-started/software-architecture/)
+* [What the difference between Ritchie two versions ?](getting-started/software-architecture.md)
 * [Which operating systems does Ritchie work with ?](https://docs.ritchiecli.io/key-concepts/basics#operating-system)
 * [Which programming languages can I use to create formulas ?](https://docs.ritchiecli.io/key-concepts/basics#programming-languages)
 * [Which tools can I use to create formulas ?](https://docs.ritchiecli.io/key-concepts/basics#tools)
