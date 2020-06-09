@@ -1,20 +1,26 @@
 # MacOS
 
-{% hint style="info" %}
-To download **the latest release of Ritchie** on MacOS, execute the following command on your favorite terminal.
-{% endhint %}
+## Como funciona? 
 
-* Team version
+Para baixar a **versão mais atualizada do Ritchie** no MacOS, execute o comando abaixo no seu terminal conforme a versão que deseja usar.
+
+Vale lembrar que, se preferir, também é possível seguir com a[ **instalação manual**.](manual-installation.md)
+
+### Instalando Versão Team 
+
+O comando para adicionar o Ritchie Team ao seu terminal é: 
 
 ```bash
 curl -fsSL https://commons-repo.ritchiecli.io/install.sh | bash
 ```
 
-* Single version
+### 
+
+### Instalando Versão Single
+
+O comando para adicionar o Ritchie Single ao seu terminal é:
 
 ```text
 curl -fsSL https://commons-repo.ritchiecli.io/install_single.sh | bash
 ```
-
-_Note :_ [_Manual Installation_](manual-installation.md)\_\_
 

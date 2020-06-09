@@ -1,19 +1,19 @@
 # Manual Installation
 
-## Premises
+## Como funciona? 
 
-Get the latest version of Ritchie by entering the URL below in your browser
+**Caso opte por realizar o processo manual de instalação do Ritchie**, é necessário obedecer à seguinte premissa: ****obtenha a última versão do Ritchie, informando a URL abaixo no seu navegador. 
 
-[https://commons-repo.ritchiecli.io/stable.txt](https://commons-repo.ritchiecli.io/stable.txt)
+O link é este: [https://commons-repo.ritchiecli.io/stable.txt](https://commons-repo.ritchiecli.io/stable.txt)
 
-For example, it could return: **1.0.0-beta.7** or **1.0.0**  
+Basicamente, ao indicar a URL acima para o navegador, o sistema retorna a versão do Ritchie mais atual. Logo, poderia retornar **1.0.0-beta.7** ou **1.0.0**  
 
 
-## **Download**
+### Passo a passo 
 
-Download the Ritchie binary version by entering the URL below in your browser by informing **the version** as obtained in step 1.
+Baixar o binário do Ritchie da versão, informando a URL abaixo no seu navegador **alterando a versão** conforme obtido no passo 1.
 
-### **MAC**
+### **Instalando para MAC**
 
 #### **Versão Team** 
 
@@ -27,7 +27,7 @@ https://commons-repo.ritchiecli.io/{versão}/team/mac/rit
 https://commons-repo.ritchiecli.io/{versão}/single/mac/rit
 ```
 
-### **LINUX**
+### **Instalando para Linux**
 
 #### **Versão Team**
 
@@ -41,7 +41,7 @@ https://commons-repo.ritchiecli.io/{versão}/team/linux/rit
 https://commons-repo.ritchiecli.io/{versão}/single/linux/rit
 ```
 
-### **WINDOWS**
+### **Instalando para Windows** 
 
 #### **Versão Team**
 
@@ -55,40 +55,40 @@ https://commons-repo.ritchiecli.io/{versão}/windows/team/rit.exe
 https://commons-repo.ritchiecli.io/{versão}/windows/single/rit.exe
 ```
 
-## Manual settings
+## **Configurações manuais**
 
-### **Folder creation**
+### **Criação da pasta**
 
-**→** Create the folder `$HOME/.rit/bin`
+**→** Criar a pasta `$HOME/.rit/bin`
 
 ```text
-Linux / MacOs command
+Comando Linux / MacOs
 
 mkdir -p $HOME/.rit/bin
 ```
 
-→ Copy the binary to the folder created above. 
+→ Copiar o binário para a pasta criada acima. 
 
 ```text
-Linux / MacOs commands
+Comandos Linux / MacOs
 
 cd $HOME/.rit/bin 
 cp $HOME/Downloads/rit
 ```
 
-→ Execution permission
+→ Permissão de execução
 
 ```
-Linux / MacOs command
+Comando Linux / MacOs : 
 
 chmod +x rit
 ```
 
+\*\*\*\*
 
+### **Configurar o .bashrc ou /etc/profile ou .zshrc \(Linux / MacOS\)**
 
-### Configure .bashrc or / etc / profile or .zshrc \(Linux / MacOS\)
-
-For ZSH, define a new PATH by copying the following code:
+Para ZSH, definir um novo PATH copiando o código a seguir :
 
 ```text
 export RIT_PATH=$HOME/.rit
@@ -97,7 +97,7 @@ rit completion zsh > ~/.rit_completion
 source ~/.rit_completion
 ```
 
-For Bash, define a new PATH by copying the following code:
+Para Bash, definir um novo PATH copiando o código a seguir :
 
 ```text
 export RIT_PATH=$HOME/.rit
@@ -106,15 +106,16 @@ rit completion bash > ~/.rit_completion
 source ~/.rit_completion
 ```
 
-### Setting environment variables \(Windows\)
+\*\*\*\*
 
-For this operating system, you need to call rit on the terminal directly from rit.exe \(**rit.exe login** command for example\) 
+### **Configuração de variáveis de ambiente \(Windows\)**
 
-It is possible \(and suggested\) to create an environment variable for rit to facilitate the use of the CLI. 
+Nesse sistema operacional, é preciso chamar o rit no terminal diretamente a partir do rit.exe \(comando **rit.exe login** por exemplo\)
 
-Here are some articles explaining how to add an environment variable in Windows.
+É possível \(e sugerido\) criar uma variável de ambiente para o rit para facilitar o uso do CLI.
 
-[Through interface](https://professor-falken.com/pt/windows/como-configurar-la-ruta-y-las-variables-de-entorno-en-windows-10/)  
-[Through terminal](https://devcontent.com.br/artigos/windows/o-que-sao-como-alterar-criar-excluir-variaveis-de-ambiente)  
-****
+Seguem alguns artigos explicando como adicionar uma variável de ambiente no Windows.
+
+[Via interface](https://professor-falken.com/pt/windows/como-configurar-la-ruta-y-las-variables-de-entorno-en-windows-10/)  
+[Via terminal](https://devcontent.com.br/artigos/windows/o-que-sao-como-alterar-criar-excluir-variaveis-de-ambiente)
 

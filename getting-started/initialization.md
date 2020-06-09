@@ -1,12 +1,10 @@
 # Initialization
 
-{% hint style="info" %}
-**Ritchie** has 2 versions available : **Single** and **Team**. 
+## **Introduction** 
 
-Before using the CLI, the user need to configure Ritchie through a specific command, **according to the installed version**.
+When you finish your [**installing process**](https://docs.ritchiecli.io/v/doc-portuguese/primeiros-passos/instalando-ritchie), it's necessary make the Ritchie's initialization and this procedure varies according to the [**version**](https://docs.ritchiecli.io/v/doc-portuguese/primeiros-passos/escolhendo-versao) you're using. 
 
-This command is : **`$ rit init`**
-{% endhint %}
+The command to execute the initialization is:**`$ rit init`**
 
 ## Single Version
 
