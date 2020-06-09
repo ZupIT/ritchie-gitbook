@@ -57,3 +57,7 @@ The user can choose which tools he wants to include in the file from the inputs 
 
 Once the file is created, it is possible to run it normally, via the **docker-compose up** command.
 
+{% hint style="info" %}
+When using docker-compose up, it is necessary to have docker installed. 
+{% endhint %}
+
