@@ -46,7 +46,7 @@ As **principais características** desta versão são:
 
 * Acesso às fórmula desenvolvidas na comunidade e também às fórmulas da equipe no servidor;
 * Possibilidade de testar novas fórmulas em repositório local;
-* Informações criptografadas na máquina local.
+* Informações criptografadas no servidor.
 
 ### Repositórios
 
