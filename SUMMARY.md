@@ -33,5 +33,4 @@
 * [Materials](contents.md)
 * [About Ritchie](about-ritchie.md)
 * [FAQ](faq.md)
-* [Security](security.md)
 
