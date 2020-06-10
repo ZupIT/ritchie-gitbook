@@ -15,6 +15,7 @@
 * [Creating formulas](getting-started/creating-formulas/README.md)
   * [Testing formulas](getting-started/creating-formulas/testing-formulas.md)
 * [Executing more commands](getting-started/commands/README.md)
+  * [Credentials](getting-started/commands/credentials.md)
   * [Via Prompt](getting-started/commands/prompt.md)
   * [Via Stdin](getting-started/commands/stdin.md)
   * [Other commands](getting-started/commands/using-first-commands.md)
@@ -37,6 +38,5 @@
 * [Materials](contents.md)
 * [About Ritchie](about-ritchie.md)
 * [FAQ](faq.md)
-* [Security](security/README.md)
-  * [Credentials](security/credentials.md)
+* [Security](security.md)
 
