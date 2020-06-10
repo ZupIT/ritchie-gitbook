@@ -60,18 +60,3 @@ In general, the common process for executing a project is to create a whole prev
 
 ![WITH Ritchie](.gitbook/assets/en-com-ritchie.png)
 
-## **What makes Ritchie unique ?**
-
-Because it is a CLI tool, Ritchie seeks to improve the operational **developers'** **experience and brings beneficial such as:**
-
-* Simplify repetitive ****and easy-to-execute tasks
-* reduce the rework 
-* Promote more time for the development team to focus on their deliveries.
-
-So, instead of writing down on the command lines which parameters and / or arguments the user needs to inform, we do the opposite: Ritchie presents the available options and goes, line by line, asking for the information needed for the command to work, in an interactive way.
-
-In the example below, we have the execution of a scaffold command with the coffee formula. As the user signals which formula he wants to use, the system automatically passes, line by line, asking which specific parameters must be considered to perform the desired action.  
-
-
-![](https://lh3.googleusercontent.com/joDVqE3Km8ePNO0j7vNvfwvZVHJ8mqq9l4x4Webot9pGDdjyoo6BTp7hr39PEb9EBLC43RhsDkIs_7GmxU_YT2KmSCkhOtmJWxtSA6uGEz0a-7Ar4Bfi5zvHkgy2zaMyRkHNle8w)
-
