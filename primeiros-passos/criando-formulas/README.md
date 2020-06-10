@@ -22,6 +22,8 @@ Lembre-se que o ideal é que a nova fórmula siga o padrão **rit + group + verb
 
 ## Passo 2: Teste seu template 
 
+**TBD**
+
 ## Passo 3: Direcionar para um repositório
 
 Quando é executado o comando para criação de fórmula, você tem a opção de informar o caminho para um repositório de fórmulas já existente na máquina.
