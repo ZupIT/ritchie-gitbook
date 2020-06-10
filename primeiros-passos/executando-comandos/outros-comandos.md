@@ -65,59 +65,51 @@ Uma vez o arquivo criado, é possível executar ele através normalmente, via o 
 No caso do comando **docker-compose up**, é necessário ter o docker instalado na sua máquina.
 {% endhint %}
 
-### **Credentials command**
+### **Comando Credenciais** 
 
-Comando: **`rit set credential`**
+Comando: **`$ rit set credential`**
 
-Este comando permite salvar credenciais na sessão \(de maneira local na Versão Single ou pelo Vault, no caso da Versão Team\) para que você tenha a vantagem de usar essa informação sem precisar informá-la de novo quando for executar suas fórmulas.  
-
-Para usar as credenciais como inputs para fórmula, é precisa ter uma **palavra-chave** que será usada dentro do **arquivo config.json**.
-
-{% hint style="warning" %}
-No caso do Ritchie, esta palavra-chave é **CREDENTIAL**. 
-
-Vale reforçar também que este é o arquivo no qual os **parâmetros de entrada** serão requisitados quando você for executar o comando no terminal para configurar a fórmula.  
-{% endhint %}
-
-Seguindo o processo, você vai precisar acessar o repositório `ritchie-server` e observar como as credenciais de cada ferramentas são registradas no arquivo `resources/file_config_local.json`. 
-
-Por exemplo, as **credenciais do Github** são configuradas da seguinte forma:
+Este comando permite que você configure credenciais no Ritchie, de maneira que você não precisa informar o mesmo dado diversas vezes no terminal.   
+  
+****Lembrando que, na [**Versão Single**](../escolhendo-versao.md#versao-single), as credenciais são criptografadas localmente na sessão por meio da passphrase informada no[ **processo de inicialização**](../inicializacao.md#versao-single). Já na [**Versão Team**](../escolhendo-versao.md#versao-team), as credenciais são criptografadas na sessão online do **Keycloak** através do **Vault**. 
 
 ```text
-"credentials": { 
-    "github": [ 
-        { 
-            "field": "username", 
-            "type": "text" 
-        },
-        { 
-            "field": "token", 
-            "type": "password" 
-        }  
-    ] 
-}
+➜   rit set credential
+Use the arrow keys to navigate: ↓ ↑ → ←
+Profile to add credential:
+  ▸ ME (for you)
+     OTHER (for another user)
+     ORG (for the organization)
 ```
 
-Uma vez feito isso, você precisará preencher os seguintes campos. Desta forma, você garante que o Ritchie te habilitará para usar as credenciais como inputs para o `config.json` da fórmula.
+Cada um pode configurar suas próprias credenciais**.** No caso da Versão Team, o admin do servidor pode também configurar credenciais para específicos usuários ou para toda a equipe. 
 
 ```text
-"inputs": [ 
-    { 
-        "name": "git_user", 
-        "type": "CREDENTIAL_GITHUB_USERNAME" 
-    },
-    { 
-        "name": "git_token", 
-        "type": "CREDENTIAL_GITHUB_TOKEN"
-    } 
-]
+➜  rit set credential
+✔ ME (for you)
+Use the arrow keys to navigate: ↓ ↑ → ←
+Provider:
+ ▸ darwin
+     email-org
+     github
+     gitlab
+     jenkins
+     kubeconfig
+     aws
 ```
 
-Quando o comando da fórmula for executado, as credenciais do Github irão buscá-la diretamente na sessão e poderão ser usadas nas fórmulas sem precisar informá-la de novo no terminal.
+Depois que você selecionar as opções para cada perfil, será necessário selecionar para qual provedor deseja adicioná-los. Esta lista será organizada dentro da pasta de configuração do servidor. 
 
-{% hint style="warning" %}
-Vale lembrar que você deve estar logado e ter configurado as credenciais pelo **rit set credential** para seguir este processo. 
-{% endhint %}
+```text
+➜  rit set credential
+✔ ME (for you)
+✔ github
+Github username:  user
+Github token:  *****
+```
 
-Com o comando **`rit set credential`**, é possível ainda que o **admin do time** configure credenciais criptografadas para serem usadas em uma sessão com usuários específicos, permitindo que eles executem comandos sem precisarem de acesso a informações confidenciais. 
+  
+Uma vez que você selecionar o provider, ele irá solicitar as informações das credenciais selecionadas:
+
+![](https://lh4.googleusercontent.com/_U93uVcs1Tu9TIUy59wuVfDCKgHbqO-lt5pPPSmlmDqwaFG1oew-nG_ntixSNFVRvmknMNca0X2G5WhYAowGS84V3Bf1OCZmurcCnK-Xkn9HZkf67ZWe6Jy6Wi2f9BNL6ggdO4sI)
 
