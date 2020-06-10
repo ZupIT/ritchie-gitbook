@@ -5,7 +5,7 @@
 
 ## GETTING STARTED
 
-* [Choosing a version](getting-started/software-architecture.md)
+* [Choosing a version](getting-started/choosing-a-version.md)
 * [Installing Ritchie](getting-started/installation/README.md)
   * [Linux](getting-started/installation/linux.md)
   * [Windows](getting-started/installation/windows.md)
