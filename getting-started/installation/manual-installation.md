@@ -1,65 +1,65 @@
 # Manual Installation
 
-## Como funciona? 
+## How does it work? 
 
-**Caso opte por realizar o processo manual de instalação do Ritchie**, é necessário obedecer à seguinte premissa: ****obtenha a última versão do Ritchie, informando a URL abaixo no seu navegador. 
+**In case you decide to make the manual process of Ritchie installation**, it's necessary to obey the following premise: get the latest version of Ritchie, informing the URL below your navigator. 
 
-O link é este: [https://commons-repo.ritchiecli.io/stable.txt](https://commons-repo.ritchiecli.io/stable.txt)
+The link: [https://commons-repo.ritchiecli.io/stable.txt](https://commons-repo.ritchiecli.io/stable.txt)
 
-Basicamente, ao indicar a URL acima para o navegador, o sistema retorna a versão do Ritchie mais atual. Logo, poderia retornar **1.0.0-beta.7** ou **1.0.0**  
+Basically, when you indicate the URL above on your navigator, the system returns the latest version of Ritchie. For example, it can return **1.0.0-beta.7** or **1.0.0**  
 
 
-### Passo a passo 
+### Step by step 
 
-Baixar o binário do Ritchie da versão, informando a URL abaixo no seu navegador **alterando a versão** conforme obtido no passo 1.
+Download the Ritchie binary version by entering the URL below in your browser by informing **the version** as obtained in step 1.
 
-### **Instalando para MAC**
+### **Installation for MAC**
 
-#### **Versão Team** 
+#### **Team Version**  
 
 ```text
 https://commons-repo.ritchiecli.io/{versão}/team/mac/rit
 ```
 
-**Versão Single**
+**Single Version** 
 
 ```text
 https://commons-repo.ritchiecli.io/{versão}/single/mac/rit
 ```
 
-### **Instalando para Linux**
+### **Installation for Linux**
 
-#### **Versão Team**
+#### **Team Version**
 
 ```text
 https://commons-repo.ritchiecli.io/{versão}/team/linux/rit
 ```
 
-**Versão Single**
+**Single Version**
 
 ```text
 https://commons-repo.ritchiecli.io/{versão}/single/linux/rit
 ```
 
-### **Instalando para Windows** 
+### **Installation for Windows** 
 
-#### **Versão Team**
+#### **Team Version**
 
 ```text
 https://commons-repo.ritchiecli.io/{versão}/windows/team/rit.exe
 ```
 
-**Versão Single**
+**Single Version**
 
 ```text
 https://commons-repo.ritchiecli.io/{versão}/windows/single/rit.exe
 ```
 
-## **Configurações manuais**
+## **Manual settings** 
 
-### **Criação da pasta**
+### **Folder creation**
 
-**→** Criar a pasta `$HOME/.rit/bin`
+**→** Create a folder  `$HOME/.rit/bin`
 
 ```text
 Comando Linux / MacOs
@@ -67,7 +67,7 @@ Comando Linux / MacOs
 mkdir -p $HOME/.rit/bin
 ```
 
-→ Copiar o binário para a pasta criada acima. 
+→ Copy the binary to the folder above.
 
 ```text
 Comandos Linux / MacOs
@@ -76,7 +76,7 @@ cd $HOME/.rit/bin
 cp $HOME/Downloads/rit
 ```
 
-→ Permissão de execução
+→ Permission to execute. 
 
 ```
 Comando Linux / MacOs : 
@@ -86,9 +86,9 @@ chmod +x rit
 
 \*\*\*\*
 
-### **Configurar o .bashrc ou /etc/profile ou .zshrc \(Linux / MacOS\)**
+### **Configure the .bashrc ou /etc/profile or .zshrc \(Linux / MacOS\)**
 
-Para ZSH, definir um novo PATH copiando o código a seguir :
+To ZSH, define a new PATH by copying the following code:
 
 ```text
 export RIT_PATH=$HOME/.rit
@@ -97,7 +97,7 @@ rit completion zsh > ~/.rit_completion
 source ~/.rit_completion
 ```
 
-Para Bash, definir um novo PATH copiando o código a seguir :
+To Bash, define a new PATH by copying the following code:
 
 ```text
 export RIT_PATH=$HOME/.rit
@@ -108,14 +108,14 @@ source ~/.rit_completion
 
 \*\*\*\*
 
-### **Configuração de variáveis de ambiente \(Windows\)**
+### Setting environment variables \(Windows\)
 
-Nesse sistema operacional, é preciso chamar o rit no terminal diretamente a partir do rit.exe \(comando **rit.exe login** por exemplo\)
+For this operating system, you need to call rit on the terminal directly from rit.exe \(**rit.exe login** command for example\) 
 
-É possível \(e sugerido\) criar uma variável de ambiente para o rit para facilitar o uso do CLI.
+It is possible \(and suggested\) to create an environment variable for rit to facilitate the use of the CLI. 
 
-Seguem alguns artigos explicando como adicionar uma variável de ambiente no Windows.
+Here are some articles explaining how to add an environment variable in Windows.
 
-[Via interface](https://professor-falken.com/pt/windows/como-configurar-la-ruta-y-las-variables-de-entorno-en-windows-10/)  
-[Via terminal](https://devcontent.com.br/artigos/windows/o-que-sao-como-alterar-criar-excluir-variaveis-de-ambiente)
+[Through interface](https://professor-falken.com/pt/windows/como-configurar-la-ruta-y-las-variables-de-entorno-en-windows-10/)  
+[Through terminal](https://devcontent.com.br/artigos/windows/o-que-sao-como-alterar-criar-excluir-variaveis-de-ambiente)\*\*\*\*
 

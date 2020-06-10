@@ -1,32 +1,31 @@
 # Windows
 
-## Como funciona? 
+## How does it work? 
 
-Para baixar a **versão mais atualizada do Ritchie \(1.0.0-beta.12\)** no Windows, basta clicar nos links disponíveis para cada versão. 
+To install **the latest version of Ritchie \(1.0.0-beta.12\)** on Windows, you just have to click links disponíveis para cada versão. 
 
 No entanto, é importante ter em mente alguns pré-requisitos antes de iniciar a instalação na sua máquina. 
 
-### Pré-requisitos 
+### Pre requirements
 
-Para você conseguir usar eficientemente o Ritchie no Windows, nossa recomendação é que tenha instalado os seguintes programas: 
+If you wanna use efficiently Ritchie on Windows, our recommendation is to install the following programs:
 
 * Powershell
 * Cygwin
 
 {% hint style="warning" %}
-No caso Cygwin, você também precisará configurar o arquivo **/etc/nsswitch.conf** dentro da pasta dele \(/ProgramFiles\) e adicionar essa linha não comentada:**`db_home: /%H`**
+In case of Cygwin, you'll have to configure the file **/etc/nsswitch.conf** inside the folder \(/ProgramFiles\) and add this non commented line:**`db_home: /%H`**
 {% endhint %}
 
-Vale lembrar que, se preferir, também é possível seguir com a[ **instalação manual**.](manual-installation.md)  
-
+If you prefer, you also can follow with[ **manual installation**.](manual-installation.md)
 
 ### Instalando Versão Team 
 
-Clique no link para[ instalar o Ritchie Team](https://commons-repo.ritchiecli.io/1.0.0-beta.12/windows/team/rit.exe)
+Click on the following link to[ install Ritchie Team](https://commons-repo.ritchiecli.io/1.0.0-beta.12/windows/team/rit.exe).
 
 ### Instalando Versão Single
 
-Clique no link para [instalar a Versão Single](https://commons-repo.ritchiecli.io/1.0.0-beta.12/windows/single/rit.exe)
+Click on the following link to [install Ritchie Single.](https://commons-repo.ritchiecli.io/1.0.0-beta.12/windows/single/rit.exe)
 
 
 
