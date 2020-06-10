@@ -30,7 +30,7 @@ Each **formula folder** will contain the executable code and files for a formula
 
 The **tree** folder is composed of a **tree.json** file that will contain the command tree of all formulas in the repository.
 
-The **Makefile** file contains a reference to all formulas in the repository, as well as an executable command manipulating the files **copy-bin-configs.sh** and **unzip-bin-configs.sh**, in order to generate the executable files needed to test the formula\(s\) locally inside the [.rit folder](../cli/.rit-folder.md).
+The **Makefile** file contains a reference to all formulas in the repository, as well as an executable command manipulating the files **copy-bin-configs.sh** and **unzip-bin-configs.sh**, in order to generate the executable files needed to test the formula\(s\) locally inside the [.rit folder]().
 
 ## Formula composition
 
@@ -252,7 +252,7 @@ Priority would be given to commons commands over your team's commands.
 Priority would be given to team commands over commons commands. This would allow, for example, a user / team to use a command that is in the **ritchie-formulas** \(commons\) repository tree for a formula in their repository, performing a different operation with the same command, since it would have priority.
 
 {% hint style="warning" %}
-It is possible to configure the priority between the repositories in the **repo** folder of the [.rit folder](../cli/.rit-folder.md) where you have a configurable repositories.json file. 
+It is possible to configure the priority between the repositories in the **repo** folder of the [.rit folder]() where you have a configurable repositories.json file. 
 
 For more information on how to manipulate [repositories](repository.md), check out the documentation here: Repository.
 {% endhint %}

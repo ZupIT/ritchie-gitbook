@@ -1,17 +1,19 @@
-# .rit folder
+# CLI
 
-{% hint style="info" %}
-Ritchie works through files stored inside the **.rit** folder in the _HOME_ of the user's machine. 
+## Introduction
 
-This folder is **manipulated** by the CLI as commands are executed.
-{% endhint %}
+Ritchie works through files stored inside the **.rit** folder in the _HOME_ of the user's machine. This folder is **manipulated** by the CLI as commands are executed.
 
-It is in this folder that they are stored: 
+In this folder are stored: 
 
 * the **tree.json** files from the formula repositories accessible on the user's machine 
 * the **executable** files of the formulas 
 * the **temporary** files used in Ritchie 
 * **passphrase** and **session** files for the **Single** version
+
+{% hint style="info" %}
+To get to know more about our CLI repository, access [**ritchie-cli**](https://github.com/ZupIT/ritchie-cli) on Github. 
+{% endhint %}
 
 ### Repo folder
 
