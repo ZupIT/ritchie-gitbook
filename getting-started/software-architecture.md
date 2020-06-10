@@ -6,7 +6,7 @@ description: 'Here, you will know the two Ritchie''s versions for download.'
 
 ## Intro
 
-Antes de começar a usar o Ritchie, é preciso optar por uma das versões disponíveis do nosso CLI:
+Before you begin to use Ritchie, it is necessary to choose one of available versionsAntes de começar a usar o Ritchie, é preciso optar por uma das versões disponíveis do nosso CLI:
 
 * **Versão Single:** indicada para profissionais autônomos;
 * **Versão Team:** indicada para equipes ou profissionais de uma corporação.
@@ -17,6 +17,10 @@ Na prática, a principal diferença entre as versões está no uso \(ou não\) d
 
 
 ![Versions single and team architecture ](../.gitbook/assets/team-and-single.png)
+
+## **Comparing versions**
+
+![](../.gitbook/assets/captura_de_tela_2020-06-09_as_09.55.22.png)
 
 ## **Single version**
 
