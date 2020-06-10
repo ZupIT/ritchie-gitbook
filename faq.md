@@ -6,27 +6,26 @@ description: 'Nesta seção, você encontrará as principais perguntas sobre o R
 
 ## SOBRE RITCHIE 
 
-* [O que é Ritchie ? ](https://docs.ritchiecli.io/v/doc-portuguese/#o-que-e-o-ritchie)
-* [De onde veio Ritchie ? ](https://docs.ritchiecli.io/v/doc-portuguese/#de-onde-veio-o-ritchie)
-* [O que Ritchie faz ? ](https://docs.ritchiecli.io/v/doc-portuguese/#o-que-faz-o-ritchie)
-* [O que torna o Ritchie único ?](https://docs.ritchiecli.io/v/doc-portuguese/#o-que-torna-o-ritchie-unico)
+* [O que é Ritchie? ](./#o-que-e-o-ritchie)
+* [De onde veio Ritchie?](historia-do-ritchie.md#de-onde-veio-o-ritchie) 
+* [O que Ritchie faz? ](./#o-que-o-ritchie-faz)
+* [Qual diferencial do Ritchie?](historia-do-ritchie.md#qual-o-diferencial-do-ritchie)
 
 ## INSTALAÇÃO E USO 
 
-* [Como instalar o Ritchie ? ](https://docs.ritchiecli.io/v/doc-portuguese/primeiros-passos/instalacao)
-* [Como o Ritchie funciona ? ](https://docs.ritchiecli.io/v/doc-portuguese/principais-conceitos)
-* [Como executar comandos com Ritchie ?](primeiros-passos/executando-comandos/)
-* [Como criar uma nova fórmula no Ritchie ? \(Passo a passo\) ](primeiros-passos/criando-formulas/)
-* [Como criar uma nova fórmula no Ritchie ? \(Video\)](https://www.youtube.com/watch?v=B-6MFIIbpZI)
-* [Como configurar um servidor do Ritchie ?]()
-* [Qual a diferença entre as duas versões do Ritchie ? ](primeiros-passos/escolhendo-versao.md)
-* [Com quais sistemas operacionais a Ritchie trabalha ? ](https://docs.ritchiecli.io/v/doc-portuguese/principais-conceitos/fundamentos#sistemas-operacionais)
-* [Quais linguagens de programação posso usar para criar fórmulas ? ](https://docs.ritchiecli.io/v/doc-portuguese/principais-conceitos/fundamentos#linguagens-de-programacao)
-* [Quais ferramentas posso usar para criar fórmulas ? ](https://docs.ritchiecli.io/v/doc-portuguese/principais-conceitos/fundamentos#ferramentas)
+* [Como instalar o Ritchie? ](primeiros-passos/instalando-ritchie/)
+* [Como o Ritchie funciona?](./#como-ritchie-funciona) 
+* [Como executar comandos com Ritchie?](primeiros-passos/executando-comandos/)
+* [Como criar uma nova fórmula no Ritchie? \(Passo a passo\) ](primeiros-passos/criando-formulas/)
+* [Como criar uma nova fórmula no Ritchie? \(Vídeo\)](https://www.youtube.com/watch?v=B-6MFIIbpZI) 
+* [Qual a diferença entre as duas versões do Ritchie? ](primeiros-passos/escolhendo-versao.md)
+* [Com quais sistemas operacionais a Ritchie trabalha? ](primeiros-passos/instalando-ritchie/)
+* [Quais linguagens de programação posso usar para criar fórmulas? ](./#linguagens-de-programacao)
+* [Quais ferramentas posso usar para criar fórmulas? ](./#ferramentas)
 
 ## COMUNIDADE 
 
-* [Como acessar os repositórios de código aberto Ritchie ? ](https://docs.ritchiecli.io/v/doc-portuguese/comunidade#quais-sao-os-repositorios-open-source-do-ritchie)
-* [Como relatar um bug ? ](https://docs.ritchiecli.io/v/doc-portuguese/comunidade#voce-tem-alguma-sugestao-para-a-equipe-de-desenvolvimento-do-ritchie)
-* [Como contribuo com a documentação ?](https://docs.ritchiecli.io/v/doc-portuguese/comunidade#voce-tem-alguma-sugestao-para-a-equipe-de-desenvolvimento-do-ritchie)
+* [Como acessar os repositórios de código aberto Ritchie? ](comunidade.md#quais-sao-os-repositorios-open-source-do-ritchie)
+* [Como relatar um bug? ](comunidade.md#voce-tem-alguma-ideia-para-melhorar-o-ritchie-ou-ideias-de-novas-formulas)
+* [Como contribuo com a documentação?](comunidade.md#voce-tem-alguma-sugestao-para-a-equipe-de-desenvolvimento-do-ritchie)
 

@@ -4,17 +4,15 @@ description: Contribue com Ritchie !
 
 # Comunidade
 
-{% hint style="info" %}
-Ritchie é uma ferramenta comunitária em que cada indivíduo pode contribuir, compartilhando suas criações com o resto do mundo !
-{% endhint %}
+Somos um projeto open source e, por isso, quanto mais contribuições recebermos, melhor! Veja abaixo mais informações sobre nossa comunidade: 
 
-### Quais são os repositórios open source do Ritchie ?
+### Quais são os repositórios open source do Ritchie?
 
 * [ritchie-cli](https://github.com/ZupIT/ritchie-cli)
 * [ritchie-server](https://github.com/ZupIT/ritchie-server)
 * [ritchie-formulas](https://github.com/ZupIT/ritchie-formulas) \(commons\) 
 
-### **Você tem alguma ideia para melhorar o Ritchie, ou ideias de novas fórmulas ?**
+### **Você tem alguma ideia para melhorar o Ritchie, ou ideias de novas fórmulas?**
 
 1. Faça uma cópia do repositório relacionado.
 2. Crie a branch: `git checkout -b <branch_name>`
