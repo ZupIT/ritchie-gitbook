@@ -4,11 +4,7 @@
 
 ## Repositório de fórmulas
 
-{% hint style="info" %}
-As fórmulas são armazenadas em **repositórios de fórmulas**.
-
-Esses repositórios precisam ter uma estrutura particular. 
-{% endhint %}
+As fórmulas são armazenadas em **repositórios de fórmulas**, que ****precisam ter uma estrutura particular. 
 
 Cada repositório deve conter os seguintes elementos:
 
@@ -32,7 +28,7 @@ O arquivo _**Makefile**_ contem uma referência a todas as fórmulas do reposit�
 Cada fórmula é composta de vários arquivos permitindo sua execução pelo CLI.
 {% endhint %}
 
-Para uma fórmula poder ser executada pelo terminal, é preciso ter:
+Para uma fórmula ser executada pelo terminal, é preciso ter:
 
 * Um arquivo config.json
 * Um arquivo executável
@@ -232,9 +228,9 @@ Isso permite **evitar** **comandos** **repetitivos** após a junção das árvor
 
 Segue a prioridade padrão definida no CLI entre os repositórios :
 
-* Prioridade 0 : Core
-* Prioridade 1 : Local
-* Prioridade 2 : Outros repositórios 
+* Prioridade 0: Core
+* Prioridade 1: Local
+* Prioridade 2: Outros repositórios 
 
 Essa regra permite que cada usuário \(single\) / empresa \(team\) defina a prioridade entre os demais repositórios.
 

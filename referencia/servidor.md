@@ -7,12 +7,12 @@ As informações que o CLI precisa para funcionar são fornecidas pelo servidor 
 **Na versão Team**, o repositório do ritchie-server providencia as configurações para o CLI. 
 
 {% hint style="info" %}
-Para conhecer o repositório do servidor no gitbub acesse [ritchie-server](https://github.com/ZupIT/ritchie-server).
+Para conhecer o repositório do servidor no gitbub acesse [**ritchie-server**](https://github.com/ZupIT/ritchie-server).
 {% endhint %}
 
 ## Configurar o servidor
 
-O arquivo **file\_config.json** vai conter a parte de configuração e de autorização aos trees e comandos, isso envolve os seguintes campos :
+O arquivo **file\_config.json** vai conter a parte de configuração e de autorização aos trees e comandos, isso envolve os seguintes campos:
 
 * tenant/time
 * keycloak

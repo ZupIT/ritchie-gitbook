@@ -32,4 +32,5 @@
 * [Conteúdos](conteudos.md)
 * [Sobre o Ritchie](historia-do-ritchie.md)
 * [FAQ](faq.md)
+* [Segurança](seguranca.md)
 
