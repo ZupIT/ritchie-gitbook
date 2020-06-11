@@ -1,9 +1,8 @@
 # Repository
 
-{% hint style="warning" %}
-You can have access to more than one repository using Ritchie.   
-You'll find here a section with commands to manipulate them.
-{% endhint %}
+## Intro
+
+You can have access to more than one repository using Ritchie. We'll show you above some commands that you can use to manage your repo. 
 
 ## Add the commons repository
 
