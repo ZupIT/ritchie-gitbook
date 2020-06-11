@@ -23,6 +23,7 @@
 
 * [CLI](referencia/cli.md)
 * [Fórmulas](referencia/formulas/README.md)
+  * [Repositório](referencia/formulas/repositorio.md)
   * [Config.json](referencia/formulas/acesso-as-formulas.md)
   * [ritchie-formulas](https://github.com/ZupIT/ritchie-formulas)
 * [Servidor](referencia/servidor.md)
