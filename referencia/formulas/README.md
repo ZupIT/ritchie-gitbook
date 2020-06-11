@@ -1,7 +1,5 @@
 # Fórmulas
 
-## Introdução
-
 ## Repositório de fórmulas
 
 As fórmulas são armazenadas em **repositórios de fórmulas**, que ****precisam ter uma estrutura particular. 
