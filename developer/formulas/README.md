@@ -6,8 +6,6 @@ description: >-
 
 # Formulas
 
-## Introduction 
-
 ## Formula repositories
 
 {% hint style="info" %}
