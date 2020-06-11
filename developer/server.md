@@ -1,11 +1,15 @@
 # Server
 
-The information CLI needs to function is provided by the server through the repository. **Each team** needs to have a configuration file to start their server when using Ritchie. That file is **file\_config.json**.
+## Introduction
 
-In the **Team version**, the ritchie-server repository provides the settings for the CLI. 
+Available only on Team Version, the server is responsible to provide the information needed by the CLI so it can execute Ritchie's commands. 
+
+To make this happen, each team must have a configuration file to start their server when using Ritchie. That file is **file\_config.json**.
+
+Besides the configuration file, the CLI also provides and collect information through the **ritchie-server repository.** 
 
 {% hint style="info" %}
-To get to know our github server repository access [**ritchie-server**](https://github.com/ZupIT/ritchie-server).
+To get to know our server repository, access [**ritchie-server**](https://github.com/ZupIT/ritchie-server) ****on Github.
 {% endhint %}
 
 ## Server configuration

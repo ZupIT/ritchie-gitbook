@@ -25,7 +25,6 @@
 * [Formulas](developer/formulas/README.md)
   * [Config.json](developer/formulas/config.json.md)
   * [Repository](developer/formulas/repository.md)
-  * [ritchie-formulas](https://github.com/ZupIT/ritchie-formulas)
 * [Server](developer/server.md)
 * [Releases](https://github.com/ZupIT/ritchie-cli/releases)
 * [Roadmap](https://github.com/ZupIT/ritchie-cli/issues)
