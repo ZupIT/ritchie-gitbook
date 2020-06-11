@@ -11,7 +11,7 @@ description: >-
 The formulas are, in Ritchie's context, the automation that can be executed to make an action in a short time, but more efficiently. 
 
 {% hint style="info" %}
-If you want to know more about the current formulas on Ritchie, access the repository [**ritchie-formulas**](https://github.com/ZupIT/ritchie-formulas) ****on Github.
+To get to know more about our current formulas on Ritchie, access the repository [**ritchie-formulas**](https://github.com/ZupIT/ritchie-formulas) ****on Github.
 {% endhint %}
 
 ## Formula repositories
