@@ -6,13 +6,17 @@ description: >-
 
 # Formulas
 
-## Formula repositories
+## Introduction
+
+The formulas are, in Ritchie's context, the automation that can be executed to make an action in a short time, but more efficiently. 
 
 {% hint style="info" %}
-Formulas are stored in **formula repositories**. 
-
-These repositories need to have a particular structure.
+If you want to know more about the current formulas on Ritchie, access the repository [**ritchie-formulas**](https://github.com/ZupIT/ritchie-formulas) ****on Github.
 {% endhint %}
+
+## Formula repositories
+
+Formulas are stored in **formula repositories,** that need to have a particular structure.
 
 Each repository must contain the following elements: 
 
