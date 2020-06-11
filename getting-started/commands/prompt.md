@@ -44,7 +44,7 @@ If you want to see more formulas, check the [**github community repository**](ht
       <td style="text-align:left">add autocomplete via bash</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="https://docs.ritchiecli.io/developer/formulas/first-formula">rit create formula</a>
+      <td style="text-align:left"><a href="../creating-formulas/#step-1-execute-the-formula">rit create formula</a>
       </td>
       <td style="text-align:left">
         <p>create a new formula from scratch</p>
@@ -71,7 +71,7 @@ If you want to see more formulas, check the [**github community repository**](ht
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="https://docs.ritchiecli.io/user/first-commands/context">rit delete context</a>
+      <td style="text-align:left"><a href="using-first-commands.md#context-command">rit delete context</a>
       </td>
       <td style="text-align:left">delete a context form the session</td>
     </tr>
@@ -81,22 +81,22 @@ If you want to see more formulas, check the [**github community repository**](ht
       <td style="text-align:left">list all repository that Ritchie has access on the computer</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="https://docs.ritchiecli.io/getting-started/software-architecture/security/login">rit login</a>
+      <td style="text-align:left"><a href="../initialization.md#login-command">rit login</a>
       </td>
       <td style="text-align:left">user login to a team (creating a session)</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="https://docs.ritchiecli.io/getting-started/software-architecture/security/login">rit logout</a>
+      <td style="text-align:left"><a href="../initialization.md#login-command">rit logout</a>
       </td>
       <td style="text-align:left">user logout from session</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="https://docs.ritchiecli.io/getting-started/software-architecture/security/credentials">rit set credential</a>
+      <td style="text-align:left"><a href="using-first-commands.md#credentials">rit set credential</a>
       </td>
       <td style="text-align:left">set new credentials into the session</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="https://docs.ritchiecli.io/user/first-commands/context">rit set context</a>
+      <td style="text-align:left"><a href="using-first-commands.md#context-command">rit set context</a>
       </td>
       <td style="text-align:left">set a new context into the session</td>
     </tr>
@@ -105,7 +105,7 @@ If you want to see more formulas, check the [**github community repository**](ht
       <td style="text-align:left">set the team server URL (<b>Team version</b>)</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="https://docs.ritchiecli.io/user/first-commands/context">rit show context</a>
+      <td style="text-align:left"><a href="using-first-commands.md#context-command">rit show context</a>
       </td>
       <td style="text-align:left">show the current session context</td>
     </tr>
