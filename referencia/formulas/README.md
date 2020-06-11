@@ -1,5 +1,13 @@
 # Fórmulas
 
+## Introdução 
+
+As fórmulas são, no contexto do Ritchie, as automações a serem executadas para que você realize uma ação em menos tempo e com mais eficiência. 
+
+{% hint style="info" %}
+Para conhecer mais fórmulas disponíveis no Ritchie, acesse o repositório [**ritchie-formulas**](https://github.com/ZupIT/ritchie-formulas) ****no Github. 
+{% endhint %}
+
 ## Repositório de fórmulas
 
 As fórmulas são armazenadas em **repositórios de fórmulas**, que ****precisam ter uma estrutura particular. 
