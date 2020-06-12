@@ -2,7 +2,7 @@
 
 ## **Introduction** 
 
-When you finish your [**installing process**](https://docs.ritchiecli.io/v/doc-portuguese/primeiros-passos/instalando-ritchie), it's necessary make the Ritchie's initialization and this procedure varies according to the [**version**](https://docs.ritchiecli.io/v/doc-portuguese/primeiros-passos/escolhendo-versao) you're using. 
+When you finish your[ **installing process**](https://docs.ritchiecli.io/getting-started/installation), it's necessary make the Ritchie's initialization and this procedure varies according to the [**version** ](https://docs.ritchiecli.io/getting-started/choosing-a-version)you're using. 
 
 The command to execute the initialization is:**`$ rit init`**
 
