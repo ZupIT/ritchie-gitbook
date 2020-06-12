@@ -21,9 +21,9 @@
 
 ## REFERÊNCIA
 
+* [Repositório](referencia/repositorio.md)
 * [CLI](referencia/cli.md)
 * [Fórmulas](referencia/formulas/README.md)
-  * [Repositório](referencia/formulas/repositorio.md)
   * [Config.json](referencia/formulas/acesso-as-formulas.md)
 * [Servidor](referencia/servidor.md)
 * [Releases](https://github.com/ZupIT/ritchie-cli/releases)
@@ -32,5 +32,4 @@
 * [Conteúdos](conteudos.md)
 * [Sobre o Ritchie](historia-do-ritchie.md)
 * [FAQ](faq.md)
-* [Segurança](seguranca.md)
 

@@ -1,32 +1,40 @@
+---
+description: >-
+  Nesta seção, você encontra passo a passo para testar as fórmulas criadas no
+  Ritchie.
+---
+
 # Testando fórmulas
 
-{% hint style="info" %}
-Uma vez a fórmula implementada, existem vários métodos de testar ela. 
-{% endhint %}
+## Introdução 
+
+Uma vez que a fórmula for implementada, existem vários métodos de testar ela. Abaixo, listamos duas possibilidades de teste de fórmulas: 
 
 ### Através de uma IDE
 
 Você pode executar o arquivo principal da sua fórmula \(ex : main.go\) configurando variáveis do ambiente para representar seus parâmetros de entrada. A vantagem de usar uma IDE é de ter a possibilidade de debugar o código.  
   
-_Sugestões : VSCode, Eclipse, IntelliJ, Golang..._
+Sugestões: VSCode, Eclipse, IntelliJ, Golang, entre outros.
 
 ### Através do Terminal
 
 Na criação da nova fórmula, foi informado no arquivo Makefile da raíz do repositório o path onde está localizada a fórmula, dentro do repositório.
 
+{% hint style="info" %}
+Esse comando test-local usa 2 outros arquivos na raíz do repositório : **copy-bin-configs.sh** e **unzip-bin-configs.sh** que permitem de fato extrair os **binários** e os **config.json** associados a cada fórmula que é testada.
+{% endhint %}
+
 Neste arquivo existe um comando test-local que permite criar o binário de uma ou mais fórmulas e colocar ela\(s\) na pasta temporária do Ritchie \(.rit\) localizada na home da máquina do usuário.
 
-_Observação : Esse comando test-local usa 2 outros arquivos na raíz do repositório : **copy-bin-configs.sh** e **unzip-bin-configs.sh** que permitem de fato extrair os **binários** e os **config.json** associados a cada fórmula que é testada._
+#### **Existe 2 maneiras de usar esse comando do Makefile**: 
 
-#### **Existe 2 maneiras de usar esse comando do Makefile** : 
-
-Para adicionar na pasta .rit somente os arquivos da fórmula que deseja testar :
+Para adicionar na pasta .rit somente os arquivos da fórmula que deseja testar:
 
 ```text
 make test-local form={nome_formula} 
 ```
 
-Para adicionar todas as fórmulas do repositório na pasta temporária .rit :
+Para adicionar todas as fórmulas do repositório na pasta temporária .rit:
 
 ```text
 make test-local

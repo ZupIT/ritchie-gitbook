@@ -1,9 +1,8 @@
-# Repositórios
+# Repositório
 
-{% hint style="warning" %}
-Você pode ter acesso a mais de um repositório usando o Ritchie.   
-Você encontrará aqui uma seção com comandos para manipulá-los.
-{% endhint %}
+## Introdução 
+
+Você pode ter acesso a mais de um repositório usando o Ritchie. Nos comandos abaixo, você encontra alguns recursos para gerenciar seu repo. 
 
 ## Adicione o repositório _Commons_
 

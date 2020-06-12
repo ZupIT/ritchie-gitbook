@@ -1,12 +1,10 @@
 ---
-description: Descrição dos comandos atuais do core do Ritchie
+description: 'Nesta seção, você encontra a descrição dos comandos atuais do core do Ritchie.'
 ---
 
 # Executando comandos
 
-Se você já ganhou mais segurança para usar o Ritchie, é o momento de se aventurar por mais comandos. 
-
-Atualmente, existe duas maneiras de executar comandos no nosso CLI. São elas: 
+Se você já ganhou mais segurança para usar o Ritchie, é o momento de se aventurar por mais comandos. Atualmente, existe duas maneiras de executar comandos no nosso CLI. São elas: 
 
 ### **Prompt** 
 

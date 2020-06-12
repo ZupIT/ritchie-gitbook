@@ -26,7 +26,7 @@ Para inicializar o Ritchie nesta versão, é necessário informar:
 Você não pode usar a versão **Team** **sem ter configurado o servidor**.
 {% endhint %}
 
-* **se o usuário quiser fazer login** para a organização agora, ou depois usando o comando**`$ rit login`.**
+* **Se o usuário quiser fazer login** para a organização agora, ou depois usando o comando**`$ rit login`.**
 
 ```text
 ➜ rit init

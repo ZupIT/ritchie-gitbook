@@ -1,5 +1,7 @@
 ---
-description: Passo a passo explicando como criar uma nova fórmula no Ritchie
+description: >-
+  Nesta seção, você encontra um passo a passo de como criar uma nova fórmula no
+  Ritchie
 ---
 
 # Criando fórmulas
