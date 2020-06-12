@@ -21,10 +21,10 @@
 
 ## Reference <a id="developer"></a>
 
+* [Repository](developer/repository.md)
 * [CLI](developer/cli.md)
 * [Formulas](developer/formulas/README.md)
   * [Config.json](developer/formulas/config.json.md)
-  * [Repository](developer/formulas/repository.md)
 * [Server](developer/server.md)
 * [Releases](https://github.com/ZupIT/ritchie-cli/releases)
 * [Roadmap](https://github.com/ZupIT/ritchie-cli/issues)

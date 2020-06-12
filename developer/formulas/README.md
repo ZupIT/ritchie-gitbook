@@ -256,6 +256,6 @@ Priority would be given to team commands over commons commands. This would allow
 {% hint style="warning" %}
 It is possible to configure the priority between the repositories in the **repo** folder of the [.rit folder]() where you have a configurable repositories.json file. 
 
-For more information on how to manipulate [repositories](repository.md), check out the documentation here: Repository.
+For more information on how to manipulate [repositories](../repository.md), check out the documentation here: Repository.
 {% endhint %}
 
