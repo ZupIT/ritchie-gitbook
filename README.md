@@ -1,7 +1,7 @@
 ---
 description: >-
   Nesta seção, você encontra informações iniciais sobre o Ritchie antes de se
-  aprofundar no produto.
+  aprofundar no projeto.
 ---
 
 # Overview
@@ -12,7 +12,7 @@ O Ritchie é um **CLI** \(Command Line Interface\) que permite **criar, armazena
 
 ## **O que o Ritchie faz?**
 
-A ferramenta permite criar automações \(chamadas de **fórmulas** no contexto do Ritchie\) que são executadas via linhas de comando e, assim, torna o trabalho de programação mais fácil no dia a dia. Na prática, o Ritchie funciona como um repositório único de fórmulas.   
+A ferramenta permite criar automações \(chamadas de **fórmulas** no contexto do Ritchie\) que são executadas via linhas de comando e, assim, torna o trabalho de programação mais fácil no dia a dia. Na prática, **o Ritchie funciona como um repositório único de fórmulas.**   
   
 Confira no nosso vídeo um pouco mais do projeto: 
 
@@ -20,7 +20,7 @@ Confira no nosso vídeo um pouco mais do projeto:
 
 ## Instalação
 
-Ritchie é um CLI que funciona para **todos os sistemas operacionais.** Para saber mais informações de como instalar na sua máquina, basta clicar no sistema de sua preferência:
+O Ritchie funciona para **todos os sistemas operacionais.** Para saber mais informações de como instalar na sua máquina, basta clicar no sistema de sua preferência:
 
 {% page-ref page="primeiros-passos/instalando-ritchie/linux.md" %}
 
