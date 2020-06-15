@@ -71,7 +71,7 @@ Caso queira ver mais fórmulas, conheça o [repositório Github da comunidade](h
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="outros-comandos.md#comando-context">rit delete context</a>
+      <td style="text-align:left"><a href="primeiras-formulas.md#comando-context">rit delete context</a>
       </td>
       <td style="text-align:left">remove um contexto da sess&#xE3;o</td>
     </tr>
@@ -91,12 +91,12 @@ Caso queira ver mais fórmulas, conheça o [repositório Github da comunidade](h
       <td style="text-align:left">encerra a sess&#xE3;o do usu&#xE1;rio</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="outros-comandos.md#comando-credenciais">rit set credential</a>
+      <td style="text-align:left"><a href="primeiras-formulas.md#comando-credenciais">rit set credential</a>
       </td>
       <td style="text-align:left">configura credenciais na sess&#xE3;o</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="outros-comandos.md#comando-context">rit set context</a>
+      <td style="text-align:left"><a href="primeiras-formulas.md#comando-context">rit set context</a>
       </td>
       <td style="text-align:left">configura um novo contexto na sess&#xE3;o</td>
     </tr>
@@ -105,7 +105,7 @@ Caso queira ver mais fórmulas, conheça o [repositório Github da comunidade](h
       <td style="text-align:left">configura a URL do servidor do time (<b>vers&#xE3;o Team</b>)</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="outros-comandos.md#comando-context">rit show context</a>
+      <td style="text-align:left"><a href="primeiras-formulas.md#comando-context">rit show context</a>
       </td>
       <td style="text-align:left">mostra o contexto usado na sess&#xE3;o atual</td>
     </tr>

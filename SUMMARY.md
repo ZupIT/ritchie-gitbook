@@ -21,7 +21,7 @@
     * [Contexto](primeiros-passos/executando-comandos/primeiros-comandos/contexto.md)
     * [Credenciais](primeiros-passos/executando-comandos/primeiros-comandos/credenciais.md)
     * [Repositórios](primeiros-passos/executando-comandos/primeiros-comandos/repositorios.md)
-  * [Outros comandos](primeiros-passos/executando-comandos/outros-comandos.md)
+  * [Primeiras fórmulas](primeiros-passos/executando-comandos/primeiras-formulas.md)
 
 ## REFERÊNCIA
 
