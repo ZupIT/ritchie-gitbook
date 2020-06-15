@@ -22,6 +22,7 @@ description: 'In this section, you will find the main questions about Ritchie.'
 * [Which operating systems does Ritchie work with?](https://docs.ritchiecli.io/getting-started/installation)
 * [Which programming languages can I use to create formulas?](https://docs.ritchiecli.io/#programming-languages)
 * [Which tools can I use to create formulas?](https://docs.ritchiecli.io/#tools)
+* [How to set credentials on Ritchie?](getting-started/commands/using-first-commands/credentials.md)
 
 ## COMMUNITY 
 
