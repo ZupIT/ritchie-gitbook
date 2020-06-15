@@ -346,7 +346,7 @@ Usage:
 Use "rit <command> --help" for more information about a given command.
 ```
 
-When a user will download Ritchie \([Single]() version\) or execute the `rit login` command \([Team]() version\) to access an organization's repositories, the CLI will download and merge the tree.json from the formula repositories to which the user has access.
+When a user will download Ritchie \([Single](https://docs.ritchiecli.io/getting-started/choosing-a-version#single-version) version\) or execute the `rit login` command \([Team](https://docs.ritchiecli.io/getting-started/choosing-a-version#team-version) version\) to access an organization's repositories, the CLI will download and merge the tree.json from the formula repositories to which the user has access.
 
 
 
