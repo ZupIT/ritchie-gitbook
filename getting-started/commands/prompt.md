@@ -77,13 +77,13 @@ rit version 1.0.0-beta.7 (single)
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"><a href="https://docs.ritchiecli.io/developer/formulas/repository#add-the-commons-repository">rit add repo</a>
+      <td style="text-align:left"><a href="https://docs.ritchiecli.io/getting-started/commands/using-first-commands/repositories#add-other-repositories">rit add repo</a>
       </td>
       <td style="text-align:left">add a new repository tree
         <br />(to access repository formulas with Ritchie)</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="https://docs.ritchiecli.io/developer/formulas/repository#clean-a-repository">rit clean repo</a>
+      <td style="text-align:left"><a href="https://docs.ritchiecli.io/getting-started/commands/using-first-commands/repositories#clean-a-repository">rit clean repo</a>
       </td>
       <td style="text-align:left">clean the cache of a repository</td>
     </tr>
@@ -110,7 +110,7 @@ rit version 1.0.0-beta.7 (single)
         />(only available for <em>admin</em> role on the <b>Team version</b>)</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="https://docs.ritchiecli.io/developer/formulas/repository#delete-a-repository">rit delete repo</a>
+      <td style="text-align:left"><a href="https://docs.ritchiecli.io/getting-started/commands/using-first-commands/repositories#delete-a-repository">rit delete repo</a>
       </td>
       <td style="text-align:left">delete a repository tree
         <br />(to remove access to the repository formulas with Ritchie)</td>
@@ -123,7 +123,7 @@ rit version 1.0.0-beta.7 (single)
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="using-first-commands/#context-command">rit delete context</a>
+      <td style="text-align:left"><a href="https://docs.ritchiecli.io/getting-started/commands/using-first-commands/context">rit delete context</a>
       </td>
       <td style="text-align:left">delete a context form the session</td>
     </tr>
@@ -143,12 +143,12 @@ rit version 1.0.0-beta.7 (single)
       <td style="text-align:left">user logout from session</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="using-first-commands/#credentials">rit set credential</a>
+      <td style="text-align:left"><a href="https://docs.ritchiecli.io/getting-started/commands/using-first-commands/credentials#set-credentials">rit set credential</a>
       </td>
       <td style="text-align:left">set new credentials into the session</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="using-first-commands/#context-command">rit set context</a>
+      <td style="text-align:left"><a href="https://docs.ritchiecli.io/getting-started/commands/using-first-commands/context">rit set context</a>
       </td>
       <td style="text-align:left">set a new context into the session</td>
     </tr>
@@ -157,12 +157,12 @@ rit version 1.0.0-beta.7 (single)
       <td style="text-align:left">set the team server URL (<b>Team version</b>)</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="using-first-commands/#context-command">rit show context</a>
+      <td style="text-align:left"><a href="https://docs.ritchiecli.io/getting-started/commands/using-first-commands/context">rit show context</a>
       </td>
       <td style="text-align:left">show the current session context</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="https://docs.ritchiecli.io/developer/formulas/repository#update-a-repository">rit update repo</a>
+      <td style="text-align:left"><a href="https://docs.ritchiecli.io/getting-started/commands/using-first-commands/repositories#update-a-repository">rit update repo</a>
       </td>
       <td style="text-align:left">update all repositories tree
         <br />(to access new formulas from those repositories with Ritchie)</td>
