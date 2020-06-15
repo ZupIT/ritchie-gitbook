@@ -22,7 +22,7 @@
     * [Credentials](getting-started/commands/using-first-commands/credentials.md)
     * [Repositories](getting-started/commands/using-first-commands/repositories.md)
   * [First formulas](getting-started/commands/first-formulas/README.md)
-    * [Docker](getting-started/commands/first-formulas/docker.md)
+    * [Docker compose](getting-started/commands/first-formulas/docker.md)
     * [Spring starter](getting-started/commands/first-formulas/spring.md)
 
 ## Reference <a id="developer"></a>
