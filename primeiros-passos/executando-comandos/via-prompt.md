@@ -26,13 +26,13 @@ Caso queira ver mais fórmulas, conheça o [repositório Github da comunidade](h
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"><a href="../../referencia/repositorio.md#adicione-o-repositorio-commons">rit add repo</a>
+      <td style="text-align:left"><a href>rit add repo</a>
       </td>
       <td style="text-align:left">adiciona a &#xE1;rvore de um novo reposit&#xF3;rio
         <br />(para ter acesso as f&#xF3;rmulas desse reposit&#xF3;rio com Ritchie)</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="../../referencia/repositorio.md#limpar-um-repositorio">rit clean repo</a>
+      <td style="text-align:left"><a href>rit clean repo</a>
       </td>
       <td style="text-align:left">limpa o cache de um reposit&#xF3;rio</td>
     </tr>
@@ -58,7 +58,7 @@ Caso queira ver mais fórmulas, conheça o [repositório Github da comunidade](h
         <br />(s&#xF3; dispon&#xED;vel para <em>admin</em> da organiza&#xE7;&#xE3;o na <b>vers&#xE3;o</b>  <b>Team</b>)</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="../../referencia/repositorio.md#remover-um-repositorio">rit delete repo</a>
+      <td style="text-align:left"><a href>rit delete repo</a>
       </td>
       <td style="text-align:left">remove a &#xE1;rvore de um reposit&#xF3;rio
         <br />(para remover o acesso as f&#xF3;rmulas desse reposit&#xF3;rio com Ritchie)</td>
@@ -76,7 +76,7 @@ Caso queira ver mais fórmulas, conheça o [repositório Github da comunidade](h
       <td style="text-align:left">remove um contexto da sess&#xE3;o</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="../../referencia/repositorio.md#remover-um-repositorio">rit list repo</a>
+      <td style="text-align:left"><a href>rit list repo</a>
       </td>
       <td style="text-align:left">lista todos os reposit&#xF3;rios que o Ritchie tem acesso no computador</td>
     </tr>
@@ -110,7 +110,7 @@ Caso queira ver mais fórmulas, conheça o [repositório Github da comunidade](h
       <td style="text-align:left">mostra o contexto usado na sess&#xE3;o atual</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="../../referencia/repositorio.md#atualizar-um-repositorio">rit update repo</a>
+      <td style="text-align:left"><a href>rit update repo</a>
       </td>
       <td style="text-align:left">atualiza as &#xE1;rvores de todos os reposit&#xF3;rios
         <br />(para acessar as novas f&#xF3;rmulas desses reposit&#xF3;rios com Ritchie)</td>

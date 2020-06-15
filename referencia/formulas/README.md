@@ -26,7 +26,7 @@ Cada **pasta de fórmula** vai conter o código executável e os arquivos refere
 
 A pasta **tree** é composta de um arquivo _**tree.json**_ que vai conter a árvore dos comandos de todas as fórmulas do repositório. 
 
-O arquivo _**Makefile**_ contem uma referência a todas as fórmulas do repositório, assim que um comando executável manipulando os arquivos **copy-bin-configs.sh** e **unzip-bin-configs.sh,** a fim de gerar os arquivos necessários para testar as fórmula\(s\) localmente na [pasta .rit]().
+O arquivo _**Makefile**_ contem uma referência a todas as fórmulas do repositório, assim que um comando executável manipulando os arquivos **copy-bin-configs.sh** e **unzip-bin-configs.sh,** a fim de gerar os arquivos necessários para testar as fórmula\(s\) localmente na [pasta .rit](https://docs.ritchiecli.io/v/doc-portuguese/referencia/cli#o-que-compoe-a-pasta-rit).
 
 ### Composição de fórmulas
 
@@ -166,12 +166,7 @@ Select your repository URL:
 
 Os primeiros comandos \(**`rit aws`** e **`rit aws apply`**\) retornaram o campo **help** associado ao comando no _tree.json_, assim que os sub-comandos disponíveis para o usuário conseguir executar uma fórmula.
 
-Já, o comando **`rit aws apply terraform`** baixou os executáveis da fórmula e começou a pedir os parâmetros de entrada ao usuário.  
-
-
-### Makefile e Shellscripts
-
-
+Já, o comando **`rit aws apply terraform`** baixou os executáveis da fórmula e começou a pedir os parâmetros de entrada ao usuário.
 
 ## Acesso às fórmulas
 
@@ -216,7 +211,7 @@ Usage:
 Use "rit <command> --help" for more information about a given command.
 ```
 
-Quando um usuário vai baixar o Ritchie \([versão Single]()\) ou efetuar o comando **rit login** \([versão Team]()\) para acessar o repositório de uma organização, o **CLI** vai baixar e realizar o merge dos _tree.json_ dos repositórios de fórmulas aos quais o usuário tem acesso. 
+Quando um usuário vai baixar o Ritchie \([versão Single](https://docs.ritchiecli.io/v/doc-portuguese/primeiros-passos/escolhendo-versao#versao-single)\) ou efetuar o comando **rit login** \([versão Team](https://docs.ritchiecli.io/v/doc-portuguese/primeiros-passos/escolhendo-versao#versao-team)\) para acessar o repositório de uma organização, o **CLI** vai baixar e realizar o merge dos _tree.json_ dos repositórios de fórmulas aos quais o usuário tem acesso. 
 
 
 
@@ -259,9 +254,9 @@ Isso permitiria por exemplo a um usuário, ou time, de usar um comando que está
 ****
 
 {% hint style="warning" %}
-É possível configurar a prioridade entre os repositórios na pasta **repo** da [pasta .rit]() onde tem um arquivo **repositories.json** configurável.
+É possível configurar a prioridade entre os repositórios na pasta **repo** da [pasta .rit](https://docs.ritchiecli.io/v/doc-portuguese/referencia/cli#o-que-compoe-a-pasta-rit) onde tem um arquivo **repositories.json** configurável.
 
-Por mais informações sobre como manipular repositórios, confere a documentação aqui :[ Repositório.](https://docs.ritchiecli.io/v/doc-portuguese/primeiros-passos-1/comandos/repositorio)
+Por mais informações sobre como manipular repositórios, confere a documentação aqui: [Repositório](https://docs.ritchiecli.io/v/doc-portuguese/primeiros-comandos/repositorio).
 {% endhint %}
 
 

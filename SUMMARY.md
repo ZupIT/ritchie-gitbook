@@ -17,11 +17,14 @@
 * [Executando comandos](primeiros-passos/executando-comandos/README.md)
   * [Via prompt](primeiros-passos/executando-comandos/via-prompt.md)
   * [Via stdin](primeiros-passos/executando-comandos/via-stdin.md)
+  * [Primeiros comandos](primeiros-passos/executando-comandos/primeiros-comandos/README.md)
+    * [Contexto](primeiros-passos/executando-comandos/primeiros-comandos/contexto.md)
+    * [Credenciais](primeiros-passos/executando-comandos/primeiros-comandos/credenciais.md)
+    * [Repositórios](primeiros-passos/executando-comandos/primeiros-comandos/repositorios.md)
   * [Outros comandos](primeiros-passos/executando-comandos/outros-comandos.md)
 
 ## REFERÊNCIA
 
-* [Repositório](referencia/repositorio.md)
 * [CLI](referencia/cli.md)
 * [Fórmulas](referencia/formulas/README.md)
   * [Config.json](referencia/formulas/acesso-as-formulas.md)

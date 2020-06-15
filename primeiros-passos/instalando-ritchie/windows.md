@@ -6,7 +6,7 @@ Para baixar a **versão mais atualizada do Ritchie \(1.0.0-beta.12\)** no Window
 
 No entanto, é importante ter em mente alguns pré-requisitos antes de iniciar a instalação na sua máquina. 
 
-### Pré-requisitos 
+### Requisitos 
 
 Para você conseguir usar eficientemente o Ritchie no Windows, nossa recomendação é que tenha instalado os seguintes programas: 
 

@@ -29,7 +29,7 @@ O campo _**keycloak**_ se refere as configurações do client [Keycloak](https:/
 
 O campo _**cliVersionPath**_ informa a URL para o provider afim de identificar a versão do CLI sendo usada.
 
-O campo _**repositories**_ indica as configurações dos repositórios de fórmulas acessíveis pelo time \(com nome, prioridade, treePath, urls\) que o CLI vai usar para baixar os tree.json que ficarão na [pasta .rit]()
+O campo _**repositories**_ indica as configurações dos repositórios de fórmulas acessíveis pelo time \(com nome, prioridade, treePath, urls\) que o CLI vai usar para baixar os tree.json que ficarão na [pasta .rit](https://docs.ritchiecli.io/v/doc-portuguese/referencia/cli#o-que-compoe-a-pasta-rit)
 
 O campo _**oauth**_ contém a URL que será usada para realizar o login via a ferramenta SSO \(Single Sign On\) usada pelo time.
 

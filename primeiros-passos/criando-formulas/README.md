@@ -22,11 +22,7 @@ Lembre-se que o ideal é que a nova fórmula siga o padrão **rit + group + verb
 
 ![Exemplo do comando create new formula](https://lh5.googleusercontent.com/O9s2UpIovVyG4h2p1kuX8kLvASX_YS0mAKRSQWXxwoe2Tmr-R1r8xWSKH-nq2uCAfQSG4EcZC1tYPnICeh34coLM5ZsfIU38zTHDRwf6q3cqY_e1KWABAjX-hA_zfqOntFuA-WWX)
 
-## Passo 2: Teste seu template 
-
-**TBD**
-
-## Passo 3: Direcionar para um repositório
+## Passo 2: Direcionar para um repositório
 
 Quando é executado o comando para criação de fórmula, você tem a opção de informar o caminho para um repositório de fórmulas já existente na máquina.
 
@@ -40,7 +36,7 @@ Segue um exemplo da estrutura do repositório local com uma fórmula \(dentro da
 
 ![Estrutura do reposit&#xF3;rio local](https://lh3.googleusercontent.com/Tz7C28jLzbXdqABAVo1BUWXr_uMkBcIxwsEXvze8OYVOU3Gs6mLoMhIF5EFYp6bq7bQjE8wvyuFxLWR5Qx2xBLSCnLorRc9kc6DWZVHQu09P_WV4BL4TkQ4SsWrCez0nEmqCSiD4)
 
-## Passo 4: Organizar a pasta da fórmula 
+## Passo 3: Organizar a pasta da fórmula 
 
 {% hint style="info" %}
 Vale reforçar que o comando `rit create formula` , por si só, já cria automaticamente uma pasta referente à fórmula no repositório, de acordo com o _input_ informado. 
@@ -74,7 +70,7 @@ Se você criou uma fórmula pela primeira vez criando o repositório local, este
 
 ![](https://lh5.googleusercontent.com/6oPMzmvLxb9PGmC9a6U7KfLt4oCpEnFhOHXXOoGkgMgmaQi4kKHDo5epvU27HbWbBvM1mC1K2aruXfGPQrtWJMibeXmXmN19NbI7S81Djz11Axc0fCG2GtTNCAYivuI2iMMxMLZK)
 
-## Passo 5: Implemente a fórmula 
+## Passo 4: Implemente a fórmula 
 
 Uma vez criada e organizada a fórmula no seu respectivo repositório e pasta, está na hora de implementá-la. 
 

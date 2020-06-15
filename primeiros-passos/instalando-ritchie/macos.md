@@ -14,7 +14,7 @@ O comando para adicionar o Ritchie Team ao seu terminal é:
 curl -fsSL https://commons-repo.ritchiecli.io/install.sh | bash
 ```
 
-### 
+
 
 ### Instalando Versão Single
 
