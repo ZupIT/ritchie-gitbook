@@ -21,7 +21,7 @@ Na prática, a principal diferença entre as versões está no uso \(ou não\) d
 
 ## **Comparando versões** 
 
-![](https://lh6.googleusercontent.com/6WycqFS-dLVCO5BMaxlsl8oTXb975a4tDpsyDn3n9JIsX4p0iO-D3klivsZVBBrbYBggRBZNdAtp3k1WX9liAVn6C1VfAqcqrcsXR8iXE20xGuxs3kFvLofWlRkq0Tqocej3Bfrd)
+![](../.gitbook/assets/screenshot-2020-06-15-at-16.48.44.png)
 
 ## Versão Single 
 
