@@ -35,9 +35,9 @@ These input parameters will be informed by the user:
 
 ## Execution of a formula \(with prompt\)
 
-![Example of a Ritchie command executed by the terminal](https://lh3.googleusercontent.com/viskNlV4iXyN63RYhBdgu9I010Rz6nXaliyFKvC9vAHDyrQm2fEPUXzF5l6QclYEoQywEeXYZq3hPQFP_DqGQYJkk38E3nuam4rJQPSdl5zHU6HzP9Q2mEfg3TJeBuacn2geRgx7)
+![](.gitbook/assets/rit-scaffold-generate-coffee-go.gif)
 
-**`rit scaffold generate coffee`** is an executable command associated with a formula in the CLI's tree.
+**`rit scaffold generate coffee-go`** is an executable command associated with a formula in the CLI's tree.
 
 As it was the first time that the command was executed, it is possible to observe that Ritchie downloaded a config file and the formula's binary in sequence.
 
