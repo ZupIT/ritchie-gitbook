@@ -32,7 +32,7 @@ The **formulas** folder contains all the files necessary for the CLI to execute 
 
 It is composed of several folders, one per formula, containing the formula executable according to the operating system used, as soon as the associated config.json is used to identify the necessary input parameters for the formula to be executed correctly.
 
-These files are downloaded, and these folders are created when the CLI executes a formula command for the [first time]() \(they are fetched through the formula's repoUrl informed in the associated tree.json\).
+These files are downloaded, and these folders are created when the CLI executes a formula command for the [first time](https://docs.ritchiecli.io/key-concepts#formulas-on-demand) \(they are fetched through the formula's repoUrl informed in the associated tree.json\).
 
 When the user tests a formula he implemented locally, the _Makefile_ file contained in the formula repository used will add the formula's executables inside that folder, creating the same structure that would be created if the formula were downloaded from a server.
 
