@@ -1,10 +1,16 @@
-# Repository
+# Repositories
 
 ## Introduction
 
-You can have access to more than one repository using Ritchie. We'll show you above some commands that you can use to manage your repo. 
+You can have access to more than one repository using Ritchie. We'll show you some commands that you can use to manage your repo. 
 
 ## Add the _commons_ repository
+
+{% hint style="warning" %}
+The commons repo **is automatically added** when you execute successfully the **rit init** command.
+
+You can remove it using the **rit delete repo** command explained below.
+{% endhint %}
 
 **Community's formulas** are located on the [**ritchie-formulas**](https://github.com/ZupIT/ritchie-formulas) project on **GitHub**. Those formulas commands won't appear when executing the `rit --help` command if the user doesn't import the **tree.json** of this repository first. 
 
@@ -16,7 +22,7 @@ https://commons-repo.ritchiecli.io/tree/tree.json
 
 This path must be informed through the `rit add repo` command to be added to the local Ritchie-CLI tree. As the example below :
 
-![Example of how to add the commons repository commands to Ritchie](../.gitbook/assets/rit-add-repo-min.gif)
+![Example of how to add the commons repository commands to Ritchie](../../../.gitbook/assets/rit-add-repo-min.gif)
 
 Once the new repository **tree.json** has been added, its _formulas executable commands_ are added to the Ritchie helper. That means they are now available to the user.
 
@@ -51,7 +57,7 @@ NAME   	URL
 commons	https://commons-repo.ritchiecli.io/tree/tree.json
 ```
 
-![Example of how to remove the commons repository commands from Ritchie](../.gitbook/assets/rit-delete-repo-min.gif)
+![Example of how to remove the commons repository commands from Ritchie](../../../.gitbook/assets/rit-delete-repo-min.gif)
 
 ## **Clean** a repository
 

@@ -2,7 +2,7 @@
 description: Description of Ritchie's core commands
 ---
 
-# Executing more commands
+# Executing commands
 
 If you are more confident to use Ritchie, now it the time to try and use more commands.
 

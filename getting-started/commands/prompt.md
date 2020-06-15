@@ -14,6 +14,58 @@ Formula commands are executed following this pattern:
 
 If you want to see more formulas, check the [**github community repository**](https://github.com/ZupIT/ritchie-formulas)**.**
 
+## Flags
+
+| Flags | Operation |
+| :--- | :--- |
+| rit --help | Help for any Ritchie command |
+| rit --version | Display Ritchie current version |
+
+```text
+➜ rit --help
+
+A CLI that developers can build and operate
+your applications without help from the infra staff.
+Complete documentation is available at https://github.com/ZupIT/ritchie-cli
+
+core commands:
+  add         add objects
+  completion  Add autocomplete for terminal
+  clean       clean objects
+  create      Create objects
+  delete      Delete objects
+  list        list objects
+  set         Set objects
+  show        Show objects
+  update      update objects
+
+commons commands:
+  aws         Apply Aws objects
+  docker      Manipulate docker objects
+  github      Manipulate GitHub objects
+  k8s         Manipulate k8s objects
+  kafka       Kafka commands
+  scaffold    Manipulate scaffold objects
+
+Other Commands:
+
+Options:
+  -v, --version: version for rit
+
+Usage:
+  rit [flags] [options]
+
+Use "rit <command> --help" for more information about a given command.
+```
+
+```text
+➜ rit --version
+
+rit version 1.0.0-beta.7 (single)
+  Build date: 05/20/20_13:29
+  Built with: go1.14.3
+```
+
 ## Core commands
 
 <table>
@@ -71,7 +123,7 @@ If you want to see more formulas, check the [**github community repository**](ht
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="using-first-commands.md#context-command">rit delete context</a>
+      <td style="text-align:left"><a href="using-first-commands/#context-command">rit delete context</a>
       </td>
       <td style="text-align:left">delete a context form the session</td>
     </tr>
@@ -91,12 +143,12 @@ If you want to see more formulas, check the [**github community repository**](ht
       <td style="text-align:left">user logout from session</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="using-first-commands.md#credentials">rit set credential</a>
+      <td style="text-align:left"><a href="using-first-commands/#credentials">rit set credential</a>
       </td>
       <td style="text-align:left">set new credentials into the session</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="using-first-commands.md#context-command">rit set context</a>
+      <td style="text-align:left"><a href="using-first-commands/#context-command">rit set context</a>
       </td>
       <td style="text-align:left">set a new context into the session</td>
     </tr>
@@ -105,7 +157,7 @@ If you want to see more formulas, check the [**github community repository**](ht
       <td style="text-align:left">set the team server URL (<b>Team version</b>)</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="using-first-commands.md#context-command">rit show context</a>
+      <td style="text-align:left"><a href="using-first-commands/#context-command">rit show context</a>
       </td>
       <td style="text-align:left">show the current session context</td>
     </tr>
@@ -117,54 +169,4 @@ If you want to see more formulas, check the [**github community repository**](ht
     </tr>
   </tbody>
 </table>
-
-| Flags | Operation |
-| :--- | :--- |
-| rit --help | Help for any Ritchie command |
-| rit --version | Display Ritchie current version |
-
-```text
-➜ rit --help
-
-A CLI that developers can build and operate
-your applications without help from the infra staff.
-Complete documentation is available at https://github.com/ZupIT/ritchie-cli
-
-core commands:
-  add         add objects
-  completion  Add autocomplete for terminal
-  clean       clean objects
-  create      Create objects
-  delete      Delete objects
-  list        list objects
-  set         Set objects
-  show        Show objects
-  update      update objects
-
-commons commands:
-  aws         Apply Aws objects
-  docker      Manipulate docker objects
-  github      Manipulate GitHub objects
-  k8s         Manipulate k8s objects
-  kafka       Kafka commands
-  scaffold    Manipulate scaffold objects
-
-Other Commands:
-
-Options:
-  -v, --version: version for rit
-
-Usage:
-  rit [flags] [options]
-
-Use "rit <command> --help" for more information about a given command.
-```
-
-```text
-➜ rit --version
-
-rit version 1.0.0-beta.7 (single)
-  Build date: 05/20/20_13:29
-  Built with: go1.14.3
-```
 

@@ -29,7 +29,7 @@ The _**keycloak**_ field refers to the client [**Keycloak**](https://www.keycloa
 
 The _**cliVersionPath**_ field informs the URL to the provider in order to identify the version of the CLI being used.
 
-The _**repositories**_ field indicates the formula repositories accessible by the team \(with name, priority, treePath, urls\) that the CLI will use to download the tree.json that will be in the [**.rit folder** ]()
+The _**repositories**_ field indicates the formula repositories accessible by the team \(with name, priority, treePath, urls\) that the CLI will use to download the tree.json that will be in the [**.rit folder** ](cli.md)
 
 The _**oauth**_ field contains the URL that will be used to login with the team's SSO \(Single Sign On\) tool. 
 
@@ -186,7 +186,7 @@ Once everything is up, it will be possible to execute the requests via Postman t
 A **core command** is being developed to allow a team to be able to create the configuration files as soon as the realm in kubectl, to be able to generate a server already working with Ritchie in a simplified way.
 {% endhint %}
 
-## **Credentials**
+## **Credentials Configurations**
 
 The **`rit set credential`**command allows to save credentials in the session \(locally in the Single version, in the Vault in the Team version\) for the user to take advantage of this data without having to inform them again when executing their formulas.
 
@@ -198,7 +198,7 @@ This file is where the **input** **parameters** that will be requested from the 
 That keyword is **CREDENTIAL**. 
 {% endhint %}
 
-To know how to use it, you need to have access to the `ritchie-server` repository, and observe how the credentials of each tool are registered in the `resources/file_config_local.json` file. 
+To know how to use it, you need to have access to the `ritchie-server` repository, and observe how the credentials of each tool are registered in the `resources/file_config_local.json` file as explained above in this section.
 
 For example, **Github credentials** are configured as follows:
 
@@ -237,8 +237,6 @@ When the formula command will be executed, the Github credentials will be fetche
 {% hint style="warning" %}
 Remembering that the user must have logged in, and set the credentials \(**rit set credential**\) for this to work.
 {% endhint %}
-
-With the **`rit set credential`** command, it is also possible for a **team admin** to set encrypted credentials into the session of specific users to allow them to execute commands without having access to any confidential informations.
 
 
 

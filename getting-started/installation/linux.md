@@ -15,7 +15,7 @@ The command used to install Ritchie Team at your terminal is:
 curl -fsSL https://commons-repo.ritchiecli.io/install.sh | bash
 ```
 
-
+### 
 
 ### Installing Single Version
 

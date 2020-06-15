@@ -11,20 +11,18 @@ Basically, when you indicate the URL above on your navigator, the system returns
 
 ### Step by step 
 
-Download the Ritchie binary version by entering the URL below in your browser by informing **the version** as obtained in step 1.
+Download the Ritchie binary version by entering the URL below in your browser by informing **the version** **{VERSION}** as obtained in step 1.
 
 ### **Installation for MAC**
 
 #### **Team Version**  
 
 ```text
-https://commons-repo.ritchiecli.io/{versão}/team/mac/rit
+curl -fsSL https://commons-repo.ritchiecli.io/install.sh | sed -e 's/$(curl -s https:\/\/commons-repo.ritchiecli.io\/stable.txt)/{VERSION}/g' | bashSingle Version 
 ```
 
-**Single Version** 
-
 ```text
-https://commons-repo.ritchiecli.io/{versão}/single/mac/rit
+curl -fsSL https://commons-repo.ritchiecli.io/install_single.sh | sed -e 's/$(curl -s https:\/\/commons-repo.ritchiecli.io\/stable.txt)/{VERSION}/g' | bash
 ```
 
 ### **Installation for Linux**
@@ -32,13 +30,13 @@ https://commons-repo.ritchiecli.io/{versão}/single/mac/rit
 #### **Team Version**
 
 ```text
-https://commons-repo.ritchiecli.io/{versão}/team/linux/rit
+curl -fsSL https://commons-repo.ritchiecli.io/install.sh | sed -e 's/$(curl -s https:\/\/commons-repo.ritchiecli.io\/stable.txt)/{VERSION}/g' | bashSingle Version 
 ```
 
 **Single Version**
 
 ```text
-https://commons-repo.ritchiecli.io/{versão}/single/linux/rit
+curl -fsSL https://commons-repo.ritchiecli.io/install_single.sh | sed -e 's/$(curl -s https:\/\/commons-repo.ritchiecli.io\/stable.txt)/{VERSION}/g' | bash
 ```
 
 ### **Installation for Windows** 
@@ -46,13 +44,13 @@ https://commons-repo.ritchiecli.io/{versão}/single/linux/rit
 #### **Team Version**
 
 ```text
-https://commons-repo.ritchiecli.io/{versão}/windows/team/rit.exe
+https://commons-repo.ritchiecli.io/{VERSION}/windows/team/rit.exe
 ```
 
 **Single Version**
 
 ```text
-https://commons-repo.ritchiecli.io/{versão}/windows/single/rit.exe
+https://commons-repo.ritchiecli.io/{VERSION}/windows/single/rit.exe
 ```
 
 ## **Manual settings** 

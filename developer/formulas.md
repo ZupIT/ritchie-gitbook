@@ -26,7 +26,7 @@ Each repository must contain the following elements:
 * a copy-bin-configs.sh file 
 * an unzip-bin-configs.sh file
 
-![](../../.gitbook/assets/repo.png)
+![](../.gitbook/assets/repo.png)
 
 Each **formula folder** will contain the executable code and files for a formula.
 
@@ -34,7 +34,7 @@ The **tree** folder is composed of a **tree.json** file that will contain the co
 
 The **Makefile** file contains a reference to all formulas in the repository, as well as an executable command manipulating the files **copy-bin-configs.sh** and **unzip-bin-configs.sh**, in order to generate the executable files needed to test the formula\(s\) locally inside the [.rit folder]().
 
-## Formula composition
+### Formula composition
 
 {% hint style="info" %}
 Each formula is composed of several files allowing its execution by the CLI.
@@ -43,14 +43,84 @@ Each formula is composed of several files allowing its execution by the CLI.
 For a formula to be executed by the terminal, it is necessary to have: 
 
 * The tree.json file of the repository where the configured formula is located 
-* A config.json file 
 * An executable file
+* A config.json file 
 
 The **tree.json** file allows the CLI to know the commands and sub-commands associated with the formula. This is how it identifies where to download the formula files on the first execution \(on demand\).
 
+The **executable file** contains the implementation of the formula. The CLI will download this file according to the operating system of the user's computer and execute this formula sending the input parameters that have been informed.
+
 The **config.json** file contains the formula's input parameters. It allows the CLI to know what datas to ask the user when he executes the command in the terminal in order to process the formula correctly.
 
-The **executable file** contains the implementation of the formula. The CLI will download this file according to the operating system of the user's computer and execute this formula sending the input parameters that have been informed.
+#### Config.json
+
+This file contains the following information: 
+
+* a description 
+* the formula input parameters 
+
+These input parameters are made up of the following fields: 
+
+* name 
+* type
+* label 
+* default \(optional\) 
+* items \(optional\) 
+* cache \(optional\)
+
+```text
+{
+  "description": "Sample inputs in Ritchie.",
+  "inputs" : [
+    {
+      "name" : "sample_text",
+      "type" : "text",
+      "label" : "Type : ",
+      "cache" : {
+        "active": true,
+        "qty" : 6,
+        "newLabel" : "Type new value. "
+      }
+    },
+    {
+      "name" : "sample_list",
+      "type" : "text",
+      "default" : "in1",
+      "items" : ["in_list1", "in_list2", "in_list3", "in_listN"],
+      "label" : "Pick your : "
+    },
+    {
+      "name" : "sample_bool",
+      "type" : "bool",
+      "default" : "false",
+      "items" : ["false", "true"],
+      "label" : "Pick: "
+    }
+  ]
+}
+```
+
+The **name** field refers to the name of the variable that will be extracted when implementing the formula. 
+
+The **type** field represents the type of the variable \(currently there is only TEXT and BOOL\) 
+
+The **label** field is the text that will appear to the user via PROMPT to inform this variable. 
+
+The **default** field is the value of the variable that will come by default if the choice is a list of options. 
+
+The **items** field is the list of possible options for the variable. 
+
+The **cache** field allows to configure whether it is necessary to store the user's choices for this variable. It consists of 3 fields: 
+
+* active 
+* qty 
+* newLabel. 
+
+The **active** field indicates whether the cache is enabled or not. 
+
+The **qty** field refers to the number of choices that can be stored in the cache.
+
+The **newLabel** field is for the user to enter another value for the variable if those saved in the cache do not meet their needs.
 
 ### Tree.json
 
@@ -172,6 +242,67 @@ The **`rit aws apply terraform`** command downloaded the formula's executables a
 
 ### Makefile e Shellscripts
 
+Those 3 files are used to generate files locally on the .rit folder when the user need to test the automation code he has implemented.
+
+* Makefile 
+* copy-bin-configs.sh file 
+* unzip-bin-configs.sh file
+
+When creating the new formula, the path where the formula is located in the repository have to be informed in the **Makefile** of the root of the repository, as the following example :
+
+```text
+#Makefiles
+
+SC_SPRING_STARTER=scaffold/spring-starter
+KAFKA=kafka
+DOCKER=docker/compose
+
+FORMULAS=$(SC_SPRING_STARTER) $(KAFKA) $(DOCKER)
+```
+
+In this file there is also a `test-local` command that allows the user to generate the executable files of one or more formulas and place them in the temporary Ritchie folder \(.rit\) located in the home of the user's machine.
+
+```text
+test-local:
+ifneq ("$(FORM)", "")
+	@echo "Using form true: "  $(FORM_TO_UPPER)
+	$(MAKE) bin FORMULAS=$(FORM)
+	mkdir -p $(HOME)/.rit/formulas
+	rm -rf $(HOME)/.rit/formulas/$(FORM)
+	./unzip-bin-configs.sh
+	cp -r formulas/* $(HOME)/.rit/formulas
+	rm -rf formulas
+else
+	@echo "Use make test-local form=NAME_FORMULA for specific formula."
+	@echo "form false: ALL FORMULAS"
+	$(MAKE) bin
+	rm -rf $(HOME)/.rit/formulas
+	./unzip-bin-configs.sh
+	mv formulas $(HOME)/.rit
+endif
+	mkdir -p $(HOME)/.rit/repo/local
+	rm -rf $(HOME)/.rit/repo/local/tree.json
+	cp tree/tree.json  $(HOME)/.rit/repo/local/tree.json
+```
+
+The **copy-bin-configs.sh** and **unzip-bin-configs.sh** are actually manipulated by the **test-local** command to extract the executable files and **config.json** of the chosen formulas, and move them to the **.rit folder**.
+
+#### There are 2 ways to use this Makefile command:
+
+Informing the specific formula to test, according to the name informed in the Makefile:
+
+```text
+make test-local form={nome_formula} 
+```
+
+Executing directly the **test-local** script to add all formulas from the repository to the temporary .rit folder :
+
+```text
+make test-local
+```
+
+After adding the formula in .rit through the Makefile \(main\), it will be possible to execute the command associated with that formula through the terminal \(auto-completion will not work in this case\).
+
 ## Access to formulas
 
 {% hint style="info" %}
@@ -219,7 +350,7 @@ When a user will download Ritchie \([Single]() version\) or execute the `rit log
 
 
 
-![](../../.gitbook/assets/fluxo-cli%20%281%29.png)
+![](../.gitbook/assets/fluxo-cli%20%281%29.png)
 
 The junction of the repository trees will be the tree of all commands available via the CLI on the user's computer, which is presented in the _Helper_.
 
@@ -254,8 +385,8 @@ Priority would be given to commons commands over your team's commands.
 Priority would be given to team commands over commons commands. This would allow, for example, a user / team to use a command that is in the **ritchie-formulas** \(commons\) repository tree for a formula in their repository, performing a different operation with the same command, since it would have priority.
 
 {% hint style="warning" %}
-It is possible to configure the priority between the repositories in the **repo** folder of the [.rit folder]() where you have a configurable repositories.json file. 
+It is possible to configure the priority between the repositories in the **repo** folder of the [.rit folder](cli.md) where you have a configurable repositories.json file. 
 
-For more information on how to manipulate [repositories](../repository.md), check out the documentation here: Repository.
+For more information on how to manipulate [repositories](../getting-started/commands/using-first-commands/repositories.md), check out the documentation here: Repository.
 {% endhint %}
 

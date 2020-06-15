@@ -29,9 +29,3 @@ description: 'In this section, you will find the main questions about Ritchie.'
 * [How to report a bug? ](https://docs.ritchiecli.io/community#do-you-have-any-suggestion-for-the-ritchie-development-team)
 * [How do I contribute with the documentation?](https://docs.ritchiecli.io/community#do-you-have-any-suggestion-for-the-ritchie-development-team)
 
-
-
-
-
-
-

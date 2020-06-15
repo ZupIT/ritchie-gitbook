@@ -20,9 +20,7 @@ Remember, the ideal is to follow the pattern **rit + group + verb + noun.**
 
 ![Create new formula example ](../../.gitbook/assets/rit-create-formula.gif)
 
-## **Step 2: Test your template**
-
-## **Step 3: Direct to a repository** 
+## **Step 2: Direct to a repository** 
 
 When the command for creating a formula is execued, you can choose to inform the path to a formula repository already on the machine.
 
@@ -36,7 +34,7 @@ Here is an example of the structure of the local repository with a formula \(ins
 
 ![](https://lh3.googleusercontent.com/Tz7C28jLzbXdqABAVo1BUWXr_uMkBcIxwsEXvze8OYVOU3Gs6mLoMhIF5EFYp6bq7bQjE8wvyuFxLWR5Qx2xBLSCnLorRc9kc6DWZVHQu09P_WV4BL4TkQ4SsWrCez0nEmqCSiD4)
 
-## Step 4: Organize the formula folder 
+## Step 3: Organize the formula folder 
 
 
 
@@ -70,7 +68,7 @@ If you first created a formula by creating the local repository, the formula rep
 
 ![](https://lh5.googleusercontent.com/6oPMzmvLxb9PGmC9a6U7KfLt4oCpEnFhOHXXOoGkgMgmaQi4kKHDo5epvU27HbWbBvM1mC1K2aruXfGPQrtWJMibeXmXmN19NbI7S81Djz11Axc0fCG2GtTNCAYivuI2iMMxMLZK)
 
-## Step 5: Implement the formula
+## Step 4: Implement the formula
 
 Once you have created and organized the formula in your repository and folder it is time to implement it.
 
@@ -87,7 +85,7 @@ Some other instructions:
 
 ❗Do not change the name of the formula's root folders \(group / verb / noun\) without updating the **tree.json** and **Makefile** \(of the repository\) with the appropriate paths. 
 
-❗Remember that **tree.json** and **Makefile** \(of teh reposiroty\) are already created / changed by executing the rit create formula command. Consequently, you will not need to change them to be able to test the new formula, even after changing the files commented above.
+❗Remember that **tree.json** and **Makefile** \(of the repository\) are already created / changed by executing the rit create formula command. Consequently, you will not need to change them to be able to test the new formula, even after changing the files commented above.
 
 It is possible to make some adjustments to these files if you need to_._ For example, if you need to change the decrypted message or the command helper associated with your formula, you will need to make these changes in **tree.json.**
 {% endhint %}
