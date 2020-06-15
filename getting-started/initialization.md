@@ -46,7 +46,7 @@ Using the **`rit login`** command, it is possible to create a session to store d
 
 Therefore, this does not work in the same way in each version:
 
-###  Team Version
+### Team Version
 
 In this version, this command creates a session using the _Keycloak_ after the user has informed his organization with his data \(email & password\). In this session, the user can, for example, define his credentials for various tools \(github, aws, etc ...\). 
 
