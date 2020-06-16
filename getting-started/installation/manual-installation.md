@@ -18,11 +18,11 @@ Download the Ritchie binary version by entering the URL below in your browser by
 #### **Team Version**  
 
 ```text
-curl -fsSL https://commons-repo.ritchiecli.io/install.sh | sed -e 's/$(curl -s https:\/\/commons-repo.ritchiecli.io\/stable.txt)/{VERSION}/g' | bashSingle Version 
+https://commons-repo.ritchiecli.io/{VERSION}/team/mac/rit
 ```
 
 ```text
-curl -fsSL https://commons-repo.ritchiecli.io/install_single.sh | sed -e 's/$(curl -s https:\/\/commons-repo.ritchiecli.io\/stable.txt)/{VERSION}/g' | bash
+https://commons-repo.ritchiecli.io/{VERSION}/single/mac/rit
 ```
 
 ### **Installation for Linux**
@@ -30,13 +30,13 @@ curl -fsSL https://commons-repo.ritchiecli.io/install_single.sh | sed -e 's/$(cu
 #### **Team Version**
 
 ```text
-curl -fsSL https://commons-repo.ritchiecli.io/install.sh | sed -e 's/$(curl -s https:\/\/commons-repo.ritchiecli.io\/stable.txt)/{VERSION}/g' | bashSingle Version 
+https://commons-repo.ritchiecli.io/{VERSION}/team/linux/rit
 ```
 
 **Single Version**
 
 ```text
-curl -fsSL https://commons-repo.ritchiecli.io/install_single.sh | sed -e 's/$(curl -s https:\/\/commons-repo.ritchiecli.io\/stable.txt)/{VERSION}/g' | bash
+https://commons-repo.ritchiecli.io/{VERSION}/single/linux/rit
 ```
 
 ### **Installation for Windows** 
