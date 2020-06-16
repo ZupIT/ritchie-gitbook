@@ -237,7 +237,7 @@ Já, o comando **`rit aws apply terraform`** baixou os executáveis da fórmula 
 
 ### Makefile e Shellscripts
 
-Esses 3 arquivos abaixo são usados para gerar arquivos localmente no .rit folder quando o usuário precisa testar a automação do código que ele tenha implementado.
+Esses 3 arquivos abaixo são usados para gerar arquivos localmente no .rit folder, isso é feito quando o usuário precisa testar a automação do código que ele tenha implementado.
 
 * Makefile 
 * copy-bin-configs.sh 
@@ -255,7 +255,7 @@ DOCKER=docker/compose
 FORMULAS=$(SC_SPRING_STARTER) $(KAFKA) $(DOCKER)
 ```
 
-Nesse arquivo também se encontra o comando `test-local` que permite o usuário gerar arquivos executáveis de uma ou mais fórmulas e colocá-las temporariamente dentro da pasta Ritchie \(.rit\) localizado no home da máquina do usuário. 
+Nesse arquivo também se encontra o comando `test-local` que permite o usuário gerar arquivos executáveis de uma ou mais fórmulas e colocá-los temporariamente dentro da pasta Ritchie \(.rit\) localizado no home da máquina do usuário. 
 
 ```text
 test-local:
