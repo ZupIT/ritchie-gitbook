@@ -2,7 +2,7 @@
 
 ## Como funciona? 
 
-Para baixar a **versão mais atualizada do Ritchie \(1.0.0-beta.12\)** no Windows, basta clicar nos links disponíveis para cada versão. 
+Para baixar a **versão mais atualizada do Ritchie \(1.0.0-beta.14\)** no Windows, basta clicar nos links disponíveis para cada versão. 
 
 No entanto, é importante ter em mente alguns pré-requisitos antes de iniciar a instalação na sua máquina. 
 
@@ -22,11 +22,11 @@ Vale lembrar que, se preferir, também é possível seguir com a[ **instalação
 
 ### Instalando Versão Team 
 
-Clique no link para[ instalar o Ritchie Team](https://commons-repo.ritchiecli.io/1.0.0-beta.12/windows/team/rit.exe)
+Clique no link para[ instalar o Ritchie Team](https://commons-repo.ritchiecli.io/1.0.0-beta.14/windows/team/rit.exe)
 
 ### Instalando Versão Single
 
-Clique no link para [instalar a Versão Single](https://commons-repo.ritchiecli.io/1.0.0-beta.12/windows/single/rit.exe)
+Clique no link para [instalar a Versão Single](https://commons-repo.ritchiecli.io/1.0.0-beta.14/windows/single/rit.exe)
 
 
 
