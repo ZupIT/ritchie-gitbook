@@ -27,6 +27,8 @@ Click on the following link to[ install Ritchie Team](https://commons-repo.ritch
 
 Click on the following link to [install Ritchie Single.](https://commons-repo.ritchiecli.io/1.0.0-beta.14/windows/single/rit.exe)
 
+
+
 ## Use Ritchie on Windows
 
 {% hint style="warning" %}
