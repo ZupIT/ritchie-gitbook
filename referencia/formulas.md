@@ -20,7 +20,7 @@ Cada repositório deve conter os seguintes elementos:
 * Um arquivo copy-bin-configs.sh 
 * Um arquivo unzip-bin-configs.sh
 
-![Reposit&#xF3;rio de f&#xF3;rmulas da comunidade](../../.gitbook/assets/screenshot-2020-05-22-at-17.27.48.png)
+![Reposit&#xF3;rio de f&#xF3;rmulas da comunidade](../.gitbook/assets/screenshot-2020-05-22-at-17.27.48.png)
 
 Cada **pasta de fórmula** vai conter o código executável e os arquivos referentes a uma fórmula.
 
@@ -36,18 +36,85 @@ Cada fórmula é composta de vários arquivos permitindo sua execução pelo CLI
 
 Para uma fórmula ser executada pelo terminal, é preciso ter:
 
-* Um arquivo config.json
+* Um arquivo tree.json do repositório onde está a fórmula configurada.
 * Um arquivo executável
+* Um arquivo config.json
+
+O **tree.json** permite que o CLI reconheça os comandos e sub-comandos associados a fórmula. É assim que ele identifica onde baixar os arquivos da fórmula na primeira execução \(sob demanda\).
+
+O **arquivo executável** contém a implementação da fórmula. O CLI vai baixar esse arquivo de acordo com o sistema operacional do computador do usuário e executar essa fórmula enviando os parâmetros de entrada que terão sido informados.
+
+O arquivo **config.json** contém os parâmetros de entrada \(_inputs_\) da fórmula. Ele que permite que o CLI saiba quais informações ele precisará pedir para o usuário quando ele executará o comando no terminal a fim de processar a fórmula corretamente.
 
 #### Config.json
 
-Arquivo que contém os parâmetros de entrada \(_inputs_\) da fórmula. Ele que permite que o CLI saiba quais informações ele precisará pedir para o usuário quando ele executará o comando no terminal a fim de processar a fórmula corretamente.
+Esse arquivo contém as seguintes informações :
 
-#### Arquivo executável 
+* uma descrição
+* os parâmetros de entrada da fórmula
 
-Arquivo que contém a implementação da fórmula. O CLI vai baixar esse arquivo de acordo com o sistema operacional do computador do usuário e executar essa fórmula enviando os parâmetros de entrada que terão sido informados.
+Esses parâmetros de entrada são compostos dos seguintes campos:
 
-Além destes arquivos, é preciso adequar o **tree.json** para permitir que o CLI reconheça os comandos e sub-comandos associados a fórmula. É assim que ele identifica onde baixar os arquivos da fórmula na primeira execução \(sob demanda\).  
+* nome
+* tipo
+* label
+* default \(facultativo\)
+* items \(facultativo\)
+* cache \(facultativo\)
+
+```text
+{
+  "description": "Sample inputs in Ritchie.",
+  "inputs" : [
+    {
+      "name" : "sample_text",
+      "type" : "text",
+      "label" : "Type : ",
+      "cache" : {
+        "active": true,
+        "qtd" : 6,
+        "newLabel" : "Type new value. "
+      }
+    },
+    {
+      "name" : "sample_list",
+      "type" : "text",
+      "default" : "in1",
+      "items" : ["in_list1", "in_list2", "in_list3", "in_listN"],
+      "label" : "Pick your : "
+    },
+    {
+      "name" : "sample_bool",
+      "type" : "bool",
+      "default" : "false",
+      "items" : ["false", "true"],
+      "label" : "Pick: "
+    }
+  ]
+}
+```
+
+O campo **nome** se refere ao nome da variável que será extraído na implementação da fórmula.
+
+O campo **tipo** representa o tipo da variável \(no momento só existe **TEXT** e **BOOL**\)
+
+O campo **label** é o texto que vai aparecer para o usuário via PROMPT para informar essa variável.
+
+O campo **default** é o valor da variável que virá por padrão caso a escolha seja uma lista de opões.
+
+O campo **items** é a lista de opções possíveis para a variável.
+
+O campo **cache** permite configurar se será necessário armazenar as escolhas do usuário para essa variável. Ele é composto de 3 campos : 
+
+* active
+* qtd 
+* newLabel.
+
+O campo **active** indica se o cache está habilitado ou não.
+
+O campo **qtd** se refere a quantidade de escolhas que podem ser armazenadas no cache.  
+  
+O campo **newLabel** é para o usuário informar um outro valor para a variável caso aquelas salvas no cache não atendem sua necessidade.  
 
 
 ### Tree.json
@@ -168,6 +235,69 @@ Os primeiros comandos \(**`rit aws`** e **`rit aws apply`**\) retornaram o campo
 
 Já, o comando **`rit aws apply terraform`** baixou os executáveis da fórmula e começou a pedir os parâmetros de entrada ao usuário.
 
+### Makefile e Shellscripts
+
+Esses 3 arquivos abaixo são usados para gerar arquivos localmente no .rit folder quando o usuário precisa testar a automação do código que ele tenha implementado.
+
+* Makefile 
+* copy-bin-configs.sh 
+* unzip-bin-configs.sh 
+
+Quando uma nova fórmula é criada, o caminho onde ela está localizada no repositório precisa ser informado no **Makefile** do root do repositório, como no exemplo a seguir: 
+
+```text
+#Makefiles
+
+SC_SPRING_STARTER=scaffold/spring-starter
+KAFKA=kafka
+DOCKER=docker/compose
+
+FORMULAS=$(SC_SPRING_STARTER) $(KAFKA) $(DOCKER)
+```
+
+Nesse arquivo também se encontra o comando `test-local` que permite o usuário gerar arquivos executáveis de uma ou mais fórmulas e colocá-las temporariamente dentro da pasta Ritchie \(.rit\) localizado no home da máquina do usuário. 
+
+```text
+test-local:
+ifneq ("$(FORM)", "")
+	@echo "Using form true: "  $(FORM_TO_UPPER)
+	$(MAKE) bin FORMULAS=$(FORM)
+	mkdir -p $(HOME)/.rit/formulas
+	rm -rf $(HOME)/.rit/formulas/$(FORM)
+	./unzip-bin-configs.sh
+	cp -r formulas/* $(HOME)/.rit/formulas
+	rm -rf formulas
+else
+	@echo "Use make test-local form=NAME_FORMULA for specific formula."
+	@echo "form false: ALL FORMULAS"
+	$(MAKE) bin
+	rm -rf $(HOME)/.rit/formulas
+	./unzip-bin-configs.sh
+	mv formulas $(HOME)/.rit
+endif
+	mkdir -p $(HOME)/.rit/repo/local
+	rm -rf $(HOME)/.rit/repo/local/tree.json
+	cp tree/tree.json  $(HOME)/.rit/repo/local/tree.json
+```
+
+Os arquivos **copy-bin-configs.sh** e **unzip-bin-configs.sh** são manipulados pelo comando **test-local** para extrair os arquivos executáveis e o **config.json** das fórmulas escolhidas e movê-las para a pasta .rit. 
+
+**Há duas formas de usar o comando Makefile:** 
+
+1. Informando a fórmula específica para testar de acordo com o nome colocado no Makefile:
+
+```text
+make test-local form={nome_formula} 
+```
+
+2. Executando diretamente o script de **test-local** para adicionar todas as fórmulas do repositório para a pasta temporária .rit:
+
+```text
+make test-local
+```
+
+Depois de adicionar a formula no .rit por meio do Makefile \(main\), será possível executar o comando associado com aquela fórmula por meio do terminal \(conclusão automática não funcionará nesse caso\).
+
 ## Acesso às fórmulas
 
 {% hint style="info" %}
@@ -215,7 +345,7 @@ Quando um usuário vai baixar o Ritchie \([versão Single](https://docs.ritchiec
 
 
 
-![](../../.gitbook/assets/fluxo-cli.png)
+![](../.gitbook/assets/fluxo-cli.png)
 
 A junção das árvores dos repositórios será a árvore de todos os comandos disponíveis via o CLI no computador do usuário, que é apresentada no _Helper_.
 

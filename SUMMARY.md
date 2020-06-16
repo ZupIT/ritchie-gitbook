@@ -26,8 +26,7 @@
 ## REFERÊNCIA
 
 * [CLI](referencia/cli.md)
-* [Fórmulas](referencia/formulas/README.md)
-  * [Config.json](referencia/formulas/acesso-as-formulas.md)
+* [Fórmulas](referencia/formulas.md)
 * [Servidor](referencia/servidor.md)
 * [Releases](https://github.com/ZupIT/ritchie-cli/releases)
 * [Roadmap](https://github.com/ZupIT/ritchie-cli/issues)
