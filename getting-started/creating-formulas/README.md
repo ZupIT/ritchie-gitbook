@@ -20,7 +20,7 @@ Remember, the ideal is to follow the pattern **rit + group + verb + noun.**
 
 ![Create new formula example ](../../.gitbook/assets/rit-create-formula.gif)
 
-{% hint style="info" %}
+{% hint style="warning" %}
 You can test the template _**Hello World**_ of the formula just after creating it. Following what is explained in the [Testing formulas section](testing-formulas.md).
 {% endhint %}
 
