@@ -22,6 +22,10 @@ Lembre-se que o ideal é que a nova fórmula siga o padrão **rit + group + verb
 
 ![Exemplo do comando create new formula](https://lh5.googleusercontent.com/O9s2UpIovVyG4h2p1kuX8kLvASX_YS0mAKRSQWXxwoe2Tmr-R1r8xWSKH-nq2uCAfQSG4EcZC1tYPnICeh34coLM5ZsfIU38zTHDRwf6q3cqY_e1KWABAjX-hA_zfqOntFuA-WWX)
 
+{% hint style="warning" %}
+Você pode testar o template _**Hello World**_ da fórmula logo após criá-lo. Seguindo o que é explicado na [seção Testando fórmulas](testando-formulas.md).
+{% endhint %}
+
 ## Passo 2: Direcionar para um repositório
 
 Quando é executado o comando para criação de fórmula, você tem a opção de informar o caminho para um repositório de fórmulas já existente na máquina.
