@@ -37,9 +37,9 @@ Esses parâmetros de entrada serão informados pelo usuário :
 
 ### Exemplo de execução de uma fórmula \(via prompt\)
 
-![Segue um exemplo de um comando do Ritchie executado pelo terminal](https://lh3.googleusercontent.com/viskNlV4iXyN63RYhBdgu9I010Rz6nXaliyFKvC9vAHDyrQm2fEPUXzF5l6QclYEoQywEeXYZq3hPQFP_DqGQYJkk38E3nuam4rJQPSdl5zHU6HzP9Q2mEfg3TJeBuacn2geRgx7)
+![](.gitbook/assets/rit-scaffold-generate-coffee-go%20%281%29.gif)
 
-O **`rit scaffold generate coffee`** é um comando executável associado a uma fórmula na árvore do Ritchie.
+O **`rit scaffold generate coffee-go`** é um comando executável associado a uma fórmula na árvore do Ritchie.
 
 Como foi a primeira vez que o comando foi executado, foi possível observar que o Ritchie baixou um config file e a fórmula em sequência.
 
