@@ -17,45 +17,45 @@ O primeiro passo é baixar o binário do Ritchie da versão, informando a URL ab
 
 ### **Instalando para MAC**
 
-URL para Versão Team 
+#### URL para Versão Team 
 
 ```text
-curl -fsSL https://commons-repo.ritchiecli.io/install.sh | sed -e 's/$(curl -s https:\/\/commons-repo.ritchiecli.io\/stable.txt)/{VERSION}/g' | bashSingle Version 
+https://commons-repo.ritchiecli.io/{VERSION}/team/mac/rit
 ```
 
-URL para Versão Single
+#### URL para Versão Single
 
 ```text
-curl -fsSL https://commons-repo.ritchiecli.io/install_single.sh | sed -e 's/$(curl -s https:\/\/commons-repo.ritchiecli.io\/stable.txt)/{VERSION}/g' | bash
+https://commons-repo.ritchiecli.io/{VERSION}/single/mac/rit
 ```
 
 ### \*\*\*\*
 
 ### **Instalando para Linux**
 
-URL para Versão Team 
+#### URL para Versão Team 
 
 ```text
-curl -fsSL https://commons-repo.ritchiecli.io/install.sh | sed -e 's/$(curl -s https:\/\/commons-repo.ritchiecli.io\/stable.txt)/{VERSION}/g' | bashSingle Version 
+https://commons-repo.ritchiecli.io/{VERSION}/team/linux/rit
 ```
 
-URL para Versão Single
+#### URL para Versão Single
 
 ```text
-curl -fsSL https://commons-repo.ritchiecli.io/install_single.sh | sed -e 's/$(curl -s https:\/\/commons-repo.ritchiecli.io\/stable.txt)/{VERSION}/g' | bash
+https://commons-repo.ritchiecli.io/{VERSION}/single/linux/rit
 ```
 
 ### \*\*\*\*
 
 ### **Instalando para Windows** 
 
-URL para Versão Team 
+#### URL para Versão Team 
 
 ```text
 https://commons-repo.ritchiecli.io/{versão}/windows/team/rit.exe
 ```
 
-URL para Versão Single
+#### URL para Versão Single
 
 ```text
 https://commons-repo.ritchiecli.io/{versão}/windows/single/rit.exe
