@@ -43,7 +43,7 @@ Segue um exemplo da estrutura do repositório local com uma fórmula \(dentro da
 ## Passo 3: Organizar a pasta da fórmula 
 
 {% hint style="info" %}
-Vale reforçar que o comando `rit create formula` , por si só, já cria automaticamente uma pasta referente à fórmula no repositório, de acordo com o _input_ informado. 
+Vale reforçar que o comando **`rit create formula`** , por si só, já cria automaticamente uma pasta referente à fórmula no repositório, de acordo com o _input_ informado. 
 {% endhint %}
 
 A pasta de uma fórmula, por padrão, possui a seguinte estrutura:
@@ -60,7 +60,7 @@ O conteúdo da pasta **SRC** é padronizado de acordo com a linguagem escolhida 
 
 ### O arquivo Makefile \(da fórmula\)
 
-O arquivo _**Makefile \(fórmula\)**_ é diferente do arquivo _**Makefile**_ do repositório. O _**Makefile**_ _**\(fórmula\)**_ permite gerar os executáveis da fórmula, enquanto o _**Makefile**_ do repositório permite tanto gerar os executáveis de todas as formulas, quanto testar as formulas localmente adicionando esses executáveis na [pasta .rit]().
+O arquivo _**Makefile \(fórmula\)**_ é diferente do arquivo _**Makefile**_ do repositório. O _**Makefile**_ _**\(fórmula\)**_ permite gerar os executáveis da fórmula, enquanto o _**Makefile**_ do repositório permite tanto gerar os executáveis de todas as formulas, quanto testar as formulas localmente adicionando esses executáveis na [pasta .rit](../../referencia/cli.md).
 
 ### O arquivo config.json
 
@@ -81,18 +81,18 @@ Uma vez criada e organizada a fórmula no seu respectivo repositório e pasta, e
 Para isso, é necessário alterar 3 lugares para implementar a operação desejada:
 
 * O _**config.json**_ da fórmula para configurar os inputs.
-* O arquivo _**main**_
+* O arquivo _**main**_ \(geralmente usado para extrair esses inputs\)
 * Os arquivos da **pasta** **pkg**.
 
 Caso tenha usado outra linguagem para criar sua fórmula, você talvez precise alterar mais arquivos.
 
 {% hint style="warning" %}
-Algumas orientações importantes: 
+**Algumas orientações importantes**: 
 
 ❗Não altere o nome das pastas raízes da fórmula \(group/verb/noun\) sem atualizar o **tree.json** e o **Makefile \(principal\)** com os paths adequados.
 
 ❗Lembre que o **tree.json** e o **Makefile \(principal\)** já são criados/alterados com a execução do comando `rit create formula`. Consequentemente, não precisará alterar-los para conseguir testar a nova fórmula, mesmo após ter alterados os arquivos comentados acima.
 
-É possível que você tenha de realizar alguns ajustes nesses arquivos, se tiver necessidade. Por exemplo, se precisar alterar a mensagem _descriptíva_ ou o _helper_ do comando associado a sua fórmula, será necessário realizar essas modificações no **tree.json**.
+É possível que você tenha de realizar alguns ajustes nesses arquivos, se tiver necessidade. Por exemplo, se precisar alterar a mensagem de descrição ou o _helper_ do comando associado a sua fórmula, será necessário realizar essas modificações no **tree.json**.
 {% endhint %}
 
