@@ -6,14 +6,6 @@ Os comandos do core do Ritchie são executados seguindo a nomenclatura :
   
 **`RIT`** `+` **`VERBO`** `+` **`SUBSTANTIVO`**
 
-## Estrutura das fórmulas 
-
-Os comandos das fórmulas respeitam a seguinte nomenclatura:
-
-**`RIT`** `+` **`GRUPO`**  `+` **`VERBO`** `+` **`SUBSTANTIVO`**
-
-Caso queira ver mais fórmulas, conheça o [repositório Github da comunidade](https://github.com/ZupIT/ritchie-formulas). 
-
 ## Comandos Core
 
 <table>
@@ -169,4 +161,12 @@ rit version 1.0.0-beta.7 (single)
   Build date: 05/20/20_13:29
   Built with: go1.14.3
 ```
+
+## Estrutura das fórmulas 
+
+Os comandos das fórmulas respeitam a seguinte nomenclatura:
+
+**`RIT`** `+` **`GRUPO`**  `+` **`VERBO`** `+` **`SUBSTANTIVO`**
+
+Caso queira ver mais fórmulas, conheça o [repositório Github da comunidade](https://github.com/ZupIT/ritchie-formulas). 
 
