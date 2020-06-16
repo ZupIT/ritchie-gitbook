@@ -20,6 +20,10 @@ Remember, the ideal is to follow the pattern **rit + group + verb + noun.**
 
 ![Create new formula example ](../../.gitbook/assets/rit-create-formula.gif)
 
+{% hint style="info" %}
+You can test the template _**Hello World**_ of the formula just after creating it. Following what is explained in the [Testing formulas section](testing-formulas.md).
+{% endhint %}
+
 ## **Step 2: Direct to a repository** 
 
 When the command for creating a formula is executed, you can choose to inform the path to a formula repository already on the machine.
