@@ -15,39 +15,45 @@ Download the Ritchie binary version by entering the URL below in your browser by
 
 ### **Installation for MAC**
 
-#### **Team Version**  
+#### **Team Version URL**
 
 ```text
 https://commons-repo.ritchiecli.io/{VERSION}/team/mac/rit
 ```
 
+#### Single Version URL
+
 ```text
 https://commons-repo.ritchiecli.io/{VERSION}/single/mac/rit
 ```
 
+
+
 ### **Installation for Linux**
 
-#### **Team Version**
+#### **Team Version URL**
 
 ```text
 https://commons-repo.ritchiecli.io/{VERSION}/team/linux/rit
 ```
 
-**Single Version**
+**Single Version URL**
 
 ```text
 https://commons-repo.ritchiecli.io/{VERSION}/single/linux/rit
 ```
 
+### \*\*\*\*
+
 ### **Installation for Windows** 
 
-#### **Team Version**
+#### **Team Version URL**
 
 ```text
 https://commons-repo.ritchiecli.io/{VERSION}/windows/team/rit.exe
 ```
 
-**Single Version**
+**Single Version URL**
 
 ```text
 https://commons-repo.ritchiecli.io/{VERSION}/windows/single/rit.exe
