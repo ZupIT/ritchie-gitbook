@@ -22,7 +22,7 @@ Remember, the ideal is to follow the pattern **rit + group + verb + noun.**
 
 ## **Step 2: Direct to a repository** 
 
-When the command for creating a formula is execued, you can choose to inform the path to a formula repository already on the machine.
+When the command for creating a formula is executed, you can choose to inform the path to a formula repository already on the machine.
 
 If there isn't any formula repository available, a formula repository will be created automatically, named **ritchie-formulas-local** in the **HOME** of the user's machine. 
 
@@ -36,10 +36,8 @@ Here is an example of the structure of the local repository with a formula \(ins
 
 ## Step 3: Organize the formula folder 
 
-
-
 {% hint style="info" %}
-It is good to remember the **`rit create formula`** ``command automatically creates a folder for the formula in the repository, according to the input provided.
+It is good to remember the **`rit create formula`**command automatically creates a folder for the formula in the repository according to the input provided.
 {% endhint %}
 
 The formula folder has the following structure :
@@ -70,22 +68,22 @@ If you first created a formula by creating the local repository, the formula rep
 
 ## Step 4: Implement the formula
 
-Once you have created and organized the formula in your repository and folder it is time to implement it.
+Once you have created the formula in your repository and accessed its folder, it is time to implement your automation.
 
 It is necessary to change 3 places to implement the desired operation: 
 
 * The **config.json** of the formula for configuring the inputs. 
-* The **main** file 
+* The **main** file \(generally used to extract those inputs\)
 * The files in the **pkg folder.** 
 
 If another language was used, it may be necessary to change more files.
 
 {% hint style="warning" %}
-Some other instructions:
+**Some other instructions**:
 
-❗Do not change the name of the formula's root folders \(group / verb / noun\) without updating the **tree.json** and **Makefile** \(of the repository\) with the appropriate paths. 
+❗Do not change the name of the formula's root folders \(group / verb / noun\) without updating the **tree.json** and **Makefile** \(of the repository\) with the appropriated paths. 
 
-❗Remember that **tree.json** and **Makefile** \(of the repository\) are already created / changed by executing the rit create formula command. Consequently, you will not need to change them to be able to test the new formula, even after changing the files commented above.
+❗Remember that **tree.json** and **Makefile** \(of the repository\) are already created / changed by executing the `rit create formula` command. Consequently, you will not need to change them to be able to test the new formula, even after changing the files commented above.
 
 It is possible to make some adjustments to these files if you need to_._ For example, if you need to change the decrypted message or the command helper associated with your formula, you will need to make these changes in **tree.json.**
 {% endhint %}
