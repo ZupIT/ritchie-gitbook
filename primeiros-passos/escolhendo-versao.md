@@ -27,7 +27,7 @@ Na prática, a principal diferença entre as versões está no uso \(ou não\) d
 
 As **principais características** desta versão são: 
 
-* Acesso à fórmulas desenvolvidas pela comunidade;
+* Acesso às fórmulas desenvolvidas pela comunidade;
 * Possibilidade de testar novas fórmulas em repositório local;
 * Informações criptografadas na máquina local. 
 
@@ -48,7 +48,7 @@ Caso opte por utilizar a Versão Single, estes serão os repositórios que poder
 
 As **principais características** desta versão são: 
 
-* Acesso às fórmula desenvolvidas na comunidade e também às fórmulas da equipe no servidor;
+* Acesso às fórmulas desenvolvidas pela comunidade e também às fórmulas da equipe;
 * Possibilidade de testar novas fórmulas em repositório local;
 * Informações criptografadas no servidor.
 
