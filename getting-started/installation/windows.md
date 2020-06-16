@@ -30,9 +30,9 @@ Click on the following link to [install Ritchie Single.](https://commons-repo.ri
 ## Use Ritchie on Windows
 
 {% hint style="warning" %}
-The path to use Ritchie on Windows isn't configure when you download it.  
+The path to use Ritchie on Windows **IS NOT** configure when you download it.  
   
-As long as it hasn't been configured, the user will have to go inside the folder where the rit.exe file has been downloaded to execute Ritchie through this file. Example : **`rit.exe init`**
+As long as it hasn't been configured, the user will have to go inside the folder where the **rit.exe file** has been downloaded to execute Ritchie through this file. Example : **`rit.exe init`**
 {% endhint %}
 
 You'll find a guide about how to set a path here : [**How do I set or change the PATH system variable?**](https://www.java.com/en/download/help/path.xml)\*\*\*\*
