@@ -26,9 +26,9 @@ Na prática, a principal diferença entre as versões está no uso \(ou não\) d
 
 The main characteristics of this version are:
 
-* Formulas access developed by the community.
+* Access to community formulas.
 * The possibility to test new formulas on a local repository.
-* Encrypted information on your local machine.
+* Encrypted information on the local machine.
 
 ### Repositories
 
@@ -45,9 +45,9 @@ If you choose the **Single Version,** you are able to access ****two repositorie
 
 The main characteristics of this version are: 
 
-* Access the developed formula in the community and also the formulas on the server team;
+* Access to community formulas as well as team formulas;
 * The possibility to test new formulas on a local repository; 
-* Encrypted information on your local machine.
+* Encrypted information on the server session.
 
 ### Repositories 
 
