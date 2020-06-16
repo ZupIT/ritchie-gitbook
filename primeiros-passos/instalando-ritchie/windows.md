@@ -30,5 +30,15 @@ Clique no link para [instalar a Versão Single](https://commons-repo.ritchiecli.
 
 
 
+## Usar Ritchie no Windows
+
+{% hint style="warning" %}
+O **PATH** para usar o Ritchie no Windows NÃO é configurado quando você o baixa.  
+  
+Enquanto que não tenha sido configurado, o usuário terá que entrar na pasta em que o **arquivo** **rit.exe** foi baixado para executar o Ritchie através desse arquivo. Exemplo: **`rit.exe init`**
+{% endhint %}
+
+Você encontrará um guia sobre como definir um caminho aqui : [Como definir ou alterar a variável de sistema PATH?](https://www.java.com/en/download/help/path.xml)
+
 
 
