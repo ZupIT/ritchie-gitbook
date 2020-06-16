@@ -11,20 +11,22 @@ Basicamente, ao indicar a URL acima para o navegador, o sistema retorna a versã
 
 ## Passo 1: informar a URL 
 
-O primeiro passo é baixar o binário do Ritchie da versão, informando a URL abaixo no seu navegador **de acordo com a versão.**
+O primeiro passo é baixar o binário do Ritchie da versão, informando a URL abaixo no seu navegador **de acordo com a versão {VERSION}.**
+
+### \*\*\*\*
 
 ### **Instalando para MAC**
 
 URL para Versão Team 
 
 ```text
-https://commons-repo.ritchiecli.io/{versão}/team/mac/rit
+curl -fsSL https://commons-repo.ritchiecli.io/install.sh | sed -e 's/$(curl -s https:\/\/commons-repo.ritchiecli.io\/stable.txt)/{VERSION}/g' | bashSingle Version 
 ```
 
 URL para Versão Single
 
 ```text
-https://commons-repo.ritchiecli.io/{versão}/single/mac/rit
+curl -fsSL https://commons-repo.ritchiecli.io/install_single.sh | sed -e 's/$(curl -s https:\/\/commons-repo.ritchiecli.io\/stable.txt)/{VERSION}/g' | bash
 ```
 
 ### \*\*\*\*
@@ -34,13 +36,13 @@ https://commons-repo.ritchiecli.io/{versão}/single/mac/rit
 URL para Versão Team 
 
 ```text
-https://commons-repo.ritchiecli.io/{versão}/team/linux/rit
+curl -fsSL https://commons-repo.ritchiecli.io/install.sh | sed -e 's/$(curl -s https:\/\/commons-repo.ritchiecli.io\/stable.txt)/{VERSION}/g' | bashSingle Version 
 ```
 
 URL para Versão Single
 
 ```text
-https://commons-repo.ritchiecli.io/{versão}/single/linux/rit
+curl -fsSL https://commons-repo.ritchiecli.io/install_single.sh | sed -e 's/$(curl -s https:\/\/commons-repo.ritchiecli.io\/stable.txt)/{VERSION}/g' | bash
 ```
 
 ### \*\*\*\*
