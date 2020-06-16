@@ -186,7 +186,7 @@ Uma que tudo estiver subido será possível executar as requisições via Postma
 Um **comando core** está sendo desenvolvido para permitir que um time consiga criar os arquivos de configurações assim que o realm no kubectl, para conseguir gerar um servidor já funcionando com o Ritchie de forma simplificada.
 {% endhint %}
 
-## Credenciais
+## Configurações de credenciais
 
 O comando **`rit set credential`** permitir salvar credenciais na sessão \(localmente na versão Single, no Vault na versão Team\) para o usuário aproveitar esses dados sem precisar informá-los novamente ao executar suas fórmulas.
 
@@ -237,6 +237,4 @@ Assim, quando o comando da fórmula será executado, as credenciais do Github se
 {% hint style="warning" %}
 Lembrando que para isso funcionar, é preciso o usuário ter efetuado o login \(rit login\), e ter setado as credenciais referentes a ferramenta \(rit set credential\).
 {% endhint %}
-
-Com o comando **`rit set credential`**, também é possível para um **administrador da equipe** definir credenciais criptografadas na sessão de um usuário específico para permitir que ele execute comandos sem ter acesso a informações confidenciais.
 
