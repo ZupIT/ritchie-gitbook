@@ -30,7 +30,7 @@ Click on the following link to [install Ritchie Single.](https://commons-repo.ri
 ## Use Ritchie on Windows
 
 {% hint style="warning" %}
-The path to use Ritchie on Windows **IS NOT** configure when you download it.  
+The PATH to use Ritchie on Windows **IS NOT** configured when you download it.  
   
 As long as it hasn't been configured, the user will have to go inside the folder where the **rit.exe file** has been downloaded to execute Ritchie through this file. Example : **`rit.exe init`**
 {% endhint %}
