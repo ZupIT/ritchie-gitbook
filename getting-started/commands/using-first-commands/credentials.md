@@ -4,11 +4,11 @@
 
 It is possible to set credentials on Ritchie to avoid informing datas multiplus times through the terminal.
 
-The command will allow it is $ rit set credential  
+The command that will allow it is **`$ rit set credential`**  
   
-On the single version, credentials are encrypted locally on the session, through the passphrase informed at the initialization step.
+On the **Single** version, credentials are encrypted locally on the session, through the passphrase informed at the initialization step.
 
-On the team version, credentials are encrypted on the Keycloak session \(online\) through the Vault \(Hashicorp\).  
+On the **Team** version, credentials are encrypted on the Keycloak session \(online\) through the Vault \(Hashicorp\).  
 
 
 ```text
