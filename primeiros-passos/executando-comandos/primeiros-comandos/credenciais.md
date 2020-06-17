@@ -1,6 +1,6 @@
 # Credenciais
 
-### **Comando Credenciais**  <a id="comando-credenciais"></a>
+## **Definir Credenciais** 
 
 Comando: **`$ rit set credential`**
 
