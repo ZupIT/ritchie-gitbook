@@ -118,7 +118,11 @@ Para a versão **Team** funcionar no CLI, a organização vai precisar ter :
 * uma conta no [Keycloak](https://www.keycloak.org/) \(ferramenta open source\)
 * uma conta no [Vault](https://www.vaultproject.io/) \(ferramenta open source\)
 
-É possível testar essas configurações localmente, observando através de arquivos do Postman \(disponibilizados na pasta **/testdata**\) como os endpoints do servidor são manipulados pelo CLI para funcionar.
+É possível testar essas configurações **localmente**, observando através de arquivos do Postman \(disponibilizados na pasta **/testdata**\) como os endpoints do servidor são manipulados pelo CLI para funcionar.
+
+{% hint style="warning" %}
+ Para realizar esse teste, será necessário clonar o [repositório do ritchie-server](https://github.com/ZupIT/ritchie-server) no computador. 
+{% endhint %}
 
 Para iniciar esse teste é preciso subir o **docker-compose** na raíz do produto : `$ docker-compose up`
 
