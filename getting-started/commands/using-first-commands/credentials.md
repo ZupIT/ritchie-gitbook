@@ -48,8 +48,7 @@ Github token:  *****
 
 ```
 
-Once the user select the provider, he need to inform the selected credential’s datas.  
-****
+Once the user select the provider, he need to inform the selected credential’s datas.
 
 ![](https://lh4.googleusercontent.com/-JVtQ04rw-nThL0ALvAnk5B63942l5z9gUrjzk34TNPiPU3BNUc4aa-BFSimdtBNO6dMJDTwBgiWr9uEg3sIwQTLiklUwqyKr5ZyWpnaHGpg4P-4GELLnmw3pPaomBM433N_bg0o)
 
