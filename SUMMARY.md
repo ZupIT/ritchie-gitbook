@@ -22,8 +22,8 @@
     * [Credenciais](primeiros-passos/executando-comandos/primeiros-comandos/credenciais.md)
     * [Repositórios](primeiros-passos/executando-comandos/primeiros-comandos/repositorios.md)
   * [Primeiras fórmulas](primeiros-passos/executando-comandos/primeiras-formulas/README.md)
-    * [Spring starter](primeiros-passos/executando-comandos/primeiras-formulas/spring-starter.md)
     * [Docker compose](primeiros-passos/executando-comandos/primeiras-formulas/docker-compose.md)
+    * [Spring starter](primeiros-passos/executando-comandos/primeiras-formulas/spring-starter.md)
 
 ## REFERÊNCIA
 
