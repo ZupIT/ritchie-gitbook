@@ -20,13 +20,13 @@ O primeiro passo é baixar o binário do Ritchie da versão, informando a URL ab
 #### URL para Versão Team 
 
 ```text
-https://commons-repo.ritchiecli.io/{VERSION}/team/mac/rit
+https://commons-repo.ritchiecli.io/{VERSION}/darwin/team/rit
 ```
 
 #### URL para Versão Single
 
 ```text
-https://commons-repo.ritchiecli.io/{VERSION}/single/mac/rit
+https://commons-repo.ritchiecli.io/{VERSION}/darwin/single/rit
 ```
 
 ### \*\*\*\*
@@ -36,13 +36,13 @@ https://commons-repo.ritchiecli.io/{VERSION}/single/mac/rit
 #### URL para Versão Team 
 
 ```text
-https://commons-repo.ritchiecli.io/{VERSION}/team/linux/rit
+https://commons-repo.ritchiecli.io/{VERSION}/linux/team/rit
 ```
 
 #### URL para Versão Single
 
 ```text
-https://commons-repo.ritchiecli.io/{VERSION}/single/linux/rit
+https://commons-repo.ritchiecli.io/{VERSION}/linux/single/rit
 ```
 
 ### \*\*\*\*
