@@ -32,6 +32,14 @@ When adding a new repository, the user can also choose the **repository's priori
 
 To add another repository to the CLI, follow the same process as above, except its necessary to have the tree.json of this repository stored somewhere for Ritchie to import it the same way it has been done for the [**ritchie-formulas**](https://github.com/ZupIT/ritchie-formulas) project.
 
+```text
+➜ rit add repo
+Name of the repository:  community
+URL of the tree [http(s)://host:port/tree.json]:  https://commons-repo.ritchiecli.io/tree/tree.json
+Priority [ps.: 0 is higher priority, the lower higher the priority] : 1
+Repository added
+```
+
 ## **Update** a repository
 
 It is possible to update all repositories once they have been setted, using the `rit update repo` command. It will update the repositories tree.json from the URL informed at the repositories additions.
