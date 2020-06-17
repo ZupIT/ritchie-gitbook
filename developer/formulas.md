@@ -240,7 +240,7 @@ The first commands \(**`rit aws`** and **`rit aws apply`**\) returned the help f
 
 The **`rit aws apply terraform`** command downloaded the formula's executables and started asking the user for input parameters.
 
-### Makefile e Shellscripts
+### Makefile e Shell Scripts
 
 Those 3 files are used to generate files locally on the .rit folder when the user need to test the automation code he has implemented.
 
