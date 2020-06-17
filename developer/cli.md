@@ -15,6 +15,8 @@ In this folder are stored:
 To get to know more about our CLI repository, access [**ritchie-cli**](https://github.com/ZupIT/ritchie-cli) on Github. 
 {% endhint %}
 
+## Composition of the .rit folder
+
 ### Repo folder
 
 The **repo** folder contains all the files necessary for the CLI to know the commands and formulas it can execute. 
