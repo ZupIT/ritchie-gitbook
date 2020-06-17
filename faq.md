@@ -22,6 +22,7 @@ description: 'Nesta seção, você encontrará as principais perguntas sobre o R
 * [Com quais sistemas operacionais a Ritchie trabalha? ](primeiros-passos/instalando-ritchie/)
 * [Quais linguagens de programação posso usar para criar fórmulas? ](./#linguagens-de-programacao)
 * [Quais ferramentas posso usar para criar fórmulas? ](./#ferramentas)
+* [Como definir credenciais no Ritchie?](primeiros-passos/executando-comandos/primeiros-comandos/credenciais.md)
 
 ## COMUNIDADE 
 
