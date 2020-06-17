@@ -18,13 +18,13 @@ Download the Ritchie binary version by entering the URL below in your browser by
 #### **Team Version URL**
 
 ```text
-https://commons-repo.ritchiecli.io/{VERSION}/team/mac/rit
+https://commons-repo.ritchiecli.io/{VERSION}/darwin/team/rit
 ```
 
 #### Single Version URL
 
 ```text
-https://commons-repo.ritchiecli.io/{VERSION}/single/mac/rit
+https://commons-repo.ritchiecli.io/{VERSION}/darwin/single/rit
 ```
 
 
@@ -34,13 +34,13 @@ https://commons-repo.ritchiecli.io/{VERSION}/single/mac/rit
 #### **Team Version URL**
 
 ```text
-https://commons-repo.ritchiecli.io/{VERSION}/team/linux/rit
+https://commons-repo.ritchiecli.io/{VERSION}/linux/team/rit
 ```
 
 **Single Version URL**
 
 ```text
-https://commons-repo.ritchiecli.io/{VERSION}/single/linux/rit
+https://commons-repo.ritchiecli.io/{VERSION}/linux/single/rit
 ```
 
 ### \*\*\*\*
