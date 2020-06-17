@@ -30,6 +30,14 @@ No momento é necessário adicionar esse repositório em ambas versões do Ritch
 
 Para adicionar outro repositório ao CLI, é possível seguir o mesmo processo descrito acima, exceto que é necessário ter o tree.json desse repositório armazenado em algum lugar para o Ritchie importá-lo da mesma maneira que foi feito para o projeto [**ritchie-formulas**](https://github.com/ZupIT/ritchie-formulas).
 
+```text
+➜ rit add repo
+Name of the repository:  community
+URL of the tree [http(s)://host:port/tree.json]:  https://commons-repo.ritchiecli.io/tree/tree.json
+Priority [ps.: 0 is higher priority, the lower higher the priority] : 1
+Repository added
+```
+
 ## **Atualizar um** repositório
 
 É possível atualizar todos os repositórios depois de configurados, usando o comando `rit update repo`. Esse comando atualizará os repositórios tree.json a partir da URL informada na adição dos repositórios.
