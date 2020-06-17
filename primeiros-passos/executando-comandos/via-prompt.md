@@ -157,7 +157,7 @@ rit version 1.0.0-beta.7 (single)
       <td style="text-align:left">configura a URL do servidor do time (<b>vers&#xE3;o Team</b>)</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="primeiras-formulas.md#comando-context">rit show context</a>
+      <td style="text-align:left"><a href="primeiras-formulas/#comando-context">rit show context</a>
       </td>
       <td style="text-align:left">mostra o contexto usado na sess&#xE3;o atual</td>
     </tr>
