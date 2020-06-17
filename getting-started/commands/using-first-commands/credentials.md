@@ -6,9 +6,9 @@ It is possible to set credentials on Ritchie to avoid informing datas multiplus 
 
 The command that will allow it is **`$ rit set credential`**  
   
-On the **Single** version, credentials are encrypted locally on the session, through the passphrase informed at the initialization step.
+On the [**Single version**](https://docs.ritchiecli.io/getting-started/choosing-a-version#single-version), credentials are encrypted locally on the session, through the passphrase informed at the [**initialization step**](https://docs.ritchiecli.io/getting-started/initialization#single-version).
 
-On the **Team** version, credentials are encrypted on the Keycloak session \(online\) through the Vault \(Hashicorp\).  
+On the [**Team** **version**](https://docs.ritchiecli.io/getting-started/choosing-a-version#team-version), credentials are encrypted on the **Keycloak** session \(online\) through the **Vault** \(Hashicorp\).  
 
 
 ```text
