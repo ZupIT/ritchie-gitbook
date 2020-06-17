@@ -235,7 +235,7 @@ Os primeiros comandos \(**`rit aws`** e **`rit aws apply`**\) retornaram o campo
 
 Já, o comando **`rit aws apply terraform`** baixou os executáveis da fórmula e começou a pedir os parâmetros de entrada ao usuário.
 
-### Makefile e Shellscripts
+### Makefile e Shell Scripts
 
 Esses 3 arquivos abaixo são usados para gerar arquivos localmente no .rit folder, isso é feito quando o usuário precisa testar a automação do código que ele tenha implementado.
 
