@@ -6,6 +6,66 @@ Os comandos do core do Ritchie são executados seguindo a nomenclatura :
   
 **`RIT`** `+` **`VERBO`** `+` **`SUBSTANTIVO`**
 
+## Estrutura das fórmulas 
+
+Os comandos das fórmulas respeitam a seguinte nomenclatura:
+
+**`RIT`** `+` **`GRUPO`**  `+` **`VERBO`** `+` **`SUBSTANTIVO`**
+
+Caso queira ver mais fórmulas, conheça o [repositório Github da comunidade](https://github.com/ZupIT/ritchie-formulas). 
+
+## **Flags**
+
+| Flags | Operation |
+| :--- | :--- |
+| rit --help | Ajuda com os comandos do Ritchie |
+| rit --version | Retorna a versão do Ritchie usada no computador |
+
+```text
+➜ rit --help
+
+A CLI that developers can build and operate
+your applications without help from the infra staff.
+Complete documentation is available at https://github.com/ZupIT/ritchie-cli
+
+core commands:
+  add         add objects
+  completion  Add autocomplete for terminal
+  clean       clean objects
+  create      Create objects
+  delete      Delete objects
+  list        list objects
+  set         Set objects
+  show        Show objects
+  update      update objects
+
+commons commands:
+  aws         Apply Aws objects
+  docker      Manipulate docker objects
+  github      Manipulate GitHub objects
+  k8s         Manipulate k8s objects
+  kafka       Kafka commands
+  scaffold    Manipulate scaffold objects
+
+Other Commands:
+
+Options:
+  -v, --version: version for rit
+
+Usage:
+  rit [flags] [options]
+
+Use "rit <command> --help" for more information about a given command.
+```
+
+```text
+➜ rit --version
+
+rit version 1.0.0-beta.7 (single)
+  Build date: 05/20/20_13:29
+  Built with: go1.14.3
+```
+
 ## Comandos Core
 
 <table>
@@ -109,64 +169,4 @@ Os comandos do core do Ritchie são executados seguindo a nomenclatura :
     </tr>
   </tbody>
 </table>
-
-
-
-| Flags | Operation |
-| :--- | :--- |
-| rit --help | Ajuda com os comandos do Ritchie |
-| rit --version | Retorna a versão do Ritchie usada no computador |
-
-```text
-➜ rit --help
-
-A CLI that developers can build and operate
-your applications without help from the infra staff.
-Complete documentation is available at https://github.com/ZupIT/ritchie-cli
-
-core commands:
-  add         add objects
-  completion  Add autocomplete for terminal
-  clean       clean objects
-  create      Create objects
-  delete      Delete objects
-  list        list objects
-  set         Set objects
-  show        Show objects
-  update      update objects
-
-commons commands:
-  aws         Apply Aws objects
-  docker      Manipulate docker objects
-  github      Manipulate GitHub objects
-  k8s         Manipulate k8s objects
-  kafka       Kafka commands
-  scaffold    Manipulate scaffold objects
-
-Other Commands:
-
-Options:
-  -v, --version: version for rit
-
-Usage:
-  rit [flags] [options]
-
-Use "rit <command> --help" for more information about a given command.
-```
-
-```text
-➜ rit --version
-
-rit version 1.0.0-beta.7 (single)
-  Build date: 05/20/20_13:29
-  Built with: go1.14.3
-```
-
-## Estrutura das fórmulas 
-
-Os comandos das fórmulas respeitam a seguinte nomenclatura:
-
-**`RIT`** `+` **`GRUPO`**  `+` **`VERBO`** `+` **`SUBSTANTIVO`**
-
-Caso queira ver mais fórmulas, conheça o [repositório Github da comunidade](https://github.com/ZupIT/ritchie-formulas). 
 
