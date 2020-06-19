@@ -52,3 +52,7 @@ Once the user select the provider, he need to inform the selected credential’s
 
 ![](https://lh4.googleusercontent.com/-JVtQ04rw-nThL0ALvAnk5B63942l5z9gUrjzk34TNPiPU3BNUc4aa-BFSimdtBNO6dMJDTwBgiWr9uEg3sIwQTLiklUwqyKr5ZyWpnaHGpg4P-4GELLnmw3pPaomBM433N_bg0o)
 
+{% hint style="info" %}
+Check the [credentials configuration section](https://docs.ritchiecli.io/developer/server#credentials-configurations) to understand how to manipulate the credentials defined in the session as formula input parameters \(inputs in the config.json file\).
+{% endhint %}
+
