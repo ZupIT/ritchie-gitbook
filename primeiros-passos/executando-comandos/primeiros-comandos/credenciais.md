@@ -45,3 +45,7 @@ Github token:  *****
 
 ![](https://lh4.googleusercontent.com/_U93uVcs1Tu9TIUy59wuVfDCKgHbqO-lt5pPPSmlmDqwaFG1oew-nG_ntixSNFVRvmknMNca0X2G5WhYAowGS84V3Bf1OCZmurcCnK-Xkn9HZkf67ZWe6Jy6Wi2f9BNL6ggdO4sI)
 
+{% hint style="info" %}
+Confere na [seção de configuração das credenciais](https://docs.ritchiecli.io/v/doc-portuguese/referencia/servidor#configuracoes-de-credenciais) como manipular as credenciais definidas na sessão como parâmetros de entradas das fórmulas \(inputs no arquivo config.json\).
+{% endhint %}
+

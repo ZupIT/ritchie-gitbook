@@ -32,6 +32,9 @@
 * [Servidor](referencia/servidor.md)
 * [Releases](https://github.com/ZupIT/ritchie-cli/releases)
 * [Roadmap](https://github.com/ZupIT/ritchie-cli/issues)
+
+---
+
 * [Comunidade](comunidade.md)
 * [Conteúdos](conteudos.md)
 * [Sobre o Ritchie](historia-do-ritchie.md)
