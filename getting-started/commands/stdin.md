@@ -24,7 +24,37 @@ It will be necessary to adapt the variable values of each JSON to perform the de
 
 Here are the JSON used to run Ritchie's core commands through **stdin**.
 
+### RIT INIT
 
+Linux / Mac
+
+```text
+echo "{\"organization\":\"team\", \"url\":\"https://ritchie-server.team.io\"}" | rit init --stdin
+```
+
+Windows \(PowerShell\)
+
+```text
+echo '{"organization":"team", "url":"https://ritchie-server.team.io"}' | rit init --stdin
+```
+
+
+
+### RIT LOGIN
+
+Linux / Mac
+
+```text
+echo "{\"username\":\"dennis.ritchie\", \"password\":\"123456\"}" | rit login --stdin
+```
+
+Windows \(PowerShell\)
+
+```text
+
+```
+
+### 
 
 ### RIT ADD REPO
 
