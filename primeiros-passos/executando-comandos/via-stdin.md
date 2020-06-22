@@ -24,6 +24,38 @@ Vale lembrar que será necessário alterar os valores das **variáveis** nos JSO
 
 Seguem alguns exemplos de JSON usados para executar **fórmulas** do Ritchie através do **stdin:** 
 
+### RIT INIT
+
+Linux / Mac
+
+```text
+echo "{\"organization\":\"team\", \"url\":\"https://ritchie-server.team.io\"}" | rit init --stdin
+```
+
+Windows \(PowerShell\)
+
+```text
+echo '{"organization":"team", "url":"https://ritchie-server.team.io"}' | rit init --stdin
+```
+
+
+
+### RIT LOGIN
+
+Linux / Mac
+
+```text
+echo "{\"username\":\"dennis.ritchie\", \"password\":\"123456\"}" | rit login --stdin
+```
+
+Windows \(PowerShell\)
+
+```text
+echo '{"username":"dennis.ritchie", "password":"123456"}' | rit login --stdin
+```
+
+### 
+
 ### RIT ADD REPO
 
 Linux / Mac
