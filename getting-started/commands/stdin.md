@@ -51,7 +51,7 @@ echo "{\"username\":\"dennis.ritchie\", \"password\":\"123456\"}" | rit login --
 Windows \(PowerShell\)
 
 ```text
-
+echo '{"username":"dennis.ritchie", "password":"123456"}' | rit login --stdin
 ```
 
 ### 
