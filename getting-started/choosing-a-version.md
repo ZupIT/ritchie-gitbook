@@ -6,15 +6,14 @@ description: 'Here, you will know the two Ritchie''s versions for download.'
 
 ## Intro
 
-Before you begin to use Ritchie, it is necessary to choose one of available versionsAntes de começar a usar o Ritchie, é preciso optar por uma das versões disponíveis do nosso CLI:
+Before you begin to use Ritchie, it is necessary to choose one of available versions :
 
-* **Versão Single:** indicada para profissionais autônomos;
-* **Versão Team:** indicada para equipes ou profissionais de uma corporação.
+* **Single version**: suitable for freelance professionals; 
+* **Team version**: suitable for teams or professionals of a corporation. 
 
-As duas versões foram criadas para atender às diferentes necessidades de analistas de infraestrutura, SREs, arquitetos ou engenheiros de software.
+Both versions were created to meet the different needs of infrastructure analysts, SREs, architects or software engineers. 
 
-Na prática, a principal diferença entre as versões está no uso \(ou não\) de um servidor para armazenamento das **fórmulas**, obrigatório para quem utiliza a Versão Team, já que, no caso de quem utilizar o Ritchie para projetos corporativos, é necessário garantir segurança da informação para proteção de dados sensíveis.  
-
+In practice, the main difference between the versions is in the use \(or not\) of a server for storing the **formulas**, mandatory for those who use the Team Version, since, in the case of those who use Ritchie for corporate projects, it is necessary to ensure security information to protect sensitive data.
 
 ![Versions single and team architecture ](../.gitbook/assets/team-and-single.png)
 
