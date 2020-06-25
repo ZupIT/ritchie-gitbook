@@ -11,11 +11,13 @@ Para você conseguir usar eficientemente o Ritchie no _MacOS_, nossa recomendaç
 * o comando **make** \([Como usar "make" no macOS](https://stackoverflow.com/questions/1469994/using-make-on-os-x)\)
 * a ferramenta **md5sum** 
 
+{% hint style="warning" %}
 Comando para instalar **md5sum** com _**Homebrew**_ : `brew install md5sha1sum`
 
 Comando para instalar **md5sum** com _**MacPorts**_ : `sudo port install md5sha1sum`
+{% endhint %}
 
-
+### 
 
 ### Instalando Versão Team 
 
