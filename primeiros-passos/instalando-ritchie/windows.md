@@ -14,10 +14,13 @@ Para você conseguir usar eficientemente o Ritchie no Windows, nossa recomendaç
 * Cygwin
 
 {% hint style="warning" %}
-No caso Cygwin, você também precisará configurar o arquivo **/etc/nsswitch.conf** dentro da pasta dele \(/ProgramFiles\) e adicionar essa linha não comentada:**`db_home: /%H`**
+**Configurações do Cygwin**
+
+- É preciso instalar o pacote **make** no Cygwin, [como sugerido aqui](https://stackoverflow.com/questions/17710209/how-to-run-make-from-cygwin-environment?rq=1#:~:text=Run%20the%20Cygwin%20installation%2Fconfiguration,Development%22%20or%20something%20similar%29.).
+
+- É também necessário configurar o arquivo **/etc/nsswitch.conf** dentro da pasta dele \(/ProgramFiles\) e adicionar essa linha não comentada:**`db_home: /%H`**
 {% endhint %}
 
-Vale lembrar que, se preferir, também é possível seguir com a[ **instalação manual**.](instalacao-manual.md)  
 
 
 ### Instalando Versão Team 
@@ -29,6 +32,8 @@ Clique no link para [instalar o Ritchie Team](https://commons-repo.ritchiecli.io
 Clique no link para [instalar a Versão Single](https://commons-repo.ritchiecli.io/1.0.0-beta.16/windows/single/rit.exe)
 
 
+
+Vale lembrar que, se preferir, também é possível seguir com a[ **instalação manual**.](instalacao-manual.md)
 
 ## Usar Ritchie no Windows
 
