@@ -16,7 +16,7 @@ If you wanna use efficiently Ritchie on Windows, our recommendation is to instal
 {% hint style="warning" %}
 **Cygwin Configurations :**  
   
-- You need to install the **make** package inside Cygwin installed, [as suggested here](https://stackoverflow.com/questions/17710209/how-to-run-make-from-cygwin-environment?rq=1#:~:text=Run%20the%20Cygwin%20installation%2Fconfiguration,Development%22%20or%20something%20similar%29.).  
+- You need to install the **make** package inside Cygwin, [as suggested here](https://stackoverflow.com/questions/17710209/how-to-run-make-from-cygwin-environment?rq=1#:~:text=Run%20the%20Cygwin%20installation%2Fconfiguration,Development%22%20or%20something%20similar%29.).  
   
 - You'll also have to configure the file **/etc/nsswitch.conf** inside the folder \(/ProgramFiles\) and add this non commented line:**`db_home: /%H`**
 {% endhint %}
