@@ -2,9 +2,7 @@
 
 ## Como funciona? 
 
-Para baixar a **versão mais atualizada do Ritchie** no Linux, basta executar o comando abaixo no seu terminal de acordo com a versão que deseja usar.
-
-Vale lembrar que, se preferir, também é possível seguir com a[ **instalação manual**.](instalacao-manual.md)  
+Para baixar a **versão mais atualizada do Ritchie** no Linux, basta executar o comando abaixo no seu terminal de acordo com a versão que deseja usar.  
 
 
 ### Instalando Versão Team 
@@ -26,4 +24,7 @@ curl -fsSL https://commons-repo.ritchiecli.io/install_single.sh | bash
 ```
 
 \_\_
+
+Vale lembrar que, se preferir, também é possível seguir com a[ **instalação manual**.](instalacao-manual.md)  
+
 
