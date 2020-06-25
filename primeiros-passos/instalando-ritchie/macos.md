@@ -2,7 +2,9 @@
 
 ## Como funciona? 
 
-Para baixar a **versão mais atualizada do Ritchie** no MacOS, execute o comando abaixo no seu terminal conforme a versão que deseja usar.
+Para baixar a **versão mais atualizada do Ritchie** no MacOS, execute um dos comandos abaixo no seu terminal conforme a versão que deseja usar.
+
+No entanto, é importante ter em mente **alguns pré-requisitos** antes de iniciar a instalação na sua máquina. 
 
 ### Requisitos 
 
@@ -17,7 +19,7 @@ Comando para instalar **md5sum** com _**Homebrew**_ : `brew install md5sha1sum`
 Comando para instalar **md5sum** com _**MacPorts**_ : `sudo port install md5sha1sum`
 {% endhint %}
 
-### 
+
 
 ### Instalando Versão Team 
 
