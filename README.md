@@ -12,11 +12,9 @@ O Ritchie é um **CLI** \(Command Line Interface\) que permite **criar, armazena
 
 ## **O que o Ritchie faz?**
 
-A ferramenta permite criar automações \(chamadas de **fórmulas** no contexto do Ritchie\) que são executadas via linhas de comando e, assim, torna o trabalho de programação mais fácil no dia a dia. Na prática, **o Ritchie funciona como um repositório único de fórmulas.**   
-  
-Confira no nosso vídeo um pouco mais do projeto: 
+A ferramenta permite criar automações \(chamadas de **fórmulas** no contexto do Ritchie\) que são executadas via linhas de comando e, assim, torna o trabalho de programação mais fácil no dia a dia. Na prática, **o Ritchie funciona como um repositório único de fórmulas.** 
 
-{% embed url="https://www.youtube.com/watch?v=\_NZLDdn42wM&feature=youtu.be" %}
+{% embed url="https://youtu.be/eH3W2ROIoXo" %}
 
 ## Instalação
 
