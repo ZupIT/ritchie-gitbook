@@ -8,7 +8,7 @@ description: >-
 # Key Concepts
 
 {% hint style="danger" %}
-Let's assume you're familiar with **Standard Steams,** **CLI**, **JSON** format and **automations** concepts.
+Let's assume you're familiar with **Standard Streams,** **CLI**, **JSON** format and **automations** concepts.
 {% endhint %}
 
 ## Formulas
