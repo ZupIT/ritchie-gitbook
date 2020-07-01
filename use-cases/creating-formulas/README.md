@@ -6,89 +6,94 @@ description: Step by step explaining how to create a new formula on Ritchie.
 
 ## Introduction 
 
-The process to create a formula it is done through the _**`rit create formula`**_ command, that creates the necessary structure for the user to start developing a new formula on his machine.
-
-It is important to have in mind before following the steps to create a formula, it is recommended to have Ritchie properly installed and tested to make sure the commands are working. 
-
-## Step 1: Execute the formula 
-
-When this command is executed on the terminal, an input is requested from the user, the **command** that will execute the new formula.
+The process to create a formula it is done through the **`rit create formula`** command. It creates the necessary structure for the user to start developing a new formula on his local machine.
 
 {% hint style="info" %}
-Remember, the ideal is to follow the pattern **rit + group + verb + noun.**
+Before following the steps to create a formula, it is recommended to have **Ritchie** **properly installed** and **tested** to make sure all the commands are working.
 {% endhint %}
 
-![Create new formula example ](../../.gitbook/assets/rit-create-formula.gif)
+## Step 1: Formula creation
+
+When the **`rit create formula`** command is executed on the terminal, a few information are requested from the user :  
+  
+1. the **`new formula command`**  
+
+The ideal is to follow the pattern rit + group + verb + noun.
+
+2. the **`new formula programming language`** 
+
+A _**Hello World template**_ will be created  in this language.
+
+3. the **`workspace`** where the new formula will be added 
+
+It can be an existing formula workspace. If there isn't any available, a default formula workspace will be created automatically, named **`ritchie-formulas-local`** in the **HOME** of the user's machine.  
+****
+
+![Creation of a new formula](https://lh5.googleusercontent.com/ZAkUuAxUQVqtusM_n3IThSnfvAy46zcmm9CwIBOvNiByqq3pN_MJZWoXQnTHzpffVtld1gjMc2pPuBaPNdgwWr1omPpAEKRLwN8rzSWUYWjXGesVZIjm5W0ZQgq0u_vUYCRpdZRc)
+
+The **`rit create formula`** command also build the formula automatically \(it generates the formula executables files and add them to the [.rit folder](https://docs.ritchiecli.io/developer/cli#composition-of-the-rit-folder)\). 
+
+That means it is possible to execute the new command directly after its creation. In that case, the formula _**Hello World template**_ will be executed as shown below :  
+****
+
+![Execution of the Hello World template](https://lh3.googleusercontent.com/iju8Rbeh1vm7adM9d-9Y-jxDaqE93VonK3Gr2fDKZBgV0uNkJ8pn-q97zM_WFQLiQOr3cDXknfaEa6Qyb6G9Cgzfr_gFJH-LvvQa-QRAHT8Pm1TJQ_QD7JcTE6bk0964Dyn0H_NU)
+
+This _**Hello World template**_ is currently composed of 3 inputs parameters :
+
+1. a sample text variable
+2. a sample list of variables
+3. a sample boolean variable
+
+Those represents the 3 kinds of inputs currently available when using Ritchie.
+
+## **Step 2: Formula structure**
+
+All Ritchie formulas workspaces follow the same architecture, you can find more information [in the formulas section](https://docs.ritchiecli.io/developer/formulas).
+
+When executing the **`rit create formula`** command, the new formula is added to the informed workspace, updating automatically the workspace structure with the _Hello World template_ files.
+
+![ritchie-formula-local repository structure with rit demo create formula Hello World template ](../../.gitbook/assets/rit-demo-create-formula.png)
+
+## Step 3: **Formula implementation**
+
+With the new formula structure generated successfully inside the chosen workspace, it is possible to start implementing the new automation, updating the Hello World template.
+
+To implement the desired operation, it is necessary to update 3 files located inside the /src package of the new formula’s root folder :
+
+1. The formula **`config.json`**, to configure the inputs. 
+2. The **`main file`** \(generally used to extract those inputs\) 
+3. The **`files in the /pkg folder`**.
+
+Observation : Depending on the chosen language, it may be necessary to update more files, for example to manipulate dependencies.
 
 {% hint style="warning" %}
-You can test the template _**Hello World**_ of the formula just after creating it. Following what is explained in the [Testing formulas section](testing-formulas.md).
+**Some other instructions:**
+
+❗Do not change the name of the formula's root folders \(group / verb / noun\) without updating the tree.json and Makefile \(of the workspace\) with the appropriated paths.
+
+❗The tree.json and Makefile \(of the workspace\) are already created / updated by executing the rit create formula command. Consequently, you will not need to change them to be able to test the new formula, even after changing the files commented above.  
 {% endhint %}
 
-## **Step 2: Direct to a repository** 
+## Step 4: **Test the formula new implementation**
 
-When the command for creating a formula is executed, you can choose to inform the path to a formula repository already on the machine.
+Once the new automation has been implemented, it necessary to execute the **`rit build formula`** command to update the formula executable files which has been generated at its creation.
 
-If there isn't any formula repository available, a formula repository will be created automatically, named **ritchie-formulas-local** in the **HOME** of the user's machine. 
+When the rit build formula command is executed on the terminal, a few information are requested from the user :
+
+1. the **`workspace`** where the formula has been implemented 
+2. the **`path`** to the formula /src package \(group / verb / noun, if this pattern has been followed\) ****
+
+![Build of a formula](https://lh3.googleusercontent.com/Anz1rV6HJ3e9mwSIW3IPTK77DVuYruASkphPW-Ro8Zo9_QhMkM7alNfRtJ8o741l-I7BYrI7sBnsHNMndH1Q7lUWNDvwksLA7UEQXGZMP6XAe6lbbwhdgG12XBpocpWprVHelLH6)
+
+That’s it ! After building successfully the formula, it is possible to execute the formula command again to see the updated implementation.
 
 {% hint style="info" %}
-If it isn't informed anything and this local repository exists, the new formula will be added there, automatically updating its structure. 
+**Note** : the **`rit build formula`** command can also be used with a flag **`--watch`**.
+
+Using this flag, the command will automatically “watch” the specified formula **`/src package`** and update the formula executable files if any change is saved by the user.
 {% endhint %}
 
-Here is an example of the structure of the local repository with a formula \(inside the group folder\).
-
-![](https://lh3.googleusercontent.com/Tz7C28jLzbXdqABAVo1BUWXr_uMkBcIxwsEXvze8OYVOU3Gs6mLoMhIF5EFYp6bq7bQjE8wvyuFxLWR5Qx2xBLSCnLorRc9kc6DWZVHQu09P_WV4BL4TkQ4SsWrCez0nEmqCSiD4)
-
-## Step 3: Organize the formula folder 
-
-{% hint style="info" %}
-It is good to remember the **`rit create formula`**command automatically creates a folder for the formula in the repository according to the input provided.
-{% endhint %}
-
-The formula folder has the following structure :
-
-![](https://lh4.googleusercontent.com/lu-BipM4Ym4qc3EeGXLNoEyvDknCZ1ZUtAvUxWra0v4uyyKi71gZiUAJzwi2n4UlwqPwdhKROps945TJ6g6i_kfi_TmlqC-nC-JOVl7T3Oy6Ks5Fnoy8Ok1lwVViRn36JAV-JAg0)
-
-The contents of the **SRC** folder are standardized according to the chosen language, and are always composed of the following elements: 
-
-### The main file 
-
-The **main** file is the formula's executable. It that starts the code that will be called by the terminal. It will be created according to the language entered as input to the command, and will contain a standard implementation example. 
-
-### The Makefile file \(of the formula\) 
-
-The **Makefile** \(formula\) file is different from the Makefile file in the repository. The Makefile \(formula\) allows to generate the executables of the formula, while the Makefile of the repository allows both to generate the executables of all formulas, as well as to test the formulas locally by adding these executables in the .rit folder. 
-
-### The config.json file 
-
-The **config.json** file contains **3 standard inputs** as an example, which are extracted and manipulated in the main file of the formula. 
-
-### The pkg folder 
-
-The **pkg** folder will be composed of the other code files that, together with the main file, will allow the formula to be executed. They will be created in the chosen language. 
-
-If you first created a formula by creating the local repository, the formula repository and folder will follow the structure below :
-
-![](https://lh5.googleusercontent.com/6oPMzmvLxb9PGmC9a6U7KfLt4oCpEnFhOHXXOoGkgMgmaQi4kKHDo5epvU27HbWbBvM1mC1K2aruXfGPQrtWJMibeXmXmN19NbI7S81Djz11Axc0fCG2GtTNCAYivuI2iMMxMLZK)
-
-## Step 4: Implement the formula
-
-Once you have created the formula in your repository and accessed its folder, it is time to implement your automation.
-
-It is necessary to change 3 places to implement the desired operation: 
-
-* The **config.json** of the formula for configuring the inputs. 
-* The **main** file \(generally used to extract those inputs\)
-* The files in the **pkg folder.** 
-
-If another language was used, it may be necessary to change more files.
-
-{% hint style="warning" %}
-**Some other instructions**:
-
-❗Do not change the name of the formula's root folders \(group / verb / noun\) without updating the **tree.json** and **Makefile** \(of the repository\) with the appropriated paths. 
-
-❗Remember that **tree.json** and **Makefile** \(of the repository\) are already created / changed by executing the `rit create formula` command. Consequently, you will not need to change them to be able to test the new formula, even after changing the files commented above.
-
-It is possible to make some adjustments to these files if you need to_._ For example, if you need to change the decrypted message or the command helper associated with your formula, you will need to make these changes in **tree.json.**
+{% hint style="danger" %}
+**Beta** : Currently, the rit build formula command isn’t available on Windows for all programming languages. The Golang language is the only language supported by this command on Windows so far. However, all languages are supported on Linux and MacOs.
 {% endhint %}
 
