@@ -12,18 +12,21 @@
   * [MacOS](getting-started/installation/macos.md)
   * [Manual Installation](getting-started/installation/manual-installation.md)
 * [Initialization](getting-started/initialization.md)
-* [Creating formulas](getting-started/creating-formulas/README.md)
-  * [Testing formulas](getting-started/creating-formulas/testing-formulas.md)
 * [Executing commands](getting-started/commands/README.md)
   * [Via Prompt](getting-started/commands/prompt.md)
   * [Via Stdin](getting-started/commands/stdin.md)
-  * [First commands](getting-started/commands/using-first-commands/README.md)
-    * [Context](getting-started/commands/using-first-commands/context.md)
-    * [Credentials](getting-started/commands/using-first-commands/credentials.md)
-    * [Repositories](getting-started/commands/using-first-commands/repositories.md)
-  * [First formulas](getting-started/commands/first-formulas/README.md)
-    * [Spring starter](getting-started/commands/first-formulas/spring.md)
-    * [Docker compose](getting-started/commands/first-formulas/docker.md)
+
+## USE CASES
+
+* [First commands](use-cases/using-first-commands/README.md)
+  * [Context](use-cases/using-first-commands/context.md)
+  * [Credentials](use-cases/using-first-commands/credentials.md)
+  * [Repositories](use-cases/using-first-commands/repositories.md)
+* [First formulas](use-cases/first-formulas/README.md)
+  * [Spring starter](use-cases/first-formulas/spring.md)
+  * [Docker compose](use-cases/first-formulas/docker.md)
+* [Creating formulas](use-cases/creating-formulas/README.md)
+  * [Testing formulas](use-cases/creating-formulas/testing-formulas.md)
 
 ## Reference <a id="developer"></a>
 
@@ -38,5 +41,6 @@
 * [Community](community.md)
 * [Materials](contents.md)
 * [About Ritchie](about-ritchie.md)
+* [Glossary](glossary.md)
 * [FAQ](faq.md)
 

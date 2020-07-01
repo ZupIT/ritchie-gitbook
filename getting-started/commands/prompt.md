@@ -96,7 +96,7 @@ rit version 1.0.0-beta.7 (single)
       <td style="text-align:left">add autocomplete via bash</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="../creating-formulas/#step-1-execute-the-formula">rit create formula</a>
+      <td style="text-align:left"><a href="../../use-cases/creating-formulas/#step-1-execute-the-formula">rit create formula</a>
       </td>
       <td style="text-align:left">
         <p>create a new formula from scratch</p>
