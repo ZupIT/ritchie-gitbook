@@ -18,7 +18,7 @@ It refers to a command line interface, which is a program that processes command
 
 ## Credential
 
-On Ritchie, context means the environment you're working. Each context will have its credentials, that's meant to be configured once you start using the CLI.
+It refers to necessary configurations so you can use Ritchie. 
 
 ## Formula
 
