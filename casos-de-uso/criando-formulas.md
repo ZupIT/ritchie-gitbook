@@ -38,12 +38,11 @@ Isso significa que é possível executar o novo comando diretamente após sua cr
 
 Atualmente, este modelo do Hello World é composto por 3 parâmetros de entrada:
 
-1. uma ****variável de `texto`
-2. uma `lista` de variáveis
-3. uma variável `booleana` 
+1. uma ****variável de **`texto`**
+2. uma **`lista`** de variáveis
+3. uma variável **`booleana`** 
 
-Esses representam os três tipos de entradas disponíveis atualmente ao usar o Ritchie.  
-
+Esses representam os três tipos de entradas disponíveis atualmente ao usar o Ritchie.
 
 ## Passo 2: Estrutura da fórmula
 
