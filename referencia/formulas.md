@@ -298,6 +298,18 @@ make test-local
 
 Depois de adicionar a formula no .rit por meio do Makefile \(main\), será possível executar o comando associado com aquela fórmula por meio do terminal \(conclusão automática não funcionará nesse caso\).
 
+### **Compilação / teste de fórmulas**
+
+Conforme explicado no passo 4 da seção de criação de fórmula, é possível gerar arquivos executáveis de uma fórmula para teste com o comando rit build formula.
+
+Mas o que acontece exatamente ao executar este comando? Bem, está tudo relacionado ao arquivo Makefile do repositório na raiz do repositório.
+
+Ao criar a nova fórmula, o caminho em que a fórmula está localizada no repositório foi adicionado automaticamente ao arquivo **Makefile** do repositório.
+
+Portanto, a execução do comando rit build formula corresponde à execução do comando **`make test-local form = {formula_name}`** do arquivo **Makefile** do repositório.
+
+![Compila&#xE7;&#xE3;o de uma f&#xF3;rmula](https://lh4.googleusercontent.com/8hoDs7Km57x5E8SBCVZsHGpv4rhTmU7UNoGae9xuxjIKWtKwlrvKPLH1S8DLX1WpDrYE8LPyI7KcxT1hl8oy6pSoUu2cb2r0CuwjFWHJztvBLtmUzUAN_hHwEcexbD0kOhyHgcou)
+
 ## Acesso às fórmulas
 
 {% hint style="info" %}

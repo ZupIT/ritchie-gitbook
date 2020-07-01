@@ -25,8 +25,7 @@
 * [Primeiras fórmulas](casos-de-uso/primeiras-formulas/README.md)
   * [Docker compose](casos-de-uso/primeiras-formulas/docker-compose.md)
   * [Spring starter](casos-de-uso/primeiras-formulas/spring-starter.md)
-* [Criando fórmulas](casos-de-uso/criando-formulas/README.md)
-  * [Testando fórmulas](casos-de-uso/criando-formulas/testando-formulas.md)
+* [Criando fórmulas](casos-de-uso/criando-formulas.md)
 
 ## REFERÊNCIA
 

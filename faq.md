@@ -16,7 +16,7 @@ description: 'Nesta seção, você encontrará as principais perguntas sobre o R
 * [Como instalar o Ritchie? ](primeiros-passos/instalando-ritchie/)
 * [Como o Ritchie funciona?](./#como-ritchie-funciona) 
 * [Como executar comandos com Ritchie?](primeiros-passos/executando-comandos/)
-* [Como criar uma nova fórmula no Ritchie? \(Passo a passo\) ](casos-de-uso/criando-formulas/)
+* [Como criar uma nova fórmula no Ritchie? \(Passo a passo\) ](casos-de-uso/criando-formulas.md)
 * [Como criar uma nova fórmula no Ritchie? \(Vídeo\)](https://www.youtube.com/watch?v=B-6MFIIbpZI) 
 * [Qual a diferença entre as duas versões do Ritchie? ](primeiros-passos/escolhendo-versao.md)
 * [Com quais sistemas operacionais a Ritchie trabalha? ](primeiros-passos/instalando-ritchie/)
