@@ -25,8 +25,7 @@
 * [First formulas](use-cases/first-formulas/README.md)
   * [Spring starter](use-cases/first-formulas/spring.md)
   * [Docker compose](use-cases/first-formulas/docker.md)
-* [Creating formulas](use-cases/creating-formulas/README.md)
-  * [Testing formulas](use-cases/creating-formulas/testing-formulas.md)
+* [Creating formulas](use-cases/creating-formulas.md)
 
 ## Reference <a id="developer"></a>
 

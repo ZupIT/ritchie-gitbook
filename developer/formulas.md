@@ -303,6 +303,18 @@ make test-local
 
 After adding the formula in .rit through the Makefile \(main\), it will be possible to execute the command associated with that formula through the terminal \(auto-completion will not work in this case\).
 
+### **Formulas build / test**
+
+As explained in the [Step 4 of the create formula section](https://docs.ritchiecli.io/use-cases/creating-formulas#step-4-test-the-formula-new-implementation), it is possible to generate a formula executable files for test with the **`rit build formula`** command.
+
+But what happen exactly when executing this command ? Well, it’s all related to the repository **Makefile** file at the root of the repository.
+
+When creating the new formula, the path where the formula is located in the repository was added automatically in the repository **Makefile** file.
+
+Therefore, executing the rit build formula command corresponds to the execution of the **`make test-local form={formula_name}`** command of the repository **Makefile** file.
+
+![Build of a formula](https://lh4.googleusercontent.com/8hoDs7Km57x5E8SBCVZsHGpv4rhTmU7UNoGae9xuxjIKWtKwlrvKPLH1S8DLX1WpDrYE8LPyI7KcxT1hl8oy6pSoUu2cb2r0CuwjFWHJztvBLtmUzUAN_hHwEcexbD0kOhyHgcou)
+
 ## Access to formulas
 
 {% hint style="info" %}

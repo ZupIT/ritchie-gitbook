@@ -52,7 +52,7 @@ All Ritchie formulas workspaces follow the same architecture, you can find more 
 
 When executing the **`rit create formula`** command, the new formula is added to the informed workspace, updating automatically the workspace structure with the _Hello World template_ files.
 
-![ritchie-formula-local repository structure with rit demo create formula Hello World template ](../../.gitbook/assets/rit-demo-create-formula.png)
+![ritchie-formula-local repository structure with rit demo create formula Hello World template ](../.gitbook/assets/rit-demo-create-formula.png)
 
 ## Step 3: **Formula implementation**
 
