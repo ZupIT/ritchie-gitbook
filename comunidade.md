@@ -1,8 +1,4 @@
----
-description: Contribue com Ritchie !
----
-
-# Comunidade
+# Como contribuir com Ritchie
 
 Somos um projeto open source e, por isso, quanto mais contribuições recebermos, melhor! Veja abaixo mais informações sobre nossa comunidade: 
 
@@ -12,7 +8,7 @@ Somos um projeto open source e, por isso, quanto mais contribuições recebermos
 * [ritchie-server](https://github.com/ZupIT/ritchie-server)
 * [ritchie-formulas](https://github.com/ZupIT/ritchie-formulas) \(commons\) 
 
-### **Você tem alguma ideia para melhorar o Ritchie, ou ideias de novas fórmulas?**
+### **Você tem alguma ideia para criar fórmulas ou melhorar o Ritchie?**
 
 1. Faça uma cópia do repositório relacionado.
 2. Crie a branch: `git checkout -b <branch_name>`

@@ -37,8 +37,9 @@
 
 ---
 
-* [Comunidade](comunidade.md)
+* [Como contribuir com Ritchie](comunidade.md)
 * [Conteúdos](conteudos.md)
 * [Sobre o Ritchie](historia-do-ritchie.md)
+* [Glossário](glossario.md)
 * [FAQ](faq.md)
 
