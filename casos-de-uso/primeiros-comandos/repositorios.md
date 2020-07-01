@@ -16,7 +16,7 @@ https://commons-repo.ritchiecli.io/tree/tree.json
 
 Esse passo deve ser informado quando executar o comando `rit add repo` para ser adicionado à árvore local do CLI. 
 
-![Demonstra&#xE7;&#xE3;o de como adicionar os comandos do reposit&#xF3;rio Commons ao Ritchie](../../../.gitbook/assets/rit-add-repo-min.gif)
+![Demonstra&#xE7;&#xE3;o de como adicionar os comandos do reposit&#xF3;rio Commons ao Ritchie](../../.gitbook/assets/rit-add-repo-min.gif)
 
 Depois de adicionar o tree.json do novo repositório, os comandos executáveis das fórmulas são adicionadas ao _helper_ do Ritchie. Isso significa que eles estão agora disponíveis para o usuário.
 
@@ -63,7 +63,7 @@ NAME   	URL
 commons	https://commons-repo.ritchiecli.io/tree/tree.json
 ```
 
-![Demonstra&#xE7;&#xE3;o de como remover a &#xE1;rvore do reposit&#xF3;rio Commons do Ritchie](../../../.gitbook/assets/rit-delete-repo-min.gif)
+![Demonstra&#xE7;&#xE3;o de como remover a &#xE1;rvore do reposit&#xF3;rio Commons do Ritchie](../../.gitbook/assets/rit-delete-repo-min.gif)
 
 ## **Limpar** um repositório
 
