@@ -23,8 +23,8 @@
   * [Credentials](use-cases/using-first-commands/credentials.md)
   * [Repositories](use-cases/using-first-commands/repositories.md)
 * [First formulas](use-cases/first-formulas/README.md)
-  * [Spring starter](use-cases/first-formulas/spring.md)
   * [Docker compose](use-cases/first-formulas/docker.md)
+  * [Spring starter](use-cases/first-formulas/spring.md)
 * [Creating formulas](use-cases/creating-formulas.md)
 
 ## Reference <a id="developer"></a>
