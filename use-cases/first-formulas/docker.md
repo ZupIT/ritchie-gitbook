@@ -10,6 +10,32 @@
 
 The user can choose which tools he wants to include in the file from the inputs requested in the terminal \(if necessary, additional informations are requested\). 
 
+```text
+➜    rit docker generate compose
+Use the arrow keys to navigate: ↓ ↑ → ←
+Select docker image:
+  ▸ awsclivl
+    consul
+    dynamoDB
+    jaeger
+    kafka
+    mongo
+    postgres
+    redis
+    stubby4j
+    rabbitmq
+    finish!
+```
+
+```text
+➜  rit docker generate compose
+✔ kafka
+✔ finish!
+Generated files in the current directory
+Run:
+docker-compose up
+```
+
 Once the file is created, it is possible to run it normally, via the **docker-compose up** command.
 
 {% hint style="info" %}
