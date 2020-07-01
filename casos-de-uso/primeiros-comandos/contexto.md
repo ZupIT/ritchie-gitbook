@@ -10,16 +10,32 @@ Estes comandos são dentro dos mais úteis e simples do core do Ritchie.
 
 * O **set context:** permite definir um contexto na sessão. Assim, informações que serão definidas dentro desse contexto poderão ser reaproveitadas executando outros comandos precisando desse input. Esse comando possui um cache caso seja necessário voltar a aplicar um contexto já usado anteriormente.
 
+```text
+➜  rit set context
+✔ Type new context?
+New context:  qa
+Set context successful!
+```
+
 {% hint style="warning" %}
 O motivo desse comando existir é possibilitar ao usuário ter várias credenciais cadastradas \(github, aws, etc…\), portanto se ele tem credencial em dev, qa e prod, por exemplo, ele pode criar esses contextos e setar suas credenciais específicas para cada um.
 
 Quando é usado um novo context, todas as suas credenciais devem ser setadas novamente. 
 {% endhint %}
 
-O **show context** permite conferir qual contexto está definido atualmente na sessão.  
+* O **show context** permite conferir qual contexto está definido atualmente na sessão.
 
+```text
+➜  rit show context
+Current context: qa
+```
 
 * O **delete context:** permite remover um contexto que foi definido na sessão \(pode ser tanto um que está sendo usado no momento, ou um que foi configurado no set context anteriormente e ficou salvo no cache\).
 
-
+```text
+➜  rit delete context
+✔ Current -> qa
+✔ yes
+Delete context successful!
+```
 
