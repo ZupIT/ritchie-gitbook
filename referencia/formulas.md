@@ -300,7 +300,7 @@ Depois de adicionar a formula no .rit por meio do Makefile \(main\), será poss�
 
 ### **Compilação / teste de fórmulas**
 
-Conforme explicado no passo 4 da seção de criação de fórmula, é possível gerar arquivos executáveis de uma fórmula para teste com o comando rit build formula.
+Conforme explicado no [passo 4 da seção de criação de fórmula](https://docs.ritchiecli.io/v/doc-portuguese/casos-de-uso/criando-formulas#passo-4-testar-a-nova-implementacao-da-formula), é possível gerar arquivos executáveis de uma fórmula para teste com o comando rit build formula.
 
 Mas o que acontece exatamente ao executar este comando? Bem, está tudo relacionado ao arquivo Makefile do repositório na raiz do repositório.
 
