@@ -39,7 +39,7 @@ Isso significa que é possível executar o novo comando diretamente após sua cr
 Atualmente, este modelo do Hello World é composto por 3 parâmetros de entrada:
 
 1. uma ****variável de **`texto`**
-2. uma **`lista`** de variáveis
+2. uma **`lista`** de variáveis de texto
 3. uma variável **`booleana`** 
 
 Esses representam os três tipos de entradas disponíveis atualmente ao usar o Ritchie.
@@ -83,12 +83,12 @@ Quando o comando rit build formula é executado no terminal, algumas informaçõ
 
 ![Compila&#xE7;&#xE3;o da formula](https://lh4.googleusercontent.com/ThkEq0l7labiJM-0oUkyYqQ07n9LOKjvuRPVu6s2ODgeGi9dcoysNm_S-ickFPHuEW48dvYgoIlbzUpMuis1ChTuYGT3tVTCOGUfhGyGJ9wna2JG-mysr3aKwEnTlLVB90s94UiV)
 
-É isso aí ! Após criar com êxito a fórmula, é possível executar o comando da fórmula novamente para ver a implementação atualizada.
+É isso aí ! Após criar com êxito a fórmula, é possível executar o comando da fórmula novamente para ver a execução da implementação atualizada.
 
 {% hint style="info" %}
-**Nota**: o comando **`rit build formula`** também pode ser usado com uma bandeira **`--watch`**
+_**Nota**: o comando **`rit build formula`** também pode ser usado com uma flag **`--watch`**_
 
-Usando esse sinalizador, o comando “vigia” automaticamente o pacote formula / src especificado e atualiza os arquivos executáveis da fórmula se alguma alteração for salva pelo usuário.
+_Usando esse sinalizador, o comando “vigia” automaticamente o pacote **/ src** da fórmula especificada e atualiza os arquivos executáveis da fórmula se alguma alteração for salva pelo usuário._
 {% endhint %}
 
 {% hint style="warning" %}
