@@ -10,7 +10,7 @@ description: >-
 
 O processo para criar uma fórmula é feito através do comando **`rit create formula`**. Ele cria a estrutura necessária para o usuário começar a desenvolver uma nova fórmula em sua máquina local.
 
-Antes de seguir as etapas para criar uma fórmula, é recomendável ter o Ritchie instalado e testado corretamente para garantir que todos os comandos estejam funcionando.
+Antes de seguir as etapas para criar uma fórmula, é recomendável ter o Ritchie **instalado** e **testado** corretamente para garantir que todos os comandos estejam funcionando.
 
 ## Passo 1: Criação da fórmula
 
