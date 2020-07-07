@@ -83,6 +83,11 @@ rit version 1.0.0-beta.7 (single)
         <br />(to access repository formulas with Ritchie)</td>
     </tr>
     <tr>
+      <td style="text-align:left"><a href="https://docs.ritchiecli.io/use-cases/creating-formulas#step-4-test-the-formula-new-implementation">rit build formula</a>
+      </td>
+      <td style="text-align:left">build a formula for test (also work using the --watch flag)</td>
+    </tr>
+    <tr>
       <td style="text-align:left"><a href="https://docs.ritchiecli.io/getting-started/commands/using-first-commands/repositories#clean-a-repository">rit clean repo</a>
       </td>
       <td style="text-align:left">clean the cache of a repository</td>
@@ -166,6 +171,10 @@ rit version 1.0.0-beta.7 (single)
       </td>
       <td style="text-align:left">update all repositories tree
         <br />(to access new formulas from those repositories with Ritchie)</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">rit upgrade</td>
+      <td style="text-align:left">upgrade to the last Ritchie version</td>
     </tr>
   </tbody>
 </table>
