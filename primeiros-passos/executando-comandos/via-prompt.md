@@ -84,6 +84,12 @@ rit version 1.0.0-beta.7 (single)
         <br />(para ter acesso as f&#xF3;rmulas desse reposit&#xF3;rio com Ritchie)</td>
     </tr>
     <tr>
+      <td style="text-align:left"><a href="https://docs.ritchiecli.io/v/doc-portuguese/casos-de-uso/criando-formulas#passo-4-testar-a-nova-implementacao-da-formula">rit build formula</a>
+      </td>
+      <td style="text-align:left">Compila uma f&#xF3;rmula para teste (tamb&#xE9;m dispon&#xED;vel com a
+        flag <b>--watch</b>)</td>
+    </tr>
+    <tr>
       <td style="text-align:left"><a href="https://docs.ritchiecli.io/v/doc-portuguese/primeiros-passos/executando-comandos/primeiros-comandos/repositorios#limpar-um-repositorio">rit clean repo</a>
       </td>
       <td style="text-align:left">limpa o cache de um reposit&#xF3;rio</td>
@@ -166,6 +172,10 @@ rit version 1.0.0-beta.7 (single)
       </td>
       <td style="text-align:left">atualiza as &#xE1;rvores de todos os reposit&#xF3;rios
         <br />(para acessar as novas f&#xF3;rmulas desses reposit&#xF3;rios com Ritchie)</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">rit upgrade</td>
+      <td style="text-align:left">atualiza para a &#xFA;ltima vers&#xE3;o stable do Ritchie</td>
     </tr>
   </tbody>
 </table>
