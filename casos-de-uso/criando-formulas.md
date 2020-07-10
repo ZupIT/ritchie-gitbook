@@ -34,7 +34,7 @@ O comando **`rit create formula`** também cria a fórmula automaticamente \(ger
 
 Isso significa que é possível executar o novo comando diretamente após sua criação. Nesse caso, o modelo da fórmula Hello World será executado como mostrado abaixo:
 
-![Execu&#xE7;&#xE3;o do modelo Hello World](https://lh6.googleusercontent.com/Q8rJLGaEuejTQCnsGQo_z5x3nZ71CGwMsH7pYpSA8B4jfu5kXM9tf0rJW2UF_7b5RBjU4-b18TFbheWY1kFjJFyGINTYLnVfnC3C6yKergKeWbddSxY0G7BNNODgJNBDO73p4WlP)
+![Execu&#xE7;&#xE3;o do modelo Hello World](../.gitbook/assets/large-gif-776x300-.gif)
 
 Atualmente, este modelo do Hello World é composto por 3 parâmetros de entrada:
 
