@@ -28,7 +28,7 @@ Um modelo Hello World será criado neste idioma.
 
 Pode ser um espaço de trabalho de fórmula existente. Se não houver nenhum disponível, um espaço de trabalho padrão da fórmula será criado automaticamente, denominado **`ritchie-formulas-local`** na **`HOME`** da máquina do usuário.
 
-![Cria&#xE7;&#xE3;o de uma nova f&#xF3;rmula](https://lh3.googleusercontent.com/mdfajEgEgZnVFTXZNoXoC216U2pJbMgGLt0O_IkLGa3R9FOTBF9T7Jcn-YDrpxsuVbC_2wuMKQax-NUC_yMOzm5QsQLfAyKn0LTYWeNkCuHvXBGah8Gpy5IxraHodG3WCz3_ETS4)
+![Cria&#xE7;&#xE3;o de uma nova f&#xF3;rmula](../.gitbook/assets/large-gif-1170x398-.gif)
 
 O comando **`rit create formula`** também cria a fórmula automaticamente \(gera os arquivos executáveis da fórmula e os adiciona à [pasta .rit](https://docs.ritchiecli.io/v/doc-portuguese/referencia/cli#o-que-compoe-a-pasta-rit)\).
 
