@@ -91,7 +91,3 @@ _**Nota**: o comando **`rit build formula`** também pode ser usado com uma flag
 _Usando esse sinalizador, o comando “vigia” automaticamente o pacote **/ src** da fórmula especificada e atualiza os arquivos executáveis da fórmula se alguma alteração for salva pelo usuário._
 {% endhint %}
 
-{% hint style="warning" %}
-**Beta**: atualmente, o comando rit build formula não está disponível no Windows para todas as linguagens de programação. A linguagem Golang é a única suportada por este comando no Windows até o momento. No entanto, todos os idiomas são suportados no Linux e MacOs.
-{% endhint %}
-
