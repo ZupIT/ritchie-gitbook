@@ -79,9 +79,9 @@ Após a implementação da nova automação, é necessário executar o comando *
 Quando o comando rit build formula é executado no terminal, algumas informações são solicitadas ao usuário:
 
 1. o **`espaço de trabalho (path)`** em que a fórmula foi implementada 
-2. o **`caminho`** para o pacote formula /src \(**`grupo / verbo / substantivo`**, se esse padrão tiver sido seguido\) 
+2. o **`caminho`** para o pacote formula /src \(**`grupo / verbo / substantivo`**, se esse padrão tiver sido seguido\)
 
-![Compila&#xE7;&#xE3;o da formula](https://lh4.googleusercontent.com/ThkEq0l7labiJM-0oUkyYqQ07n9LOKjvuRPVu6s2ODgeGi9dcoysNm_S-ickFPHuEW48dvYgoIlbzUpMuis1ChTuYGT3tVTCOGUfhGyGJ9wna2JG-mysr3aKwEnTlLVB90s94UiV)
+![Compila&#xE7;&#xE3;o da formula](../.gitbook/assets/large-gif-776x300-%20%281%29.gif)
 
 É isso aí ! Após criar com êxito a fórmula, é possível executar o comando da fórmula novamente para ver a execução da implementação atualizada.
 
