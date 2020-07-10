@@ -93,7 +93,3 @@ That’s it ! After building successfully the formula, it is possible to execute
 Using this flag, the command will automatically “watch” the specified formula **`/src package`** and update the formula executable files if any change is saved by the user.
 {% endhint %}
 
-{% hint style="danger" %}
-**Beta** : Currently, the rit build formula command isn’t available on Windows for all programming languages. The Golang language is the only language supported by this command on Windows so far. However, all languages are supported on Linux and MacOs.
-{% endhint %}
-
