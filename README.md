@@ -1,7 +1,7 @@
 ---
 description: >-
-  In this section, you will find initial information about Ritchie before
-  delving into the product.
+  In this section, you'll find initial information about Ritchie before delving
+  into the product.
 ---
 
 # Overview
