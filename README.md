@@ -12,7 +12,7 @@ Ritchie is an **automation tool** which allows to **create**, **store** and **sh
 
 ## What does Ritchie do?
 
-The tool allows you to create formulas that, in other terms represent programs and/or commands that will facilitate your daily programming work. Ritchie works as a single formulas repository.
+The tool allows you to create formulas that, in other terms, represent programs and/or commands that will facilitate your daily programming work. Ritchie works as a single formulas repository.
 
 {% embed url="https://youtu.be/PtKFco2pIqs" %}
 
