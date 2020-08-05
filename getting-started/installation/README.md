@@ -1,14 +1,18 @@
-# Installing Ritchie
+---
+description: >-
+  Você encontrará nessa seção o caminho para instalar o Ritchie de acordo com
+  cada sistema operacional.
+---
 
-To **start Ritchie's installation** on your machine, follow the steps to each operating system or if you want, you can use the manual installation.
+# Instalação do rit
+
+Para começar a **instalação do Ritchie** na sua máquina, siga as instruções para cada sistema operacional. Se preferir, é possível fazer ainda a instalação manual. 
 
 {% page-ref page="linux.md" %}
 
 {% page-ref page="windows.md" %}
 
 {% page-ref page="macos.md" %}
-
-{% page-ref page="manual-installation.md" %}
 
 
 

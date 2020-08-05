@@ -1,47 +1,34 @@
+---
+description: Você encontrará nessa seção como instalar o Ritchie para Windows.
+---
+
 # Windows
 
-## How does it work? 
+Para instalar a **última versão do Ritchie**, você precisa  fazer o **download do instalador** e executá-lo no seu terminal. 
 
-To install **the latest version of Ritchie \(1.0.0-beta.18\)** on Windows, you just have to click on the links available for each version. 
+### Passo 1: Instalação
 
-However, it is important to keep in mind **there are some requirements** before starting the installation on Windows.
+Você deve fazer o [**download do instalador**](https://commons-repo.ritchiecli.io/latest/ritchiecli.msi) e fazer as configurações necessárias. Basta seguir as instruções que aparecerem no seu terminal. 
 
-### Requirements
+###  Passo 2: Configurando as variáveis de ambiente
 
-If you wanna use efficiently Ritchie on Windows, our recommendation is to install the following programs:
-
-* Powershell
-* Cygwin
-
-{% hint style="warning" %}
-**Cygwin Configurations :**  
+O PATH usado no Ritchie para Windows **não é configurado** quando você faz o download.  
   
-- You need to install the **make** package inside Cygwin, [as suggested here](https://stackoverflow.com/questions/17710209/how-to-run-make-from-cygwin-environment?rq=1#:~:text=Run%20the%20Cygwin%20installation%2Fconfiguration,Development%22%20or%20something%20similar%29.).  
-  
-- You'll also have to configure the file **/etc/nsswitch.conf** inside the folder \(/ProgramFiles\) and add this non commented line:**`db_home: /%H`**
+Enquanto você não tem essa configuração, é preciso entrar na pasta em que o **arquivo** **rit.exe** foi baixado para executar o Ritchie através desse arquivo. Exemplo: **`rit.exe init`**
+
+Você encontrará um guia sobre como definir um caminho aqui : [**Como definir ou alterar a variável de sistema PATH?**](https://www.java.com/en/download/help/path.xml)\*\*\*\*
+
+{% hint style="info" %}
+Se preferir, você também pode seguir com a [**instalação manual**.]()
 {% endhint %}
 
+### Verificando a instalação 
 
+Você pode confirmar se a instalação funcionou rodando esse comando: 
 
-### Instalando Versão Team 
+```text
+$ rit --version
+```
 
-Click on the following link to[ install Ritchie Team](https://commons-repo.ritchiecli.io/1.0.0-beta.18/windows/team/rit.exe).
-
-### Instalando Versão Single
-
-Click on the following link to [install Ritchie Single.](https://commons-repo.ritchiecli.io/1.0.0-beta.18/windows/single/rit.exe)
-
-
-
-If you prefer, you also can follow with[ **manual installation**.](manual-installation.md)
-
-## Use Ritchie on Windows
-
-{% hint style="warning" %}
-The PATH to use Ritchie on Windows **IS NOT** configured when you download it.  
-  
-As long as it hasn't been configured, the user will have to go inside the folder where the **rit.exe file** has been downloaded to execute Ritchie through this file. Example : **`rit.exe init`**
-{% endhint %}
-
-You'll find a guide about how to set a path here : [**How do I set or change the PATH system variable?**](https://www.java.com/en/download/help/path.xml)\*\*\*\*
+Se tudo estiver configurado, o terminal irá retornar o número da versão atual do Ritchie.
 

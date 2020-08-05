@@ -1,84 +1,75 @@
 ---
 description: >-
-  In this section, you will find definitions for the main terms and expressions
-  used in the documentation and in Ritchie, or in discussions within the
-  developer community.
+  Você encontrará nessa seção os conceitos dos principais termos e expressões
+  usados na doc e/ou no Ritchie.
 ---
 
-# Key Concepts
+# Principais conceitos
 
-{% hint style="danger" %}
-Let's assume you're familiar with **Standard Streams,** **CLI**, **JSON** format and **automations** concepts. If you want to know more about it, check out our [**glossary**](glossary.md). 
-{% endhint %}
+## Fórmulas
 
-## Formulas
+As **fórmulas** são **automações**, ou seja, são códigos chamados através das linhas de comando para realizar alguma operação.
 
-{% hint style="info" %}
-**Formulas** are nothing more than **automations**. That is, they are codes called through the command lines to perform some operation. 
-{% endhint %}
+## **Fórmulas sob** demanda
 
-## **Formulas o**n demand
+A primeira vez que o usuário executa o comando associado a uma fórmula no terminal, é baixado o **arquivo** **executável dessa fórmula** de acordo com o sistema operacional instalado no computador dele.
 
-The first time the user executes the command associated with a formula on the terminal, the executable file for that formula is downloaded according to the operating system installed on his computer. 
+É nesse momento também que é baixado o arquivo **config.json** com os parâmetros de entradas \(inputs\) da fórmula, necessários para o código implementado no binário / script ser executado.
 
-The config.json file is downloaded at the same time, with the **formula input parameters**, necessary for the code implemented in the executable file to be executed. 
+Esses parâmetros de entrada serão informados pelo usuário :
 
-These input parameters will be informed by the user: 
+* após ele digitar o comando no terminal \(se for via prompt\)
+* antes de digitar o comando no terminal \(se for via stdin\)
 
-* after he types the command in the terminal \(if via [prompt](getting-started/commands/prompt.md)\) 
-* before typing the command in the terminal \(if via [stdin](getting-started/commands/stdin.md)\) 
-
-... before actually executing the formula.  
+Ou antes de executar a fórmula de fato.  
 ****
 
 ![](.gitbook/assets/fluxo-formulas%20%283%29.png)
 
-## Execution of a formula \(with prompt\)
+### Exemplo de execução de uma fórmula \(via prompt\)
 
 ![](.gitbook/assets/rit-scaffold-generate-coffee-go.gif)
 
-**`rit scaffold generate coffee-go`** is an executable command associated with a formula in the CLI's tree.
+O **`rit scaffold generate coffee-go`** é um comando executável associado a uma fórmula na árvore do Ritchie.
 
-As it was the first time that the command was executed, it is possible to observe that Ritchie downloaded a config file and the formula's binary in sequence.
+Como foi a primeira vez que o comando foi executado, foi possível observar que o Ritchie baixou um config file e a fórmula em sequência.
 
-After downloading the files, Ritchie asked the user for some datas: 
+Após baixar os arquivos, o Ritchie pediu algumas informações para o usuário: 
 
 * name
-* type of coffee 
-* delivery
+* type of coffee
+* delivery. 
 
-Those datas are the **input** **parameters** of the formula.
+Essas informações são os 3 parâmetros de entrada da fórmula.
 
-Once these parameters were informed, the formula was successfully executed \(according to what the logs presented\).
+Uma vez informados esses parâmetros, a fórmula foi executada com sucesso \(conforme o que os logs apresentaram\).
 
-## Command Tree
+## Árvore de comando
 
 {% hint style="info" %}
-Commands used in Ritchie are grouped according to a **tree**.   
-  
-****It is important to know this concept in order to actually understand the structure of the product.
+Para entender a estrutura do produto em si, é importante destacar que **os comandos usados no Ritchie são agrupados conforme uma árvore**. 
 {% endhint %}
 
-In the case of Ritchie, the **Cobra** \(a Golang library\) pattern was followed using the following logic of building core commands:
+No caso do Ritchie, foi seguido o padrão do **Cobra** \(uma biblioteca da linguagem Golang\) usando a seguinte lógica de construção de comandos **core**:
 
-                                                 **RIT + VERB + NOUN**
+                                                 **RIT + VERBO + SUBSTANTIVO**
 
-To allow more options and freedom for users, it is also allowed to follow the pattern below in the construction of formula commands:
+E, para permitir mais opções e liberdade aos usuários, também foi permitido seguir o padrão abaixo na construção de comandos das fórmulas :
 
-                                        **RIT + GROUP + VERB + NOUN**
+                                        **RIT + GRUPO + VERBO + SUBSTANTIVO**
 
-The app name is Ritchie, so we use the name **rit** to start our command tree.
+O aplicativo chamando Ritchie, usamos o nome **rit** para iniciar nossa árvore de comandos.
 
 ![](.gitbook/assets/arvore-rit%20%281%29.png)
 
-The **rit** command is therefore our parent command, or **root**. It is not executable \(it means that it will not start any operations if you use it alone in the terminal\). It is necessary to use executable sub-commands \(which are child commands, or branches, of the rit command\) in order to start any process.
+O comando rit é nosso comando pai, ou raíz. Ele não é executável \(significa que ele não vai iniciar nenhuma operação se você usa ele sozinho no terminal\). É necessário usar sub-comandos \(que são comandos filhos, ou ramos, do comando rit\) executáveis para conseguir iniciar algum processo.
 
-The executable commands in Ritchie are the commands located at the last level of the tree.  
+Os comandos executáveis no Ritchie são os comandos localizados no último nível da árvore.  
   
-****For example, in the image above: 
+****Por exemplo, na imagem acima temos: 
 
-* The **rit set context** command is executable, as it is at the last level of the tree. 
-* The **rit kafka create** command is not executable as there is an executable **topic** subcommand, at the last level of the tree.
+* O comando **rit set context** é executável, pois está no último nível da árvore.
+* O comando **rit kafka create** não é executável pois ele tem um sub-comando **topic** executável, no último nível da árvore.
 
-This command tree concept is the **core** of Ritchie's structure. All commands and sub-commands are mapped into a json that is updated or created when you download or update the CLI on your computer.
+Esse conceito de árvore de comandos é o núcleo da estrutura do Ritchie. Todos os comandos e sub-comandos são mapeados dentro de um json que é atualizado ou criado quando você baixar ou atualizar o CLI no seu computador.
 

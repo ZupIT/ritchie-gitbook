@@ -1,32 +1,59 @@
 ---
-description: 'In this section, you will find the main questions about Ritchie.'
+description: You will find in this section the main questions about Ritchie.
 ---
 
 # FAQ
 
-## ABOUT RITCHIE
+## Sobre o projeto
 
-* [What is Ritchie?](https://docs.ritchiecli.io/#what-is-ritchie)
-* [Where Ritchie came from?](https://docs.ritchiecli.io/about-ritchie#where-ritchie-came-from)
-* [What does Ritchie do?](https://docs.ritchiecli.io/#what-does-ritchie-do)
-* \*\*\*\*[What makes Ritchie different?](https://docs.ritchiecli.io/about-ritchie#what-makes-ritchie-different)
+### O que é Ritchie?
 
-## INSTALLATION AND USE
+O Ritchie é um **framework open source** que cria e ajusta o CLI para seu time. Ele permite que você crieI, faça o build e compartilhe [**fórmulas**](key-concepts.md#formulas) facilmente. Veja mais [**sobre o produto**](about-ritchie.md).
 
-* [How to install Ritchie?](https://docs.ritchiecli.io/getting-started/installation) 
-* [How does Ritchie works?](https://docs.ritchiecli.io/#how-does-ritchie-work)
-* [How to execute commands on Ritchie?](https://docs.ritchiecli.io/getting-started/commands)
-* [How to create a new formula on Ritchie? \(step by step\)](https://docs.ritchiecli.io/getting-started/creating-formulas)
-* [How to create a new formula on Ritchie? \(Video\)](https://www.youtube.com/watch?v=B-6MFIIbpZI)
-* [What the difference between Ritchie two versions?](https://docs.ritchiecli.io/getting-started/choosing-a-version)
-* [Which operating systems does Ritchie work with?](https://docs.ritchiecli.io/getting-started/installation)
-* [Which programming languages can I use to create formulas?](https://docs.ritchiecli.io/#programming-languages)
-* [Which tools can I use to create formulas?](https://docs.ritchiecli.io/#tools)
-* [How to set credentials on Ritchie?](use-cases/using-first-commands/credentials.md)
+### O que o Ritchie faz?
 
-## COMMUNITY 
+O Ritchie cria automações para melhorar a experiência operacional dos desenvolvedores e traz benefícios como:
 
-* [How to access Ritchie open source repositories?](https://docs.ritchiecli.io/community)
-* [How to report a bug? ](https://docs.ritchiecli.io/community#do-you-have-any-suggestion-for-the-ritchie-development-team)
-* [How do I contribute with the documentation?](https://docs.ritchiecli.io/community#do-you-have-any-suggestion-for-the-ritchie-development-team)
+* Simplificar tarefas repetitivas e de fácil execução
+* Reduzir o retrabalho 
+* Promover mais tempo para que o time de desenvolvimento foque em suas entregas.
+
+## Instalação e Uso
+
+### Como instalar p Ritchie? 
+
+Você pode seguir o passo a passo da instalação de acordo com sistema operacional que estiver usando. Veja mais na [**seção de instalação.** ](getting-started/installation/)\*\*\*\*
+
+### Como criar uma nova fórmula no Ritchie?
+
+Usando o comando `rit create formula` , você pode criar fórmulas usando qualquer linguagem de programação. Saiba mais na [**seção como criar fórmulas.** ](tutoriais/como-criar-formulas.md)\*\*\*\*
+
+### Como executar fórmulas?
+
+Você pode executar suas fórmulas de maneira local ou por meio do Docker. Saiba mais na [**seção como criar fórmulas.** ](tutoriais/como-criar-formulas.md)\*\*\*\*
+
+### Como fazer o "build" de fórmulas no Ritchie? 
+
+Você faz o "build" da fórmula rodando o comando `$ rit build formula`. Veja mais como na [**seção build de fórmulas.**](tutoriais/build-a-formula.md)\*\*\*\*
+
+### Como publicar fórmulas no Ritchie?
+
+Você pode publicar uma fórmula criando um repositório no Github e adicionando uma release da sua fórmula. Veja mais na [**seção como publicar uma fórmula**](tutoriais/como-publicar-formula.md)**.** 
+
+## Comunidade
+
+### Como submeter minha fórmula no repositório da comunidade?
+
+Você só precisar abrir um pull request no [**repositório ritchie-formula** ](https://github.com/ZupIT/ritchie-formulas) ****com sua sugestão de fórmula.
+
+### Como contribuir?
+
+Você pode contribuir com melhorias, sugestões ou reportes de bugs no [**repositório ritchie-cli.** ](https://github.com/ZupIT/ritchie-cli) O processo que você deve seguir é:
+
+1. Faça uma cópia do repositório relacionado.
+2. Crie a branch: `git checkout -b <branch_name>`
+3. Codifique sua ideia.
+4. Commit: `git commit -m '<commit_message>'`
+5. Publique sua branch: `git push origin <project_name>/<location>`
+6. Faça um pull request para a branch `master` para avaliação do time.
 
