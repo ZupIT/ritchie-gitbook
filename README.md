@@ -4,7 +4,7 @@ description: >-
   aprofundar no projeto.
 ---
 
-# Overview
+# Visão geral
 
 ## O que é o Ritchie ?
 
