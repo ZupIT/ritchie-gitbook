@@ -2,7 +2,7 @@
 description: Here you'll find all the informations to contribute on Ritchie's project.
 ---
 
-# How to contribue
+# How to contribute
 
 {% hint style="info" %}
 Ritchie is a community tool where each individual can contribute, sharing its creations with the rest of the world!

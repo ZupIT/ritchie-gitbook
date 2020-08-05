@@ -37,7 +37,7 @@
 
 ---
 
-* [How to contribue](community.md)
+* [How to contribute](community.md)
 * [Materials](contents.md)
 * [About Ritchie](about-ritchie.md)
 * [Glossary](glossary.md)
