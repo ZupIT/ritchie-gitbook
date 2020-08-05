@@ -1,51 +1,44 @@
 ---
 description: >-
-  In this section, you will find definitions for the main terms and expressions
-  used in the documentation and in Ritchie, or in discussions within the
-  developer community.
+  You will find in this section definitions for the main terms and expressions
+  used in the doc and/or in Ritchie.
 ---
 
 # Key Concepts
 
-{% hint style="danger" %}
-Let's assume you're familiar with **Standard Streams,** **CLI**, **JSON** format and **automations** concepts. If you want to know more about it, check out our [**glossary**](glossary.md). 
-{% endhint %}
-
 ## Formulas
 
+**Formulas** are nothing more than **automations**. That is, they are codes called through command lines to perform some operation. 
+
+## **Formulas execution**
+
 {% hint style="info" %}
-**Formulas** are nothing more than **automations**. That is, they are codes called through the command lines to perform some operation. 
+Formulas are executed after running command lines on the terminal.
 {% endhint %}
 
-## **Formulas o**n demand
+Depending on the formula, the user might need to inform input parameters.  
+  
+Those input parameters can be informed in different ways:
 
-The first time the user executes the command associated with a formula on the terminal, the executable file for that formula is downloaded according to the operating system installed on his computer. 
+* After running the command on the terminal \(via **prompt**\) 
+* When typing the command on the terminal \(via **stdin**\) 
+* During the execution of the formula \(if coded using **prompt**\)
 
-The config.json file is downloaded at the same time, with the **formula input parameters**, necessary for the code implemented in the executable file to be executed. 
-
-These input parameters will be informed by the user: 
-
-* after he types the command in the terminal \(if via [prompt](getting-started/commands/prompt.md)\) 
-* before typing the command in the terminal \(if via [stdin](getting-started/commands/stdin.md)\) 
-
-... before actually executing the formula.  
-****
-
-![](.gitbook/assets/fluxo-formulas%20%283%29.png)
+![](.gitbook/assets/ritchie-diagram-v2.png)
 
 ## Execution of a formula \(with prompt\)
 
-![](.gitbook/assets/rit-scaffold-generate-coffee-go.gif)
+
+
+![](.gitbook/assets/rit-scaffold-generate-coffe-go.gif)
 
 **`rit scaffold generate coffee-go`** is an executable command associated with a formula in the CLI's tree.
 
-As it was the first time that the command was executed, it is possible to observe that Ritchie downloaded a config file and the formula's binary in sequence.
+After executing the command, Ritchie asked the user for some datas: 
 
-After downloading the files, Ritchie asked the user for some datas: 
-
-* name
-* type of coffee 
-* delivery
+* Name
+* Type of coffee 
+* Delivery
 
 Those datas are the **input** **parameters** of the formula.
 
@@ -80,5 +73,6 @@ The executable commands in Ritchie are the commands located at the last level of
 * The **rit set context** command is executable, as it is at the last level of the tree. 
 * The **rit kafka create** command is not executable as there is an executable **topic** subcommand, at the last level of the tree.
 
-This command tree concept is the **core** of Ritchie's structure. All commands and sub-commands are mapped into a json that is updated or created when you download or update the CLI on your computer.
+This command tree concept is the **core** of Ritchie's structure.   
+All commands and sub-commands are mapped in a tree dynamically created according to the repositories the user added locally on his computer by using the **`rit add repo`** command.
 

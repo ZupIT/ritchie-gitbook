@@ -1,29 +1,36 @@
+---
+description: You will find in this section how to install Ritchie for Linux.
+---
+
 # Linux
 
-## How does it work? 
+### Requirement
 
-To install the **latest version of Ritchie**, you just have to execute the command below at your terminal according to the version you want to use.
+To install the **latest version of Ritchie**, you must have the following program:
 
-### Installing Team Version
+* The **make** command
 
-The command used to install Ritchie Team at your terminal is: 
+Once you have it, just run the command below at your terminal. 
 
-```bash
+### Installing command
+
+Copy and paste the command below to run on your terminal: 
+
+```text
 curl -fsSL https://commons-repo.ritchiecli.io/install.sh | bash
 ```
 
-### 
+{% hint style="info" %}
+If you prefer, you also can follow with the[ **manual installation**.]()
+{% endhint %}
 
-### Installing Single Version
+### Verify installation 
 
-The command used to install Ritchie Single at your terminal is: 
+You can confirm if your installation went well by running this command: 
 
 ```text
-curl -fsSL https://commons-repo.ritchiecli.io/install_single.sh | bash
+$ rit --version
 ```
 
-
-
-If you prefer, you also can follow with[ **manual installation**.](manual-installation.md)  
-
+If everything's configured, the terminal will return Ritchie's current version.  
 

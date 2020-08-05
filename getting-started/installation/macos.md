@@ -1,45 +1,43 @@
+---
+description: You will find in this section how to install Ritchie for MacOs.
+---
+
 # MacOS
 
-## How does it work? 
-
-To install the **latest version of Ritchie** for MacOS, you just have to execute the command below on your terminal according to the version you want to work with.
-
-However, it is important to keep in mind **there are some requirements** before starting the installation on Windows.
+To install the **latest version of Ritchie** for MacOS, you just have to run the command below on your terminal. However, it is important to keep in mind **there are some requirements** before starting the installation on MacOS.
 
 ### Requirements
 
-If you wanna use efficiently Ritchie on MacOs, our recommendation is to have the following elements configured:
+If you wanna use efficiently Ritchie on MacOs, it's interesting to have configured the following elements:
 
-* the **make** command \([Using "make" on macOS](https://stackoverflow.com/questions/1469994/using-make-on-os-x)\)
+* The **make** command \([Using "make" on macOS](https://stackoverflow.com/questions/1469994/using-make-on-os-x)\)
 * **md5sum** tools
 
 {% hint style="warning" %}
-Install **md5sum** with _**Homebrew**_ : `brew install md5sha1sum`
+To install **md5sum** with _**Homebrew**_ , use: `brew install md5sha1sum`
 
-Install **md5sum** with _**MacPorts**_ : `sudo port install md5sha1sum`
+To install **md5sum** with _**MacPorts**_ , use: `sudo port install md5sha1sum`
 {% endhint %}
 
-### 
+### Installing command
 
-### Installing Team Version 
+The command used to install Ritchie at your terminal is:
 
-The command used to install Ritchie Team at your terminal is: 
-
-```bash
+```text
 curl -fsSL https://commons-repo.ritchiecli.io/install.sh | bash
 ```
 
-### 
+{% hint style="info" %}
+If you prefer, you also can follow with[ **manual installation**.]()
+{% endhint %}
 
-### Installing Single Version 
+### Verify installation 
 
-The command used to install Ritchie Single at your terminal is:
+You can confirm if your installation went well by running this command: 
 
 ```text
-curl -fsSL https://commons-repo.ritchiecli.io/install_single.sh | bash
+$ rit --version
 ```
 
-
-
-If you prefer, you also can follow with[ **manual installation**.](manual-installation.md)
+If everything's configured, the terminal will return Ritchie's current version.  
 

@@ -1,32 +1,59 @@
 ---
-description: 'In this section, you will find the main questions about Ritchie.'
+description: You will find in this section the main questions about Ritchie.
 ---
 
 # FAQ
 
-## ABOUT RITCHIE
+## About Ritchie
 
-* [What is Ritchie?](https://docs.ritchiecli.io/#what-is-ritchie)
-* [Where Ritchie came from?](https://docs.ritchiecli.io/about-ritchie#where-ritchie-came-from)
-* [What does Ritchie do?](https://docs.ritchiecli.io/#what-does-ritchie-do)
-* \*\*\*\*[What makes Ritchie different?](https://docs.ritchiecli.io/about-ritchie#what-makes-ritchie-different)
+### What is Ritchie?
 
-## INSTALLATION AND USE
+Ritchie is an **open source framework** that creates and tweaks a CLI for your team. It allows you to easily create, build and share formulas. Check out more here [**about Ritchie**](about-ritchie.md)**.**
 
-* [How to install Ritchie?](https://docs.ritchiecli.io/getting-started/installation) 
-* [How does Ritchie works?](https://docs.ritchiecli.io/#how-does-ritchie-work)
-* [How to execute commands on Ritchie?](https://docs.ritchiecli.io/getting-started/commands)
-* [How to create a new formula on Ritchie? \(step by step\)](https://docs.ritchiecli.io/getting-started/creating-formulas)
-* [How to create a new formula on Ritchie? \(Video\)](https://www.youtube.com/watch?v=B-6MFIIbpZI)
-* [What the difference between Ritchie two versions?](https://docs.ritchiecli.io/getting-started/choosing-a-version)
-* [Which operating systems does Ritchie work with?](https://docs.ritchiecli.io/getting-started/installation)
-* [Which programming languages can I use to create formulas?](https://docs.ritchiecli.io/#programming-languages)
-* [Which tools can I use to create formulas?](https://docs.ritchiecli.io/#tools)
-* [How to set credentials on Ritchie?](use-cases/using-first-commands/credentials.md)
+### What does Ritchie do?
 
-## COMMUNITY 
+Ritchie creates automation commands to improve the operational **developers'** **experience and brings beneficial such as:**
 
-* [How to access Ritchie open source repositories?](https://docs.ritchiecli.io/community)
-* [How to report a bug? ](https://docs.ritchiecli.io/community#do-you-have-any-suggestion-for-the-ritchie-development-team)
-* [How do I contribute with the documentation?](https://docs.ritchiecli.io/community#do-you-have-any-suggestion-for-the-ritchie-development-team)
+* Simplify repetitive ****and easy-to-execute tasks
+* Reduce the rework 
+* Promote more time for the development team to focus on their deliveries.
+
+## Installation and Use
+
+### How to install Ritchie? 
+
+You can follow the installation step by step according do the operational system you're using. Check out more in [**installation section**](getting-started/installation/). 
+
+### How to create a new formula on Ritchie?
+
+Using the command `rit create formula` , you can create formulas using any programming language. Check out more in [**create a formula section**](how-to/how-to-create-formulas.md). 
+
+### Como executar fórmulas?
+
+You can execute your formulas locally or through Docker. Check out more in [**create a formula section**](how-to/how-to-create-formulas.md). 
+
+### How to build fórmulas on Ritchie? 
+
+You can build a formula by running the `$ rit build formula` command. Check out more in [**build a formula section.**](how-to/build-a-formula.md)\*\*\*\*
+
+### How to publish formulas on Ritchie?
+
+You can publish a formula by creating a Github's repository and adding a release version of this formula. Check out more in [**publish a formula section**](how-to/how-to-publish-a-formula.md).
+
+## Community
+
+### How to submit my formula on community's repo?
+
+You just have to open a pull request on [**ritchie-formula's repository** ](https://github.com/ZupIT/ritchie-formulas) ****with your formula suggestion. 
+
+### How to contribute?
+
+You can contribute with improvements, suggestions or reporting bugs on[ **ritchie-cli's repository.** ](https://github.com/ZupIT/ritchie-cli)That's the process you should follow:
+
+1. Fork the repository
+2. Create a branch: `git checkout -b <branch_name>`
+3. Implement your idea
+4. Commit your implementation: `git commit -m '<commit_message>'`
+5. Push your branch: `git push origin <project_name>/<location>`
+6. Open a pull request on the `master` branch for analysis.
 
