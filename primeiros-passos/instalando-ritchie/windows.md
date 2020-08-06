@@ -25,11 +25,11 @@ Para você conseguir usar eficientemente o Ritchie no Windows, nossa recomendaç
 
 ### Instalando Versão Team 
 
-Clique no link para [instalar o Ritchie Team](https://commons-repo.ritchiecli.io/1.0.0-beta.22/windows/team/rit.exe)
+Clique no link para [instalar o Ritchie Team](https://commons-repo.ritchiecli.io/1.0.0-legacy/windows/team/rit.exe)
 
 ### Instalando Versão Single
 
-Clique no link para [instalar a Versão Single](https://commons-repo.ritchiecli.io/1.0.0-beta.22/windows/single/rit.exe)
+Clique no link para [instalar a Versão Single](https://commons-repo.ritchiecli.io/1.0.0-legacy/windows/single/rit.exe)
 
 
 
