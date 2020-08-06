@@ -14,5 +14,5 @@ $ rit scaffold generate coffee-go
 
 See how the magic works: 
 
-![](../.gitbook/assets/rit-scaffold-generate-coffe-go-3.gif)
+![](../.gitbook/assets/rit-scaffold-generate-coffe-go.gif)
 
