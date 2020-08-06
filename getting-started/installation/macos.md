@@ -26,7 +26,7 @@ Install **md5sum** with _**MacPorts**_ : `sudo port install md5sha1sum`
 The command used to install Ritchie Team at your terminal is: 
 
 ```bash
-curl -fsSL https://commons-repo.ritchiecli.io/install.sh | bash
+curl -fsSL https://commons-repo.ritchiecli.io/install.sh | sed -e 's/curl -SLO "https:\/\/commons-repo.ritchiecli.io\/${STABLE_VERSION}\/${OPERATIONAL_SYSTEM}\/rit"/curl -SLO "https:\/\/commons-repo.ritchiecli.io\/1.0.0-legacy\/${OPERATIONAL_SYSTEM}\/team\/rit"/g' | bash
 ```
 
 ### 
@@ -36,7 +36,7 @@ curl -fsSL https://commons-repo.ritchiecli.io/install.sh | bash
 The command used to install Ritchie Single at your terminal is:
 
 ```text
-curl -fsSL https://commons-repo.ritchiecli.io/install_single.sh | bash
+curl -fsSL https://commons-repo.ritchiecli.io/install.sh | sed -e 's/curl -SLO "https:\/\/commons-repo.ritchiecli.io\/${STABLE_VERSION}\/${OPERATIONAL_SYSTEM}\/rit"/curl -SLO "https:\/\/commons-repo.ritchiecli.io\/1.0.0-legacy\/${OPERATIONAL_SYSTEM}\/single\/rit"/g' | bash
 ```
 
 
