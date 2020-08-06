@@ -1,37 +1,36 @@
 # Manual Installation
 
-## How does it work? 
+## How does it work?  <a id="how-does-it-work"></a>
 
-**In case you decide to make the manual process of Ritchie installation**, it's necessary to obey the following premise: get the latest version of Ritchie, informing the URL below your navigator. 
+**In case you decide to make the manual process of Ritchie installation**, it's necessary to obey the following premise: get the latest version of Ritchie, informing the URL below your navigator.
 
-The link: [https://commons-repo.ritchiecli.io/stable.txt](https://commons-repo.ritchiecli.io/stable.txt)
+The link: [https://commons-repo.ritchiecli.io/stable.txt](https://commons-repo.ritchiecli.io/stable.txt)​
 
-Basically, when you indicate the URL above on your navigator, the system returns the latest version of Ritchie. For example, it can return **1.0.0-beta.7** or **1.0.0**  
+Basically, when you indicate the URL above on your navigator, the system returns the latest version of Ritchie. For example, it can return **1.0.0-beta.7** or **1.0.0**
 
-
-### Step by step 
+### Step by step  <a id="step-by-step"></a>
 
 Download the Ritchie binary version by entering the URL below in your browser by informing **the version** **{VERSION}** as obtained in step 1.
 
-### **Installation for MAC**
+### **Installation for MAC** <a id="installation-for-mac"></a>
 
-#### **Team Version URL**
+#### **Team Version URL** <a id="team-version-url"></a>
 
 ```text
 https://commons-repo.ritchiecli.io/{VERSION}/darwin/team/rit
 ```
 
-#### Single Version URL
+#### Single Version URL <a id="single-version-url"></a>
 
 ```text
 https://commons-repo.ritchiecli.io/{VERSION}/darwin/single/rit
 ```
 
+​
 
+### **Installation for Linux** <a id="installation-for-linux"></a>
 
-### **Installation for Linux**
-
-#### **Team Version URL**
+#### **Team Version URL** <a id="team-version-url-1"></a>
 
 ```text
 https://commons-repo.ritchiecli.io/{VERSION}/linux/team/rit
@@ -43,11 +42,11 @@ https://commons-repo.ritchiecli.io/{VERSION}/linux/team/rit
 https://commons-repo.ritchiecli.io/{VERSION}/linux/single/rit
 ```
 
-### \*\*\*\*
+### **​** <a id="undefined"></a>
 
-### **Installation for Windows** 
+### **Installation for Windows**  <a id="installation-for-windows"></a>
 
-#### **Team Version URL**
+#### **Team Version URL** <a id="team-version-url-2"></a>
 
 ```text
 https://commons-repo.ritchiecli.io/{VERSION}/windows/team/rit.exe
@@ -59,67 +58,53 @@ https://commons-repo.ritchiecli.io/{VERSION}/windows/team/rit.exe
 https://commons-repo.ritchiecli.io/{VERSION}/windows/single/rit.exe
 ```
 
-## **Manual settings** 
+## **Manual settings**  <a id="manual-settings"></a>
 
-### **Folder creation**
+### **Folder creation** <a id="folder-creation"></a>
 
-**→** Create a folder  `$HOME/.rit/bin`
+**→** Create a folder `$HOME/.rit/bin`
 
 ```text
-Comando Linux / MacOs
-
-mkdir -p $HOME/.rit/bin
+Comando Linux / MacOs​mkdir -p $HOME/.rit/bin
 ```
 
 → Copy the binary to the folder above.
 
 ```text
-Comandos Linux / MacOs
-
-cd $HOME/.rit/bin 
-cp $HOME/Downloads/rit
+Comandos Linux / MacOs​cd $HOME/.rit/bin cp $HOME/Downloads/rit
 ```
 
-→ Permission to execute. 
+→ Permission to execute.
 
-```
-Comando Linux / MacOs : 
-
-chmod +x rit
+```text
+Comando Linux / MacOs : ​chmod +x rit
 ```
 
-\*\*\*\*
+**​**
 
-### **Configure the .bashrc ou /etc/profile or .zshrc \(Linux / MacOS\)**
+### **Configure the .bashrc ou /etc/profile or .zshrc \(Linux / MacOS\)** <a id="configure-the-bashrc-ou-etc-profile-or-zshrc-linux-macos"></a>
 
 To ZSH, define a new PATH by copying the following code:
 
 ```text
-export RIT_PATH=$HOME/.rit
-PATH=$RIT_PATH/bin:$PATH
-rit completion zsh > ~/.rit_completion
-source ~/.rit_completion
+export RIT_PATH=$HOME/.ritPATH=$RIT_PATH/bin:$PATHrit completion zsh > ~/.rit_completionsource ~/.rit_completion
 ```
 
 To Bash, define a new PATH by copying the following code:
 
 ```text
-export RIT_PATH=$HOME/.rit
-PATH=$RIT_PATH/bin:$PATH
-rit completion bash > ~/.rit_completion
-source ~/.rit_completion
+export RIT_PATH=$HOME/.ritPATH=$RIT_PATH/bin:$PATHrit completion bash > ~/.rit_completionsource ~/.rit_completion
 ```
 
-\*\*\*\*
+**​**
 
-### Setting environment variables \(Windows\)
+### Setting environment variables \(Windows\) <a id="setting-environment-variables-windows"></a>
 
-For this operating system, you need to call rit on the terminal directly from rit.exe \(**rit.exe login** command for example\) 
+For this operating system, you need to call rit on the terminal directly from rit.exe \(**rit.exe login** command for example\)
 
-It is possible \(and suggested\) to create an environment variable for rit to facilitate the use of the CLI. 
+It is possible \(and suggested\) to create an environment variable for rit to facilitate the use of the CLI.
 
 Here are some articles explaining how to add an environment variable in Windows.
 
-[Through interface](https://professor-falken.com/pt/windows/como-configurar-la-ruta-y-las-variables-de-entorno-en-windows-10/)  
-[Through terminal](https://devcontent.com.br/artigos/windows/o-que-sao-como-alterar-criar-excluir-variaveis-de-ambiente)\*\*\*\*
+​[Through interface](https://professor-falken.com/pt/windows/como-configurar-la-ruta-y-las-variables-de-entorno-en-windows-10/) [Through terminal](https://devcontent.com.br/artigos/windows/o-que-sao-como-alterar-criar-excluir-variaveis-de-ambiente)
 
