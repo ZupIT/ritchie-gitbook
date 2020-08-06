@@ -49,7 +49,8 @@ mkdir -p $HOME/.rit/bin
 ```text
 Comandos Linux / MacOs
 
-​cd $HOME/.rit/bin cp $HOME/Downloads/rit
+​cd $HOME/.rit/bin 
+cp $HOME/Downloads/rit
 ```
 
 → Permission to execute.
