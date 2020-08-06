@@ -10,6 +10,7 @@
   * [Linux](getting-started/installation/linux.md)
   * [MacOS](getting-started/installation/macos.md)
   * [Windows](getting-started/installation/windows.md)
+  * [Manual Installation](getting-started/installation/manual-installation.md)
 * [Initialize rit](getting-started/initialization.md)
 * [Run formula "hello-world"](getting-started/commands.md)
 

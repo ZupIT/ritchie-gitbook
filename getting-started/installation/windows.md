@@ -19,7 +19,7 @@ As long as it hasn't been configured, the user will have to go inside the folder
 You'll find a guide about how to set a path here : [**How do I set or change the PATH system variable?**](https://www.java.com/en/download/help/path.xml)
 
 {% hint style="info" %}
-If you prefer, you also can proceed with the[ **manual installation**.]()
+If you prefer, you also can proceed with the[ **manual installation**.](manual-installation.md)
 {% endhint %}
 
 ### Verify installation 

@@ -28,9 +28,7 @@ Those input parameters can be informed in different ways:
 
 ## Execution of a formula \(with prompt\)
 
-
-
-![](.gitbook/assets/rit-scaffold-generate-coffe-go.gif)
+![](.gitbook/assets/rit-scaffold-generate-coffe-go-3.gif)
 
 **`rit scaffold generate coffee-go`** is an executable command associated with a formula in the CLI's tree.
 

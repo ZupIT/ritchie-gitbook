@@ -28,7 +28,7 @@ curl -fsSL https://commons-repo.ritchiecli.io/install.sh | bash
 ```
 
 {% hint style="info" %}
-If you prefer, you also can follow with[ **manual installation**.]()
+If you prefer, you also can follow with[ **manual installation**.](manual-installation.md)
 {% endhint %}
 
 ### Verify installation 
