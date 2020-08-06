@@ -39,16 +39,12 @@ https://commons-repo.ritchiecli.io/{VERSION}/windows/team/rit.exe
 **→** Create a folder `$HOME/.rit/bin`
 
 ```text
-Comando Linux / MacOs​
-
 mkdir -p $HOME/.rit/bin
 ```
 
 → Copy the binary to the folder above.
 
 ```text
-Comandos Linux / MacOs
-
 ​cd $HOME/.rit/bin 
 cp $HOME/Downloads/rit
 ```
@@ -56,8 +52,6 @@ cp $HOME/Downloads/rit
 → Permission to execute.
 
 ```text
-Comando Linux / MacOs 
-
 chmod +x rit
 ```
 
