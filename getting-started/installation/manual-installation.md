@@ -77,7 +77,10 @@ source ~/.rit_completion
 To Bash, define a new PATH by copying the following code:
 
 ```text
-export RIT_PATH=$HOME/.ritPATH=$RIT_PATH/bin:$PATHrit completion bash > ~/.rit_completionsource ~/.rit_completion
+export RIT_PATH=$HOME/.rit
+PATH=$RIT_PATH/bin:$PATH
+rit completion bash > ~/.rit_completion
+source ~/.rit_completion
 ```
 
 **​**
