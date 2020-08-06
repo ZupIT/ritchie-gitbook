@@ -68,7 +68,10 @@ chmod +x rit
 To ZSH, define a new PATH by copying the following code:
 
 ```text
-export RIT_PATH=$HOME/.ritPATH=$RIT_PATH/bin:$PATHrit completion zsh > ~/.rit_completionsource ~/.rit_completion
+export RIT_PATH=$HOME/.rit
+PATH=$RIT_PATH/bin:$PATH
+rit completion zsh > ~/.rit_completion
+source ~/.rit_completion
 ```
 
 To Bash, define a new PATH by copying the following code:
@@ -87,5 +90,6 @@ It is possible \(and suggested\) to create an environment variable for rit to fa
 
 Here are some articles explaining how to add an environment variable in Windows.
 
-​[Through interface](https://professor-falken.com/pt/windows/como-configurar-la-ruta-y-las-variables-de-entorno-en-windows-10/) [Through terminal](https://devcontent.com.br/artigos/windows/o-que-sao-como-alterar-criar-excluir-variaveis-de-ambiente)
+​[Through interface](https://professor-falken.com/pt/windows/como-configurar-la-ruta-y-las-variables-de-entorno-en-windows-10/)   
+[Through terminal](https://devcontent.com.br/artigos/windows/o-que-sao-como-alterar-criar-excluir-variaveis-de-ambiente)
 
