@@ -65,19 +65,20 @@ https://commons-repo.ritchiecli.io/{VERSION}/windows/single/rit.exe
 **→** Create a folder `$HOME/.rit/bin`
 
 ```text
-Comando Linux / MacOs​mkdir -p $HOME/.rit/bin
+​mkdir -p $HOME/.rit/bin
 ```
 
 → Copy the binary to the folder above.
 
 ```text
-Comandos Linux / MacOs​cd $HOME/.rit/bin cp $HOME/Downloads/rit
+​cd $HOME/.rit/bin 
+cp $HOME/Downloads/rit
 ```
 
 → Permission to execute.
 
 ```text
-Comando Linux / MacOs : ​chmod +x rit
+chmod +x rit
 ```
 
 **​**
@@ -87,13 +88,19 @@ Comando Linux / MacOs : ​chmod +x rit
 To ZSH, define a new PATH by copying the following code:
 
 ```text
-export RIT_PATH=$HOME/.ritPATH=$RIT_PATH/bin:$PATHrit completion zsh > ~/.rit_completionsource ~/.rit_completion
+export RIT_PATH=$HOME/.rit
+PATH=$RIT_PATH/bin:$PATH
+rit completion zsh > ~/.rit_completion
+source ~/.rit_completion
 ```
 
 To Bash, define a new PATH by copying the following code:
 
 ```text
-export RIT_PATH=$HOME/.ritPATH=$RIT_PATH/bin:$PATHrit completion bash > ~/.rit_completionsource ~/.rit_completion
+export RIT_PATH=$HOME/.rit
+PATH=$RIT_PATH/bin:$PATH
+rit completion bash > ~/.rit_completion
+source ~/.rit_completion
 ```
 
 **​**
