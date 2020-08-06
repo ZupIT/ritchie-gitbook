@@ -2,16 +2,11 @@
 
 ## Como funciona? 
 
-**Caso opte por realizar o processo manual de instalação do Ritchie**, é necessário obedecer à seguinte premissa: ****obtenha a última versão do Ritchie, informando a URL abaixo no seu navegador. 
+A versão 1.0.0 do Ritchie foi depreciada. Ainda é possível usar-la, mas o nosso time está agora focando em implementar novas funcionalidades, começando na versão 2.0.0.
 
-O link é este: [https://commons-repo.ritchiecli.io/stable.txt](https://commons-repo.ritchiecli.io/stable.txt)
-
-Basicamente, ao indicar a URL acima para o navegador, o sistema retorna a versão do Ritchie mais atual. Logo, poderia retornar **1.0.0-beta.7** ou **1.0.0**  
-
-
-## Passo 1: informar a URL 
-
-O primeiro passo é baixar o binário do Ritchie da versão, informando a URL abaixo no seu navegador **de acordo com a versão {VERSION}.**
+{% hint style="info" %}
+A última e mais estável release dessa versão do Ritchie é a**`1.0.0-legacy`**
+{% endhint %}
 
 ### \*\*\*\*
 
@@ -20,13 +15,13 @@ O primeiro passo é baixar o binário do Ritchie da versão, informando a URL ab
 #### URL para Versão Team 
 
 ```text
-https://commons-repo.ritchiecli.io/{VERSION}/darwin/team/rit
+https://commons-repo.ritchiecli.io/1.0.0-legacy/darwin/team/rit
 ```
 
 #### URL para Versão Single
 
 ```text
-https://commons-repo.ritchiecli.io/{VERSION}/darwin/single/rit
+https://commons-repo.ritchiecli.io/1.0.0-legacy/darwin/single/rit
 ```
 
 ### \*\*\*\*
@@ -36,13 +31,13 @@ https://commons-repo.ritchiecli.io/{VERSION}/darwin/single/rit
 #### URL para Versão Team 
 
 ```text
-https://commons-repo.ritchiecli.io/{VERSION}/linux/team/rit
+https://commons-repo.ritchiecli.io/1.0.0-legacy/linux/team/rit
 ```
 
 #### URL para Versão Single
 
 ```text
-https://commons-repo.ritchiecli.io/{VERSION}/linux/single/rit
+https://commons-repo.ritchiecli.io/1.0.0-legacy/linux/single/rit
 ```
 
 ### \*\*\*\*
@@ -52,13 +47,13 @@ https://commons-repo.ritchiecli.io/{VERSION}/linux/single/rit
 #### URL para Versão Team 
 
 ```text
-https://commons-repo.ritchiecli.io/{versão}/windows/team/rit.exe
+https://commons-repo.ritchiecli.io/1.0.0-legacy/windows/team/rit.exe
 ```
 
 #### URL para Versão Single
 
 ```text
-https://commons-repo.ritchiecli.io/{versão}/windows/single/rit.exe
+https://commons-repo.ritchiecli.io/1.0.0-legacy/windows/single/rit.exe
 ```
 
 ### \*\*\*\*
