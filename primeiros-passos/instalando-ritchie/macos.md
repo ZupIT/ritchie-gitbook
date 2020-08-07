@@ -26,7 +26,7 @@ Comando para instalar **md5sum** com _**MacPorts**_ : `sudo port install md5sha1
 O comando para adicionar o Ritchie Team ao seu terminal é: 
 
 ```bash
-curl -fsSL https://commons-repo.ritchiecli.io/install.sh | sed -e 's/curl -SLO "https:\/\/commons-repo.ritchiecli.io\/${STABLE_VERSION}\/${OPERATIONAL_SYSTEM}\/rit"/curl -SLO "https:\/\/commons-repo.ritchiecli.io\/1.0.0-legacy\/${OPERATIONAL_SYSTEM}\/team\/rit"/g' | bash
+curl -fsSL https://commons-repo.ritchiecli.io/install_legacy.sh | bash
 ```
 
 ### Instalando Versão Single
@@ -34,7 +34,7 @@ curl -fsSL https://commons-repo.ritchiecli.io/install.sh | sed -e 's/curl -SLO "
 O comando para adicionar o Ritchie Single ao seu terminal é:
 
 ```text
-curl -fsSL https://commons-repo.ritchiecli.io/install.sh | sed -e 's/curl -SLO "https:\/\/commons-repo.ritchiecli.io\/${STABLE_VERSION}\/${OPERATIONAL_SYSTEM}\/rit"/curl -SLO "https:\/\/commons-repo.ritchiecli.io\/1.0.0-legacy\/${OPERATIONAL_SYSTEM}\/single\/rit"/g' | bash
+curl -fsSL https://commons-repo.ritchiecli.io/install_single_legacy.sh | bash
 ```
 
 Vale lembrar que, se preferir, também é possível seguir com a[ **instalação manual**.](instalacao-manual.md)
