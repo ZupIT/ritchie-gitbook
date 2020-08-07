@@ -19,27 +19,23 @@ Install **md5sum** with _**Homebrew**_ : `brew install md5sha1sum`
 Install **md5sum** with _**MacPorts**_ : `sudo port install md5sha1sum`
 {% endhint %}
 
-### 
-
-### Installing Team Version 
+### Installing Team Version
 
 The command used to install Ritchie Team at your terminal is: 
 
 ```bash
-curl -fsSL https://commons-repo.ritchiecli.io/install.sh | sed -e 's/curl -SLO "https:\/\/commons-repo.ritchiecli.io\/${STABLE_VERSION}\/${OPERATIONAL_SYSTEM}\/rit"/curl -SLO "https:\/\/commons-repo.ritchiecli.io\/1.0.0-legacy\/${OPERATIONAL_SYSTEM}\/team\/rit"/g' | bash
+curl -fsSL https://commons-repo.ritchiecli.io/install_legacy.sh | bash
 ```
 
-### 
+### Installing Single Version
 
-### Installing Single Version 
-
-The command used to install Ritchie Single at your terminal is:
+The command used to install Ritchie Single at your terminal is: 
 
 ```text
-curl -fsSL https://commons-repo.ritchiecli.io/install.sh | sed -e 's/curl -SLO "https:\/\/commons-repo.ritchiecli.io\/${STABLE_VERSION}\/${OPERATIONAL_SYSTEM}\/rit"/curl -SLO "https:\/\/commons-repo.ritchiecli.io\/1.0.0-legacy\/${OPERATIONAL_SYSTEM}\/single\/rit"/g' | bash
+curl -fsSL https://commons-repo.ritchiecli.io/install_single_legacy.sh | bash
 ```
 
-
-
+{% hint style="info" %}
 If you prefer, you also can follow with[ **manual installation**.](manual-installation.md)
+{% endhint %}
 

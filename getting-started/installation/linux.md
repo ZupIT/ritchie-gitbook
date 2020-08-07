@@ -9,21 +9,18 @@ To install the **latest version of Ritchie**, you just have to execute the comma
 The command used to install Ritchie Team at your terminal is: 
 
 ```bash
-curl -fsSL https://commons-repo.ritchiecli.io/install.sh | sed -e 's/curl -SLO "https:\/\/commons-repo.ritchiecli.io\/${STABLE_VERSION}\/${OPERATIONAL_SYSTEM}\/rit"/curl -SLO "https:\/\/commons-repo.ritchiecli.io\/1.0.0-legacy\/${OPERATIONAL_SYSTEM}\/team\/rit"/g' | bash
+curl -fsSL https://commons-repo.ritchiecli.io/install_legacy.sh | bash
 ```
-
-### 
 
 ### Installing Single Version
 
 The command used to install Ritchie Single at your terminal is: 
 
 ```text
-curl -fsSL https://commons-repo.ritchiecli.io/install.sh | sed -e 's/curl -SLO "https:\/\/commons-repo.ritchiecli.io\/${STABLE_VERSION}\/${OPERATIONAL_SYSTEM}\/rit"/curl -SLO "https:\/\/commons-repo.ritchiecli.io\/1.0.0-legacy\/${OPERATIONAL_SYSTEM}\/single\/rit"/g' | bash
+curl -fsSL https://commons-repo.ritchiecli.io/install_single_legacy.sh | bash
 ```
 
-
-
-If you prefer, you also can follow with[ **manual installation**.](manual-installation.md)  
-
+{% hint style="info" %}
+If you prefer, you also can follow with[ **manual installation**.](manual-installation.md)
+{% endhint %}
 
