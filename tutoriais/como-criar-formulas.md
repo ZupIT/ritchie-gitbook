@@ -30,7 +30,7 @@ Você pode testar diretamente a fórmula depois de sua criação. Isso é possí
 
 Nesse caso, o template da formula **"Hello World"** será executado como mostrado abaixo: 
 
-![](../.gitbook/assets/rit-demo-create-formula-3.gif)
+![Exemplo demo de f&#xF3;rmula &quot;Hello-World&quot;](../.gitbook/assets/large-gif-1054x366-.gif)
 
 Este template é composto por **3 parâmetros de entrada**, que representam os tipos de inputs atualmente disponíveis para serem usados no Ritchie:
 
