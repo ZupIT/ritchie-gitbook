@@ -1,3 +1,9 @@
+---
+description: >-
+  Você encontrará nessa seção uma explicação sobre como credenciais funcionam no
+  Ritchie.
+---
+
 # Credenciais
 
 ## Como configurar?
