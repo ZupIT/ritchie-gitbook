@@ -26,17 +26,17 @@ Those input parameters can be informed in different ways:
 
 ![](.gitbook/assets/ritchie-diagram-v2.png)
 
-## Execution of a formula \(with prompt\)
+## Running a formula \(with prompt\)
 
-![](.gitbook/assets/rit-scaffold-generate-coffe-go.gif)
+![](.gitbook/assets/large-gif-1054x366-.gif)
 
-**`rit scaffold generate coffee-go`** is an executable command associated with a formula in the CLI's tree.
+**`rit demo hello-world`** is an executable command associated with a formula in the CLI's tree.
 
 After executing the command, Ritchie asked the user for some datas: 
 
 * Name
-* Type of coffee 
-* Delivery
+* If you have ever used Ritchie 
+* Type of automation
 
 Those datas are the **input** **parameters** of the formula.
 
