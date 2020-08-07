@@ -22,7 +22,7 @@ Then, use this command to create a formula:
 $ rit create formula
 ```
 
-![](../.gitbook/assets/rit-create-formula-3.gif)
+![Example of running rit create formula command](../.gitbook/assets/rit-create-formula-3.gif)
 
 ### **Step 2: Test your formula** 
 
@@ -30,7 +30,7 @@ You can test the formula directly after its creation. That's possible because  t
 
 In that case, the formula **"Hello World" template** will be executed as shown below:
 
-![](../.gitbook/assets/rit-demo-create-formula-3.gif)
+![Example of &quot;Hello-Worl&quot; formula demo](../.gitbook/assets/large-gif-1054x366-.gif)
 
 This template is composed of **3 inputs parameters**, that ****represents the currently available kinds of inputs to use Ritchie:
 

@@ -68,7 +68,7 @@ Once you finished this configuration, you set up this credentials following the 
 This provider, as well as its informations, will be saved permanently on Ritchie. You can also add as much providers as you want. 
 {% endhint %}
 
-## How to use credentials as formula inputs ?
+## How to use credentials as formula inputs?
 
 {% hint style="info" %}
 Once a provider's credential has been set, it can be used as input in the formula's **`config.json`**file. To do so, it is necessary to use the reserved keyword:**`CREDENTIAL`**
