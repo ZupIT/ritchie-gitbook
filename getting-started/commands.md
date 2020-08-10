@@ -6,7 +6,11 @@ description: You will find in this section how to run a "hello-world" formula.
 
 After you finished the previous steps - __[**installation**](installation/) ****and ****[**initialization**](initialization.md) ****- you can run the ****[**hello-world formula**](https://github.com/ZupIT/ritchie-formulas/tree/master/demo/hello-world) ****to test Ritchie.
 
-To do so, type the following commands lines:
+To do so, type the following commands lines: 
+
+{% hint style="warning" %}
+This command is available since [release 2.0.1](https://github.com/ZupIT/ritchie-formulas/releases) of ritchie-formulas repository. You can check which version of the commons repository you're using with the**`rit list repo`** command.
+{% endhint %}
 
 ### With Prompt
 
