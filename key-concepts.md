@@ -34,9 +34,10 @@ Those input parameters can be informed in different ways:
 
 After executing the command, Ritchie asked the user for some datas: 
 
-* Name
-* If you have ever used Ritchie 
-* Type of automation
+* Name \(Text\)
+* If you have ever used Ritchie \(Boolean\)
+* Type of automation \(List\)
+* Secret \(Hidden value\)
 
 Those datas are the **input** **parameters** of the formula.
 
