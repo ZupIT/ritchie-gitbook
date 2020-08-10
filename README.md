@@ -29,10 +29,6 @@ The main differences on this current version are:
 * You have a tutorial to guide you with CLI tips. 
 * You have an autocomplete support for 2 new shells \(fish e powershell\)
 
-{% hint style="info" %}
-If you use the last Ritchie version, check out on [**version migration**]() how you can set up your terminal to support Ritchie 2.0 version.
-{% endhint %}
-
 ## **How does Ritchie work?**
 
 In a general context, the common process for executing a project is to create a whole previous infrastructure, defining a language in the system that will be programmed, downloading dependencies and defining the rules that should be used for the project.
