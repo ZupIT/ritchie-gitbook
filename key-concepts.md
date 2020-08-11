@@ -24,7 +24,7 @@ Those input parameters can be informed in different ways:
 * When typing the command on the terminal \(via **stdin**\) 
 * During the execution of the formula \(if coded using **prompt**\)
 
-![](.gitbook/assets/start-end-ritchie%20%281%29.jpg)
+![](.gitbook/assets/start-end-ritchie.jpg)
 
 ## Running a formula \(with prompt\)
 
