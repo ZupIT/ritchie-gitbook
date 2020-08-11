@@ -24,7 +24,7 @@ Esses parâmetros de entrada serão informados pelo usuário :
 Ou antes de executar a fórmula de fato.  
 ****
 
-![](.gitbook/assets/fluxo-formulas%20%283%29.png)
+![](.gitbook/assets/start-end-ritchie.jpg)
 
 ### Exemplo de execução de uma fórmula \(via prompt\)
 
