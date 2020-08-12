@@ -19,7 +19,7 @@ Enquanto você não tem essa configuração, é preciso entrar na pasta em que o
 Você encontrará um guia sobre como definir um caminho aqui : [**Como definir ou alterar a variável de sistema PATH?**](https://www.java.com/en/download/help/path.xml)\*\*\*\*
 
 {% hint style="info" %}
-Se preferir, você também pode seguir com a [**instalação manual**.]()
+Se preferir, você também pode seguir com a [**instalação manual**.](manual-installation.md)
 {% endhint %}
 
 ### Verificando a instalação 
