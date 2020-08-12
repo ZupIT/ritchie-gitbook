@@ -52,7 +52,7 @@ Veja um exemplo abaixo dessa estrutura \(nesse caso, a fórmula criada em Golang
 Assim como na imagem acima, você deve editar os arquivos:
 
 * **config.json:** alterar os inputs.
-* **main.go:** extrair os inputs, e chame as funções da fórmula \(indicada no **pkg/\***\).
+* **main.go:** extrair os inputs, e chame os métodos da fórmula \(indicada no **pkg/\***\).
 * **pkg/\*:** implementar a fórmula.
 * **help.json:** alterar a mensagem de descrição.
 {% endtab %}
