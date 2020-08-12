@@ -35,5 +35,3 @@ Nessa seção, você viu como fazer o build de uma fórmula no Ritchie. Para con
 
 👉 Vá ao [**publicar uma fórmula**](como-publicar-formula.md) para ver como transferir seu trabalho para um repositório público. 
 
-👉 Vá a [**executar uma fórmula** ]()para ver como proceder com a execução das fórmulas no Ritchie.
-
