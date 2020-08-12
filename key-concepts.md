@@ -10,19 +10,19 @@ description: >-
 
 As **fórmulas** são **automações**, ou seja, são códigos chamados através das linhas de comando para realizar alguma operação.
 
-## **Fórmulas sob** demanda
+## **Execução de fórmulas**
 
-A primeira vez que o usuário executa o comando associado a uma fórmula no terminal, é baixado o **arquivo** **executável dessa fórmula** de acordo com o sistema operacional instalado no computador dele.
+{% hint style="info" %}
+As fórmulas são executadas após executar linhas de comando no terminal.
+{% endhint %}
 
-É nesse momento também que é baixado o arquivo **config.json** com os parâmetros de entrada \(inputs\) da fórmula, necessários para o código implementado no binário / script ser executado.
+Dependendo da fórmula, o usuário pode precisar informar alguns parâmetros de entrada.
 
-Esses parâmetros de entrada serão informados pelo usuário :
+Esses parâmetros de entrada podem ser informados de diversas maneiras:
 
-* Após digitar o comando no terminal \(se for via prompt\)
-* Antes de digitar o comando no terminal \(se for via stdin\)
-
-Ou antes de executar a fórmula de fato.  
-****
+* Depois de executar o comando no terminal \(via **prompt**\)
+* Quando digitar a linha de comando no terminal \(via **stdin**\)
+* Durante a execução da fórmula \(se o código usou o **prompt**\)
 
 ![](.gitbook/assets/start-end-ritchie.jpg)
 
