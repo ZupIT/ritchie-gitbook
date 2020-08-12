@@ -12,7 +12,7 @@
   * [Windows](getting-started/installation/windows.md)
   * [Instalação Manual](getting-started/installation/manual-installation.md)
 * [Inicialização do rit](getting-started/initialization.md)
-* [Executando uma fórmula "hello-world"](getting-started/commands.md)
+* [Executando a fórmula "hello-world"](getting-started/commands.md)
 
 ## Tutoriais
 
