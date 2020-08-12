@@ -10,19 +10,20 @@ To install **the latest version of Ritchie** on Windows, you have to download Ri
 
 You must [**download Ritchie's installer**](https://commons-repo.ritchiecli.io/latest/ritchiecli.msi) to make this configuration. Once you made it, follow the instructions on your terminal. 
 
+{% hint style="info" %}
+If you prefer, you also can proceed with the[ **manual installation**.](manual-installation.md)
+{% endhint %}
+
 ###  Step 2: Configuring environments' variables 
 
 The **PATH** to use Ritchie on Windows **IS NOT** configured when you download it.  
   
 As long as it hasn't been configured, the user will have to go inside the folder where the **rit.exe file** has been downloaded to run Ritchie through this file. Example : **`rit.exe init`**
 
-You'll find a guide about how to set a path here : [**How do I set or change the PATH system variable?**](https://www.java.com/en/download/help/path.xml)
+You'll find a guide about how to set a path here : [**How do I set or change the PATH system variable**](https://www.java.com/en/download/help/path.xml)**.**  
 
-{% hint style="info" %}
-If you prefer, you also can proceed with the[ **manual installation**.](manual-installation.md)
-{% endhint %}
 
-### Verify installation 
+### Step 3: Verify installation 
 
 You can confirm if your installation went well by running this command: 
 
