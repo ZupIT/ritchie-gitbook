@@ -22,7 +22,11 @@ $ rit add repo
 
 Once the repository has been added, Ritchie will automatically use the latest release on your repository to access the available formulas.
 
-![](../.gitbook/assets/rit-add-repo-3.gif)
+![rit add repo command demonstration](../.gitbook/assets/rit-add-repo-3.gif)
+
+{% hint style="info" %}
+To **check** **the new added formulas command**, execute the **`rit --help`** command and take a look at new groups that will appear.
+{% endhint %}
 
 ## Next steps 
 
