@@ -12,7 +12,7 @@ Você deve fazer o [**download do instalador**](https://commons-repo.ritchiecli.
 
 ###  Passo 2: Configurando as variáveis de ambiente
 
-O PATH usado no Ritchie para Windows **não é configurado** quando você faz o download.  
+O **PATH** usado no Ritchie para Windows **não é configurado** quando você faz o download.  
   
 Enquanto você não tem essa configuração, é preciso entrar na pasta em que o **arquivo** **rit.exe** foi baixado para executar o Ritchie através desse arquivo. Exemplo: **`rit.exe init`**
 
