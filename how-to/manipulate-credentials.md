@@ -111,3 +111,9 @@ PROVIDER	 CONTEXT	  CREDENTIAL
 github  	 default	  {"token":"***************","username":"***************"}
 ```
 
+## Next steps 
+
+On this section, you saw how to manipulate credentials on Ritchie. To keep configuring the formula: 
+
+👉 Check out our [**list of commands**](../developer/list-of-commands.md) to see the available automations on our community repo. 
+
