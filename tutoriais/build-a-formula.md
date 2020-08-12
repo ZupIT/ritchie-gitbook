@@ -19,8 +19,8 @@ $ rit build formula
   
 ****Você deverá informar: 
 
-* O **path  do diretório** onde a fórmula está salva.
-* O **caminho para a fórmula** a ser buildada \(o comando da fórmula\). 
+* O **caminho  do diretório** onde a fórmula está localizada.
+* O **caminho da fórmula** a ser buildada \(ele segue o comando da fórmula\). 
 
 Caso queira atualizar o código da fórmula em tempo de execução, é possível utilizar a **flag “--watch”** junto da fórmula. Veja no exemplo abaixo:   
 ****
