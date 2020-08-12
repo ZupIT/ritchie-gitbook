@@ -12,7 +12,7 @@ You must [**download Ritchie's installer**](https://commons-repo.ritchiecli.io/l
 
 ###  Step 2: Configuring environments' variables 
 
-The PATH to use Ritchie on Windows **IS NOT** configured when you download it.  
+The **PATH** to use Ritchie on Windows **IS NOT** configured when you download it.  
   
 As long as it hasn't been configured, the user will have to go inside the folder where the **rit.exe file** has been downloaded to run Ritchie through this file. Example : **`rit.exe init`**
 
