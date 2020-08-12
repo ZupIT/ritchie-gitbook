@@ -2,7 +2,7 @@
 description: You will find in this section how to set credentials on Ritchie.
 ---
 
-# Credentials
+# How to manipulate credentials?
 
 ## How to set up?
 
@@ -37,7 +37,7 @@ After you chose one of the available providers, Ritchie will ask you to fill the
 ```
 
 {% hint style="info" %}
-You can check out on [**formula's editable files**](../how-to/implement-a-formula.md#editable-files) to see how to manipulate the credentials defined in the session as formula input parameters \(inputs in the config.json file\).
+You can check out on [**formula's editable files**](implement-a-formula.md#editable-files) to see how to manipulate the credentials defined in the session as formula input parameters \(inputs in the config.json file\).
 {% endhint %}
 
 ## How to add a new providers?

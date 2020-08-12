@@ -21,10 +21,10 @@
 * [How to implement a formula](how-to/implement-a-formula.md)
 * [How to build a formula](how-to/build-a-formula.md)
 * [How to publish a formula](how-to/how-to-publish-a-formula.md)
+* [How to manipulate credentials?](how-to/set-up-credentials.md)
 
 ## Reference <a id="developer"></a>
 
-* [Credentials](developer/set-up-credentials.md)
 * [List of commands](developer/list-of-commands.md)
 * [Releases](https://github.com/ZupIT/ritchie-cli/releases)
 * [Roadmap](https://github.com/ZupIT/ritchie-cli/issues)
