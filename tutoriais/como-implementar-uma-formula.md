@@ -42,32 +42,22 @@ Dependendo da linguagem de programação que você escolher, pode ser necessári
 
 Veja um exemplo abaixo dessa estrutura \(nesse caso, a fórmula criada em Golang\):
 
+{% tabs %}
+{% tab title="Golang" %}
 ![](../.gitbook/assets/estrutura.png)
 
 Assim como na imagem acima, você deve editar os arquivos:
 
-* **pkg/\*:** alterar o comportamento da fórmula.
-* **main.go:** alterar os inputs, a ordem que são requeridos e o nome da função da sua fórmula \(indicada no pkg\).
 * **config.json:** alterar os inputs.
-* **help.json:** alterar a mensagem de help de acordo com o nível do comando.
+* **main.go:** extrair os inputs, e chame as funções da fórmula \(indicada no **pkg/\***\).
+* **pkg/\*:** implementar a fórmula.
+* **help.json:** alterar a mensagem de descrição.
+{% endtab %}
+{% endtabs %}
 
-As pastas e suas respectivas estruturas são o que definem o comando, então não é indicado alterar os nomes ou incluir mais pastas/arquivos que não estejam dentro da pasta src.
-
-## Qual é a composição de uma fórmula?
-
-{% hint style="info" %}
-Cada fórmula é composta por vários arquivos que permitem a sua execução pelo CLI. 
+{% hint style="warning" %}
+As pastas e suas respectivas estruturas são o que definem o comando, então não é indicado alterar os nomes ou incluir mais pastas/arquivos **que não estejam dentro da pasta src/\***.
 {% endhint %}
-
-Para a fórmula ser executada no terminal, é necessário ter: 
-
-* O arquivo **tree.json** do repositório onde a ****fórmula configurada está localizada.
-* Um **arquivo executável.**
-* O arquivo [**config.json**](como-implementar-uma-formula.md), como mencionado acima.
-
-O arquivo **tree.json** permite que o CLI saiba quais comandos e subcomandos estão associados com a fórmula. Assim, é como ele identifica onde fazer o download dos arquivos da fórmula na primeira execução \(por demanda\). 
-
-O **arquivo** **executável** contém a implementação da fórmula. O CLI irá fazer o download do arquivo de acordo com o sistema operacional do usuário e executar essa fórmula, enviando os parâmetros de entrada que foram informados. 
 
 ## Próximos passos
 
