@@ -20,7 +20,8 @@ O **PATH** usado no Ritchie para Windows **não é configurado** quando você fa
   
 Enquanto você não tem essa configuração, é preciso entrar na pasta em que o **arquivo** **rit.exe** foi baixado para executar o Ritchie através desse arquivo. Exemplo: **`rit.exe init`**
 
-Você encontrará um guia sobre como definir um caminho aqui : [**Como definir ou alterar a variável de sistema PATH?**](https://www.java.com/en/download/help/path.xml)\*\*\*\*
+Você encontrará um guia sobre como definir um caminho aqui : [**Como definir ou alterar a variável de sistema PATH?**](https://www.java.com/en/download/help/path.xml)  
+****
 
 ### Passo 3: Verificando a instalação 
 
