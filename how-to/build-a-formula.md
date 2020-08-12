@@ -2,7 +2,7 @@
 description: You will find in this section how to build formulas on Ritchie.
 ---
 
-# How to build a formula
+# How to build formulas
 
 ## How to build?
 
@@ -19,8 +19,7 @@ You must inform:
 * The **directory's path** where the formula is located.
 * The **formula's path** to be builded \(the formula's command\). 
 
-In case you want to update the formula's code in running time, you can use the **flag “--watch”** as shown in the command below:  
-****
+In case you want to update the formula's code in running time, you can use the **flag “--watch”** as shown in the command below:
 
 ```text
 $ rit build formula --watch

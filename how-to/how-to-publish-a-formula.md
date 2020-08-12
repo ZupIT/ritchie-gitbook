@@ -2,7 +2,7 @@
 description: You will find in this section how to publish formulas on Ritchie.
 ---
 
-# How to publish a formula
+# How to publish formulas
 
 ## How to publish?
 

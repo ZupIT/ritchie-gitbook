@@ -2,7 +2,7 @@
 description: You will find in this section how to implement formulas on Ritchie.
 ---
 
-# How to implement a formula
+# How to implement formulas
 
 ## How to implement? 
 
