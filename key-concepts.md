@@ -62,7 +62,7 @@ Usamos o prefixo **`rit`** para iniciar nossa árvore de comandos.
 
 ![](.gitbook/assets/arvore-rit%20%281%29.png)
 
-{% hint style="info" %}
+{% hint style="warning" %}
 O comando **`rit`** é nosso comando pai, ou raíz. Ele não é executável \(significa que ele não vai iniciar nenhuma operação se você usar ele sozinho no terminal\).   
   
 É necessário utilizar sub-comandos \(que são comandos filhos, ou ramos, do comando **`rit`**\) executáveis para conseguir iniciar algum processo.
@@ -75,9 +75,9 @@ Os comandos executáveis no Ritchie são os comandos localizados no último nív
 * O comando **rit set context** é executável, pois está no último nível da árvore.
 * O comando **rit kafka create** não é executável, pois ele tem um sub-comando **topic** executável no último nível da árvore.
 
-Esse conceito de árvore de comandos é o núcleo da estrutura do Ritchie. Todos os comandos e sub-comandos são mapeados dentro de um json que é atualizado ou criado quando você baixa ou atualiza o CLI no seu computador.
+Esse conceito de árvore de comandos é o **núcleo** da estrutura do Ritchie. 
 
-{% hint style="success" %}
-Essa árvore é gerada **dinamicamente** pelo CLI baseado nos repositório de fórmulas adicionados localmente \(`rit add repo`\).
+{% hint style="info" %}
+Essa árvore é gerada **dinamicamente** pelo CLI baseado nos repositório de fórmulas adicionados localmente  pelo comando**`rit add repo`**.
 {% endhint %}
 
