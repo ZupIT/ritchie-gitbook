@@ -59,11 +59,15 @@ To allow more options and freedom for users, it is also allowed to follow the pa
 
                                         **RIT + GROUP + VERB + NOUN**
 
-The app name is Ritchie, so we use the name **rit** to start our command tree.
+The app name is Ritchie, so we use the name **`rit`** to start our command tree.
 
 ![](.gitbook/assets/arvore-rit%20%281%29.png)
 
-The **rit** command is therefore our parent command, or **root**. It is not executable \(it means that it will not start any operations if you use it alone in the terminal\). It is necessary to use executable sub-commands \(which are child commands, or branches, of the rit command\) in order to start any process.
+{% hint style="warning" %}
+The **rit** command is therefore our parent command, or **root**. It is not executable \(it means that it will not start any operations if you use it alone in the terminal\), but has been configured to return the **helper command**.
+
+It is necessary to use executable sub-commands \(which are child commands, or branches, of the rit command\) in order to start any process.
+{% endhint %}
 
 The executable commands in Ritchie are the commands located at the last level of the tree.  
   
@@ -73,5 +77,9 @@ The executable commands in Ritchie are the commands located at the last level of
 * The **rit kafka create** command is not executable as there is an executable **topic** subcommand, at the last level of the tree.
 
 This command tree concept is the **core** of Ritchie's structure.   
+
+
+{% hint style="info" %}
 All commands and sub-commands are mapped in a tree dynamically created according to the repositories the user added locally on his computer by using the **`rit add repo`** command.
+{% endhint %}
 
