@@ -28,7 +28,7 @@ Depois que você adicionou o repo, o Ritchie automaticamente utilizará a últim
 
 Nessa seção, você viu como publicar uma fórmula no Ritchie. Para continuar configurando a fórmula: 
 
-👉 Vá a [**executar uma fórmula**]() para ver como continuar com a execução de fórmulas no Ritchie. 
+👉 Cheque como [**manipular credenciais** ](lista-de-comandos.md)no Ritchie.
 
 👉 Cheque a [**lista de comandos**](https://app.gitbook.com/@zup-products/s/ritchie/~/drafts/-MDPWwvUtJ2ZZfV8Mw44/v/v2.0-pt/developer/lista-de-comandos) para ver as automações disponíveis no repo da nossa comunidade. 
 

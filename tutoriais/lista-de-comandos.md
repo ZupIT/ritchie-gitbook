@@ -113,3 +113,9 @@ PROVIDER	 CONTEXT	  CREDENTIAL
 github  	 default	  {"token":"***************","username":"***************"}
 ```
 
+## Próximos passos 
+
+Nessa seção, você viu como manipular credenciais no Ritchie. 
+
+👉 Cheque a [**lista de comandos**](https://app.gitbook.com/@zup-products/s/ritchie/~/drafts/-MDPWwvUtJ2ZZfV8Mw44/v/v2.0-pt/developer/lista-de-comandos) para ver as automações disponíveis no repo da nossa comunidade. 
+
