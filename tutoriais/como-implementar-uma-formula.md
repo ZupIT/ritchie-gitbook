@@ -16,16 +16,19 @@ Para fazer essa configuração, você terá que atualizar **2 arquivos** localiz
 
 O arquivo config.json contém os parâmetros de entrada da fórmula. Ele permite que o CLI saiba quais dados devem ser pedidos ao usuário quando ele executa o comando no terminal, a fim de que processe a fórmula corretamente. 
 
-Essas entradas são feitas para os seguintes campos: uma descrição e os parâmetros de entrada de uma fórmula.
+Essas entradas são feitas para os seguintes campos: 
+
+* uma imagem para _buildar_ o docker
+* os parâmetros de entrada de uma fórmula.
 
 Outras informações disponíveis nesse arquivo são: 
 
 * Nome
 * Tipo
 * Label 
-* Default \(opcional\) 
-* Itens \(opcional\) 
-* Cache \(opcional\)
+* Default \(_opcional_\) 
+* Itens \(_opcional_\) 
+* Cache \(_opcional_\)
 
 #### 2. **`main file`**
 
