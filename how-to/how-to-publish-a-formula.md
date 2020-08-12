@@ -28,5 +28,7 @@ Once the repository has been added, Ritchie will automatically use the latest re
 
 On this section, you saw how to publish a formula on Ritchie. To keep configuring the formula: 
 
+👉 Check out how to manipulate credentials with your formulas.
+
 👉 Check out our [**list of commands**](../developer/list-of-commands.md) to see the available automations on our community repo. 
 

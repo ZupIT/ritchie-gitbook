@@ -21,7 +21,7 @@
 * [How to implement formulas](how-to/implement-a-formula.md)
 * [How to build formulas](how-to/build-a-formula.md)
 * [How to publish formulas](how-to/how-to-publish-a-formula.md)
-* [How to manipulate credentials](how-to/set-up-credentials.md)
+* [How to manipulate credentials](how-to/manipulate-credentials.md)
 
 ## Reference <a id="developer"></a>
 
