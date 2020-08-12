@@ -20,10 +20,10 @@
 * [Como implementar fórmulas](tutoriais/como-implementar-uma-formula.md)
 * [Como "buildar" fórmulas](tutoriais/build-a-formula.md)
 * [Como publicar fórmulas](tutoriais/como-publicar-formula.md)
+* [Como manipular credenciais](tutoriais/lista-de-comandos.md)
 
 ## Referência <a id="developer"></a>
 
-* [Credenciais](developer/lista-de-comandos.md)
 * [Lista de Comandos](developer/lista-de-comandos-1.md)
 * [Releases](https://github.com/ZupIT/ritchie-cli/releases)
 * [Roadmap](https://github.com/ZupIT/ritchie-cli/issues)

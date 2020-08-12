@@ -4,7 +4,7 @@ description: >-
   Ritchie.
 ---
 
-# Credenciais
+# Como manipular credenciais
 
 ## Como configurar?
 
@@ -39,7 +39,7 @@ Depois que escolher um dos provedores disponíveis, o Ritchie irá solicitar que
 ```
 
 {% hint style="info" %}
-Você pode conferir os [**arquivos editáveis das fórmulas**](../tutoriais/como-implementar-uma-formula.md#arquivos-editaveis) para ver como manipular as credenciais definidas na sessão como parâmetros de input das fórmulas \(no caso, inputs no config.json\).
+Você pode conferir os [**arquivos editáveis das fórmulas**](como-implementar-uma-formula.md#arquivos-editaveis) para ver como manipular as credenciais definidas na sessão como parâmetros de input das fórmulas \(no caso, inputs no config.json\).
 {% endhint %}
 
 ## Como adicionar novos provedores?
