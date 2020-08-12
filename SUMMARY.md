@@ -2,6 +2,7 @@
 
 * [Visão geral](README.md)
 * [Principais conceitos](key-concepts.md)
+* [Sobre o Ritchie 2.0](sobre-o-ritchie-2.0.md)
 * [Guia quick start](quick-start.md)
 
 ## PRIMEIROS PASSOS <a id="getting-started"></a>
