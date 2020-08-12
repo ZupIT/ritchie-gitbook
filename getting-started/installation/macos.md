@@ -8,7 +8,7 @@ To install the **latest version of Ritchie** for MacOS, you just have to run the
 
 ### Requirements
 
-If you wanna use efficiently Ritchie on MacOs, we recommend to configure the following elements:
+If you wanna use efficiently Ritchie on MacOs, we recommend to install the following elements:
 
 * [Golang](https://golang.org/doc/install)
 * The **make** command \([Using "make" on macOS](https://stackoverflow.com/questions/1469994/using-make-on-os-x)\)
