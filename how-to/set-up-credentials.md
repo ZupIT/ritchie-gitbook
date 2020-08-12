@@ -2,7 +2,7 @@
 description: You will find in this section how to set credentials on Ritchie.
 ---
 
-# How to manipulate credentials?
+# How to manipulate credentials
 
 ## How to set up?
 
