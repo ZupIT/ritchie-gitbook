@@ -2,7 +2,7 @@
 description: Você irá encontrar nessa seção como implementar as fórmulas no Ritchie.
 ---
 
-# Como implementar uma fórmula
+# Como implementar fórmulas
 
 ## Como implementar? 
 

@@ -17,10 +17,9 @@
 ## Tutoriais
 
 * [Como criar fórmulas](tutoriais/como-criar-formulas.md)
-* [Como implementar uma fórmula](tutoriais/como-implementar-uma-formula.md)
-* [Como fazer "build" de uma fórmula](tutoriais/build-a-formula.md)
-* [Como publicar uma fórmula](tutoriais/como-publicar-formula.md)
-* [Como executar uma fórmula](tutoriais/executar-a-formula.md)
+* [Como implementar fórmulas](tutoriais/como-implementar-uma-formula.md)
+* [Como "buildar" fórmulas](tutoriais/build-a-formula.md)
+* [Como publicar fórmulas](tutoriais/como-publicar-formula.md)
 
 ## Referência <a id="developer"></a>
 
