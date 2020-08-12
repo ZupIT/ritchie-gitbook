@@ -6,17 +6,15 @@ description: You will find in this section how to run a "hello-world" formula.
 
 ## How to run formulas ?
 
-{% hint style="danger" %}
-The formulas are executed **locally by default**, which means that you must have installed the programming languages dependencies to run a formula's code. 
+The formulas are executed **`LOCALLY` by default**, which means that you must have installed the programming languages dependencies to run a formula's code. 
 
+{% hint style="danger" %}
 For example, to run a formula written on **Node**, you have to have **Node installed** on your machine. 
 {% endhint %}
 
-However, all formulas can be executed regardless of the programming language used from the moment that you have **Docker** installed.
+However, all formulas can be executed regardless of the programming language used from the moment that you have **`DOCKER`** installed.
 
-{% hint style="info" %}
 Let's follow the example below to see all the way to execute a formula on Ritchie.
-{% endhint %}
 
 ## Hello World
 
