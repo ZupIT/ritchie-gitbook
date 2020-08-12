@@ -2,15 +2,31 @@
 description: You will find in this section how to run a "hello-world" formula.
 ---
 
-# Run the "hello-world" formula
+# Run the "Hello World" formula
 
-After you finished the previous steps - __[**installation**](installation/) ****and ****[**initialization**](initialization.md) ****- you can run the ****[**hello-world formula**](https://github.com/ZupIT/ritchie-formulas/tree/master/demo/hello-world) ****to test Ritchie.
+## How to run formulas ?
 
-To do so, type the following commands lines: 
+{% hint style="danger" %}
+The formulas are executed **locally by default**, which means that you must have installed the programming languages dependencies to run a formula's code. 
+
+For example, to run a formula written on **Node**, you have to have **Node installed** on your machine. 
+{% endhint %}
+
+However, all formulas can be executed regardless of the programming language used from the moment that you have **Docker** installed.
+
+{% hint style="info" %}
+Let's follow the example below to see all the way to execute a formula on Ritchie.
+{% endhint %}
+
+## Hello World
+
+After you finished the previous steps - __[**installation**](installation/) ****and ****[**initialization**](initialization.md) ****- the ****[**hello-world formula**](https://github.com/ZupIT/ritchie-formulas/tree/master/demo/hello-world) ****will be available ****to test Ritchie.
 
 {% hint style="warning" %}
 This command is available since [release 2.0.1](https://github.com/ZupIT/ritchie-formulas/releases) of ritchie-formulas repository. You can check which version of the commons repository you're using with the**`rit list repo`** command.
 {% endhint %}
+
+To do so, type the following commands lines: 
 
 ### With Prompt
 

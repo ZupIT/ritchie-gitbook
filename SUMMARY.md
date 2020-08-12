@@ -2,6 +2,7 @@
 
 * [Overview](README.md)
 * [Key Concepts](key-concepts.md)
+* [About Ritchie V2.0](ritchie-v2.0.md)
 * [Quick start guide](quick-start.md)
 
 ## GETTING STARTED
@@ -12,7 +13,7 @@
   * [Windows](getting-started/installation/windows.md)
   * [Manual Installation](getting-started/installation/manual-installation.md)
 * [Initialize rit](getting-started/initialization.md)
-* [Run the "hello-world" formula](getting-started/commands.md)
+* [Run the "Hello World" formula](getting-started/commands.md)
 
 ## Tutorials <a id="how-to"></a>
 
@@ -20,7 +21,6 @@
 * [How to implement a formula](how-to/implement-a-formula.md)
 * [How to build a formula](how-to/build-a-formula.md)
 * [How to publish a formula](how-to/how-to-publish-a-formula.md)
-* [How to run a formula](how-to/run-a-formula.md)
 
 ## Reference <a id="developer"></a>
 

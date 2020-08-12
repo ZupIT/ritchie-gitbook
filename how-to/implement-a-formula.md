@@ -16,21 +16,24 @@ To do this configuration, you hill have to update **3 files** located inside the
 
 The **config.json** file contains the formula's input parameters. It allows the CLI to know what datas to ask the user when he executes the command in the terminal in order to process the formula correctly.
 
-These input parameters are made up of the following fields: a description and the formula inputs parameters.
+These input parameters are made up of the following fields: 
 
-Other information available on this file:
+* a docker image builder
+*  the formula inputs parameters.
+
+Each input is composed of the following fields:
 
 * Name 
 * Type
 * Label 
-* Default \(optional\) 
-* Items \(optional\) 
-* Cache \(optional\)
+* Default \(_optional_\) 
+* Items \(_optional_\) 
+* Cache \(_optional_\)
 
 #### 2. **`main file`**
 
-The main.file is generally used to extract the inputs asked with the config.json file, and then call one or more methods to realise an operation \(the task / automation\) using those input parameters.  
-
+* The main file is used to extract the inputs asked in the config.json file.  _Inputs are extracted by the field **name** informed on the config.json file._
+* This is also where are called the methods to realise the task / automation of the formula, manipulating  those input parameters. 
 
 #### 3. `/pkg folder`
 
@@ -42,32 +45,22 @@ Depending on the chosen language, it may be necessary to update more files, for 
 
 See an example below of this structure \(in this case, it's a formula created in Golang\):
 
+{% tabs %}
+{% tab title="Golang" %}
 ![](../.gitbook/assets/estrutura.png)
 
 As the image above, you can see the editable files:
 
-* **pkg/\*:** change the formula's behavior.
-* **main.go:** change the inputs, the order of requests and the formula's function name \(indicated on pkg\).
-* **config.json:** change the inputs.
-* **help.json:** change the help message according to the command's level.
+* **config.json:** Update the inputs configurations.
+* **main.go:** Extract the inputs and call the formula's function name \(coded on **pkg/\***\).
+* **pkg/\*:** Code the formula's behavior.
+* **help.json:** Update the formula description message.
+{% endtab %}
+{% endtabs %}
 
-The files and those respective structures define the command, so it's not indicated to change its names or include more files/folders that are not in the src folder.
-
-## What is the formula composition?
-
-{% hint style="info" %}
-Each formula is composed of several files allowing its execution by the CLI.
+{% hint style="warning" %}
+The structures defines the command, so **it's not indicated to update** folders names or include more files/folders **if not** in the **src/\*** folder.
 {% endhint %}
-
-For a formula to be executed by the terminal, it is necessary to have: 
-
-* The **tree.json** file of the repository where the configured formula is located 
-* An **executable file**
-* \*\*\*\*[**A config.json file**](implement-a-formula.md#1-config-json), as mentioned above.
-
-The **tree.json** file allows the CLI to know the commands and sub-commands associated with the formula. This is how it identifies where to download the formula files on the first execution \(on demand\).
-
-The **executable file** contains the implementation of the formula. The CLI will download this file according to the operating system of the user's computer and execute this formula sending the input parameters that have been informed.
 
 ## Next steps 
 

@@ -32,5 +32,5 @@ On this section, you saw how to implement a formula on Ritchie. To keep configur
 
 👉 Go to [**publish a formula**](how-to-publish-a-formula.md) to see how to transfer your work to a public repository. 
 
-👉 Go to [**run a formula**](run-a-formula.md) to see how to proceed with formula's executions with Ritchie. 
+👉 Go to [**run a formula**]() to see how to proceed with formula's executions with Ritchie. 
 
