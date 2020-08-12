@@ -8,19 +8,19 @@ description: Você encontrará nessa seção o passo a passo para criar fórmula
 
 ### Passo 1: Execute o comando de criação de formula
 
-Para começar, você deve informar alguns dados para os seguintes argumentos:
-
-1. O **comando** \(de preferência, com o **padrão `rit + grupo + verbo + substantivo`**\)
-2. A **linguagem de programação** da fórmula. 
-3. **O caminho** para salvar os arquivos da fórmula. 
-
-**Exemplo:** rit github update repository
-
-Em seguida, use esse comando para criar uma fórmula:
+Execute esse comando para criar uma fórmula:
 
 ```text
 $ rit create formula
 ```
+
+Você deverá informar alguns parâmetros de entrada antes da sua execução:
+
+1. O **comando** \(de preferência, com o **padrão `rit + grupo + verbo + substantivo`** para respeitar a [árvore de comando](https://docs.ritchiecli.io/v/v2.0-pt/key-concepts#arvore-de-comando)\).
+2. A **linguagem de programação** da fórmula. 
+3. **O caminho** para salvar os arquivos da fórmula. 
+
+**Exemplo:** `rit demo create formula`
 
 ![](../.gitbook/assets/rit-create-formula-3.gif)
 
