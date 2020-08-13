@@ -23,12 +23,15 @@ Essas entradas são feitas para os seguintes campos:
 
 Outras informações disponíveis nesse arquivo são: 
 
-* Nome
-* Tipo
-* Label 
-* Default \(_opcional_\) 
-* Itens \(_opcional_\) 
-* Cache \(_opcional_\)
+* `name` : nome de variável para extração.
+* `type` : _**text**_ \(string\), _**bool**_ \(boolean\) or _**password**_ \(hidden string\).
+* `label`  : texto que aparecerá no CLI para pedir o input ao usuário.
+* `default` \(_optional_\) : valor padrão do parâmetro \(se nulo\).
+* `items` \(_optional_\) : lista de opções para o parâmetro.
+* `cache` \(_optional_\) : 
+  * `active`: se o cache é habilitado ou não.
+  * `qty`: quantidade de valor armazenadas no cache.
+  * `newLabel`: texto que aparecerá no CLI para pedir um novo input ao usuário.
 
 #### 2. **`main file`**
 
