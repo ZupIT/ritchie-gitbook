@@ -19,16 +19,19 @@ The **config.json** file contains the formula's input parameters. It allows the 
 These input parameters are made up of the following fields: 
 
 * a docker image builder
-*  the formula inputs parameters.
+* the formula inputs parameters.
 
 Each input is composed of the following fields:
 
-* Name 
-* Type
-* Label 
-* Default \(_optional_\) 
-* Items \(_optional_\) 
-* Cache \(_optional_\)
+* `name` : variable name to extract.
+* `type` : _**text**_ \(string\), _**bool**_ \(boolean\) or _**password**_ \(hidden string\).
+* `label`  : text appearing on the CLI asking for the input.
+* `default` \(_optional_\) : default input value \(if null\).
+* `items` \(_optional_\) : list of input variable options.
+* `cache` \(_optional_\) : 
+  * `active`: if cache is enabled or not.
+  * `qty`: amount of values to store.
+  * `newLabel`: text appearing on the CLI asking for a new input. 
 
 #### 2. **`main file`**
 
