@@ -25,7 +25,7 @@ https://commons-repo.ritchiecli.io/{VERSION}/linux/rit
 ### **Instalação para Windows**  <a id="installation-for-windows"></a>
 
 ```text
-https://commons-repo.ritchiecli.io/{VERSION}/windows/team/rit.exe
+https://commons-repo.ritchiecli.io/{VERSION}/windows/rit.exe
 ```
 
 \*\*\*\*
