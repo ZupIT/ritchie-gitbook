@@ -4,7 +4,7 @@ description: You will find in this section how to install Ritchie for Linux.
 
 # Linux
 
-### Step 1: Requirement
+### Step 1: Requirements
 
 If you wanna use efficiently Ritchie on Linux, , we recommend to install the following elements:
 
