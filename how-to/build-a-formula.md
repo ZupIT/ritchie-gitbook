@@ -11,7 +11,7 @@ After [**creating a formula**](how-to-create-formulas.md),  if you want to edit 
 To do so, just run the command:  ****
 
 ```text
-$ rit build formula
+rit build formula
 ```
 
 You must inform: 
@@ -22,7 +22,7 @@ You must inform:
 In case you want to update the formula's code in running time, you can use the **flag “--watch”** as shown in the command below:
 
 ```text
-$ rit build formula --watch
+rit build formula --watch
 ```
 
 ## Next steps 
@@ -30,6 +30,4 @@ $ rit build formula --watch
 On this section, you saw how to implement a formula on Ritchie. To keep configuring the formula: 
 
 👉 Go to [**publish a formula**](how-to-publish-a-formula.md) to see how to transfer your work to a public repository. 
-
-👉 Go to [**run a formula**]() to see how to proceed with formula's executions with Ritchie. 
 
