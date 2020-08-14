@@ -10,13 +10,10 @@ Para instalar a **última versão do Ritchie**, você precisa executar o comando
 
 Se você quiser usar o Ritchie no MacOs, é necessário que você já tenha configurado alguns elementos:
 
-* [Golang](https://golang.org/doc/install)
 * O comando **make** \([**Veja como usar "make" no macOS**](https://stackoverflow.com/questions/1469994/using-make-on-os-x)\)
 * Ferramentas **md5sum**
 
 {% hint style="warning" %}
-Para instalar **Golang** com _**Homebrew**_, use: `brew install go`
-
 Para instalar **md5sum** com _**Homebrew**_ , use: `brew install md5sha1sum`
 
 Para instalar **md5sum** com _**MacPorts**_ , use: `sudo port install md5sha1sum`
