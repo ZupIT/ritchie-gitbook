@@ -10,13 +10,10 @@ To install the **latest version of Ritchie** for MacOS, you just have to run the
 
 If you wanna use efficiently Ritchie on MacOs, we recommend to install the following elements:
 
-* [Golang](https://golang.org/doc/install)
 * The **make** command \([Using "make" on macOS](https://stackoverflow.com/questions/1469994/using-make-on-os-x)\)
 * **md5sum** tools
 
 {% hint style="warning" %}
-To install **golang** with _**Homebrew**_, use : `brew install go`
-
 To install **md5sum** with _**Homebrew**_ , use: `brew install md5sha1sum`
 
 To install **md5sum** with _**MacPorts**_ , use: `sudo port install md5sha1sum`
@@ -39,7 +36,7 @@ If you prefer, you also can follow with[ **manual installation**.](manual-instal
 You can confirm if your installation went well by running this command: 
 
 ```text
-$ rit --version
+rit --version
 ```
 
 If everything's configured, the terminal will return Ritchie's current version.  
