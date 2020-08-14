@@ -11,7 +11,7 @@ You have to set Ritchie's credentials to avoid informing datas multiples times t
 To do so, just run the following command: 
 
 ```text
-$ rit set credential
+rit set credential
 ```
 
 The terminal will return this message: 
@@ -101,7 +101,7 @@ For example, to be able to use **`GITHUB`** credentials as input, you need to in
 If you have any doubt regarding the provider's variable names, you can check the credentials you've set using the following command:
 
 ```text
-$ rit list credential
+rit list credential
 ```
 
 With **`GITHUB`**, it will return something like this:
