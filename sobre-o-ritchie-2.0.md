@@ -10,9 +10,9 @@ description: >-
 
 * As versões Single e Team foram depreciadas.  _Dê uma olhada na dica abaixo se ainda quiser usar elas._ 
 * A árvore de comando será gerada dinamicamente a partir dos repositórios adicionados. _Ou seja, não será mais necessário alterar o arquivo tree.json manualmente._ 
-* Não terá mais armazenamento de fórmulas na nuvem.  _O usuário poderá importar os repositórios do Github ou do Gitlab \(**`rit add repo`**\)._ 
-* Suporte para autocomplete para 2 novos Shells: Fish & Powershell. \(**`rit completion fish`** \| **`rit completion powershell`**\). 
-* Suporte para executar fórmulas em container \(**`--docker`** flag\). 
+* Não terá mais armazenamento de fórmulas na nuvem.  _O usuário poderá importar os repositórios do Github ou do Gitlab ._ \(**`rit add repo`**\) __
+* Suporte para autocomplete para 2 novos Shells: **Fish** e **Powershell**. \(**`rit completion fish`** \| **`rit completion powershell`**\) 
+* Suporte para executar fórmulas em container. \(**`--docker flag`**\) 
 * Suporte para fazer "build" de  fórmulas no Windows. 
 * Tutorial incorporado no CLI. 
 * Melhorias estruturais.
