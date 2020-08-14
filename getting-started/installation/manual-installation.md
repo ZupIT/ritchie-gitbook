@@ -75,14 +75,3 @@ rit completion bash > ~/.rit_completion
 source ~/.rit_completion​
 ```
 
-### Configurações de variáveis de ambiente \(Windows\) <a id="setting-environment-variables-windows"></a>
-
-No caso do Windows, você precisa chamar o rit no terminal diretamente pelo rit.exe. Por exemplo: comando **rit.exe login.** 
-
-É possível - e recomendado - que você crie uma variável de ambiente para o rit, tornando assim mais fácil o uso do CLI.
-
-Abaixo, confira alguns artigos que explicam como adicionar uma variável de ambiente no Windows:
-
-* Adicionando [através da interface](https://professor-falken.com/pt/windows/como-configurar-la-ruta-y-las-variables-de-entorno-en-windows-10/) 
-* Adicionando [através do terminal](https://devcontent.com.br/artigos/windows/o-que-sao-como-alterar-criar-excluir-variaveis-de-ambiente)
-
