@@ -79,14 +79,3 @@ rit completion bash > ~/.rit_completion
 source ~/.rit_completion​
 ```
 
-### Setting environment variables \(Windows\) <a id="setting-environment-variables-windows"></a>
-
-For this operating system, you need to call rit on the terminal directly from rit.exe \(**rit.exe login** command for example\)
-
-It is possible \(and suggested\) to create an environment variable for rit to facilitate the use of the CLI.
-
-Here are some articles explaining how to add an environment variable in Windows:
-
-* Adding [through interface](https://professor-falken.com/pt/windows/como-configurar-la-ruta-y-las-variables-de-entorno-en-windows-10/) 
-* Adding[ Through terminal](https://devcontent.com.br/artigos/windows/o-que-sao-como-alterar-criar-excluir-variaveis-de-ambiente)
-
