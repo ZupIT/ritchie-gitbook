@@ -86,5 +86,5 @@ In this section, you saw how to run formulas on Ritchie.
 rit --help
 ```
 
-👉E understand [how to create new formulas](../how-to/how-to-create-formulas.md).
+👉Understand [how to create new formulas](../how-to/how-to-create-formulas.md).
 
