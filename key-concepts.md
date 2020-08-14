@@ -26,22 +26,7 @@ Those input parameters can be informed in different ways:
 
 ![](.gitbook/assets/start-end-ritchie%20%281%29.jpg)
 
-## Running a formula \(with prompt\)
-
-![](.gitbook/assets/large-gif-1054x366-.gif)
-
-**`rit demo hello-world`** is an executable command associated with a formula in the CLI's tree.
-
-After executing the command, Ritchie asked the user for some datas: 
-
-* Name \(Text\)
-* If you have ever used Ritchie \(Boolean\)
-* Type of automation \(List\)
-* Secret \(Hidden value\)
-
-Those datas are the **input** **parameters** of the formula.
-
-Once these parameters were informed, the formula was successfully executed \(according to what the logs presented\).
+{% page-ref page="getting-started/commands.md" %}
 
 ## Command Tree
 
