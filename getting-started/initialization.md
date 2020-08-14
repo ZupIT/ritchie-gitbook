@@ -9,7 +9,7 @@ description: Você encontrará nessa seção como inicializar o rit.
 Você deve executar o comando abaixo para inicializar o Ritchie: 
 
 ```text
-$ rit init
+rit init
 ```
 
 Feito isso, o Ritchie adiciona o repositório de fórmulas da comunidade e cria os arquivos de configuração necessários.

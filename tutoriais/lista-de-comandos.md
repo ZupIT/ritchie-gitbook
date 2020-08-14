@@ -13,7 +13,7 @@ Você precisa configurar as credenciais do Ritchie para não precisar ficar info
 Para fazer isso, basta rodar o comando abaixo:
 
 ```text
-$ rit set credential
+rit set credential
 ```
 
 O terminal irá retornar essa mensagem:  
@@ -101,7 +101,7 @@ Por exemplo, para usar as credenciais do **`GITHUB`** como parâmetros, você pr
 Se tiver alguma dúvida com os nomes dos provedores, você pode checar uma lista de credenciais que você já configurou usando o comando abaixo:
 
 ```text
-$ rit list credential
+rit list credential
 ```
 
 Com **`GITHUB`**, o terminal irá retornar uma resposta como essa:

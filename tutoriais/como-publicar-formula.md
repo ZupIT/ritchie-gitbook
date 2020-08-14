@@ -17,7 +17,7 @@ Se você quiser disponibilizar sua fórmula no **Github/ Gitlab**, é necessári
 1. Adicionar o repositório no Ritchie, executando o comando abaixo: 
 
 ```text
-$ rit add repo
+rit add repo
 ```
 
 Depois que você adicionou o repo, o Ritchie automaticamente utilizará a última release disponível em seu repositório para acessar as fórmulas disponíveis. 

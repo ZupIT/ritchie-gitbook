@@ -11,7 +11,7 @@ description: Você encontrará nessa seção o passo a passo para criar fórmula
 Execute esse comando para criar uma fórmula:
 
 ```text
-$ rit create formula
+rit create formula
 ```
 
 Você deverá informar alguns parâmetros de entrada antes da sua execução:

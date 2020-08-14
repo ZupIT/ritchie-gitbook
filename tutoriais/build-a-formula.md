@@ -13,7 +13,7 @@ Depois de [**criar uma fórmula**](como-criar-formulas.md),  se desejar, você p
 Para isso, basta executar o comando:  ****
 
 ```text
-$ rit build formula
+rit build formula
 ```
 
   
@@ -26,7 +26,7 @@ Caso queira atualizar o código da fórmula em tempo de execução, é possível
 ****
 
 ```text
-$ rit build formula --watch
+rit build formula --watch
 ```
 
 ## Próximos passos

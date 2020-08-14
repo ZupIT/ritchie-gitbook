@@ -19,7 +19,7 @@ Se preferir, você também pode seguir com a [**instalação manual**.](manual-i
 Você pode confirmar se a instalação funcionou rodando esse comando: 
 
 ```text
-$ rit --version
+rit --version
 ```
 
 Se tudo estiver configurado, o terminal irá retornar o número da versão atual do Ritchie.
