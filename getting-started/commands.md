@@ -23,7 +23,7 @@ After you finished the previous steps - __[**installation**](installation/) ****
 {% hint style="danger" %}
 This command is available since [**release 2.0.1**](https://github.com/ZupIT/ritchie-formulas/releases) of [**ritchie-formulas**](https://github.com/ZupIT/ritchie-formulas) repository. 
 
-As **this formula has been coded using Golang**, it is necessary to have Golang installed on the computer to execute it **locally**.
+As **this formula has been coded using Golang**, it is necessary to have **Golang** installed on the computer to execute it **locally**.
 
 You can check which version of the commons repository you're using with the**`rit list repo`** command.
 {% endhint %}
