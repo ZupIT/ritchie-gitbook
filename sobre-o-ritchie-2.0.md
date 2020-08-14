@@ -8,10 +8,10 @@ description: >-
 
 ## Diferenças entre as versões 1.0 e 2.0
 
-* As versões Single e Team foram depreciadas. \(Dê uma olhada na dica abaixo se ainda quiser usar elas\)_._ 
-* A árvore de comando será gerada dinamicamente a partir dos repositórios adicionados. Ou seja, não será mais necessário alterar o arquivo tree.json manualmente. 
-* Não terá mais armazenamento de fórmulas na nuvem. O usuário poderá importar os repositórios do Github ou do Gitlab \(**`rit add repo`**\). 
-* Suporte para autocomplete para 2 novos Shells: Fish & Powershell. \(**`rit completion fis`**`h` \| **`powershell`**\). 
+* As versões Single e Team foram depreciadas.  _Dê uma olhada na dica abaixo se ainda quiser usar elas._ 
+* A árvore de comando será gerada dinamicamente a partir dos repositórios adicionados. _Ou seja, não será mais necessário alterar o arquivo tree.json manualmente._ 
+* Não terá mais armazenamento de fórmulas na nuvem.  _O usuário poderá importar os repositórios do Github ou do Gitlab \(**`rit add repo`**\)._ 
+* Suporte para autocomplete para 2 novos Shells: Fish & Powershell. \(**`rit completion fish`** \| **`rit completion powershell`**\). 
 * Suporte para executar fórmulas em container \(**`--docker`** flag\). 
 * Suporte para fazer "build" de  fórmulas no Windows. 
 * Tutorial incorporado no CLI. 
