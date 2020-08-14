@@ -76,3 +76,15 @@ Take a look at the formulas repositories \(ex: [**ritchie-formulas**](https://gi
 Most of the community formulas are composed of a [**README file**](https://github.com/ZupIT/ritchie-formulas/tree/master/demo/hello-world) explaining what the command does and how to execute it.
 {% endhint %}
 
+## Next steps
+
+In this section, you saw how to run formulas on Ritchie.
+
+👉Check which formulas you can run using the following command:
+
+```text
+rit --help
+```
+
+👉E understand [how to create new formulas](../how-to/how-to-create-formulas.md).
+
