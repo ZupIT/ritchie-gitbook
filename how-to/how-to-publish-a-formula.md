@@ -17,7 +17,7 @@ To publish a formula, you need to push it on **Github / Gitlab**, following thes
 1. Add the repository on Ritchie running the command: 
 
 ```text
-$ rit add repo
+rit add repo
 ```
 
 Once the repository has been added, Ritchie will automatically use the latest release on your repository to access the available formulas.
