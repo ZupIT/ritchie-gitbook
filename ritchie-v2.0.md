@@ -11,7 +11,7 @@ description: >-
 * Ritchie versions \(Single and Team\) are deprecated. Check the observation below if you still want to use the previous version. __
 * The command tree will be dynamically generated on the added repositories. So, it won't be necessary to edit formula's repositories tree.json files anymore. __
 * There isn't a cloud storage anymore. The user can import formulas repositories from Github or Gitlab \(**`rit add repo`**\). 
-* Autocomplete support for 2 new shells: fish and powershell \(**`rit completion fish`** \| **`powershell`**\) 
+* Autocomplete support for 2 new shells: **Fish** and **Powershell**  \(**`rit completion fish`** \| **`rit completion powershell`**\) 
 * Support to run formula in a container \(**`--docker flag`**\) 
 * Support to build formulas on Windows OS. 
 * New tutorial to the CLI. 
