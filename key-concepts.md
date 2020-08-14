@@ -26,23 +26,7 @@ Esses parâmetros de entrada podem ser informados de diversas maneiras:
 
 ![](.gitbook/assets/start-end-ritchie.jpg)
 
-### Exemplo de execução de uma fórmula \(via prompt\)
-
-![](.gitbook/assets/large-gif-1054x366-.gif)
-
-O **`rit demo hello-world`** é um comando executável associado a uma fórmula na árvore do Ritchie.
-
-Como o comando foi executado pela primeira vez, é possível observar que o Ritchie baixou um _config file_ e a fórmula em sequência.
-
-Após baixar os arquivos, o Ritchie pediu algumas informações para o usuário: 
-
-* Name
-* Se você já usou Ritchie  
-* O que você quer automatizar 
-
-Essas informações são os **3 parâmetros de entrada** da fórmula.
-
-Uma vez informados esses parâmetros, a fórmula foi executada com sucesso \(conforme logs apresentados\).
+{% page-ref page="getting-started/commands.md" %}
 
 ## Árvore de comando
 
