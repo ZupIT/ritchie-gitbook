@@ -72,9 +72,23 @@ Quando são usadas as 2 flags **--stdin** e **--docker**, é possível executar 
 echo '{"input_text":"Dennis", "input_bool":"false", "input_list":"everything", "input_password":"Ritchie"}' | rit demo hello-world --stdin --docker
 ```
 
+
+
 {% hint style="success" %}
 Dê uma olhada nas fórmulas da comunidade \(ex: [**ritchie-formulas**](https://github.com/ZupIT/ritchie-formulas)\). 
 
 A maioria das fórmulas tem um arquivo [**README**](https://github.com/ZupIT/ritchie-formulas/tree/master/demo/hello-world) explicando como executar a fórmula e para que ela serve.
 {% endhint %}
+
+## Próximos passos
+
+Nessa seção, você viu como executar uma fórmula no Ritchie. 
+
+👉Confira agora as fórmulas que você tem acesso usando o comando:
+
+```text
+rit --help
+```
+
+👉E entenda como [criar suas fórmulas](../tutoriais/como-criar-formulas.md).
 
