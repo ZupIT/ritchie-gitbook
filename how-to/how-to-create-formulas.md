@@ -11,7 +11,7 @@ description: You will find in this section how to create formulas on Ritchie and
 Run the following command to create a formula:
 
 ```text
-$ rit create formula
+rit create formula
 ```
 
 Then, you'll have to inform those inputs before executing the formula:
