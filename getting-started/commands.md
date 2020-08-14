@@ -55,7 +55,7 @@ rit demo hello-world --docker
 You can also execute the command with the **--stdin** \(Standard input\) flag. That way, inputs parameters are informed directly with the command line. 
 
 ```
-echo '{"input_text":"Dennis", "input_bool":"false", "input_list":"false", "input_password":"Ritchie"}' | rit demo hello-world --stdin
+echo '{"input_text":"Dennis", "input_bool":"false", "input_list":"everything", "input_password":"Ritchie"}' | rit demo hello-world --stdin
 ```
 
 {% hint style="warning" %}
@@ -67,7 +67,7 @@ Ritchie uses the **json format** to execute STDIN commands
 When you combine both **--stdin** and **--docker** flags, it is finally possible to run a command remotely \(on a container\) with the input parameters directly informed on the command line:
 
 ```text
-echo '{"input_text":"Dennis", "input_bool":"false", "input_list":"false", "input_password":"Ritchie"}' | rit demo hello-world --stdin --docker
+echo '{"input_text":"Dennis", "input_bool":"false", "input_list":"everything", "input_password":"Ritchie"}' | rit demo hello-world --stdin --docker
 ```
 
 {% hint style="success" %}
