@@ -20,8 +20,10 @@ Vamos seguir o exemplo abaixo e observar todas as maneiras de executar comandos 
 
 Depois de finalizar os passos anteriores -  [**instalação**](installation/) e [**inicialização**](initialization.md) -,  você poderá executar a [**fórmula hello world**](https://github.com/ZupIT/ritchie-formulas/tree/master/demo/hello-world) para testar o Ritchie.
 
-{% hint style="warning" %}
-Esse comando foi disponibilizado na [**release 2.0.1**](https://github.com/ZupIT/ritchie-formulas/releases) do repositório[ **ritchie-formulas**](https://github.com/ZupIT/ritchie-formulas).   
+{% hint style="danger" %}
+Esse comando foi disponibilizado na [**release 2.0.1**](https://github.com/ZupIT/ritchie-formulas/releases) do repositório[ **ritchie-formulas**](https://github.com/ZupIT/ritchie-formulas). 
+
+Como **essa fórmula  foi desenvolvido usando Golang**, é preciso ter **Golang** instalado para conseguir executar ele localmente  
   
 É possível verificar qual versão do repositório da comunidade está sendo usado executando o comando **`rit list repo`**.
 {% endhint %}
