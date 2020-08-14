@@ -20,10 +20,8 @@ Let's follow the example below to see all the way to execute a formula on Ritchi
 
 After you finished the previous steps - __[**installation**](installation/) ****and ****[**initialization**](initialization.md) ****- the ****[**hello-world formula**](https://github.com/ZupIT/ritchie-formulas/tree/master/demo/hello-world) ****will be available ****to test Ritchie.
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 This command is available since [**release 2.0.1**](https://github.com/ZupIT/ritchie-formulas/releases) of [**ritchie-formulas**](https://github.com/ZupIT/ritchie-formulas) repository. 
-
-As **this formula has been coded using Golang**, it is necessary to have **Golang** installed on the computer to execute it **locally**.
 
 You can check which version of the commons repository you're using with the**`rit list repo`** command.
 {% endhint %}
@@ -31,6 +29,10 @@ You can check which version of the commons repository you're using with the**`ri
 To do so, type the following commands lines: 
 
 ### With Prompt
+
+{% hint style="danger" %}
+As **this formula has been coded using Golang**, it is necessary to have **Golang** installed on the computer to execute it **locally**.
+{% endhint %}
 
 ```text
 rit demo hello-world
