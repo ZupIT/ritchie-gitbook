@@ -18,16 +18,7 @@ Atualmente, o Ritchie possui **duas versões disponíveis** para ser usada. Nest
 
 ### **O que muda?**
 
-As principais diferenças dessa nova versão são: 
-
-* You você não precisa fazer upload de binários para cloud storage porque as fórmulas ficarão no Github ou Gitlab.
-* Você pode versionar suas fórmulas usando git tags 
-* A árvore de comandos será gerada dinamicamente nos repositórios adicionadas. Logo, você não precisa editar o arquivo tree.json.
-* As fórmulas podem ser "buildadas" de maneira mais estável no Windows \(sem dependência de ferramentas de terceiros\).
-* A execução de fórmulas é permitida via container \(continua por padrão a execução sem container de maneira nativa\). 
-* Você pode usar um comando para listar as credenciais setadas. 
-* Você tem um tutorial para te guiar com dicas no CLI 
-* Você tem o suporte de autocomplete para 2 novos shells \(fish e powershell\)
+{% page-ref page="sobre-o-ritchie-2.0.md" %}
 
 ## **Como o Ritchie funciona?**
 
