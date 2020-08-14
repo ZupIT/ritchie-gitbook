@@ -6,9 +6,8 @@ description: You will find in this section how to install Ritchie for Linux.
 
 ### Step 1: Requirements
 
-If you wanna use efficiently Ritchie on Linux, , we recommend to install the following elements:
+If you wanna use efficiently Ritchie on Linux, , we recommend to install the following element configured:
 
-* [Golang](https://golang.org/doc/install)
 * The **make** command
 
 Once you have it, just run the command below at your terminal. 
