@@ -9,7 +9,7 @@ description: You will find in this section how to initialize rit.
 You must execute the following command to initialize Ritchie: 
 
 ```text
-$ rit init
+rit init
 ```
 
 Once you made it,  Ritchie will add all community formulas' repository and create all the necessary configuration's files. 
