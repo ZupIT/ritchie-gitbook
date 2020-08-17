@@ -53,7 +53,8 @@ rit demo hello-world --docker
 ```
 
 {% hint style="warning" %}
-**Docker** precisa estar instalado e iniciado para conseguir executar comandos usando essa flag.
+**Docker** precisa estar instalado e iniciado para conseguir executar comandos usando essa flag.  
+Nesse caso, não é necessário ter **Golang** instalado.
 {% endhint %}
 
 ### Usando Stdin
