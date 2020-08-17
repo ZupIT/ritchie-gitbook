@@ -53,7 +53,8 @@ rit demo hello-world --docker
 ```
 
 {% hint style="warning" %}
-**Docker** needs to be installed and running on your computer for this flag to work.
+**Docker** needs to be installed and running on your computer for this flag to work.  
+In that case, you won't need to have **Golang** installed.
 {% endhint %}
 
 ### With Stdin
