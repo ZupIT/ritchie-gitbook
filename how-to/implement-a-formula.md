@@ -35,7 +35,7 @@ Each input is composed of the following fields:
 
 #### 2. **`main file`**
 
-* The main file is used to extract the inputs asked in the config.json file.  _Inputs are extracted by the field **name** informed on the config.json file._ 
+* This file is used to extract the inputs asked in the config.json file.  _Inputs are extracted by the field **name** informed on the config.json file._ 
 * This is also where are called the methods to realise the task / automation of the formula, manipulating  those input parameters. 
 
 #### 3. `formula/* folder`
