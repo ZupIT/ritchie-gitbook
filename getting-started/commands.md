@@ -6,13 +6,24 @@ description: Você encontrará nessa seção como executar o comando Hello World
 
 ## Como executar fórmulas?
 
-Fórmulas são executadas **`LOCALMENTE` por padrão**, o que significa que você precisará ter instalado as dependências associadas as linguagens de programação que usará para desenvolver um fórmula. 
+Tem duas maneiras de executar fórmulas com Ritchie:
+
+* Localmente
+* com Docker
+
+### Localmente
 
 {% hint style="danger" %}
-Para **executar localmente** uma fórmula desenvolvida em **Java**, você precisará ter **Java instalado** na sua máquina.
+Para executar uma fórmula localmente, é necessário ter a linguagem de programação que foi usada para desenvolver a fórmula instalada no computador.
+
+**Exemplo**: _uma fórmula desenvolvida em **Java** precisará ter **Java instalado** na máquina para ser executada localmente._
 {% endhint %}
 
-Contudo, todas as fórmulas podem ser executadas independentemente da linguagem usada a condição que você tiver o **`DOCKER`** instalado.
+### Docker
+
+{% hint style="danger" %}
+Todas as fórmulas podem ser executadas independentemente da linguagem usada a condição que  o **`DOCKER`** esteja instalado e iniciado.
+{% endhint %}
 
 Vamos seguir o exemplo abaixo e observar todas as maneiras de executar comandos no Ritchie.
 
@@ -23,14 +34,14 @@ Depois de finalizar os passos anteriores -  [**instalação**](installation/) e 
 {% hint style="warning" %}
 Esse comando foi disponibilizado na [**release 2.0.1**](https://github.com/ZupIT/ritchie-formulas/releases) do repositório[ **ritchie-formulas**](https://github.com/ZupIT/ritchie-formulas).   
   
-É possível verificar qual versão do repositório da comunidade está sendo usado executando o comando **`rit list repo`**.
+É possível verificar qual versão do repositório está sendo usada executando o comando **`rit list repo`**.
 {% endhint %}
 
 Execute os comandos abaixo:
 
 ### Usando Prompt
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 Como **essa fórmula  foi desenvolvido usando Golang**, é preciso ter **Golang** instalado para conseguir executar ele **localmente**.
 {% endhint %}
 
