@@ -68,7 +68,18 @@ According to the image above, you can see the editable files:
 According to the image above, you can see the editable files:
 
 * **config.json:** Update the inputs configurations.
-* **main.java:** Extract the inputs and call the formula's methods \(coded on **pkg/\***\).
+* **main.java:** Extract the inputs and call the formula's methods \(coded on **formula/\***\).
+* **formula/\*:** Code the formula's behavior.
+* **help.json:** Update the formula description message.
+{% endtab %}
+
+{% tab title="Node" %}
+![](../.gitbook/assets/node.png)
+
+According to the image above, you can see the editable files:
+
+* **config.json:** Update the inputs configurations.
+* **index.js:** Extract the inputs and call the formula's methods \(coded on **formula/\***\).
 * **formula/\*:** Code the formula's behavior.
 * **help.json:** Update the formula description message.
 {% endtab %}
