@@ -38,7 +38,7 @@ Outras informações disponíveis nesse arquivo são:
 O **main.file** é usado geralmente para extrair as entradas que são pedidas com o arquivo config.json e então são chamados um ou mais métodos para fazer uma operação \(de tarefas/automação\) usando os parâmetros de entrada.   
 
 
-#### 3. `/pkg folder`
+#### 3. `formula/ folder`
 
 Pasta em que os arquivos podem mudar o comportamento das fórmulas.  Métodos chamados pelo main.file estão localizados dentro desta pasta.
 
@@ -50,14 +50,58 @@ Veja um exemplo abaixo dessa estrutura \(nesse caso, a fórmula criada em Golang
 
 {% tabs %}
 {% tab title="Golang" %}
-![](../.gitbook/assets/estrutura.png)
+![](../.gitbook/assets/go%20%281%29.png)
 
 Assim como na imagem acima, você deve editar os arquivos:
 
 * **config.json:** alterar os inputs.
-* **main.go:** extrair os inputs, e chame os métodos da fórmula \(indicada no **pkg/\***\).
-* **pkg/\*:** implementar a fórmula.
-* **help.json:** alterar a mensagem de descrição.
+* **main.go:** extrair os inputs, e chamar os métodos da fórmula \(na pasta **formula/\***\).
+* **formula/\*:** implementar a lógica da fórmula.
+* **help.json:** alterar a mensagem de descrição do comando ou sub-comando.
+{% endtab %}
+
+{% tab title="Java" %}
+![](../.gitbook/assets/java%20%282%29.png)
+
+Assim como na imagem acima, você deve editar os arquivos:
+
+* **config.json:** alterar os inputs.
+* **main.java:** extrair os inputs, e chamar os métodos da fórmula \(na pasta **formula/\***\).
+* **formula/\*:** implementar a lógica da fórmula.
+* **help.json:** alterar a mensagem de descrição do comando ou sub-comando.
+{% endtab %}
+
+{% tab title="Node" %}
+![](../.gitbook/assets/node%20%283%29.png)
+
+Assim como na imagem acima, você deve editar os arquivos:
+
+* **config.json:** alterar os inputs.
+* **index.js:** extrair os inputs, e chamar os métodos da fórmula \(na pasta **formula/\***\).
+* **formula/\*:** implementar a lógica da fórmula.
+* **help.json:** alterar a mensagem de descrição do comando ou sub-comando.
+{% endtab %}
+
+{% tab title="Python" %}
+![](../.gitbook/assets/python%20%282%29.png)
+
+Assim como na imagem acima, você deve editar os arquivos:
+
+* **config.json:** alterar os inputs.
+* **main.py:** extrair os inputs, e chamar os métodos da fórmula \(na pasta **formula/\***\).
+* **formula/\*:** implementar a lógica da fórmula.
+* **help.json:** alterar a mensagem de descrição do comando ou sub-comando.
+{% endtab %}
+
+{% tab title="Shell" %}
+![](../.gitbook/assets/shell%20%282%29.png)
+
+Assim como na imagem acima, você deve editar os arquivos:
+
+* **config.json:** alterar os inputs.
+* **main.sh:** extrair os inputs, e chamar os métodos da fórmula \(na pasta **formula/\***\).
+* **formula/\*:** implementar a lógica da fórmula.
+* **help.json:** alterar a mensagem de descrição do comando ou sub-comando.
 {% endtab %}
 {% endtabs %}
 
