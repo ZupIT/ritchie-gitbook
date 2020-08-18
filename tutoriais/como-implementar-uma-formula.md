@@ -6,7 +6,7 @@ description: Você irá encontrar nessa seção como implementar as fórmulas no
 
 ## Como implementar? 
 
-Uma vez que você [**criou e testou sua fórmula**](como-criar-formulas.md), o Ritchie irá gerar uma estrutura de arquivos dentro do seu workspace. Com isso, você pode começar a implementar a nova automação ao atualizar o template do "Hello World". 
+Uma vez que você [**criou e testou sua fórmula**](como-criar-formulas.md), o Ritchie irá gerar um workspace para você trabalhar localmente. Com isso, você pode começar a implementar sua automação ao atualizar o template _**Hello World.**_ 
 
 ### Arquivos editáveis  
 
@@ -35,8 +35,8 @@ Outras informações disponíveis nesse arquivo são:
 
 #### 2. **`main file`**
 
-O **main.file** é usado geralmente para extrair as entradas que são pedidas com o arquivo config.json e então são chamados um ou mais métodos para fazer uma operação \(de tarefas/automação\) usando os parâmetros de entrada.   
-
+* O arquivo _**main**_ é usado geralmente para extrair os parâmetros de entrada que são pedidas com o arquivo config.json. Os parâmetros de entrada são extraídos a partir do campo _**name**_ informado no arquivo _**config.json**_. 
+* É nesse arquivo também que são chamados um ou mais métodos para realizar a tarefa / automação da fórmula, manipulando os parâmetros de entrada.  
 
 #### 3. `formula/ folder`
 
@@ -46,7 +46,7 @@ Pasta em que os arquivos podem mudar o comportamento das fórmulas.  Métodos ch
 Dependendo da linguagem de programação que você escolher, pode ser necessário atualizar outros arquivos como, por exemplo, para manipular dependências.
 {% endhint %}
 
-Veja um exemplo abaixo dessa estrutura \(nesse caso, a fórmula criada em Golang\):
+### Exemplos
 
 {% tabs %}
 {% tab title="Golang" %}
