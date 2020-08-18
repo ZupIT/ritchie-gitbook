@@ -35,7 +35,7 @@ Outras informações disponíveis nesse arquivo são:
 
 #### 2. **`main file`**
 
-* O arquivo _**main**_ é usado geralmente para extrair os parâmetros de entrada que são pedidas com o arquivo config.json. Os parâmetros de entrada são extraídos a partir do campo _**name**_ informado no arquivo _**config.json**_. 
+* Esse arquivo é usado para extrair os parâmetros de entrada informados no arquivo _**config.json**_. _Os parâmetros de entrada são extraídos a partir do campo **name** definido no arquivo **config.json**._ 
 * É nesse arquivo também que são chamados um ou mais métodos para realizar a tarefa / automação da fórmula, manipulando os parâmetros de entrada.  
 
 #### 3. `formula/ folder`
