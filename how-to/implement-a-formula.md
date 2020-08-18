@@ -6,7 +6,7 @@ description: You will find in this section how to implement formulas on Ritchie.
 
 ## How to implement? 
 
-Once you [**create and test your formula**](how-to-create-formulas.md), Ritchie will generate a structure of files inside your workspace. Then, you can start implementing the new automation by updating this "Hello World template.
+Once you have [**created and tested your formula**](how-to-create-formulas.md), Ritchie will generate a local workspace. This is were you can start implementing the new automation by updating the _**Hello World**_ template.
 
 ### Editable files 
 
@@ -35,7 +35,7 @@ Each input is composed of the following fields:
 
 #### 2. **`main file`**
 
-* The main file is used to extract the inputs asked in the config.json file.  _Inputs are extracted by the field **name** informed on the config.json file._
+* The main file is used to extract the inputs asked in the config.json file.  _Inputs are extracted by the field **name** informed on the config.json file._ 
 * This is also where are called the methods to realise the task / automation of the formula, manipulating  those input parameters. 
 
 #### 3. `formula/* folder`
@@ -46,7 +46,7 @@ This folder contains the files with the formula's behavior. Methods called by th
 Depending on the chosen language, it may be necessary to update more files, for example to manipulate dependencies.
 {% endhint %}
 
-See an example below of this structure \(in this case, it's a formula created in Golang\):
+### Examples
 
 {% tabs %}
 {% tab title="Golang" %}
