@@ -6,13 +6,24 @@ description: You will find in this section how to run a "hello-world" formula.
 
 ## How to run formulas ?
 
-The formulas are executed **`LOCALLY` by default**, which means that you must have installed the programming languages dependencies to run a formula's code. 
+There is two ways to run formulas on Ritchie :
+
+* Locally
+* using Docker
+
+### Locally
 
 {% hint style="danger" %}
-**To** **run** **locally** a formula written on **Node**, you'll need **Node installed** on your machine. 
+To run a formula locally it is necessary to have the formula programming languages dependencies installed on the computer.
+
+**Example**: _a ****formula written in **Node** will need **Node installed** on the computer to run locally._ 
 {% endhint %}
 
-However, all formulas can be executed regardless of the programming language used from the moment that you have **`DOCKER`** installed.
+### Docker
+
+{% hint style="danger" %}
+All formulas can be executed regardless of the programming language used from the moment that you have **`DOCKER`** installed and running.
+{% endhint %}
 
 Let's follow the example below to see all the way to execute a formula on Ritchie.
 
@@ -23,14 +34,14 @@ After you finished the previous steps - __[**installation**](installation/) ****
 {% hint style="warning" %}
 This command is available since [**release 2.0.1**](https://github.com/ZupIT/ritchie-formulas/releases) of [**ritchie-formulas**](https://github.com/ZupIT/ritchie-formulas) repository. 
 
-You can check which version of the commons repository you're using with the**`rit list repo`** command.
+You can check which version of the repository you're using with the**`rit list repo`** command.
 {% endhint %}
 
 To do so, type the following commands lines: 
 
 ### With Prompt
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 As **this formula has been coded using Golang**, it is necessary to have **Golang** installed on the computer to execute it **locally**.
 {% endhint %}
 
