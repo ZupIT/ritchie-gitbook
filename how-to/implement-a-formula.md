@@ -50,13 +50,26 @@ See an example below of this structure \(in this case, it's a formula created in
 
 {% tabs %}
 {% tab title="Golang" %}
-![](../.gitbook/assets/estrutura.png)
+![](../.gitbook/assets/go.png)
 
-As the image above, you can see the editable files:
+According to the image above, you can see the editable files:
 
 * **config.json:** Update the inputs configurations.
 * **main.go:** Extract the inputs and call the formula's methods \(coded on **pkg/\***\).
 * **pkg/\*:** Code the formula's behavior.
+* **help.json:** Update the formula description message.
+{% endtab %}
+
+{% tab title="Java" %}
+
+
+![](../.gitbook/assets/java.png)
+
+According to the image above, you can see the editable files:
+
+* **config.json:** Update the inputs configurations.
+* **main.java:** Extract the inputs and call the formula's methods \(coded on **pkg/\***\).
+* **formula/\*:** Code the formula's behavior.
 * **help.json:** Update the formula description message.
 {% endtab %}
 {% endtabs %}
