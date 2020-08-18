@@ -54,7 +54,7 @@ Veja um exemplo abaixo dessa estrutura \(nesse caso, a fórmula criada em Golang
 
 Assim como na imagem acima, você deve editar os arquivos:
 
-* **config.json:** alterar os inputs.
+* **config.json:** alterar os _**inputs**_ e suas configurações.
 * **main.go:** extrair os inputs, e chamar os métodos da fórmula \(na pasta **formula/\***\).
 * **formula/\*:** implementar a lógica da fórmula.
 * **help.json:** alterar a mensagem de descrição do comando ou sub-comando.
@@ -65,7 +65,7 @@ Assim como na imagem acima, você deve editar os arquivos:
 
 Assim como na imagem acima, você deve editar os arquivos:
 
-* **config.json:** alterar os inputs.
+* **config.json:** alterar os _**inputs**_ e suas configurações.
 * **main.java:** extrair os inputs, e chamar os métodos da fórmula \(na pasta **formula/\***\).
 * **formula/\*:** implementar a lógica da fórmula.
 * **help.json:** alterar a mensagem de descrição do comando ou sub-comando.
@@ -76,7 +76,7 @@ Assim como na imagem acima, você deve editar os arquivos:
 
 Assim como na imagem acima, você deve editar os arquivos:
 
-* **config.json:** alterar os inputs.
+* **config.json:** alterar os _**inputs**_ e suas configurações.
 * **index.js:** extrair os inputs, e chamar os métodos da fórmula \(na pasta **formula/\***\).
 * **formula/\*:** implementar a lógica da fórmula.
 * **help.json:** alterar a mensagem de descrição do comando ou sub-comando.
@@ -87,7 +87,7 @@ Assim como na imagem acima, você deve editar os arquivos:
 
 Assim como na imagem acima, você deve editar os arquivos:
 
-* **config.json:** alterar os inputs.
+* **config.json:** alterar os _**inputs**_ e suas configurações.
 * **main.py:** extrair os inputs, e chamar os métodos da fórmula \(na pasta **formula/\***\).
 * **formula/\*:** implementar a lógica da fórmula.
 * **help.json:** alterar a mensagem de descrição do comando ou sub-comando.
@@ -98,7 +98,7 @@ Assim como na imagem acima, você deve editar os arquivos:
 
 Assim como na imagem acima, você deve editar os arquivos:
 
-* **config.json:** alterar os inputs.
+* **config.json:** alterar os _**inputs**_ e suas configurações.
 * **main.sh:** extrair os inputs, e chamar os métodos da fórmula \(na pasta **formula/\***\).
 * **formula/\*:** implementar a lógica da fórmula.
 * **help.json:** alterar a mensagem de descrição do comando ou sub-comando.
