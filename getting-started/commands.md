@@ -55,7 +55,7 @@ Select an option for each input parameter and see how the magic works:
 
 This is the default command line execution, that runs the formula locally using **prompt** to inform the input parameters.
 
-### With Docker
+### With Prompt & Docker
 
 You can run the same command using the **--docker** flag to execute it remotely \(on a container\), but still using **prompt** to inform the inputs parameters:
 
