@@ -38,7 +38,7 @@ Each input is composed of the following fields:
 * The main file is used to extract the inputs asked in the config.json file.  _Inputs are extracted by the field **name** informed on the config.json file._
 * This is also where are called the methods to realise the task / automation of the formula, manipulating  those input parameters. 
 
-#### 3. `/pkg folder`
+#### 3. `formula/* folder`
 
 This folder contains the files with the formula's behavior. Methods called by the main.file are located inside the files inside this folder.
 
@@ -55,8 +55,8 @@ See an example below of this structure \(in this case, it's a formula created in
 According to the image above, you can see the editable files:
 
 * **config.json:** Update the inputs configurations.
-* **main.go:** Extract the inputs and call the formula's methods \(coded on **pkg/\***\).
-* **pkg/\*:** Code the formula's behavior.
+* **main.go:** Extract the inputs and call the formula's methods \(coded on **formula/\***\).
+* **formula/\*:** Code the formula's behavior.
 * **help.json:** Update the formula description message.
 {% endtab %}
 
@@ -80,6 +80,28 @@ According to the image above, you can see the editable files:
 
 * **config.json:** Update the inputs configurations.
 * **index.js:** Extract the inputs and call the formula's methods \(coded on **formula/\***\).
+* **formula/\*:** Code the formula's behavior.
+* **help.json:** Update the formula description message.
+{% endtab %}
+
+{% tab title="Python" %}
+![](../.gitbook/assets/python.png)
+
+According to the image above, you can see the editable files:
+
+* **config.json:** Update the inputs configurations.
+* **main.py:** Extract the inputs and call the formula's methods \(coded on **formula/\***\).
+* **formula/\*:** Code the formula's behavior.
+* **help.json:** Update the formula description message.
+{% endtab %}
+
+{% tab title="Shell" %}
+![](../.gitbook/assets/shell.png)
+
+According to the image above, you can see the editable files:
+
+* **config.json:** Update the inputs configurations.
+* **main.sh:** Extract the inputs and call the formula's methods \(coded on **formula/\***\).
 * **formula/\*:** Code the formula's behavior.
 * **help.json:** Update the formula description message.
 {% endtab %}
