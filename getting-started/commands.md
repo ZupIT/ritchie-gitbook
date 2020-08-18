@@ -55,7 +55,7 @@ Selecione uma opção para cada parâmetro de entrada e veja a mágica acontecer
 
 Essa é a execução padrão de linhas de comando no Ritchie, executando fórmulas localmente através de **prompt** \(interagindo com o CLI no terminal\) para informar os parâmetros de entrada.
 
-### Usando Docker
+### Usando Prompt & Docker
 
 É possível executar o mesmo comando usando a flag **--docker** para executar a fórmula remotamente \(em um container\), continuando informando os parâmetros de entrada usando **prompt**:
 
