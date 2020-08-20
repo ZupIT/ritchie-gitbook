@@ -23,6 +23,12 @@
 * [How to publish formulas](how-to/how-to-publish-a-formula.md)
 * [How to manipulate credentials](how-to/manipulate-credentials.md)
 
+## Challenges
+
+* [Level 1](challenges/level-1.md)
+* [Level 2](challenges/level-2.md)
+* [Level 3](challenges/level-3.md)
+
 ## Reference <a id="developer"></a>
 
 * [List of commands](developer/list-of-commands.md)
