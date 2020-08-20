@@ -23,6 +23,12 @@
 * [Como publicar fórmulas](tutoriais/como-publicar-formula.md)
 * [Como manipular credenciais](tutoriais/lista-de-comandos.md)
 
+## DESAFIOS
+
+* [Nível 1](desafios/nivel-1.md)
+* [Nível 2](desafios/nivel-2.md)
+* [Nível 3](desafios/nivel-3.md)
+
 ## Referência <a id="developer"></a>
 
 * [Lista de Comandos](developer/lista-de-comandos-1.md)
