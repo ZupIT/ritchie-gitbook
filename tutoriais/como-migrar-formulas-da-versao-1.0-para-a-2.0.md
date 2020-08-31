@@ -1,4 +1,4 @@
-# Como migrar fórmulas da versão 1.0 para a 2.0?
+# Como migrar fórmulas da versão 1.0 para a 2.0
 
 ## **Contexto** <a id="differences-between-version-1-0-and-2-0"></a>
 

@@ -17,7 +17,7 @@
 
 ## Tutoriais
 
-* [Como migrar fórmulas da versão 1.0 para a 2.0?](tutoriais/como-migrar-formulas-da-versao-1.0-para-a-2.0.md)
+* [Como migrar fórmulas da versão 1.0 para a 2.0](tutoriais/como-migrar-formulas-da-versao-1.0-para-a-2.0.md)
 * [Como criar fórmulas](tutoriais/como-criar-formulas.md)
 * [Como implementar fórmulas](tutoriais/como-implementar-uma-formula.md)
 * [Como "buildar" fórmulas](tutoriais/build-a-formula.md)
