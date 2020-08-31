@@ -17,17 +17,18 @@
 
 ## Tutoriais
 
+* [Como migrar fórmulas da versão 1.0 para a 2.0?](tutoriais/como-migrar-formulas-da-versao-1.0-para-a-2.0.md)
 * [Como criar fórmulas](tutoriais/como-criar-formulas.md)
 * [Como implementar fórmulas](tutoriais/como-implementar-uma-formula.md)
 * [Como "buildar" fórmulas](tutoriais/build-a-formula.md)
 * [Como publicar fórmulas](tutoriais/como-publicar-formula.md)
 * [Como manipular credenciais](tutoriais/lista-de-comandos.md)
 
-## DESAFIOS
+## TAREFAS <a id="desafios"></a>
 
-* [Nível 1](desafios/nivel-1.md)
-* [Nível 2](desafios/nivel-2.md)
-* [Nível 3](desafios/nivel-3.md)
+* [Nível 1: Criando fórmulas simples](desafios/nivel-1-formulas-simples.md)
+* [Nível 2: Criando fórmulas que retornem credenciais do Github](desafios/nivel-2.md)
+* [Nível 3: Criando fórmulas que retornem dados de um CEP](desafios/nivel-3.md)
 
 ## Referência <a id="developer"></a>
 
