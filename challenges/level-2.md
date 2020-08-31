@@ -4,9 +4,9 @@ description: >-
   on Ritchie with a gradual complexity.
 ---
 
-# Level 2
+# Level 2: Creating formulas that return Github credentials
 
-## 1. Objective
+## Objective
 
 Create a formula on Ritchie that will **return a JSON with Github credentials**.
 

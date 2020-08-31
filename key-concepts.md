@@ -28,6 +28,8 @@ Those input parameters can be informed in different ways:
 
 {% page-ref page="getting-started/commands.md" %}
 
+{% page-ref page="how-to/how-to-use-the-stdin-flag/" %}
+
 ## Command Tree
 
 {% hint style="info" %}

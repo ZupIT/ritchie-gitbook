@@ -4,9 +4,9 @@ description: >-
   on Ritchie with a gradual complexity.
 ---
 
-# Level 1
+# Level 1: Creating simple formulas
 
-## 1. Objective
+## Objective
 
 Create a formula on Ritchie that will **sum two positive numbers**.
 
@@ -14,23 +14,27 @@ Create a formula on Ritchie that will **sum two positive numbers**.
 Command suggestion: **`rit math sum numbers`**
 {% endhint %}
 
-## 2. Inputs
+## Inputs
 
 This formula needs to contain \(at least\) those two inputs parameters:
 
-1. [ ] Number one \(`NUMBER_ONE`\). 
-2. [ ] Number two \(`NUMBER_TWO`\).
+* Number one \(`NUMBER_ONE`\).
+* Number two \(`NUMBER_TWO`\).
 
-## 3. Step by step
+## Step by step
 
 The formula needs to follow the next steps:
 
-1. [ ] Extract inputs parameters. 
-2. [ ] Convert inputs to integers \(there is currently no _**integer**_ `type` in inputs config.json file\). 
-3. [ ] Sum both numbers. 
-4. [ ] Return the result on the terminal.
+1. Extract inputs parameters. 
+2. Convert inputs to integers \(there is currently no _**integer**_ `type` in inputs config.json file\). 
+3. Sum both numbers. 
+4. Return the result on the terminal.
 
-## 4. Improvement suggestions
+{% hint style="success" %}
+Well done! You've completed the first task! 
+{% endhint %}
+
+## Improvement suggestions
 
  If you want to play a little more, here are some suggestions:
 
@@ -41,5 +45,5 @@ The formula needs to follow the next steps:
 
 ## Next steps 
 
-👉 If you've completed the first challenge, let's go to the [level 2 challenge](level-2.md)!
+👉 If you've completed the first challenge, let's go to the [level 2 t](level-2.md)ask!
 

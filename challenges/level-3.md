@@ -4,7 +4,7 @@ description: >-
   on Ritchie with a gradual complexity.
 ---
 
-# Level 3
+# Level 3: Creating formulas that return data from ZipCode
 
 ## 1. Objective
 

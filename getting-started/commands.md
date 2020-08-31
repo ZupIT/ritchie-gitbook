@@ -80,6 +80,8 @@ echo '{"input_text":"Dennis", "input_bool":"false", "input_list":"everything", "
 Ritchie uses the **json format** to execute STDIN commands
 {% endhint %}
 
+{% page-ref page="../how-to/how-to-use-the-stdin-flag/" %}
+
 ### With Stdin & Docker
 
 When you combine both **--stdin** and **--docker** flags, it is finally possible to run a command remotely \(on a container\) with the input parameters directly informed on the command line:
