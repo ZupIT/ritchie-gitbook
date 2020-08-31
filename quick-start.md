@@ -2,7 +2,7 @@
 description: Você encontrará nessa seção um guia rápido para começar a usar o Ritchie.
 ---
 
-# Guia quick start
+# Guia de começo rápido
 
 Para você já começar usando  Ritchie, é preciso seguir **3 passos**: 
 
