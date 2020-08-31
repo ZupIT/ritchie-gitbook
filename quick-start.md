@@ -12,7 +12,7 @@ To use Ritchie, you must follow these **3 steps**:
 
 ### **1. Installation** 
 
-First things first: you must install Ritchie according to your operational system. On the links below, you can choose the path that better helps you out.
+First things first: you must install Ritchie according to your operational system. See the links below, you can choose the path that better helps you out.
 
 {% page-ref page="getting-started/installation/linux.md" %}
 

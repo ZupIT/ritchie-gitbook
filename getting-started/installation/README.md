@@ -6,7 +6,7 @@ description: >-
 
 # Install rit
 
-To **start Ritchie's installation** on your machine, follow the steps to each operating system. If you want, you can use the manual installation.
+To **start Ritchie's installation** on your machine, follow the steps for your operating system. If you want, you can use the manual installation.
 
 {% page-ref page="linux.md" %}
 

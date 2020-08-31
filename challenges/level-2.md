@@ -14,7 +14,7 @@ Create a formula on Ritchie that will **return a JSON with Github credentials**.
 Command suggestion: **`rit github get credentials`**
 {% endhint %}
 
-## 2. Inputs
+## Inputs
 
 This formula needs to contain \(at least\) those two inputs parameters:
 
@@ -27,15 +27,19 @@ This formula needs to contain \(at least\) those two inputs parameters:
 You'll find all the informations you need in the [**how to manipulate credentials**](https://docs.ritchiecli.io/how-to/manipulate-credentials) tutorial section.
 {% endhint %}
 
-## 3. Step by step
+## Step by step
 
 The formula needs to follow the next steps:
 
-1. [ ] Extract inputs parameters. 
-2. [ ] Create the JSON with Github credentials. 
-3. [ ] Return the result on the terminal.
+1. Extract inputs parameters. 
+2. Create the JSON with Github credentials. 
+3. Return the result on the terminal.
 
-## 4. Improvement suggestions
+{% hint style="success" %}
+Well done! You've completed the second task! 
+{% endhint %}
+
+## Improvement suggestions
 
  If you want to play a little more, here are some suggestions:
 
@@ -46,5 +50,5 @@ The formula needs to follow the next steps:
 
 ## Next steps 
 
-👉 If you've completed the second challenge, let's go to the [level 3 challenge](level-3.md)!
+👉 If you've completed the second challenge, let's go to [level 3 task](level-3.md)!
 

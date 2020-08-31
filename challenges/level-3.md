@@ -6,7 +6,7 @@ description: >-
 
 # Level 3: Creating formulas that return data from ZipCode
 
-## 1. Objective
+## Objective
 
 Create a formula on Ritchie that will **return the address datas from a ZipCode.**
 
@@ -14,7 +14,7 @@ Create a formula on Ritchie that will **return the address datas from a ZipCode.
 Command suggestion: **`rit brazil get address`**
 {% endhint %}
 
-## 2. Inputs
+## Inputs
 
 This formula needs to contain \(at least\) this input parameter:
 
@@ -26,16 +26,16 @@ In Brazil we use a **CEP** as a **ZipCode**.
 Here is a suggestion of an API that return the address datas from a CEP to carry out the formula implementation: [**http://viacep.com.br/**](http://viacep.com.br/)\*\*\*\*
 {% endhint %}
 
-## 3. Step by step
+## Step by step
 
 The formula needs to follow the next steps:
 
-1. [ ] Validate the ZipCode input format. 
-2. [ ] Call a service to get the address datas from the ZipCode. 
-3. [ ] Convert address datas to JSON format. 
-4. [ ] Return the result on the terminal.
+1. Validate the ZipCode input format. 
+2. Call a service to get the address datas from the ZipCode. 
+3. Convert address datas to JSON format. 
+4. Return the result on the terminal.
 
-## 4. Improvement suggestions
+## Improvement suggestions
 
  If you want to play a little more, here are some suggestions:
 

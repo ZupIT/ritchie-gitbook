@@ -6,11 +6,11 @@ description: You will find in this section how to implement formulas on Ritchie.
 
 ## How to implement? 
 
-Once you have [**created and tested your formula**](how-to-create-formulas.md), Ritchie will generate a local workspace. This is were you can start implementing the new automation by updating the _**Hello World**_ template.
+Once you have [**created and tested your formula**](how-to-create-formulas.md), Ritchie will generate a local workspace. This is where you can start implementing the new automation by updating the _**Hello World**_ template.
 
 ### Editable files 
 
-To do this configuration, you hill have to update **3 files** located inside the **/src package** of the new formula’s root folder. 
+To do this configuration, you will have to update **3 files** located inside the **/src package** of the new formula’s root folder. 
 
 #### 1.  **`config.json`**
 
@@ -36,7 +36,7 @@ Each input is composed of the following fields:
 #### 2. **`main file`**
 
 * This file is used to extract the inputs asked in the config.json file.  _Inputs are extracted by the field **name** informed on the config.json file._ 
-* This is also where are called the methods to realise the task / automation of the formula, manipulating  those input parameters. 
+* This is also where the methods are called to perform the task / automation of the formula, manipulating the input parameters. 
 
 #### 3. `formula/* folder`
 

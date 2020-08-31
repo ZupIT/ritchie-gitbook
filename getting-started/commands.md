@@ -25,7 +25,7 @@ To run a formula locally it is necessary to have the formula programming languag
 All formulas can be executed regardless of the programming language used from the moment that you have **`DOCKER`** installed and running.
 {% endhint %}
 
-Let's follow the example below to see all the way to execute a formula on Ritchie.
+Follow the example below to see how to run a formula on Ritchie.
 
 ## Hello World
 
@@ -90,7 +90,7 @@ When you combine both **--stdin** and **--docker** flags, it is finally possible
 echo '{"input_text":"Dennis", "input_bool":"false", "input_list":"everything", "input_password":"Ritchie"}' | rit demo hello-world --stdin --docker
 ```
 
-{% hint style="success" %}
+{% hint style="info" %}
 Take a look at the formulas repositories \(ex: [**ritchie-formulas**](https://github.com/ZupIT/ritchie-formulas)\). 
 
 Most of the community formulas are composed of a [**README file**](https://github.com/ZupIT/ritchie-formulas/tree/master/demo/hello-world) explaining what the command does and how to execute it.

@@ -14,7 +14,7 @@ Run the following command to create a formula:
 rit create formula
 ```
 
-Then, you'll have to inform those inputs before executing the formula:
+Then, you'll have to inform those inputs before running the formula:
 
 1. The **command** \(following the **pattern `rit + group + verb + noun`** to respect the [tree pattern](https://docs.ritchiecli.io/key-concepts#command-tree)\).
 2. The formula's **programming language**. 
@@ -26,7 +26,7 @@ Then, you'll have to inform those inputs before executing the formula:
 
 ### **Step 2: Test your formula** 
 
-You can test the formula directly after its creation. That's possible because  the **`rit create formula`** command also build the formula automatically.
+You can test the formula directly after its creation. That's possible because  the **`rit create formula`** command also builds the formula automatically.
 
 In that case, the formula **"Hello World" template** will be executed as shown below:
 

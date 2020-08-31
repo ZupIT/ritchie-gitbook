@@ -14,7 +14,7 @@ Ritchie is an **open source framework** that creates and tweaks a CLI for your t
 
 ## **Versioning** 
 
-Currently, Ritchie has **two available versions** to be used. On this documentation, we'll focus on **Ritchie** **version 2.0.**
+Currently, Ritchie has **two available versions**. On this documentation, we'll focus on **Ritchie** **version 2.0.**
 
 ### **What's new ?**
 

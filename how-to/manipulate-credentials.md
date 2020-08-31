@@ -6,7 +6,7 @@ description: You will find in this section how to set credentials on Ritchie.
 
 ## How to set up?
 
-You have to set Ritchie's credentials to avoid informing datas multiples times through the terminal.
+You have to set Ritchie's credentials to avoid informing data multiples times through the terminal.
 
 To do so, just run the following command: 
 
@@ -65,7 +65,7 @@ The informations that will be requested are:
 Once you finished this configuration, you set up this credentials following the same instructions you saw above. 
 
 {% hint style="warning" %}
-This provider, as well as its informations, will be saved permanently on Ritchie. You can also add as much providers as you want. 
+This provider, as well as its informations, will be permanently saved on Ritchie. You can also add as much providers as you want. 
 {% endhint %}
 
 ## How to use credentials as formula inputs?
