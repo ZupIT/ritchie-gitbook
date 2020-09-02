@@ -28,32 +28,28 @@ https://commons-repo.ritchiecli.io/{VERSION}/linux/rit
 https://commons-repo.ritchiecli.io/{VERSION}/windows/rit.exe
 ```
 
-\*\*\*\*
-
 ## **Configurações manuais** <a id="manual-settings"></a>
 
 ### **Como criar uma pasta** <a id="folder-creation"></a>
 
-1. First, run the command below to create a folder `$HOME/.rit/bin`
+1. Primeiro, rode o comando abaixo para criar uma pasta  `$HOME/.rit/bin`
 
 ```text
 mkdir -p $HOME/.rit/bin
 ```
 
-    2. Then, copy and paste the binary to the folder above.
+    2.  Depois, copie e cole o binário na pasta criada acima. 
 
 ```text
 ​cd $HOME/.rit/bin 
 cp $HOME/Downloads/rit
 ```
 
-   3. Lastly, run a permission to execute.
+   3. Por último, rode a permissão para executar:
 
 ```text
 chmod +x rit
 ```
-
-**​**
 
 ### **Como configirar o .bashrc ou /etc/profile ou .zshrc \(Linux / MacOS\)** <a id="configure-the-bashrc-ou-etc-profile-or-zshrc-linux-macos"></a>
 
