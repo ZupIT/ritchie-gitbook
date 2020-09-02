@@ -8,7 +8,7 @@ To install **the latest version of Ritchie** on Windows, you have to download Ri
 
 ### Step 1: Installation
 
-You must [**download Ritchie's installer**](https://commons-repo.ritchiecli.io/latest/ritchiecli.msi) to make this configuration. Once you made it, follow the instructions on your terminal. 
+You must [**download Ritchie's installer**](https://commons-repo.ritchiecli.io/latest/ritchiecli.msi) to make this configuration. Once you made it, follow the instructions on your terminal.
 
 {% hint style="info" %}
 If you prefer, you also can proceed with the[ **manual installation**.](manual-installation.md)

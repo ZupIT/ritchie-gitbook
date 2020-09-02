@@ -34,9 +34,9 @@ In that case, the formula **"Hello World" template** will be executed as shown b
 
 This template is composed of **3 inputs parameters**, that ****represents the currently available kinds of inputs to use Ritchie:
 
-1. A sample text variable
-2. A sample list of text variables
-3. A sample boolean variable
+1. A **`sample text`** variable
+2. A **`sample list`** of text variables
+3. A **`sample boolean`** variable
 
 ## Next steps 
 
