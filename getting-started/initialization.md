@@ -1,8 +1,8 @@
 ---
-description: You will find in this section how to initialize rit.
+description: You will find in this section how to initialize Ritchie CLI.
 ---
 
-# Initialize rit
+# Initialize CLI
 
 ### Step 1: Initialization
 

@@ -7,12 +7,12 @@
 
 ## GETTING STARTED
 
-* [Install rit](getting-started/installation/README.md)
+* [Install CLI](getting-started/installation/README.md)
   * [Linux](getting-started/installation/linux.md)
   * [MacOS](getting-started/installation/macos.md)
   * [Windows](getting-started/installation/windows.md)
   * [Manual Installation](getting-started/installation/manual-installation.md)
-* [Initialize rit](getting-started/initialization.md)
+* [Initialize CLI](getting-started/initialization.md)
 
 ## Tutorials <a id="how-to"></a>
 

@@ -1,10 +1,10 @@
 ---
 description: >-
-  You will find in this section the path to install Ritchie according to your
-  operational system.
+  You will find in this section the path to install Ritchie CLI according to
+  your operational system.
 ---
 
-# Install rit
+# Install CLI
 
 To **start Ritchie's installation** on your machine, follow the steps for your operating system. If you want, you can use the manual installation.
 
