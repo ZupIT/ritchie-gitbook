@@ -14,9 +14,16 @@ This command is available since [**release 2.0.1**](https://github.com/ZupIT/rit
 You can check which version of the repository you're using with the**`rit list repo`** command.
 {% endhint %}
 
+On Ritchie, you have 4 possibilities to run a formula: 
+
+1. Using Prompt
+2. Using Prompt and Docker 
+3. Using Stdin
+4. Using Stdin and Docker 
+
 To do so, type the following commands lines: 
 
-### With Prompt
+### Case 1: With Prompt
 
 {% hint style="warning" %}
 As **this formula has been coded using Golang**, it is necessary to have **Golang** installed on the computer to execute it **locally**.
@@ -32,7 +39,7 @@ Select an option for each input parameter and see how the magic works:
 
 This is the default command line execution, that runs the formula locally using **prompt** to inform the input parameters.
 
-### With Prompt & Docker
+### Case 2: With Prompt and Docker
 
 You can run the same command using the **--docker** flag to execute it remotely \(on a container\), but still using **prompt** to inform the inputs parameters:
 
@@ -45,7 +52,7 @@ rit demo hello-world --docker
 In that case, you won't need to have **Golang** installed.
 {% endhint %}
 
-### With Stdin
+### Case 3: With Stdin
 
 You can also execute the command with the **--stdin** \(Standard input\) flag. That way, inputs parameters are informed directly with the command line. 
 
@@ -59,7 +66,7 @@ Ritchie uses the **json format** to execute STDIN commands
 
 {% page-ref page="../how-to-use-the-stdin-flag/" %}
 
-### With Stdin & Docker
+### Case 4: With Stdin and Docker
 
 When you combine both **--stdin** and **--docker** flags, it is finally possible to run a command remotely \(on a container\) with the input parameters directly informed on the command line:
 

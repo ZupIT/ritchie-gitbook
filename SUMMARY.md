@@ -30,7 +30,7 @@
 
 ## TASKS
 
-* [What are tasks ?](tasks/what-are-tasks.md)
+* [What are tasks?](tasks/what-are-tasks.md)
 * [Level 1: Basic Inputs](tasks/level-1.md)
 * [Level 2: Credentials](tasks/level-2.md)
 * [Level 3: API](tasks/level-3.md)

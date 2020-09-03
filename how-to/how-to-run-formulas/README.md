@@ -4,24 +4,21 @@
 
 There is two ways to run formulas on Ritchie :
 
-* Locally
-* using Docker
+1. Locally
+2. Uusing Docker
 
-### Locally
+### 1. Running Locally
 
-{% hint style="danger" %}
 To run a formula locally it is necessary to have the formula programming languages dependencies installed on the computer.
 
-**Example**: _a ****formula written in **Node** will need **Node installed** on the computer to run locally._ 
-{% endhint %}
+**Example**: a ****formula written in **Node** will need **Node installed** on the computer to run locally.   
 
-### Docker
 
-{% hint style="danger" %}
+### 2. Running through Docker
+
 All formulas can be executed regardless of the programming language used from the moment that you have **`DOCKER`** installed and running.
-{% endhint %}
 
-Follow the example below to see how to run a formula on Ritchie.
+Follow the example below to see how to run a formula on Ritchie on [**"Hello World" formula section**](commands.md).
 
 ## Next steps 
 
