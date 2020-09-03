@@ -1,10 +1,10 @@
 ---
 description: >-
-  Você encontrará nesta seção desafios para começar a implementar fórmulas
-  simples no Ritchie com uma complexidade gradual.
+  Você encontrará nesta seção o passo a passo para manipular inputs básicos no
+  Ritchie.
 ---
 
-# Nível 1: Criando fórmulas simples
+# Nível 1: Inputs básicos
 
 ## Objetivo da tarefa
 

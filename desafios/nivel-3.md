@@ -1,10 +1,10 @@
 ---
 description: >-
-  Você encontrará nesta seção desafios para começar a implementar fórmulas
-  simples no Ritchie com uma complexidade gradual.
+  Você encontrará nesta seção o passo a passo para fazer chamadas de serviços
+  API usando o Ritchie.
 ---
 
-# Nível 3: Criando fórmulas que retornem dados de um CEP
+# Nível 3: API
 
 ## 1. Objetivo
 

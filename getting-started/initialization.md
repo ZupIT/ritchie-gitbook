@@ -2,7 +2,7 @@
 description: Você encontrará nessa seção como inicializar o rit.
 ---
 
-# Inicialização do rit
+# Inicialização do CLI
 
 ### Inicialização
 

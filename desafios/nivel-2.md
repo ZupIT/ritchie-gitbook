@@ -1,10 +1,8 @@
 ---
-description: >-
-  Você encontrará nesta seção desafios para começar a implementar fórmulas
-  simples no Ritchie com uma complexidade gradual.
+description: Você encontrará nesta seção o passo a passo para usar credenciais no Ritchie.
 ---
 
-# Nível 2: Criando fórmulas que retornem credenciais do Github
+# Nível 2: Credenciais
 
 ## Objetivo da tarefa
 

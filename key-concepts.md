@@ -26,7 +26,7 @@ Esses parâmetros de entrada podem ser informados de diversas maneiras:
 
 ![](.gitbook/assets/start-end-ritchie.jpg)
 
-{% page-ref page="getting-started/commands.md" %}
+{% page-ref page="tutoriais/commands/" %}
 
 ## Árvore de comando
 
