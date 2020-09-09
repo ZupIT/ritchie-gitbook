@@ -7,6 +7,14 @@ There is two ways to run formulas on Ritchie :
 1. Locally
 2. Uusing Docker
 
+The **default formulas execution method** has been defined during the initialization step with the**`rit init`**command. It can be changed executing the following command:
+
+```text
+rit set formula-runner
+```
+
+![rit set formula-runner command](../../.gitbook/assets/large-gif-1374x404-.gif)
+
 ### 1. Running Locally
 
 To run a formula locally it is necessary to have the formula programming languages dependencies installed on the computer.
