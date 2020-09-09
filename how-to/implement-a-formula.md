@@ -34,10 +34,9 @@ Each input is composed of the following fields:
   * `newLabel`: text appearing on the CLI asking for a new input. 
 * `condition` \(_optional_\): Only shows this input if the given condition succeeds
   * `variable`: The variable name used on a previous input for comparison
-  * `operator`: A logical operator to compare. Supports ==, !=, &lt;, &gt;, &lt;=, and &gt;=
+  * `operator`: A logical operator to compare. Supports **`==`**, **`!=`**, **`<`**, **`>`**, **`<=`**, and **`>=`**
   * `value`: The desired value to compare to
 
-  
 
 
 #### 2. **`main file`**
