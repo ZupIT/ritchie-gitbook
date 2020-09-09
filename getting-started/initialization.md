@@ -12,12 +12,13 @@ You must execute the following command to initialize Ritchie:
 rit init
 ```
 
-This command will ask the user two questions:
+This command will ask the user three questions:
 
 * if he wants to contribute anonymously to Ritchie metrics.
 * if he wants to add the community formulas locally.
+* if he wants the default formula execution to be local, or through docker \([**more informations here**](../how-to/how-to-run-formulas/)\).
 
-![rit init command](../.gitbook/assets/rit-init-optimized.gif)
+![rit init command](../.gitbook/assets/rit-init%20%283%29.gif)
 
 Then, the command execution will create all the necessary configuration's files. 
 
