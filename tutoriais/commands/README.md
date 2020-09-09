@@ -13,6 +13,14 @@ Você tem **duas maneiras** de executar fórmulas usando o Ritchie:
 1. Localmente
 2. Usando o Docker
 
+O **método de execução de fórmulas padrão** foi escolhido durante a etapa de inicialização com o comando **`rit init`**. Ele pode ser alterado executando o comando abaixo:
+
+```text
+rit set formula-runner
+```
+
+![Comando rit set formula-runner](../../.gitbook/assets/large-gif-1374x404-.gif)
+
 ### 1. Execução local
 
 Para executar uma fórmula localmente, é necessário ter a linguagem de programação que foi usada para desenvolver a fórmula instalada no computador.

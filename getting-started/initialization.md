@@ -18,7 +18,7 @@ Esse comando vai pedir três informações:
 * Se o usuário quer adicionar as fórmulas da comunidade localmente.
 * Se o usuário quer usar o método de execução de fórmulas local ou via docker \([**mais informações aqui**](../tutoriais/commands/)\).
 
-![](../.gitbook/assets/rit-init%20%282%29.gif)
+![Comando rit init](../.gitbook/assets/rit-init%20%282%29.gif)
 
 Após a execução desse comando, todos os arquivos de configuração para a máquina funcionar serão criados.
 
