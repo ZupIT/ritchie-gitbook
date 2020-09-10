@@ -24,7 +24,7 @@ Essas entradas são feitas para os seguintes campos:
 Outras informações disponíveis nesse arquivo são: 
 
 * `name` : nome de variável para extração. 
-* `type` : _**text**_ \(string\), _**bool**_ \(boolean\) or _**password**_ \(hidden string\). 
+* `type` : _**text**_ \(string\), _**bool**_ \(boolean\), _**password**_ \(hidden string\) or [_**credenciais**_](https://docs.ritchiecli.io/v/v2.0-pt/tutoriais/lista-de-comandos#como-usar-credenciais-como-parametros-de-entrada). 
 * `label`  : texto que aparecerá no CLI para pedir o input ao usuário. 
 * `default` \(_opcional_\) : valor padrão do parâmetro \(se nulo\). 
 * `items` \(_opcional_\) : lista de opções para o parâmetro. 
