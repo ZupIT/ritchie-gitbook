@@ -24,7 +24,7 @@ These input parameters are made up of the following fields:
 Each input is composed of the following fields:
 
 * `name`: variable name to extract. 
-* `type`: _**text**_ \(string\), _**bool**_ \(boolean\) or _**password**_ \(hidden string\). 
+* `type`: _**text**_ \(string\), _**bool**_ \(boolean\), _**password**_ \(hidden string\) or [_**credentials**_](https://docs.ritchiecli.io/v/v2.0-pt/tutoriais/lista-de-comandos#como-usar-credenciais-como-parametros-de-entrada). 
 * `label` : text appearing on the CLI asking for the input. 
 * `default` \(_optional_\): default input value \(if null\). 
 * `items` \(_optional_\): list of input variable options. 
