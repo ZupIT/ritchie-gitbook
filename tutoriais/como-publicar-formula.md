@@ -12,6 +12,10 @@ Se você quiser disponibilizar sua fórmula no **Github/ Gitlab**, é necessári
 2. Adicionar a fórmula no repositório
 3. Gerar a release
 
+{% hint style="success" %}
+Existe um novo comando para auxiliar na publicação, que ainda não foi traduzido para a documentação em português. Se tiver interesse em conhecer, segue a [**versão em inglês**](https://docs.ritchiecli.io/how-to/how-to-publish-a-formula).
+{% endhint %}
+
 ## Como compartilhar ?
 
 1. Adicionar o repositório no Ritchie, executando o comando abaixo: 
