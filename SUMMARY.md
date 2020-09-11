@@ -30,7 +30,7 @@
 
 ## CHALLENGES
 
-* [Challenges?](challenges/what-are-tasks.md)
+* [Challenges?](challenges/challenges.md)
 * [Level 1: Basic Inputs](challenges/level-1.md)
 * [Level 2: Credentials](challenges/level-2.md)
 * [Level 3: API](challenges/level-3.md)
