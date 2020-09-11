@@ -27,9 +27,9 @@
   * [Comandos de fórmulas](tutoriais/como-usar-a-flag-stdin/comandos-de-formulas.md)
   * [Comandos Core](tutoriais/como-usar-a-flag-stdin/comandos-core.md)
 
-## TAREFAS <a id="desafios"></a>
+## DESAFIOS
 
-* [O que são as tarefas?](desafios/o-que-sao-as-tarefas.md)
+* [Desafios?](desafios/o-que-sao-as-tarefas.md)
 * [Nível 1: Inputs básicos](desafios/nivel-1-formulas-simples.md)
 * [Nível 2: Credenciais](desafios/nivel-2.md)
 * [Nível 3: API](desafios/nivel-3.md)

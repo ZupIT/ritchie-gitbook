@@ -1,10 +1,10 @@
 ---
 description: >-
-  Você encontrará nesta seção um contexto das tarefas criadas para você testar o
-  Ritchie.
+  Você encontrará nesta seção um conjunto de desafios criados para você
+  descobrir o Ritchie.
 ---
 
-# O que são as tarefas?
+# Desafios?
 
 ### Contexto
 
@@ -12,7 +12,7 @@ O objetivo desta seção é ajuda você a entender melhor o passo a passo de div
 
 ### Premissas
 
-Para realizar as tarefas que estão propostas nas próximas páginas, você precisa ter concluído algumas configurações da seção de tutoriais. São elas: 
+Para realizar os desafios que estão propostos nas próximas páginas, você precisa ter concluído algumas configurações da seção de tutoriais. São elas: 
 
 1. \*\*\*\*[**Como executar fórmulas**](../tutoriais/commands/)\*\*\*\*
 2. \*\*\*\*[**Como criar fórmulas** ](../tutoriais/como-criar-formulas.md)\*\*\*\*
@@ -21,21 +21,21 @@ Para realizar as tarefas que estão propostas nas próximas páginas, você prec
 
 ### Tarefas
 
-A **`primeira tarefa`** é para você entender como manipular inputs básicos. 
+O **`primeiro desafio`** é para você entender como manipular inputs básicos. 
 
 {% page-ref page="nivel-1-formulas-simples.md" %}
 
-A **`segunda tarefa`** é para você entender como manipular inputs de credenciais. 
+O **`segundo desafio`** é para você entender como manipular inputs de credenciais. 
 
 {% page-ref page="nivel-2.md" %}
 
-A **`terceira tarefa`** é para você testar um exemplo de como chamar serviços de API dentro de uma fórmula.
+O **`terceiro desafio`** é para você testar um exemplo de como chamar serviços de API dentro de uma fórmula.
 
 {% page-ref page="nivel-3.md" %}
 
 
 
 {% hint style="warning" %}
-A ideia é que haja mais tarefas nesta seção. Por isso, recomendamos que você confira essa página ocasionalmente. 
+A ideia é que haja mais desafios nesta seção. Por isso, recomendamos que você confira essa página ocasionalmente. 
 {% endhint %}
 
