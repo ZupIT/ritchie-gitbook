@@ -28,12 +28,12 @@
   * [Formulas commands](how-to/how-to-use-the-stdin-flag/formulas-commands.md)
   * [Core Commands](how-to/how-to-use-the-stdin-flag/core-commands.md)
 
-## TASKS
+## CHALLENGES
 
-* [What are tasks?](tasks/what-are-tasks.md)
-* [Level 1: Basic Inputs](tasks/level-1.md)
-* [Level 2: Credentials](tasks/level-2.md)
-* [Level 3: API](tasks/level-3.md)
+* [Challenges?](challenges/what-are-tasks.md)
+* [Level 1: Basic Inputs](challenges/level-1.md)
+* [Level 2: Credentials](challenges/level-2.md)
+* [Level 3: API](challenges/level-3.md)
 
 ## Reference <a id="developer"></a>
 

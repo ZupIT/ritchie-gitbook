@@ -4,7 +4,7 @@ description: >-
   formulas on Ritchie with a gradual complexity.
 ---
 
-# What are tasks?
+# Challenges?
 
 {% hint style="info" %}
 The objective of this section is to help users to understand step by step all Ritchie potential and how it can be used to perform some actions.
@@ -21,15 +21,15 @@ To perform the tasks in this section, it will be necessary to follow different p
 
 ### Tasks
 
-The **`first task`** is to understand how to manipulate basic inputs.
+The **`first challenge`** is to understand how to manipulate basic inputs.
 
 {% page-ref page="level-1.md" %}
 
-The **`second task`** is to understand how to manipulate credentials inputs.
+The **`second challenge`** is to understand how to manipulate credentials inputs.
 
 {% page-ref page="level-2.md" %}
 
-The **`third tasks`** is to give an example of how to call API services inside a formula.
+The **`third challenge`** is to give an example of how to call API services inside a formula.
 
 {% page-ref page="level-3.md" %}
 
