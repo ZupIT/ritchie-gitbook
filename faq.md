@@ -1,5 +1,5 @@
 ---
-description: You will find in this section the main questions about Ritchie.
+description: 'Nesta seção, você encontrará respostas para principais dúvidas sobre Ritchie.'
 ---
 
 # FAQ

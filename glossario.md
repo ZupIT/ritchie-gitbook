@@ -1,6 +1,6 @@
 ---
 description: >-
-  Você encontrará nessa seção mais sobre conceitos comuns à área de
+  Nesta seção, você encontrará mais detalhes sobre conceitos comuns à área de
   desenvolvimento.
 ---
 

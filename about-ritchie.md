@@ -1,5 +1,5 @@
 ---
-description: You will find in this section more details about Ritchie's story.
+description: 'Nesta seção, você encontra mais da história do Ritchie.'
 ---
 
 # Sobre Ritchie
