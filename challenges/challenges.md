@@ -19,7 +19,7 @@ To perform the tasks in this section, it will be necessary to follow different p
 3. \*\*\*\*[**How to implement formulas**](../how-to/implement-a-formula.md)\*\*\*\*
 4. \*\*\*\*[**How to build formulas**](../how-to/build-a-formula.md)\*\*\*\*
 
-### Tasks
+### Challenges 
 
 The **`first challenge`** is to understand how to manipulate basic inputs.
 
