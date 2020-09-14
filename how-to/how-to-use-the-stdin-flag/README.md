@@ -1,5 +1,5 @@
 ---
-description: You will find in this section everything about STDIN flag.
+description: 'In this section, you will find everything about STDIN flag.'
 ---
 
 # How to use the STDIN flag

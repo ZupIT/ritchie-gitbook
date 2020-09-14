@@ -1,5 +1,5 @@
 ---
-description: You will find in this section how to set credentials on Ritchie.
+description: 'In this section, you will find how to set credentials on Ritchie.'
 ---
 
 # How to manipulate credentials

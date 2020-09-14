@@ -1,3 +1,9 @@
+---
+description: >-
+  In this section, you will find more details about commands that can be used
+  though stidn.
+---
+
 # Core Commands
 
 ## Core commands with STDIN

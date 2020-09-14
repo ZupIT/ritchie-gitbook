@@ -1,5 +1,5 @@
 ---
-description: You will find in this section how to publish formulas on Ritchie.
+description: 'In this section, you will find how to publish formulas on Ritchie.'
 ---
 
 # How to publish formulas

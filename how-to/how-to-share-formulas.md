@@ -1,5 +1,5 @@
 ---
-description: You will find in this section how to share formulas on Ritchie.
+description: 'In this section, you will find how to share formulas on Ritchie.'
 ---
 
 # How to share formulas

@@ -1,5 +1,7 @@
 ---
-description: You will find in this section how to create formulas on Ritchie and test them.
+description: >-
+  In this section, you will find how to create formulas on Ritchie and test
+  them.
 ---
 
 # How to create formulas

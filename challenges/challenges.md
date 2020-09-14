@@ -4,7 +4,7 @@ description: >-
   formulas on Ritchie with a gradual complexity.
 ---
 
-# Challenges?
+# What are these challenges?
 
 {% hint style="info" %}
 The objective of this section is to help users to understand step by step all Ritchie potential and how it can be used to perform some actions.

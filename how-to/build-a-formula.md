@@ -1,5 +1,5 @@
 ---
-description: You will find in this section how to build formulas on Ritchie.
+description: 'In this section, you will find how to build formulas on Ritchie.'
 ---
 
 # How to build formulas
