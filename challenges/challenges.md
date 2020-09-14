@@ -6,11 +6,11 @@ description: >-
 
 # What are these challenges?
 
-{% hint style="info" %}
-The objective of this section is to help users to understand step by step all Ritchie potential and how it can be used to perform some actions.
-{% endhint %}
+## Context 
 
-### Premisses
+The objective of this section is to help users to understand step by step several activities  you are able to do with Richie.
+
+### Premises
 
 To perform the tasks in this section, it will be necessary to follow different parts of the tutorial section:
 
@@ -33,10 +33,8 @@ The **`third challenge`** is to give an example of how to call API services insi
 
 {% page-ref page="level-3.md" %}
 
-
-
 {% hint style="warning" %}
-We plan to add more challenging tasks in the future.   
+We will add more challenging tasks in the future.   
 Check it out from time to time!
 {% endhint %}
 

@@ -10,7 +10,7 @@ To install the **latest version of Ritchie** for MacOS, you just have to run the
 
 To use Ritchie on MacOs, we recommend to install the following elements:
 
-* The **make** command \([Using "make" on macOS](https://stackoverflow.com/questions/1469994/using-make-on-os-x)\)
+* The **make** command \([**Using "make" on macOS**](https://stackoverflow.com/questions/1469994/using-make-on-os-x)\)
 * **md5sum** tools
 
 {% hint style="warning" %}
@@ -28,7 +28,7 @@ curl -fsSL https://commons-repo.ritchiecli.io/install.sh | bash
 ```
 
 {% hint style="info" %}
-If you prefer, you also can follow with[ **manual installation**.](manual-installation.md)
+If you prefer, you also can follow with the[ **manual installation**.](manual-installation.md)
 {% endhint %}
 
 ## Step 3: Verify installation 

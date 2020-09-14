@@ -6,7 +6,7 @@ description: >-
 
 # Formulas commands
 
-With formulas, the STDIN flag **JSON** id based on the **inputs parameters names** informed on the **config.json file** used to implement the formula.
+With formulas, the STDIN flag **JSON** is based on the **inputs parameters names** informed on the **config.json file** used to implement the formula.
 
 ### **Example**
 
@@ -29,8 +29,8 @@ echo '{"name":"Dennis", "surname":"Ritchie", "dateOfBirth":"09/09/1941"}' | rit 
 
 
 {% hint style="danger" %}
-Because it's based on the **config.json** file, for the formula's commands to work through **stdin**, it is necessary that this formula works informing **exclusively** the input parameters through the config.json file.
+The formula's command through stdin, needs the input parameters that are based on the config.json, in order to work properly. 
 
-If the formula's implementation asks for data via **prompt**, it will not be possible to use exclusively stdin for the formula to run successfully. 
+If the formula's implementation asks for data via **prompt**, it will not be possible to exclusively use  stdin for the formula to run successfully.
 {% endhint %}
 

@@ -18,7 +18,7 @@ rit create formula
 
 Then, you'll have to inform those inputs before running the formula:
 
-1. The **command** \(following the **pattern `rit + group + verb + noun`** to respect the [tree pattern](https://docs.ritchiecli.io/key-concepts#command-tree)\).
+1. The **command** \(following the **pattern `rit + group + verb + noun`** to respect the [**tree pattern**](https://docs.ritchiecli.io/key-concepts#command-tree)\).
 2. The formula's **programming language**. 
 3. **The path** used to save formula's files. 
 

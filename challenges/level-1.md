@@ -45,5 +45,5 @@ Well done! You've completed the first task!
 
 ## Next steps 
 
-👉 If you've completed the first challenge, let's go to the [level 2 t](level-2.md)ask!
+👉 If you've completed the first challenge, let's go to the [**level 2 task**](level-2.md)**!**
 

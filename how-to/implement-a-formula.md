@@ -14,7 +14,7 @@ To do this configuration, you will have to update **3 files** located inside the
 
 #### 1.  **`config.json`**
 
-The **config.json** file contains the formula's input parameters. It allows the CLI to know what datas to ask the user when he executes the command in the terminal in order to process the formula correctly.
+The **config.json** file contains the formula's input parameters. It allows the CLI to know what datas to ask the user when he runs the command in the terminal in order to process the formula correctly.
 
 These input parameters are made up of the following fields: 
 

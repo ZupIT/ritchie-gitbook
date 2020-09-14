@@ -11,7 +11,7 @@ description: >-
 Here are the JSON used to run Ritchie's core commands through **stdin**.
 
 {% hint style="warning" %}
-It will be necessary to adapt the variable values of each JSON to perform the desired operations as expected.
+You will have to adapt the variable values of each JSON to perform the desired operations as expected.
 {% endhint %}
 
 ### General commands

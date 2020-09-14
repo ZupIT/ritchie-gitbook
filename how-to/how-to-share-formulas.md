@@ -8,7 +8,7 @@ description: 'In this section, you will find how to share formulas on Ritchie.'
 
 Once a formula repository has been published, other users can add it locally from its **URL** to access its formulas.
 
-**Example**: [`https://github.com/ZupIT/ritchie-formulas`](https://github.com/ZupIT/ritchie-formulas)
+**Example**: [**`https://github.com/ZupIT/ritchie-formulas`**](https://github.com/ZupIT/ritchie-formulas)\*\*\*\*
 
 To add a new repository on Ritchie, it is necessary to run the command: 
 
@@ -21,10 +21,10 @@ Once the repository has been added, Ritchie will automatically use the latest re
 ![rit add repo command demonstration](../.gitbook/assets/rit-add-repo-3.gif)
 
 {% hint style="warning" %}
-Note that if the formula repository is **private**, it will be necessary for the user to inform his Github / Gitlab token.
+If the formula repository is **private**, the user will have to inform his Github / Gitlab token.
 {% endhint %}
 
-To **check** **the new added formulas command**, you can execute the **`rit list repo`** command to check your new repository, and then execute the **`rit --help`** command to take a look at new formulas groups that will appear.
+To **check** **the new added formulas command**, you can run the **`rit list repo`** command to check your new repository, and then run the **`rit --help`** command to take a look at new formulas groups that will appear.
 
 ## Next steps 
 

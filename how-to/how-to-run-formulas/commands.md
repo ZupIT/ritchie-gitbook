@@ -26,7 +26,7 @@ To do so, type the following commands lines:
 ### Case 1: With Prompt
 
 {% hint style="warning" %}
-As **this formula has been coded using Golang**, it is necessary to have **Golang** installed on the computer to execute it **locally**.
+As **this formula has been coded using Golang**, it is necessary to have **Golang** installed on your computer to run it **locally**.
 {% endhint %}
 
 ```text
@@ -54,7 +54,7 @@ In that case, you won't need to have **Golang** installed.
 
 ### Case 3: With Stdin
 
-You can also execute the command with the **--stdin** \(Standard input\) flag. That way, inputs parameters are informed directly with the command line. 
+You can also run the command with the **--stdin** \(Standard input\) flag. This way, inputs parameters are informed directly with the command line. 
 
 ```
 echo '{"input_text":"Dennis", "input_bool":"false", "input_list":"everything", "input_password":"Ritchie"}' | rit demo hello-world --stdin
@@ -77,7 +77,7 @@ echo '{"input_text":"Dennis", "input_bool":"false", "input_list":"everything", "
 {% hint style="info" %}
 Take a look at the formulas repositories \(ex: [**ritchie-formulas**](https://github.com/ZupIT/ritchie-formulas)\). 
 
-Most of the community formulas are composed of a [**README file**](https://github.com/ZupIT/ritchie-formulas/tree/master/demo/hello-world) explaining what the command does and how to execute it.
+Most of the community formulas are composed of a [**README file**](https://github.com/ZupIT/ritchie-formulas/tree/master/demo/hello-world) explaining what the command does and how to run it.
 {% endhint %}
 
 ## Next steps

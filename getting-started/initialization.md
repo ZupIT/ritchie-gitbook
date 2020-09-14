@@ -6,13 +6,17 @@ description: 'In this section, you will find how to initialize Ritchie CLI.'
 
 ## Step 1: Initialization
 
-You must execute the following command to initialize Ritchie: 
+Run the following command to initialize Ritchie: 
 
 ```text
 rit init
 ```
 
 This command will ask the user three questions:
+
+* If he wants to contribute anonymously to Ritchie metrics.
+* If he wants to add the community formulas locally.
+* If he wants the default formula execution to be local, or through docker \([**more informations here**](../how-to/how-to-run-formulas/)\).
 
 1. If he **wants to contribute anonymously** to Ritchie metrics.
 2. If he **wants to add the community** formulas locally.

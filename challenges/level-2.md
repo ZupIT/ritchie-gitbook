@@ -48,5 +48,5 @@ Well done! You've completed the second task!
 
 ## Next steps 
 
-👉 If you've completed the second challenge, let's go to [level 3 task](level-3.md)!
+👉 If you've completed the second challenge, let's go to [**level 3 task**](level-3.md)!
 

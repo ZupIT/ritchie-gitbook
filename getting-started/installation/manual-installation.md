@@ -6,7 +6,7 @@ description: 'In this section, you will find how to install Ritchie manually.'
 
 If you choose to make the manual process of Ritchie's installation, you have to follow the guideline: **get the latest Ritchie's version and inform the URL below on your navigator.**
 
-**The link:** [https://commons-repo.ritchiecli.io/stable.txt](https://commons-repo.ritchiecli.io/stable.txt)​
+* **The link:** [**https://commons-repo.ritchiecli.io/stable.txt**](https://commons-repo.ritchiecli.io/stable.txt)**​**
 
 Basically, when you indicate the URL above on your navigator, the system returns the latest version of Ritchie. For example, it can return **1.0.1 or 2.0.1**
 
@@ -55,8 +55,6 @@ cp $HOME/Downloads/rit
 ```text
 chmod +x rit
 ```
-
-### \*\*\*\* <a id="configure-the-bashrc-ou-etc-profile-or-zshrc-linux-macos"></a>
 
 ### **How to configure the .bashrc ou /etc/profile or .zshrc \(Linux / MacOS\)** <a id="configure-the-bashrc-ou-etc-profile-or-zshrc-linux-macos"></a>
 

@@ -8,7 +8,7 @@ description: 'In this section, you will find how to publish formulas on Ritchie.
 
 There is a formula on Ritchie that allows the user to create / update a formula repository on Github / Gitlab.
 
-### Premisses
+### Premises
 
 {% hint style="warning" %}
 To publish your formula, make sure to set Github / Gitlab credentials using the**`rit set credential`** command.
@@ -42,7 +42,7 @@ The user has to inform 5 different kinds of inputs:
 ![rit publish repo command](../.gitbook/assets/rit-publish-repo.gif)
 
 {% hint style="warning" %}
-As shown on the demonstration above, you can check the publication has been successful by using the **`rit list repo`** command and observe if the published repository appears.
+As shown on the example above, you can check if the publication has been successful by using the **`rit list repo`** command and see if the published repository appears.
 {% endhint %}
 
 ## Publish manually
@@ -61,5 +61,5 @@ To publish a formula manually, you need to push it on a **Github / Gitlab** repo
 
 On this section, you saw how to publish a formula on Ritchie. To keep configuring the formula: 
 
-👉 Check out [how to share formulas](how-to-share-formulas.md). 
+👉 Check out [**how to share formulas**](how-to-share-formulas.md)**.** 
 
