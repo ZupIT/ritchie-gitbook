@@ -22,6 +22,7 @@
 * [Como implementar fórmulas](tutoriais/como-implementar-uma-formula.md)
 * [Como "buildar" fórmulas](tutoriais/build-a-formula.md)
 * [Como publicar fórmulas](tutoriais/como-publicar-formula.md)
+* [Como compartilhar fórmulas](tutoriais/como-compartilhar-formulas.md)
 * [Como manipular credenciais](tutoriais/lista-de-comandos.md)
 * [Como usar a flag STDIN](tutoriais/como-usar-a-flag-stdin/README.md)
   * [Comandos de fórmulas](tutoriais/como-usar-a-flag-stdin/comandos-de-formulas.md)

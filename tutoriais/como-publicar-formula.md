@@ -11,10 +11,7 @@ Existe uma fórmula no Ritchie que permite você criar/atualizar o repositório 
 ### Premissas
 
 {% hint style="warning" %}
-Para publicar a fórmula, confirme se está seguindo estas premissas: 
-
-1. Esta fórmula só pode ser **executada localmente** para **MacOs** ou **Linux**. 
-2. É necessário configurar as credenciais do Github e/ou Gitlab usando o comando **`rit set credential.`**
+Para publicar um repositório, é necessário configurar as credenciais do Github e/ou Gitlab usando o comando **`rit set credential.`**
 {% endhint %}
 
 ## Publicando seu repositório
@@ -45,20 +42,20 @@ Você deverá informar 5 tipos diferentes de parâmetros de entrada:
 ![rit publish repo command](../.gitbook/assets/rit-publish-repo.gif)
 
 {% hint style="warning" %}
-As shown on the demonstration above, you can check the publication has been successful by using the **`rit list repo`** command and observe if the published repository appears.
+Como demonstrado acima, você pode checar se a publicação deu certo usando o comando**`rit list repo`** e observando se o repositório publicado aparece.
 {% endhint %}
 
 ## Publicando manualmente
 
-To publish a formula manually, you need to push it on a **Github / Gitlab** repository, following these steps:
+Para publicar uma fórmula manualmente, você precisa submetê-la no repositório do  **Github e/ou Gitlab** seguindo esses passos:
 
-1. Have an exclusive repository for formulas on Github / Gitlab.
+1. Tenha um repositório de fórmulas exclusivo no Github e/ou Gitlab.
 
-   _It can be created from the a local repository, or based on a cloned repository._  
+   _Ele pode ser criado a partir de um repositório local ou de um repositório clonado._  
 
-2. Add your formulas to the repository  _Using the**`rit create formula`** command, or **copy / paste** folders**.**_ 
-3. Commit and push the new code to the Github / Gitlab repository. 
-4. Generate a new release of the formulas repository.
+2. Adicione sua fórmula ao repositório  _Para isso, use o comando **`rit create formula`** ou copie /cole as pastas. ****_
+3. Faça o commit e submeta o novo código ao repositório do Github e/ou Gitlab. 
+4. Gere uma nova release do repositório de fórmulas. 
 
 ## Next steps 
 
