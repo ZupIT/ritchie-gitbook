@@ -1,10 +1,10 @@
 ---
-description: You will find in this section how to initialize Ritchie CLI.
+description: 'In this section, you will find how to initialize Ritchie CLI.'
 ---
 
 # Initialize CLI
 
-### Step 1: Initialization
+## Step 1: Initialization
 
 You must execute the following command to initialize Ritchie: 
 
@@ -14,17 +14,17 @@ rit init
 
 This command will ask the user three questions:
 
-* if he wants to contribute anonymously to Ritchie metrics.
-* if he wants to add the community formulas locally.
-* if he wants the default formula execution to be local, or through docker \([**more informations here**](../how-to/how-to-run-formulas/)\).
+1. If he **wants to contribute anonymously** to Ritchie metrics.
+2. If he **wants to add the community** formulas locally.
+3. If he **wants the default** [**formula execution**](../how-to/how-to-run-formulas/) **to be local or through docker.** 
 
 ![rit init command](../.gitbook/assets/rit-init%20%283%29.gif)
 
 Then, the command execution will create all the necessary configuration's files. 
 
-### Step 2: Verify Initialization
+## Step 2: Verify Initialization
 
-#### 2.1 Commons repository
+### 1. Commons repository
 
 If you added the community formulas repository, you can check it by using the following command:
 
@@ -36,7 +36,7 @@ This command will return all formulas repositories the user has access locally.
 
 ![rit list repo command](../.gitbook/assets/large-gif-1448x466-.gif)
 
-#### 2.2 Ritchie folder
+### 2. Ritchie folder
 
 You can then check the **`.rit`** folder has been created on your **`$HOME`** directory.
 

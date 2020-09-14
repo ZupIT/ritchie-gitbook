@@ -1,7 +1,5 @@
 ---
-description: >-
-  You will find in this section all initial information about Ritchie before
-  getting deeper into the product.
+description: 'In this section, you will find all initial information about Ritchie.'
 ---
 
 # Overview
@@ -16,7 +14,7 @@ Ritchie is an **open source framework** that creates and tweaks a CLI for your t
 
 Currently, Ritchie has **two available versions**. On this documentation, we'll focus on **Ritchie** **version 2.0.**
 
-### **What's new ?**
+### **What's new?**
 
 {% page-ref page="ritchie-v2.0.md" %}
 

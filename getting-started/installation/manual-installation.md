@@ -1,12 +1,12 @@
 ---
-description: You will find in this section how to install Ritchie manually.
+description: 'In this section, you will find how to install Ritchie manually.'
 ---
 
 # Manual Installation
 
 If you choose to make the manual process of Ritchie's installation, you have to follow the guideline: **get the latest Ritchie's version and inform the URL below on your navigator.**
 
-* **The link:** [https://commons-repo.ritchiecli.io/stable.txt](https://commons-repo.ritchiecli.io/stable.txt)​
+**The link:** [https://commons-repo.ritchiecli.io/stable.txt](https://commons-repo.ritchiecli.io/stable.txt)​
 
 Basically, when you indicate the URL above on your navigator, the system returns the latest version of Ritchie. For example, it can return **1.0.1 or 2.0.1**
 
@@ -86,6 +86,6 @@ It is possible \(and suggested\) to create an environment variable for rit to fa
 
 Here are some articles explaining how to add an environment variable in Windows:
 
-* Adding [through interface](https://professor-falken.com/pt/windows/como-configurar-la-ruta-y-las-variables-de-entorno-en-windows-10/) 
-* Adding[ Through terminal](https://devcontent.com.br/artigos/windows/o-que-sao-como-alterar-criar-excluir-variaveis-de-ambiente)
+* Adding [**through interface**](https://professor-falken.com/pt/windows/como-configurar-la-ruta-y-las-variables-de-entorno-en-windows-10/) ****
+* Adding[ **through terminal**](https://devcontent.com.br/artigos/windows/o-que-sao-como-alterar-criar-excluir-variaveis-de-ambiente)\*\*\*\*
 

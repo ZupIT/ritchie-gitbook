@@ -82,7 +82,7 @@ Most of the community formulas are composed of a [**README file**](https://githu
 
 ## Next steps
 
-In this section, you saw how to run formulas on Ritchie.
+In this section, you saw how to run formulas on Ritchie. To keep learning: 
 
 👉Check which formulas you can run using the following command:
 

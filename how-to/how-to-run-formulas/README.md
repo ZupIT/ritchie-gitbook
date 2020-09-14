@@ -1,3 +1,7 @@
+---
+description: 'In this section, you will find a path to how run formulas using Ritchie.'
+---
+
 # How to run formulas
 
 ## How to run?
@@ -26,11 +30,13 @@ To run a formula locally it is necessary to have the formula programming languag
 
 All formulas can be executed regardless of the programming language used from the moment that you have **`DOCKER`** installed and running.
 
-Follow the example below to see how to run a formula on Ritchie on [**"Hello World" formula section**](commands.md).
+{% hint style="info" %}
+Check out on the following example [**how to run a "Hello World" formula** ](commands.md)\*\*\*\*
+{% endhint %}
 
 ## Next steps 
 
-On this section, you saw how to run a formula on Ritchie:
+On this section, you saw how to run a formula on Ritchie. To keep learning:
 
 👉 Go to [**Hello World formula**](commands.md) to see different ways to execute a formula on Ritchie. 
 

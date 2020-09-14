@@ -26,7 +26,7 @@ Then, you'll have to inform those inputs before running the formula:
 
 ### **Step 2: Test your formula** 
 
-You can test the formula directly after its creation. That's possible because  the **`rit create formula`** command also builds the formula automatically.
+You can test the formula directly after its creation. That's possible because  the **`rit create formula`** command also builds the formula automatically \(it generates the formula's executable files and add them on **.rit folder**\).
 
 In that case, the formula **"Hello World" template** will be executed as shown below:
 

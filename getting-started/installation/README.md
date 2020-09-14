@@ -1,6 +1,6 @@
 ---
 description: >-
-  You will find in this section the path to install Ritchie CLI according to
+  In this section, you will find the path to install Ritchie CLI according to
   your operational system.
 ---
 
@@ -13,6 +13,8 @@ To **start Ritchie's installation** on your machine, follow the steps for your o
 {% page-ref page="windows.md" %}
 
 {% page-ref page="macos.md" %}
+
+{% page-ref page="manual-installation.md" %}
 
 {% hint style="info" %}
 It's optional to have Docker installed, just in case you want to [**build your formulas**](../../how-to/build-a-formula.md) there. 

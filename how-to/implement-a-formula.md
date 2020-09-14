@@ -6,7 +6,7 @@ description: You will find in this section how to implement formulas on Ritchie.
 
 ## How to implement? 
 
-Once you have [**created and tested your formula**](how-to-create-formulas.md), Ritchie will generate a local workspace. This is where you can start implementing the new automation by updating the _**Hello World**_ template.
+Once you have [**created and tested your formula**](how-to-create-formulas.md), Ritchie will generate a local workspace. This is where you can start implementing the new automation by updating the **Hello World** template.
 
 ### Editable files 
 

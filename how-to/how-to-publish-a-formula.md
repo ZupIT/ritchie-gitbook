@@ -6,27 +6,29 @@ description: You will find in this section how to publish formulas on Ritchie.
 
 ## How to publish?
 
-{% hint style="info" %}
 There is a formula on Ritchie that allows the user to create / update a formula repository on Github / Gitlab.
-{% endhint %}
 
 ### Premisses
 
-{% hint style="danger" %}
-* This formula can currently only be executed **locally** on **MacOs** or **Linux**. 
-* It is necessary to set Github / Gitlab credentials using the**`rit set credential`** command.
+{% hint style="warning" %}
+To publish your formula, make sure you'll follow these premisses: 
+
+1. This formula can currently only be executed **locally** on **MacOs** or **Linux**. 
+2. It is necessary to set Github / Gitlab credentials using the**`rit set credential`** command.
 {% endhint %}
 
-### Publish your repository
+## Publish your repository
 
 A formula has been created on the community repository to perform:
 
-* the initialization of a local repository on Git \(if necessary\),
-* the creation of the repository on Github / Gitlab,
-* the release of a new version of the repository,
-* the addition of the repository to Ritchie local repositories \(`rit add repo`command\). 
+* The initialization of a local repository on Git \(if necessary\),
+* The creation of the repository on Github / Gitlab,
+* The release of a new version of the repository,
+* The addition of the repository to Ritchie local repositories \(`rit add repo`command\). 
 
-_Moreover, if the repository already exists, it will commit the new code and generate the new release version informed, before updating Ritchie repositories \(`rit update repo`command\)._
+{% hint style="info" %}
+Moreover, if the repository already exists, it will commit the new code and generate the new release version informed, before updating Ritchie repositories \(`rit update repo`command\).
+{% endhint %}
 
 ```text
 rit publish repo
@@ -34,11 +36,11 @@ rit publish repo
 
 The user has to inform 5 different kinds of inputs:
 
-1. the **`provider`** \(Github or Gitlab\)
-2. the **`repository's privacy`**
-3. the **`repository's name`**
-4. the **`local repository path`** you wish to publish
-5. the **`release version`** to generate
+1. The **`provider`** \(Github or Gitlab\)
+2. The **`repository's privacy`**
+3. The **`repository's name`**
+4. The **`local repository path`** you wish to publish
+5. The **`release version`** to generate
 
 ![rit publish repo command](../.gitbook/assets/rit-publish-repo.gif)
 

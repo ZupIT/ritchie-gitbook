@@ -1,5 +1,5 @@
 ---
-description: You will find in this section what is new on Ritchie 2.0 version.
+description: 'In this section, you will find what is new on Ritchie 2.0 version.'
 ---
 
 # Ritchie V1.0 ➡ V2.0

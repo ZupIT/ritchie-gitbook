@@ -1,10 +1,10 @@
 ---
-description: You will find in this section how to install Ritchie for Linux.
+description: 'In this section, you will find how to install Ritchie for Linux.'
 ---
 
 # Linux
 
-### Step 1: Requirements
+## Step 1: Requirements
 
 If you want to efficiently use Ritchie on Linux, we recommend to install the following element configured:
 
@@ -12,7 +12,7 @@ If you want to efficiently use Ritchie on Linux, we recommend to install the fol
 
 Once you have it, just run the command below at your terminal. 
 
-### Step 2: Installing command
+## Step 2: Installing command
 
 Copy and paste the command below to run on your terminal: 
 
@@ -24,7 +24,7 @@ curl -fsSL https://commons-repo.ritchiecli.io/install.sh | bash
 If you prefer, you also can follow with the[ **manual installation**.](manual-installation.md)
 {% endhint %}
 
-### Step 3: Verify installation 
+## Step 3: Verify installation 
 
 You can confirm if your installation went well by running this command: 
 

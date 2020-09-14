@@ -1,6 +1,6 @@
 ---
 description: >-
-  You will find in this section definitions for the main terms and expressions
+  In this section, you will find definitions for the main terms and expressions
   used in the doc and/or in Ritchie.
 ---
 

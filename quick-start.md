@@ -1,5 +1,5 @@
 ---
-description: You will find in this section a quick guide to start using Ritchie.
+description: 'In this section, you will find a quick guide to start using Ritchie.'
 ---
 
 # Quick start guide
@@ -19,8 +19,6 @@ First things first: you must install Ritchie according to your operational syste
 {% page-ref page="getting-started/installation/macos.md" %}
 
 {% page-ref page="getting-started/installation/windows.md" %}
-
-{% page-ref page="quick-start.md" %}
 
 ### **2. Initialization** 
 
