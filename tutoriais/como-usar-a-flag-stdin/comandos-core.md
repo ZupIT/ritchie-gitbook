@@ -1,3 +1,9 @@
+---
+description: >-
+  Nesta seção, você encontrará detalhes sobre comandos que podem ser usados via
+  stdin.
+---
+
 # Comandos Core
 
 ## Comandos Core com STDIN

@@ -1,6 +1,6 @@
 ---
 description: >-
-  Você encontrará nessa seção mais detalhes sobre comandos que rodam com
+  Nesta seção, você encontrará mais detalhes sobre comandos que rodam com
   fórmulas no Ritchie.
 ---
 
