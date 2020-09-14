@@ -1,6 +1,6 @@
 ---
 description: >-
-  Você encontrará nessa seção uma explicação sobre como credenciais funcionam no
+  Nesta seção, você verá uma explicação sobre como credenciais funcionam no
   Ritchie.
 ---
 
