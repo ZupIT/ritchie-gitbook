@@ -1,6 +1,6 @@
 ---
 description: >-
-  Você encontrará nesta seção o passo a passo para manipular inputs básicos no
+  Nesta seção, você encontrará o passo a passo para manipular inputs básicos no
   Ritchie.
 ---
 

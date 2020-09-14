@@ -1,5 +1,5 @@
 ---
-description: Você encontrará nesta seção o passo a passo para usar credenciais no Ritchie.
+description: 'Nesta seção, você encontrará o passo a passo para usar credenciais no Ritchie.'
 ---
 
 # Nível 2: Credenciais

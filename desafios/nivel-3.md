@@ -1,6 +1,6 @@
 ---
 description: >-
-  Você encontrará nesta seção o passo a passo para fazer chamadas de serviços
+  Nesta seção, você encontrará o passo a passo para fazer chamadas de serviços
   API usando o Ritchie.
 ---
 

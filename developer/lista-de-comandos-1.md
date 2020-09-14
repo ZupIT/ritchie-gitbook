@@ -1,5 +1,5 @@
 ---
-description: Você encontrará nessa seção uma lista com principais comandos do Ritchie.
+description: 'Nesta seção, você encontrará uma lista com principais comandos do Ritchie.'
 ---
 
 # Lista de Comandos
