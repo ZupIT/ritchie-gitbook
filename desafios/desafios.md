@@ -19,7 +19,7 @@ Para realizar os desafios que estão propostos nas próximas páginas, você pre
 3. \*\*\*\*[**Como implementar fórmulas** ](../tutoriais/como-implementar-uma-formula.md)\*\*\*\*
 4. \*\*\*\*[**Como "buildar" fórmulas** ](../tutoriais/build-a-formula.md)\*\*\*\*
 
-### Tarefas
+### Desafios
 
 O **`primeiro desafio`** é para você entender como manipular inputs básicos. 
 
