@@ -1,7 +1,7 @@
 ---
 description: >-
-  Você encontrará nesta seção um conjunto de desafios criados para você
-  descobrir o Ritchie.
+  Nesta seção, você encontrará um conjunto de desafios criados para você
+  aprender a usar o Ritchie na prática.
 ---
 
 # O que são os desafios?
