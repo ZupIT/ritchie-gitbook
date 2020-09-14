@@ -38,7 +38,7 @@
 ## Reference <a id="developer"></a>
 
 * [List of commands](developer/list-of-commands.md)
-* [Releases](https://github.com/ZupIT/ritchie-cli/releases)
+* [Release Notes](https://github.com/ZupIT/ritchie-cli/releases)
 * [Roadmap](https://github.com/ZupIT/ritchie-cli/issues)
 
 ---

@@ -1,5 +1,5 @@
 ---
-description: You will find in this section the list of Ritchie's main commands
+description: 'In this section, you will find the list of Ritchie''s main commands'
 ---
 
 # List of commands

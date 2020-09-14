@@ -1,6 +1,6 @@
 ---
 description: >-
-  You will find in this section challenging tasks to start implementing simple
+  In this section, you will find challenging tasks to start implementing simple
   formulas on Ritchie with a gradual complexity.
 ---
 
@@ -14,10 +14,10 @@ The objective of this section is to help users to understand step by step all Ri
 
 To perform the tasks in this section, it will be necessary to follow different parts of the tutorial section:
 
-1. [how to run formulas](../how-to/how-to-run-formulas/)
-2. [how to create formulas](../how-to/how-to-create-formulas.md)
-3. [how to implement formulas](../how-to/implement-a-formula.md)
-4. [how to build formulas](../how-to/build-a-formula.md)
+1. \*\*\*\*[**How to run formulas**](../how-to/how-to-run-formulas/)\*\*\*\*
+2. \*\*\*\*[**How to create formulas**](../how-to/how-to-create-formulas.md)\*\*\*\*
+3. \*\*\*\*[**How to implement formulas**](../how-to/implement-a-formula.md)\*\*\*\*
+4. \*\*\*\*[**How to build formulas**](../how-to/build-a-formula.md)\*\*\*\*
 
 ### Tasks
 

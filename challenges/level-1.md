@@ -1,3 +1,9 @@
+---
+description: >-
+  In this section, you will find a step by step to manipulate basic inputs on
+  Ritchie.
+---
+
 # Level 1: Basic Inputs
 
 ## Objective

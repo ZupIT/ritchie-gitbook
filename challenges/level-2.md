@@ -1,3 +1,7 @@
+---
+description: 'In this section, you will find a step by step to use credentials on Ritchie.'
+---
+
 # Level 2: Credentials
 
 ## Objective
