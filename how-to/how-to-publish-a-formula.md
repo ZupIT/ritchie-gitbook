@@ -11,10 +11,7 @@ There is a formula on Ritchie that allows the user to create / update a formula 
 ### Premisses
 
 {% hint style="warning" %}
-To publish your formula, make sure you'll follow these premisses: 
-
-1. This formula can currently only be executed **locally** on **MacOs** or **Linux**. 
-2. It is necessary to set Github / Gitlab credentials using the**`rit set credential`** command.
+To publish your formula, make sure to set Github / Gitlab credentials using the**`rit set credential`** command.
 {% endhint %}
 
 ## Publish your repository
