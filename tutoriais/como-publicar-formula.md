@@ -6,33 +6,63 @@ description: Você encontrará nessa seção como publicar uma fórmula no Ritch
 
 ## Como publicar?
 
-Se você quiser disponibilizar sua fórmula no **Github/ Gitlab**, é necessário ****seguir estes passos:
+Existe uma fórmula no Ritchie que permite você criar/atualizar o repositório de fórmulas no Github e/ou Gitblab. 
 
-1. Criar um repositório no Github/Gitlab exclusivo para fórmulas \(pode ser um repositório criado localmente\).
-2. Adicionar a fórmula no repositório
-3. Gerar a release
+### Premissas
 
-{% hint style="success" %}
-Existe um novo comando para auxiliar na publicação, que ainda não foi traduzido para a documentação em português. Se tiver interesse em conhecer, segue a [**versão em inglês**](https://docs.ritchiecli.io/how-to/how-to-publish-a-formula).
+{% hint style="warning" %}
+Para publicar a fórmula, confirme se está seguindo estas premissas: 
+
+1. Esta fórmula só pode ser **executada localmente** para **MacOs** ou **Linux**. 
+2. É necessário configurar as credenciais do Github e/ou Gitlab usando o comando **`rit set credential.`**
 {% endhint %}
 
-## Como compartilhar ?
+## Publicando seu repositório
 
-1. Adicionar o repositório no Ritchie, executando o comando abaixo: 
+Você pode usar uma a fórmula que foi criada no repositório da comunidade para fazer:
+
+* A [**inicialização**](../getting-started/initialization.md#passo-1-inicializacao) ****em um repositório local do Git \(se necessário\). 
+* A criação do repositório no Github e/ou Gitlab,
+* A release de uma nova versão do repositório. 
+* A adição de um repositório nos repositórios locais do Ritchie \(usando o comando`rit add repo`\). 
+
+{% hint style="info" %}
+Além disso, se o repositório já existir, a fórmula irá fazer o commit de um novo código e gerar uma nova release informada antes de atualizar os repositórios do Ritchie \(usando o comando `rit update repo`\)
+{% endhint %}
 
 ```text
-rit add repo
+rit publish repo
 ```
 
-Depois que você adicionou o repo, o Ritchie automaticamente utilizará a última release disponível em seu repositório para acessar as fórmulas disponíveis. 
+Você deverá informar 5 tipos diferentes de parâmetros de entrada:
 
-![](../.gitbook/assets/rit-add-repo-3.gif)
+1. O **`provedor`** \(Github ou Gitlab\)
+2. A **`privacidade do repositório`**
+3. O **`nome do repositório`**
+4. O **`caminho local do repositório`** you wish to publish
+5. A **`versão da release`** para ser gerada
 
-## Próximos passos 
+![rit publish repo command](../.gitbook/assets/rit-publish-repo.gif)
 
-Nessa seção, você viu como publicar uma fórmula no Ritchie. Para continuar configurando a fórmula: 
+{% hint style="warning" %}
+As shown on the demonstration above, you can check the publication has been successful by using the **`rit list repo`** command and observe if the published repository appears.
+{% endhint %}
 
-👉 Cheque como [**manipular credenciais** ](lista-de-comandos.md)no Ritchie.
+## Publicando manualmente
 
-👉 Cheque a [**lista de comandos**](https://app.gitbook.com/@zup-products/s/ritchie/~/drafts/-MDPWwvUtJ2ZZfV8Mw44/v/v2.0-pt/developer/lista-de-comandos) para ver as automações disponíveis no repo da nossa comunidade. 
+To publish a formula manually, you need to push it on a **Github / Gitlab** repository, following these steps:
+
+1. Have an exclusive repository for formulas on Github / Gitlab.
+
+   _It can be created from the a local repository, or based on a cloned repository._  
+
+2. Add your formulas to the repository  _Using the**`rit create formula`** command, or **copy / paste** folders**.**_ 
+3. Commit and push the new code to the Github / Gitlab repository. 
+4. Generate a new release of the formulas repository.
+
+## Next steps 
+
+On this section, you saw how to publish a formula on Ritchie. To keep configuring the formula: 
+
+👉 Check out 
 

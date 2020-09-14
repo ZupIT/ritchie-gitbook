@@ -1,6 +1,6 @@
 ---
 description: >-
-  Você encontrará nessa seção o passo a passo para fazer o build de fórmulas no
+  Nesta seção, você encontrará o passo a passo para fazer o build de fórmulas no
   Ritchie.
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 ## Como "buildar"?
 
-Depois de [**criar uma fórmula**](como-criar-formulas.md),  se desejar, você pode editar o código da fórmula, será necessário fazer o build dessas alterações para testar o comando com a nova implementação. 
+Depois de [**criar uma fórmula**](como-criar-formulas.md),  se você quiser editar o código dela, será necessário fazer o build dessas alterações para testar o comando com a nova implementação. 
 
 Para isso, basta executar o comando:  ****
 
@@ -33,5 +33,5 @@ rit build formula --watch
 
 Nessa seção, você viu como fazer o build de uma fórmula no Ritchie. Para continuar configurando sua fórmula: 
 
-👉 Vá ao [**publicar uma fórmula**](como-publicar-formula.md) para ver como transferir seu trabalho para um repositório público. 
+👉 Vá para página de como [**publicar uma fórmula**](como-publicar-formula.md) para ver como transferir seu trabalho para um repositório público. 
 

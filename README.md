@@ -1,7 +1,5 @@
 ---
-description: >-
-  Você encontrará nessa seção todas as informações iniciais sobre o Ritchie
-  antes de se aprofundar no produto.
+description: 'Nesta seção, você encontrará todas as informações iniciais sobre o Ritchie.'
 ---
 
 # Visão geral

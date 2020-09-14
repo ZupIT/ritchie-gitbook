@@ -1,5 +1,5 @@
 ---
-description: Você encontrará nessa seção um guia rápido para começar a usar o Ritchie.
+description: 'Nesta seção, você encontrará um guia rápido para começar a usar o Ritchie.'
 ---
 
 # Guia de começo rápido

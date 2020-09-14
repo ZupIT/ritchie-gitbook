@@ -1,3 +1,7 @@
+---
+description: 'Nesta seção, você verá como fazer a instalação manual do Ritchie.'
+---
+
 # Instalação Manual
 
 Caso você decida seguir com a instalação manual do Ritchie, é necessário obedecer à seguinte premissa: **baixar a versão mais recente do Ritchie informando a URL abaixo no seu navegador.** 
@@ -30,7 +34,7 @@ https://commons-repo.ritchiecli.io/{VERSION}/windows/rit.exe
 
 ## **Configurações manuais** <a id="manual-settings"></a>
 
-### **Como criar uma pasta** <a id="folder-creation"></a>
+### **Como criar uma pasta?** <a id="folder-creation"></a>
 
 1. Primeiro, rode o comando abaixo para criar uma pasta  `$HOME/.rit/bin`
 
@@ -51,7 +55,7 @@ cp $HOME/Downloads/rit
 chmod +x rit
 ```
 
-### **Como configirar o .bashrc ou /etc/profile ou .zshrc \(Linux / MacOS\)** <a id="configure-the-bashrc-ou-etc-profile-or-zshrc-linux-macos"></a>
+### **Como configirar o .bashrc ou /etc/profile ou .zshrc \(Linux / MacOS\)?** <a id="configure-the-bashrc-ou-etc-profile-or-zshrc-linux-macos"></a>
 
 Para o ZSH, defina o novo PATH copiando o código abaixo: 
 
@@ -71,7 +75,7 @@ rit completion bash > ~/.rit_completion
 source ~/.rit_completion​
 ```
 
-### Configurações de variáveis de ambiente \(Windows\) <a id="setting-environment-variables-windows"></a>
+### Configurações de variáveis de ambiente \(Windows\)? <a id="setting-environment-variables-windows"></a>
 
 No caso do Windows, você precisa chamar o rit no terminal diretamente pelo rit.exe. Por exemplo: comando **rit.exe login.** 
 
@@ -79,6 +83,6 @@ No caso do Windows, você precisa chamar o rit no terminal diretamente pelo rit.
 
 Abaixo, confira alguns artigos que explicam como adicionar uma variável de ambiente no Windows:
 
-* Adicionando [através da interface](https://professor-falken.com/pt/windows/como-configurar-la-ruta-y-las-variables-de-entorno-en-windows-10/) 
-* Adicionando [através do terminal](https://devcontent.com.br/artigos/windows/o-que-sao-como-alterar-criar-excluir-variaveis-de-ambiente)
+* Adicionando [**através da interface**](https://professor-falken.com/pt/windows/como-configurar-la-ruta-y-las-variables-de-entorno-en-windows-10/) ****
+* Adicionando [**através do terminal**](https://devcontent.com.br/artigos/windows/o-que-sao-como-alterar-criar-excluir-variaveis-de-ambiente)\*\*\*\*
 

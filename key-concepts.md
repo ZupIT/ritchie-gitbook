@@ -1,6 +1,6 @@
 ---
 description: >-
-  Você encontrará nessa seção os conceitos dos principais termos e expressões
+  Nesta seção, você encontrará os conceitos dos principais termos e expressões
   usados na doc e/ou no Ritchie.
 ---
 
@@ -27,6 +27,10 @@ Esses parâmetros de entrada podem ser informados de diversas maneiras:
 ![](.gitbook/assets/start-end-ritchie.jpg)
 
 {% page-ref page="tutoriais/commands/" %}
+
+{% page-ref page="tutoriais/como-usar-a-flag-stdin/" %}
+
+
 
 ## Árvore de comando
 

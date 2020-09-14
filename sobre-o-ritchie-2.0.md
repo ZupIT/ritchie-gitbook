@@ -1,6 +1,6 @@
 ---
 description: >-
-  Você encontrará nessa seção as novidades do Ritchie 2.0 e como migrar as
+  Nesta seção, você encontrará as novidades do Ritchie 2.0 e como migrar as
   fórmulas da versão 1.0 para a nova versão.
 ---
 
@@ -20,8 +20,6 @@ description: >-
 {% hint style="danger" %}
 A versão 2.0 **não suporta o Vault** para compartilhar credenciais. Logo, caso você queira continuar usando essa funcionalidade, precisará ficar na versão 1.0. 
 {% endhint %}
-
-
 
 ## Como migrar fórmulas da versão 1.0 para a 2.0
 

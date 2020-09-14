@@ -1,16 +1,16 @@
 ---
-description: Você irá encontrar nessa seção como implementar as fórmulas no Ritchie.
+description: 'Nesta seção, você verá como implementar as fórmulas no Ritchie.'
 ---
 
 # Como implementar fórmulas
 
 ## Como implementar? 
 
-Uma vez que você [**criou e testou sua fórmula**](como-criar-formulas.md), o Ritchie irá gerar um workspace para você trabalhar localmente. Com isso, você pode começar a implementar sua automação ao atualizar o template _**Hello World.**_ 
+Uma vez que você [**criou e testou sua fórmula**](como-criar-formulas.md), o Ritchie irá gerar um workspace para você trabalhar localmente. Com isso, você pode começar a implementar sua automação ao atualizar o template **Hello World**_**.**_ 
 
 ### Arquivos editáveis  
 
-Para fazer essa configuração, você terá que atualizar **2 arquivos** localizados dentro do **/src package**  da pasta root da sua nova fórmula. 
+Para fazer essa configuração, você terá que atualizar **3 arquivos** localizados dentro do **/src package**  da pasta root da sua nova fórmula. 
 
 #### 1.  **`config.json`**
 
@@ -23,10 +23,10 @@ Essas entradas são feitas para os seguintes campos:
 
 Outras informações disponíveis nesse arquivo são: 
 
-* `name` : nome de variável para extração. 
-* `type` : _**text**_ \(string\), _**bool**_ \(boolean\), _**password**_ \(hidden string\) or [_**credenciais**_](https://docs.ritchiecli.io/v/v2.0-pt/tutoriais/lista-de-comandos#como-usar-credenciais-como-parametros-de-entrada). 
-* `label`  : texto que aparecerá no CLI para pedir o input ao usuário. 
-* `default` \(_opcional_\) : valor padrão do parâmetro \(se nulo\). 
+* `name`: nome de variável para extração. 
+* `type`: _**text**_ \(string\), _**bool**_ \(boolean\), _**password**_ \(hidden string\) or [_**credenciais**_](https://docs.ritchiecli.io/v/v2.0-pt/tutoriais/lista-de-comandos#como-usar-credenciais-como-parametros-de-entrada). 
+* `label`: texto que aparecerá no CLI para pedir o input ao usuário. 
+* `default` \(_opcional_\): valor padrão do parâmetro \(se nulo\). 
 * `items` \(_opcional_\) : lista de opções para o parâmetro. 
 * `cache` \(_opcional_\) : 
   * `active`: se o cache é habilitado ou não.
@@ -57,7 +57,7 @@ Dependendo da linguagem de programação que você escolher, pode ser necessári
 {% tab title="Golang" %}
 ![](../.gitbook/assets/go%20%281%29.png)
 
-Assim como na imagem acima, você deve editar os arquivos:
+De acordo com a imagem acima, você deve editar os arquivos:
 
 * **config.json:** alterar os _**inputs**_ e suas configurações.
 * **main.go:** extrair os inputs, e chamar os métodos da fórmula \(na pasta **formula/\***\).
@@ -68,7 +68,7 @@ Assim como na imagem acima, você deve editar os arquivos:
 {% tab title="Java" %}
 ![](../.gitbook/assets/java%20%282%29.png)
 
-Assim como na imagem acima, você deve editar os arquivos:
+De acordo com a imagem acima, você deve editar os arquivos:
 
 * **config.json:** alterar os _**inputs**_ e suas configurações.
 * **main.java:** extrair os inputs, e chamar os métodos da fórmula \(na pasta **formula/\***\).
@@ -79,7 +79,7 @@ Assim como na imagem acima, você deve editar os arquivos:
 {% tab title="Node" %}
 ![](../.gitbook/assets/node%20%283%29.png)
 
-Assim como na imagem acima, você deve editar os arquivos:
+De acordo com a imagem acima, você deve editar os arquivos:
 
 * **config.json:** alterar os _**inputs**_ e suas configurações.
 * **index.js:** extrair os inputs, e chamar os métodos da fórmula \(na pasta **formula/\***\).
@@ -90,7 +90,7 @@ Assim como na imagem acima, você deve editar os arquivos:
 {% tab title="Python" %}
 ![](../.gitbook/assets/python%20%282%29.png)
 
-Assim como na imagem acima, você deve editar os arquivos:
+De acordo com a imagem acima, você deve editar os arquivos:
 
 * **config.json:** alterar os _**inputs**_ e suas configurações.
 * **main.py:** extrair os inputs, e chamar os métodos da fórmula \(na pasta **formula/\***\).
@@ -101,7 +101,7 @@ Assim como na imagem acima, você deve editar os arquivos:
 {% tab title="Shell" %}
 ![](../.gitbook/assets/shell%20%282%29.png)
 
-Assim como na imagem acima, você deve editar os arquivos:
+De acordo com a imagem acima, você deve editar os arquivos:
 
 * **config.json:** alterar os _**inputs**_ e suas configurações.
 * **main.sh:** extrair os inputs, e chamar os métodos da fórmula \(na pasta **formula/\***\).

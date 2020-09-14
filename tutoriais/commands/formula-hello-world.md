@@ -1,6 +1,6 @@
 ---
 description: >-
-  Você encontrará nessa seção o  passo a passo para executar nosso "Hello
+  Nesta seção, você encontrará o passo a passo para executar nosso "Hello
   World".
 ---
 
@@ -16,18 +16,18 @@ Esse comando foi disponibilizado na [**release 2.0.1**](https://github.com/ZupIT
 É possível verificar qual versão do repositório está sendo usada executando o comando **`rit list repo`**.
 {% endhint %}
 
-Atualmente, é possível executar o Hello World no Ritchie de 4 maneiras: 
+No Ritchie, é possível, você tem 4 possibilidades de rodar uma fórmula: 
 
 1. Via Prompt 
 2. Via Prompt e Docker 
 3. Via Stdin
 4. Via Stdin e Docker 
 
-Veja como cada uma delas funciona a seguir:
+Para isso, escreva um dos comandos abaixo:
 
 ### Caso 1: Usando Prompt
 
-Como **essa fórmula  foi desenvolvido usando Golang**, é preciso ter **Golang** instalado para conseguir executar ele **localmente**.
+Como **essa fórmula  foi desenvolvida usando Golang**, é preciso ter **Golang** instalado para conseguir  executá-la **localmente**.
 
 ```text
 rit demo hello-world
@@ -37,12 +37,11 @@ Selecione uma opção para cada parâmetro de entrada e veja a mágica acontecer
 
 ![rit demo hello-world](../../.gitbook/assets/large-gif-1054x366-%20%281%29.gif)
 
-Essa é a execução padrão de linhas de comando no Ritchie, executando fórmulas localmente através de **prompt** \(interagindo com o CLI no terminal\) para informar os parâmetros de entrada.  
-
+Essa é a execução padrão de linhas de comando no Ritchie, executando fórmulas localmente através de **prompt** \(interagindo com o CLI no terminal\) para informar os parâmetros de entrada.
 
 ### Caso 2: Usando Prompt & Docker
 
-É possível executar o mesmo comando usando a flag **--docker** para executar a fórmula remotamente \(em um container\), continuando informando os parâmetros de entrada usando **prompt**:
+Você pode rodar o mesmo comando usando a flag **--docker** para executar a fórmula remotamente \(em um container\), mas ainda informando os parâmetros de entrada via **prompt**:
 
 ```text
 rit demo hello-world --docker
@@ -52,8 +51,6 @@ rit demo hello-world --docker
 O **Docker** precisa estar instalado e iniciado para conseguir executar comandos usando essa flag.  
 Nesse caso, não é necessário ter **Golang** instalado.
 {% endhint %}
-
-
 
 ### Caso 3: Usando Stdin
 
@@ -68,8 +65,6 @@ Ritchie usa o formato **JSON** para executar comandos STDIN.
 {% endhint %}
 
 {% page-ref page="../como-usar-a-flag-stdin/" %}
-
-
 
 ### Caso 4: Usando Stdin & Docker
 
@@ -87,7 +82,7 @@ A maioria das fórmulas tem um arquivo [**README**](https://github.com/ZupIT/rit
 
 ## Próximos passos
 
-Nessa seção, você viu como executar uma fórmula no Ritchie. 
+Nessa seção, você viu como executar uma fórmula no Ritchie. Para continuar aprendendo:
 
 👉Confira agora as fórmulas que você tem acesso usando o comando:
 
@@ -95,5 +90,5 @@ Nessa seção, você viu como executar uma fórmula no Ritchie.
 rit --help
 ```
 
-👉E entenda como [**criar suas fórmulas**](../como-criar-formulas.md)**.**
+👉Veja como [**criar suas fórmulas**](../como-criar-formulas.md)**.**
 

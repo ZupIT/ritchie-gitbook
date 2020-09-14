@@ -1,6 +1,6 @@
 ---
 description: >-
-  Você encontrará nessa seção o caminho para instalar o Ritchie de acordo com
+  Nesta seção, você encontrará o caminho para instalar o Ritchie de acordo com
   cada sistema operacional.
 ---
 
@@ -13,6 +13,10 @@ Para começar a **instalação do Ritchie** na sua máquina, siga as instruçõe
 {% page-ref page="windows.md" %}
 
 {% page-ref page="macos.md" %}
+
+{% page-ref page="manual-installation.md" %}
+
+
 
 
 

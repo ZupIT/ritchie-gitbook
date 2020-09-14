@@ -1,5 +1,5 @@
 ---
-description: Você encontrará nessa seção o passo a passo para criar fórmulas no Ritchie.
+description: 'Nesta seção, você encontrará o passo a passo para criar fórmulas no Ritchie.'
 ---
 
 # Como criar fórmulas
@@ -16,13 +16,13 @@ rit create formula
 
 Você deverá informar alguns parâmetros de entrada antes da sua execução:
 
-1. O **comando** \(de preferência, com o **padrão `rit + grupo + verbo + substantivo`** para respeitar a [árvore de comando](https://docs.ritchiecli.io/v/v2.0-pt/key-concepts#arvore-de-comando)\).
+1. O **comando** \(de preferência, com o **padrão `rit + grupo + verbo + substantivo`** para respeitar a [**árvore de comando**](https://docs.ritchiecli.io/v/v2.0-pt/key-concepts#arvore-de-comando)\).
 2. A **linguagem de programação** da fórmula. 
 3. **O caminho** para salvar os arquivos da fórmula. 
 
 **Exemplo:** `rit demo create formula`
 
-![](../.gitbook/assets/rit-create-formula-3.gif)
+![Exemplo de execu&#xE7;&#xE3;o do comando rit create formula](../.gitbook/assets/rit-create-formula-3.gif)
 
 ### **Passo 2: Teste sua fórmula** 
 
@@ -34,9 +34,9 @@ Nesse caso, o template da formula **"Hello World"** será executado como mostrad
 
 Este template é composto por **3 parâmetros de entrada**, que representam os tipos de inputs atualmente disponíveis para serem usados no Ritchie:
 
-1. Uma amostra da variável de texto 
-2. Uma amostra da lista de variáveis 
-3. Uma amostra das variáveis booleanas 
+1. Uma amostra da **`variável de texto`** 
+2. Uma amostra da **`lista de variáveis`** 
+3. Uma amostra das **`variáveis booleanas`** 
 
 ## Próximos passos
 

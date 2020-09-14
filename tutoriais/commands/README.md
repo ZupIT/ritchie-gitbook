@@ -1,7 +1,7 @@
 ---
 description: >-
-  Você encontrará nessa seção como executar detalhes de como executar fórmulas
-  no Ritchie.
+  Nesta seção, você verá como executar detalhes de como executar fórmulas no
+  Ritchie.
 ---
 
 # Como executar fórmulas
