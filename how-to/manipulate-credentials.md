@@ -70,9 +70,7 @@ This provider, as well as its informations, will be permanently saved on Ritchie
 
 ## How to use credentials as formula inputs?
 
-{% hint style="info" %}
 Once a provider's credential has been set, it can be used as input in the formula's **`config.json`**file. To do so, it is necessary to use the reserved keyword:**`CREDENTIAL`**
-{% endhint %}
 
 When used as an input, the credential will contain 2 fields:
 
