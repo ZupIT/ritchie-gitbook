@@ -1,7 +1,7 @@
 ---
 description: >-
-  Nesta seção, você encontrará detalhes sobre comandos que podem ser usados via
-  stdin.
+  Nesta seção, você encontrará mais detalhes sobre comandos que podem ser usados
+  via stdin.
 ---
 
 # Comandos Core
@@ -65,7 +65,7 @@ echo '{"formulaCmd":"rit demo create formula", "lang"":"shell", "workspacePath":
 rit build formula 
 
 {% hint style="danger" %}
-Not supported yet
+Sem suporte ainda
 {% endhint %}
 
 ### Comandos de Contexto 
