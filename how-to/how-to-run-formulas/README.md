@@ -34,6 +34,13 @@ All formulas can run regardless the programming language used from the moment yo
 Check out on the following example [**how to run a "Hello World" formula** ](commands.md)\*\*\*\*
 {% endhint %}
 
+### 3. Local & Docker Flags
+
+You can force Ritchie CLI to execute a formula with a specific method using flags.
+
+* The **`--local`** flag will execute a formula with locally \(if the default method is Docker\). 
+* The **`--docker`** flag will execute a formula with Docker \(if the default method is local\).
+
 ## Next steps 
 
 On this section, you saw how to run a formula on Ritchie. To keep learning:
