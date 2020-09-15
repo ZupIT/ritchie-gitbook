@@ -24,7 +24,7 @@ Você pode usar uma a fórmula que foi criada no repositório da comunidade para
 * A adição de um repositório nos repositórios locais do Ritchie \(usando o comando`rit add repo`\). 
 
 {% hint style="info" %}
-Além disso, se o repositório já existir, a fórmula irá fazer o commit de um novo código e gerar uma nova release informada antes de atualizar os repositórios do Ritchie \(usando o comando `rit update repo`\)
+Além disso, se o repositório já existir, a fórmula irá fazer o commit de um novo código e gerar uma nova release informada antes de atualizar os repositórios do Ritchie \(usando o comando **`rit update repo`**\)
 {% endhint %}
 
 ```text
