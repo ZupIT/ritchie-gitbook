@@ -16,7 +16,7 @@ To add a new repository on Ritchie, it is necessary to run the command:
 rit add repo
 ```
 
-Once the repository has been added, Ritchie will automatically use the latest release on your repository to access the available formulas.
+Once the repository has been added, Ritchie will use the selected release on the repository to access the available formulas.
 
 ![rit add repo command demonstration](../.gitbook/assets/rit-add-repo-3.gif)
 
