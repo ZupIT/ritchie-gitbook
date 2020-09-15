@@ -43,6 +43,12 @@ Vamos no exemplo a seguir da [**seção fórmula hello world** ](formula-hello-w
 * A flag **`--local`** executará a fórmula localmente \(se o método de execução padrão é o Docker\). 
 * A flag **`--docker`** executará a fórmula com Docker \(se o método de execução padrão é o local\).
 
+### 4. Container com Ritchie
+
+{% hint style="warning" %}
+Todos os templates de formulas contém um arquivo **DockerFile** que cria um container com **Ritchie CLI** instalado.
+{% endhint %}
+
 ## Próximos passos 
 
 Nesta seção, você viu como rodar uma fórmula no Ritchie. Para continuar aprendendo mais:
