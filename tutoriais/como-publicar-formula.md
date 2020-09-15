@@ -21,7 +21,7 @@ Você pode usar uma a fórmula que foi criada no repositório da comunidade para
 * A inicialização ****em um repositório local do Git \(se necessário\). 
 * A criação do repositório no Github e/ou Gitlab,
 * A release de uma nova versão do repositório. 
-* A adição de um repositório nos repositórios locais do Ritchie \(usando o comando`rit add repo`\). 
+* A adição de um repositório nos repositórios locais do Ritchie \(usando o comando**`rit add repo`**\). 
 
 {% hint style="info" %}
 Além disso, se o repositório já existir, a fórmula irá fazer o commit de um novo código e gerar uma nova release informada antes de atualizar os repositórios do Ritchie \(usando o comando **`rit update repo`**\)
