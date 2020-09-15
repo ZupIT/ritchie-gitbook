@@ -37,7 +37,9 @@ Each input is composed of the following fields:
   * `operator`: A logical operator to compare. Supports **`==`**, **`!=`**, **`<`**, **`>`**, **`<=`**, and **`>=`.**
   * `value`: The desired value to compare to.
 
-
+{% hint style="warning" %}
+Once an input is informed on Ritchie CLI, it is saved as a **local variable** during the formula execution.
+{% endhint %}
 
 #### 2. **`main file`**
 

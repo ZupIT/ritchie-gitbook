@@ -31,7 +31,8 @@ After you chose one of the available providers, Ritchie will ask you to fill the
 
 ```text
 ? Select your provider github
-? username: user
+? username: DennisRitchie
+? email: dennis.ritchie@zup.com.br
 ? token: ********
 ✔ Github credential saved!
 ```
@@ -60,7 +61,7 @@ The informations that will be requested are:
 
 * **Provider name:** name of the new provider. You name it according to your preference.
 * **Field name:** name of a credential from this provider. 
-* **Field type:** value type of this credential. It can be: plain text or secret. 
+* **Field type:** value type of this credential. It can be: **plain text** or **secret**. 
 
 Once you finished this configuration, you set up this credentials following the same instructions you saw above. 
 
@@ -90,6 +91,10 @@ For example, to be able to use **`GITHUB`** credentials as input, you need to in
         "type": "CREDENTIAL_GITHUB_USERNAME" 
     },
     { 
+        "name": "git_email", 
+        "type": "CREDENTIAL_GITHUB_EMAIL" 
+    },
+    { 
         "name": "git_token", 
         "type": "CREDENTIAL_GITHUB_TOKEN"
     } 
@@ -106,7 +111,7 @@ With **`GITHUB`**, it will return something like this:
 
 ```text
 PROVIDER	 CONTEXT	  CREDENTIAL
-github  	 default	  {"token":"***************","username":"***************"}
+github  	 default	  {"token":"***************", "email":"***************", "username":"***************"}
 ```
 
 ## Next steps 

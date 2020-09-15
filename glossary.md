@@ -14,13 +14,11 @@ It refers to a command line interface, which is a program that processes command
 
 ## Credential
 
-It refers to necessary configurations so you can use Ritchie. 
+It refers to reusable input parameters that you can use in Ritchie \(example: access data for any tool or api\).
 
 ## Formula
 
-On Ritchie's context, it's the name used for the CLI's commands. It means they are codes called through the command lines to perform some operation. 
-
-It refers to all commands created to simplify an operation. 
+On Ritchie's context, a formula is a script that can be executed through a command line once it has been adapted to Ritchie structure. It allows the user to execute it locally or through Docker and with its necessary dependencies.
 
 ## JSON
 
@@ -41,7 +39,7 @@ A storage place you can organize features, commands or any files and/or files ne
 
 It refers to a communication channel that allows input and output interconnection between a computer program and its environment.
 
-On Ritchie, we use the standard input \(stdin\) to execute commands. 
+On Ritchie, we use the standard input \(stdin\) to execute commands automatically.
 
 
 
