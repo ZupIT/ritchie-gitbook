@@ -57,9 +57,9 @@ Para publicar uma fórmula manualmente, você precisa submetê-la no repositóri
 3. Faça o commit e submeta o novo código ao repositório do Github e/ou Gitlab. 
 4. Gere uma nova release do repositório de fórmulas. 
 
-## Next steps 
+## Próximos passos
 
-On this section, you saw how to publish a formula on Ritchie. To keep configuring the formula: 
+Nessa seção, você viu como publicar fórmulas no Ritchie. Para continuar configurando sua fórmula: 
 
 👉 Check out [**como compartilhar fórmulas**](como-compartilhar-formulas.md).
 
