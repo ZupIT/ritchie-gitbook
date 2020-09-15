@@ -40,11 +40,11 @@ Para entender a estrutura do produto em si, é importante destacar que **os coma
 
 No caso do Ritchie, foi seguido o padrão do **Cobra** \(uma biblioteca da linguagem Golang\) usando a seguinte lógica de construção de comandos **core**:
 
-                                                 **RIT + VERBO + SUBSTANTIVO**
+**`RIT + VERBO + SUBSTANTIVO`**
 
 E, para permitir mais opções e liberdade aos usuários, também é possível seguir o padrão abaixo na construção de comandos das fórmulas :
 
-                                        **RIT + GRUPO + VERBO + SUBSTANTIVO**
+**`RIT + GRUPO + VERBO + SUBSTANTIVO`**
 
 Usamos o prefixo **`rit`** para iniciar nossa árvore de comandos.
 
