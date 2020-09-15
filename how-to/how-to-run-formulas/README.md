@@ -44,7 +44,7 @@ You can force Ritchie CLI to execute a formula with a specific method using flag
 ### 4. Container with Ritchie
 
 {% hint style="warning" %}
-All formulas contain a **DockerFile** which creates a container with **Ritchie CLI** installed.
+All formulas templates contain a **DockerFile** which creates a container with **Ritchie CLI** installed.
 {% endhint %}
 
 ## Next steps 
