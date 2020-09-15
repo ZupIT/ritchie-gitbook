@@ -46,5 +46,3 @@ Nessa seção, você viu como criar e testar uma fórmula no Ritchie. Para conti
 
 👉 Vá para [**como fazer o build da fórmula**](build-a-formula.md) para ver como continuar os testes nas fórmulas que você criou. 
 
-\*\*\*\*
-
