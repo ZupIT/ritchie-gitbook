@@ -40,11 +40,11 @@ Commands used in Ritchie are grouped according to a **tree**.
 
 In the case of Ritchie, the **Cobra** \(a Golang library\) pattern was followed using the following logic of building core commands:
 
-                                                 **RIT + VERB + NOUN**
+**`RIT + VERB + NOUN`**
 
 To allow more options and freedom for users, it is also allowed to follow the pattern below in the construction of formula commands:
 
-                                        **RIT + GROUP + VERB + NOUN**
+**`RIT + GROUP + VERB + NOUN`**
 
 The app name is Ritchie, so we use the name **`rit`** to start our command tree.
 
