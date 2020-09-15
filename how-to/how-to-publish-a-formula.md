@@ -21,7 +21,7 @@ A formula has been created on the community repository to perform:
 * The initialization of a local repository on Git \(if necessary\),
 * The creation of the repository on Github / Gitlab,
 * The release of a new version of the repository,
-* The addition of the repository to Ritchie local repositories \(`rit add repo`command\). 
+* The addition of the repository to Ritchie local repositories \(**`rit add repo`**command\). 
 
 {% hint style="info" %}
 Moreover, if the repository already exists, it will commit the new code and generate the new release version informed, before updating Ritchie repositories \(**`rit update repo`**command\).
