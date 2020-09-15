@@ -24,7 +24,7 @@ A formula has been created on the community repository to perform:
 * The addition of the repository to Ritchie local repositories \(`rit add repo`command\). 
 
 {% hint style="info" %}
-Moreover, if the repository already exists, it will commit the new code and generate the new release version informed, before updating Ritchie repositories \(`rit update repo`command\).
+Moreover, if the repository already exists, it will commit the new code and generate the new release version informed, before updating Ritchie repositories \(**`rit update repo`**command\).
 {% endhint %}
 
 ```text
