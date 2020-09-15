@@ -43,7 +43,7 @@ You can force Ritchie CLI to execute a formula with a specific method using flag
 * The **`--local`** flag will execute a formula with locally \(if the default method is Docker\). 
 * The **`--docker`** flag will execute a formula with Docker \(if the default method is local\). 
 
-### 4. Container with Ritchie
+### 4. Containers with Ritchie
 
 {% hint style="warning" %}
 All formulas templates contain a **DockerFile** which creates a container with **Ritchie CLI** installed.
