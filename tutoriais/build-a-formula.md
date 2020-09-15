@@ -16,8 +16,7 @@ Para isso, basta executar o comando:  ****
 rit build formula
 ```
 
-  
-****Você deverá informar: 
+Você deverá informar: 
 
 * O **caminho  do diretório** onde a fórmula está localizada.
 * O **caminho da fórmula** a ser buildada \(ele segue o comando da fórmula\). 
