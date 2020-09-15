@@ -44,5 +44,3 @@ Esse comando retorna todos os repositórios de fórmulas que o usuário tem aces
 Todas as operações realizadas usando o Ritchie são salvas nessa pasta  **.rit**  \(credenciais, repos, métricas...\)
 {% endhint %}
 
-
-
