@@ -27,7 +27,9 @@ Para isso, escreva um dos comandos abaixo:
 
 ### Caso 1: Usando Prompt
 
+{% hint style="warning" %}
 Como **essa fórmula  foi desenvolvida usando Golang**, é preciso ter **Golang** instalado para conseguir  executá-la **localmente**.
+{% endhint %}
 
 ```text
 rit demo hello-world
