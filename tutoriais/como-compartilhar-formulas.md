@@ -23,7 +23,7 @@ Uma vez que o repositório for adicionado, o Ritchie irá  usar a versão da rel
 ![rit add repo command demonstration](../.gitbook/assets/rit-add-repo-3.gif)
 
 {% hint style="warning" %}
-Note que se o repositório de fórmulas for p**rivado**, será necessário informar o token do seu Github/Gitlab. 
+Note que se o repositório de fórmulas for **privado**, será necessário informar o token do seu Github/Gitlab. 
 {% endhint %}
 
 Para **checar** **os novos comandos de fórmulas adicionados**, você pode executar o comando **`rit list repo`** para checar seu novo repositório e, então, executar o comando **`rit --help`** para olhar o novo grupo de fórmulas que irá aparecer.
