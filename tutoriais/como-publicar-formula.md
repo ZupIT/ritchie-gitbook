@@ -20,7 +20,7 @@ Você pode usar uma a fórmula que foi criada no repositório da comunidade para
 
 * A inicialização ****em um repositório local do Git \(se necessário\). 
 * A criação do repositório no Github e/ou Gitlab,
-* A release de uma nova versão do repositório. 
+* A geração da release de uma nova versão do repositório. 
 * A adição de um repositório nos repositórios locais do Ritchie \(usando o comando**`rit add repo`**\). 
 
 {% hint style="info" %}
