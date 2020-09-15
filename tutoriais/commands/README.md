@@ -36,6 +36,13 @@ Todas as fórmulas podem ser executadas sem depender da linguagem usada a condi�
 Vamos no exemplo a seguir da [**seção fórmula hello world** ](formula-hello-world.md)para ver como isso funciona na prática.
 {% endhint %}
 
+### 3. Local & Docker Flags
+
+É possível forçar o Ritchie CLI a executar uma fórmula seguindo um método de execução específico, usando flags.
+
+* A flag **`--local`** executará a fórmula localmente \(se o método de execução padrão é o Docker\). 
+* A flag **`--docker`** executará a fórmula com Docker \(se o método de execução padrão é o local\).
+
 ## Próximos passos 
 
 Nesta seção, você viu como rodar uma fórmula no Ritchie. Para continuar aprendendo mais:
