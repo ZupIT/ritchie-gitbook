@@ -10,7 +10,7 @@ description: >-
 
 Depois que o repositório de fórmulas for publicado, outros usuários podem adicionar suas fórmulas localmente a partir da URL de acesso a elas. 
 
-**Exemplo**: [`https://github.com/ZupIT/ritchie-formulas`](https://github.com/ZupIT/ritchie-formulas)
+**Exemplo**: [**`https://github.com/ZupIT/ritchie-formulas`**](https://github.com/ZupIT/ritchie-formulas)\*\*\*\*
 
 Para adicionar um novo repositório no Ritchie, é necessário rodar o comando abaixo: 
 
