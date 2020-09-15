@@ -14,7 +14,7 @@ Quando você indica a URL acima no navegador, o sistema retorna a última versã
 
 Faça o download da versão binária do Ritchie ao entrar na URL que você já digitou no seu navegador e informe a **versão {VERSION}** que você obteve no passo anterior.
 
-### **Instalação para MACOs** <a id="installation-for-mac"></a>
+### **Instalação para MacOs** <a id="installation-for-mac"></a>
 
 ```text
 https://commons-repo.ritchiecli.io/{VERSION}/darwin/rit
