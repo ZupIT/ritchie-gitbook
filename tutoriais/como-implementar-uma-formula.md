@@ -43,7 +43,7 @@ Outras informações disponíveis nesse arquivo são:
 * Esse arquivo é usado para extrair os parâmetros de entrada informados no arquivo _**config.json**_. _Os parâmetros de entrada são extraídos a partir do campo **name** definido no arquivo **config.json**._ 
 * É nesse arquivo também que são chamados um ou mais métodos para realizar a tarefa / automação da fórmula, manipulando os parâmetros de entrada.  
 
-#### 3. `formula/ folder`
+#### 3. `formula/* folder`
 
 Pasta em que os arquivos podem mudar o comportamento das fórmulas.  Métodos chamados pelo main.file estão localizados dentro desta pasta.
 
