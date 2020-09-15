@@ -33,7 +33,8 @@ Depois que escolher um dos provedores disponíveis, o Ritchie irá solicitar que
 
 ```text
 ? Select your provider github
-? username: user
+? username: DennisRitchie
+? email: dennis.ritchie@zup.com.br
 ? token: ********
 ✔ Github credential saved!
 ```
