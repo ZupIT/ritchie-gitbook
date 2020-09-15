@@ -4,7 +4,7 @@ description: >-
   aprender a usar o Ritchie na prática.
 ---
 
-# O que são os desafios?
+# O que são esses desafios?
 
 ### Contexto
 

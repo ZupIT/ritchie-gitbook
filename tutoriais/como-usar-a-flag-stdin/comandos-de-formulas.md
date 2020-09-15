@@ -14,7 +14,7 @@ Com fórmulas, o id do **JSON** com a flag  STDIN tem como base os **nomes dos p
 
    \*\*\*\*
 
-2. Nomes de inputs que são perguntadas pelo arquivo config.json:
+2. Nomes dos parâmetros de entrada que são perguntados pelo arquivo config.json:
 
    * **`name`**
    * **`surname`**

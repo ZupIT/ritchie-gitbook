@@ -30,7 +30,7 @@
 
 ## DESAFIOS
 
-* [O que são os desafios?](desafios/desafios.md)
+* [O que são esses desafios?](desafios/desafios.md)
 * [Nível 1: Inputs básicos](desafios/nivel-1-formulas-simples.md)
 * [Nível 2: Credenciais](desafios/nivel-2.md)
 * [Nível 3: API](desafios/nivel-3.md)

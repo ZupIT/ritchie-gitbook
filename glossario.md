@@ -8,7 +8,7 @@ description: >-
 
 ## Contexto
 
-No Ritchie, o contexto é o ambiente no qual você está trabalhando. Cada contexto terá suas próprias credenciais, o que significa que ele precisará executar ****[**fórmulas**]() ****específicas.
+No Ritchie, o contexto é o ambiente no qual você está trabalhando. Cada contexto terá suas próprias credenciais, o que significa que ele precisará executar ****fórmulas ****específicas.
 
 ## CLI
 
@@ -16,13 +16,11 @@ Refere-se à interface de linha de comando, que é o programa responsável por p
 
 ## Credencial
 
-São as configurações necessárias para que você utilize o Ritchie. 
+São parâmetros de entrada re-utilizáveis que você pode utilizar no Ritchie \(exemplo: dados de acessos para alguma ferramenta ou api\).
 
 ## Fórmula
 
-No contexto do Ritchie, é o nome usado para os comandos executados no CLI. Isso significa que eles são códigos chamados pelas linhas de comando para rodar uma operação.
-
-Nome dado aos comandos que são criados para simplificar uma operação.
+No contexto de Ritchie, uma fórmula é um script que pode ser executado por meio de uma linha de comando, uma vez adaptada à estrutura de Ritchie. Ele permite ao usuário executá-lo localmente ou por meio do Docker, com as dependências necessárias.
 
 ## JSON
 
@@ -43,5 +41,5 @@ Um local de armazenamento em que você pode organizar features, comandos ou quai
 
 Refere-se ao canal de comunicação que permite a interconexão de input e output entre um programa computacional e o seu ambiente.
 
-No Ritchie, usamos o standard input \(stdin\) para executar comandos. 
+No Ritchie, usamos o standard input \(stdin\) para executar comandos automaticamente. 
 

@@ -33,10 +33,13 @@ Outras informações disponíveis nesse arquivo são:
   * `qty`: quantidade de valor armazenadas no cache.
   * `newLabel`: texto que aparecerá no CLI para pedir um novo input ao usuário. 
 * `condition` \(_opcional_\): Apenas mostra esse parâmetro se a condicional funcionar.
-
   * `variable`: O nome da variável usada em um parâmetro anterior para comparação.
   * `operator`: O operador lógico usado para comparar. Supporta ==, !=, &lt;, &gt;, &lt;=, and &gt;=
   * `value`: O valor que se deseja usar para comparação.
+
+{% hint style="warning" %}
+Quando um parâmetro de entrada é informado no Ritchie CLI, ele é salvo como **variável de ambiente** durante a execução da fórmula.
+{% endhint %}
 
 #### 2. **`main file`**
 

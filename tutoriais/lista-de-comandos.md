@@ -61,7 +61,7 @@ As informações que o Ritchie irá solicitar são:
 
 * **Provider name:** Nome do novo provedor. Você pode nomear de acordo com sua preferência**.**
 * **Field name:** Nome da credencial que está nesse provedor.
-* **Field type:** Tipo de valor dessa credencial. Ele pode ser: plain text or secret. 
+* **Field type:** Tipo de valor dessa credencial. Ele pode ser: **plain text** or **secret**. 
 
 Ao terminar essa configuração, você poderá configurar as credenciais seguindo as instruções passadas acima. 
 
@@ -75,7 +75,7 @@ Assim que você configurar as credenciais do provedor, poderá usá-la como par�
 
 Para fazer isso, basta usar a palavra-chave reservada:**`CREDENTIAL`**
 
-Quando usada como parâmetro de entrada, a credencial terá **2 campos**:
+Quando usada como parâmetro de entrada, a credencial terá 2 campos:
 
 1. **Name:** Variável usada para extrair o parâmetro e manipulá-lo dentro do código da fórmula.
 2. **Type:** Nomenclatura específica para o CLI saber qual credencial usar. 
@@ -91,6 +91,10 @@ Por exemplo, para usar as credenciais do **`GITHUB`** como parâmetros, você pr
     { 
         "name": "git_user", 
         "type": "CREDENTIAL_GITHUB_USERNAME" 
+    },
+    { 
+        "name": "git_email", 
+        "type": "CREDENTIAL_GITHUB_EMAIL" 
     },
     { 
         "name": "git_token", 
@@ -109,7 +113,7 @@ Com **`GITHUB`**, o terminal irá retornar uma resposta como essa:
 
 ```text
 PROVIDER	 CONTEXT	  CREDENTIAL
-github  	 default	  {"token":"***************","username":"***************"}
+github  	 default	  {"token":"***************", "email":"***************", "username":"***************"}
 ```
 
 ## Próximos passos 
