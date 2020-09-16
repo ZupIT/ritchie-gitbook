@@ -37,5 +37,5 @@ The formula needs to follow the next steps:
 
 ## Next steps 
 
-👉 If you've completed the first challenge, let's go to the [**level 2 task**](level-2.md)**!**
+👉 If you've completed the first challenge, let's go to the [**level 4 task**](level-3.md)**!**
 
