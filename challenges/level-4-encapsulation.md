@@ -23,7 +23,7 @@ Command suggestion: **`rit encapsulate coffee`**
 
 ## Inputs
 
-In this challenge, it's up to the user to define which inputs he needs. There are a few options:
+In this challenge, it's up to the user to define which inputs he needs. There are many options:
 
 * Hello Word template inputs + Coffee formula inputs.
 * Only the Hello World inputs.
