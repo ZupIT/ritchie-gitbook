@@ -33,10 +33,6 @@ A fórmula deverá respeitar os seguintes passos:
 2. Criação do JSON com as credenciais do Github. 
 3. Retorno do resultado no terminal.
 
-{% hint style="success" %}
-Parabéns! Você completou a tarefa de nível 2!
-{% endhint %}
-
 ## Sugestões de melhorias
 
 Se você quiser testar mais a sua fórmula, é possível configurá-la para que ela:
