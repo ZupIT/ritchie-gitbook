@@ -14,10 +14,11 @@ The objective of this section is to help users to understand step by step severa
 
 To perform the tasks in this section, it will be necessary to follow different parts of the tutorial section:
 
-1. \*\*\*\*[**How to run formulas**](../how-to/how-to-run-formulas/)\*\*\*\*
-2. \*\*\*\*[**How to create formulas**](../how-to/how-to-create-formulas.md)\*\*\*\*
-3. \*\*\*\*[**How to implement formulas**](../how-to/implement-a-formula.md)\*\*\*\*
-4. \*\*\*\*[**How to build formulas**](../how-to/build-a-formula.md)\*\*\*\*
+1. \*\*\*\*[**How to run formulas**](../how-to/how-to-run-formulas/)**.**
+2. \*\*\*\*[**How to create formulas**](../how-to/how-to-create-formulas.md)**.**
+3. \*\*\*\*[**How to implement formulas**](../how-to/implement-a-formula.md)**.**
+4. \*\*\*\*[**How to build formulas**](../how-to/build-a-formula.md)**.**
+5. \*\*\*\*[**How to encapsulate formulas**](../how-to/how-to-1.md)**.**
 
 ### Challenges 
 
