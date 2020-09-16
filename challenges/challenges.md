@@ -31,15 +31,15 @@ The **`second challenge`** is to understand how to manipulate credentials inputs
 
 The **`third challenge`** is to understand how to manipulate conditional inputs.
 
-{% page-ref page="level-3-conditional-inputs.md" %}
+{% page-ref page="level-3-1.md" %}
 
 The **`fourth challenge`** is to give an example of how to call API services inside a formula.
 
-{% page-ref page="level-3.md" %}
+{% page-ref page="level-4.md" %}
 
 The **`fifth challenge`** is to apply the formula encapsulation concept.
 
-{% page-ref page="level-4-encapsulation.md" %}
+{% page-ref page="level-5.md" %}
 
 
 
