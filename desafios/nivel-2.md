@@ -16,8 +16,8 @@ Sugestão de comando: **`rit github get credentials`**
 
 Essa fórmula deverá conter \(pelo menos\) os two parâmetros de entrada abaixo:
 
-* Username \(`GIT_USER`\).
-* Token \( `GIT_TOKEN`\).
+* [ ] Username \(`GIT_USER`\). 
+* [ ] Token \( `GIT_TOKEN`\).
 
 {% hint style="warning" %}
 **Nota**: O desafio consiste em configurar esses parâmetros de entrada dentro do arquivo config.json, mas executar a fórmula sem informá-los usando **prompt** ou **stdin** \(serão extraídos automaticamente\).
@@ -48,5 +48,5 @@ Se você quiser testar mais a sua fórmula, é possível configurá-la para que 
 
 ## Próximos passos 
 
-👉 Se você completou o segundo desafio, vamos para o [**terceiro nível**](nivel-3.md)!
+👉 Se você completou o segundo desafio, vamos para o [**terceiro nível**](nivel-4.md)!
 

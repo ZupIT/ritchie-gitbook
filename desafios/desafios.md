@@ -29,13 +29,17 @@ O **`segundo desafio`** é para você entender como manipular inputs de credenci
 
 {% page-ref page="nivel-2.md" %}
 
-O **`terceiro desafio`** é para você testar um exemplo de como chamar serviços de API dentro de uma fórmula.
+O **`terceiro desafio`** é para você entender como manipular inputs condicionais.
 
-{% page-ref page="nivel-3.md" %}
+{% page-ref page="nivel-3-inputs-condicionais.md" %}
 
-O **`quarto desafio`** é para você aplicar o conceito de encapsulamento de fórmulas.
+O **`quarto desafio`** é para você testar um exemplo de como chamar serviços de API dentro de uma fórmula.
 
-{% page-ref page="nivel-4-encapsulamento.md" %}
+{% page-ref page="nivel-4.md" %}
+
+O **`quinto desafio`** é para você aplicar o conceito de encapsulamento de fórmulas.
+
+{% page-ref page="nivel-5-encapsulamento.md" %}
 
 
 
