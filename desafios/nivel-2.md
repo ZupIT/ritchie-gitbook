@@ -8,6 +8,12 @@ description: 'Nesta seção, você encontrará o passo a passo para usar credenc
 
 Neste tutorial, a ideia é criar uma fórmula que vai **retornar um JSON contendo as credenciais do Github.**
 
+{% hint style="warning" %}
+**Nota**: O desafio consiste em configurar esses parâmetros de entrada dentro do arquivo config.json, mas executar a fórmula sem informá-los usando **prompt** ou **stdin** \(serão extraídos automaticamente\).
+
+Você encontrará todas as informações necessárias na seção do tutorial sobre ****[**como manipular credenciais**](https://docs.ritchiecli.io/v/v2.0-pt/tutoriais/lista-de-comandos).
+{% endhint %}
+
 {% hint style="info" %}
 Sugestão de comando: **`rit github get credentials`**
 {% endhint %}
@@ -18,12 +24,6 @@ Essa fórmula deverá conter \(pelo menos\) os two parâmetros de entrada abaixo
 
 * [ ] Username \(`GIT_USER`\). 
 * [ ] Token \( `GIT_TOKEN`\).
-
-{% hint style="warning" %}
-**Nota**: O desafio consiste em configurar esses parâmetros de entrada dentro do arquivo config.json, mas executar a fórmula sem informá-los usando **prompt** ou **stdin** \(serão extraídos automaticamente\).
-
-Você encontrará todas as informações de que precisa na seção do tutorial sobre [como manipular credenciais](https://docs.ritchiecli.io/v/v2.0-pt/tutoriais/lista-de-comandos).
-{% endhint %}
 
 ## Passo a passo
 
