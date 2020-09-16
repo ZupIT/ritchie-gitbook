@@ -11,7 +11,7 @@ description: >-
 Neste tutorial, a ideia é criar uma fórmula que vai **encapsular outra fórmula dentro dela**.
 
 {% hint style="warning" %}
-Você encontrará todas as informações de que precisa na seção do tutorial sobre[ **como encapsular fórmulas**](../tutoriais/como-encapsular-formulas.md).
+Você encontrará todas as informações necessárias na seção do tutorial sobre[ **como encapsular fórmulas**](../tutoriais/como-encapsular-formulas.md).
 {% endhint %}
 
 Para isso, você deverá encapsular a fórmula **`rit demo coffee-go`** dentro do template de fórmula "Hello World".
