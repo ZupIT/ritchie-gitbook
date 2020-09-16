@@ -14,10 +14,11 @@ O objetivo desta seção é ajuda você a entender melhor o passo a passo de div
 
 Para realizar os desafios que estão propostos nas próximas páginas, você precisa ter concluído algumas configurações da seção de tutoriais. São elas: 
 
-1. \*\*\*\*[**Como executar fórmulas**](../tutoriais/commands/)\*\*\*\*
-2. \*\*\*\*[**Como criar fórmulas** ](../tutoriais/como-criar-formulas.md)\*\*\*\*
-3. \*\*\*\*[**Como implementar fórmulas** ](../tutoriais/como-implementar-uma-formula.md)\*\*\*\*
-4. \*\*\*\*[**Como "buildar" fórmulas** ](../tutoriais/build-a-formula.md)\*\*\*\*
+1. \*\*\*\*[**Como executar fórmulas**](../tutoriais/commands/)**.**
+2. \*\*\*\*[**Como criar fórmulas**](../tutoriais/como-criar-formulas.md)**.**
+3. \*\*\*\*[**Como implementar fórmulas**](../tutoriais/como-implementar-uma-formula.md)**.**
+4. \*\*\*\*[**Como "buildar" fórmulas**](../tutoriais/build-a-formula.md)**.**
+5. \*\*\*\*[**Como encapsular formulas**](../tutoriais/como-encapsular-formulas.md)**.**
 
 ### Desafios
 

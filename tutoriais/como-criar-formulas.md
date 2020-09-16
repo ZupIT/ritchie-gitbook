@@ -4,7 +4,7 @@ description: 'Nesta seção, você encontrará o passo a passo para criar fórmu
 
 # Como criar fórmulas
 
-## Como criar?
+Como criar?
 
 ### Passo 1: Execute o comando de criação de formula
 
