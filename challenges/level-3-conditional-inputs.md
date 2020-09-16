@@ -2,13 +2,13 @@
 
 ## Objective
 
-Create a formula on Ritchie that will return the tool selected by the user according to its profile.
+Create a formula on Ritchie that will **return the tool selected by the user according to its profile**.
 
 {% hint style="info" %}
 Command suggestion: **`rit get tools`**
 {% endhint %}
 
-To do so, you'll have to use the [**conditional field** on the **config.json** file](https://docs.ritchiecli.io/how-to/implement-a-formula#1-config-json).
+To do so, you'll have to use the **conditional field** as explained on the [**config.json file section**](https://docs.ritchiecli.io/how-to/implement-a-formula#1-config-json).
 
 ## Inputs
 
@@ -37,5 +37,5 @@ The formula needs to follow the next steps:
 
 ## Next steps 
 
-👉 If you've completed the first challenge, let's go to the [**level 4 task**](level-3.md)**!**
+👉 If you've completed the third challenge, let's go to the [**level 4 task**](level-3.md)!
 
