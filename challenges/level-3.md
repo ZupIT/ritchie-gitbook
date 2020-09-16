@@ -39,5 +39,9 @@ The formula needs to follow the next steps:
 
  If you want to play a little more, here are some suggestions:
 
-* [ ] Code a formula which will allow the user to get the ZipCode by entering address datas.
+* [ ] Code a formula which will allow the user to get the ZipCode by entering address datas.\
+
+## Next steps 
+
+👉 If you've completed the first challenge, let's go to the [**level 5 task**](level-4-encapsulation.md)!
 
