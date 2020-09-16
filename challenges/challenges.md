@@ -33,6 +33,9 @@ The **`third challenge`** is to give an example of how to call API services insi
 
 {% page-ref page="level-3.md" %}
 
+The **`fourth challenge`** is to apply the formula encapsulation concept.[  
+](https://app.gitbook.com/@zup-products/s/ritchie/~/diff/drafts/-MHIAf91S1RlTOvJs_KU/challenges/level-4-encapsulation/@drafts)
+
 {% hint style="warning" %}
 We will add more challenging tasks in the future.   
 Check it out from time to time!
