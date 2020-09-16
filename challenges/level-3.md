@@ -43,5 +43,5 @@ The formula needs to follow the next steps:
 
 ## Next steps 
 
-👉 If you've completed the first challenge, let's go to the [**level 5 task**](level-4-encapsulation.md)!
+👉 If you've completed the fourth challenge, let's go to the [**level 5 task**](level-4-encapsulation.md)!
 
