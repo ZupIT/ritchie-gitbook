@@ -2,7 +2,7 @@
 description: 'Nesta seção, você entenderá o que é e como encapsular fórmulas em Ritchie.'
 ---
 
-# Como encapsular fórmulas?
+# Como encapsular fórmulas
 
 ## O que é encapsulamento?
 

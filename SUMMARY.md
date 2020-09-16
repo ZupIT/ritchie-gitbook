@@ -27,7 +27,7 @@
 * [Como usar a flag STDIN](tutoriais/como-usar-a-flag-stdin/README.md)
   * [Comandos de fórmulas](tutoriais/como-usar-a-flag-stdin/comandos-de-formulas.md)
   * [Comandos Core](tutoriais/como-usar-a-flag-stdin/comandos-core.md)
-* [Como encapsular fórmulas?](tutoriais/como-encapsular-formulas.md)
+* [Como encapsular fórmulas](tutoriais/como-encapsular-formulas.md)
 
 ## DESAFIOS
 
