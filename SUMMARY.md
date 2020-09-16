@@ -32,11 +32,11 @@
 ## DESAFIOS
 
 * [O que são esses desafios?](desafios/desafios.md)
-* [Nível 1: Inputs básicos](desafios/nivel-1-formulas-simples.md)
+* [Nível 1: Inputs básicos](desafios/nivel-1.md)
 * [Nível 2: Credenciais](desafios/nivel-2.md)
-* [Nível 3: Inputs condicionais](desafios/nivel-3-inputs-condicionais.md)
+* [Nível 3: Inputs condicionais](desafios/nivel-3.md)
 * [Nível 4: API](desafios/nivel-4.md)
-* [Nível 5: Encapsulamento](desafios/nivel-5-encapsulamento.md)
+* [Nível 5: Encapsulamento](desafios/nivel-5.md)
 
 ## Referência <a id="developer"></a>
 

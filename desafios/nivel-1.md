@@ -1,45 +1,49 @@
 ---
 description: >-
-  Você encontrará nesta seção desafios para começar a implementar fórmulas
-  simples no Ritchie com uma complexidade gradual.
+  Nesta seção, você encontrará o passo a passo para manipular inputs básicos no
+  Ritchie.
 ---
 
-# Nível 1
+# Nível 1: Inputs básicos
 
-## 1. Objetivo
+## Objetivo
 
-Criar uma fórmula que vai **somar 2 números positivos**.
+Neste tutorial, a ideia é ensinar você a criar uma fórmula simples que, neste caso, irá **somar 2 números positivos**.
 
 {% hint style="info" %}
-Sugestão de comando: **`rit math sum numbers`**
+Sugestão de comando para tarefa: **`rit math sum numbers`**
 {% endhint %}
 
-## 2. Parâmetros de entrada
+## Parâmetros de entrada
 
-Essa fórmula deverá conter \(pelo menos\) os dois parâmetros de entrada abaixo:
+Essa fórmula deverá conter \(pelo menos\) os dois parâmetros de entrada. Veja como abaixo:
 
-1. [ ] Number one \(`NUMBER_ONE`\). 
-2. [ ] Number two \(`NUMBER_TWO`\).
+* [ ] Number one \(`NUMBER_ONE`\). 
+* [ ] Number two \(`NUMBER_TWO`\).
 
-## 3. Passo a passo
+## Passo a passo
 
 A fórmula deverá respeitar o seguinte passo a passo:
 
-1. [ ] Extração dos parâmetros de entrada. 
-2. [ ] Transformação de textos em inteiros \(ainda não existe o tipo _**INT**_ no arquivo config.json\). 
-3. [ ] Soma dos dois números. ****
-4. [ ] Retorno do resultado no terminal.
+1. Extração dos parâmetros de entrada. 
+2. Transformação de textos em inteiros \(ainda não existe o tipo _**INT**_ no arquivo config.json\). 
+3. Soma dos dois números. ****
+4. Retorno do resultado no terminal.
 
-## 4. Sugestões de melhorias
+{% hint style="success" %}
+Parabéns! Você completou a tarefa de nível 1!
+{% endhint %}
 
-Se você quiser brincar um pouco mais, veja algumas sugestões:
+## Sugestões de melhorias
 
-* [ ] Adicione uma validação dos parâmetros de entrada para retornar um erro ao usuário se o parâmetro não for um inteiro. 
-* [ ] Permite ao usuário somar números negativos com positivos. 
-* [ ] Permite ao usuário digitar decimais além de inteiros. 
-* [ ] Permite ao usuário escolher entre várias operações para manipular os 2 números \(adição, multiplicação, divisão\).
+Se você quiser testar mais a sua fórmula, é possível configurá-la para que ela:
+
+* Adicione uma validação dos parâmetros de entrada para retornar um erro ao usuário se o parâmetro não for um inteiro. 
+* Permita que usuário some números negativos com positivos. 
+* Permita que o usuário digite números decimais.  
+* Permita que o usuário escolha realize outras operações, como subtração, multiplicação e divisão.
 
 ## Próximos passos 
 
-👉 Se você completou o primeiro desafio, vamos para o [segundo](nivel-2.md)!
+👉 Se você completou o primeiro desafio, vamos para o [**segundo nível**](nivel-2.md)!
 

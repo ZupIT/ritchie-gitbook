@@ -23,7 +23,7 @@ Para realizar os desafios que estão propostos nas próximas páginas, você pre
 
 O **`primeiro desafio`** é para você entender como manipular inputs básicos. 
 
-{% page-ref page="nivel-1-formulas-simples.md" %}
+{% page-ref page="nivel-1.md" %}
 
 O **`segundo desafio`** é para você entender como manipular inputs de credenciais. 
 
@@ -31,7 +31,7 @@ O **`segundo desafio`** é para você entender como manipular inputs de credenci
 
 O **`terceiro desafio`** é para você entender como manipular inputs condicionais.
 
-{% page-ref page="nivel-3-inputs-condicionais.md" %}
+{% page-ref page="nivel-3.md" %}
 
 O **`quarto desafio`** é para você testar um exemplo de como chamar serviços de API dentro de uma fórmula.
 
@@ -39,7 +39,7 @@ O **`quarto desafio`** é para você testar um exemplo de como chamar serviços 
 
 O **`quinto desafio`** é para você aplicar o conceito de encapsulamento de fórmulas.
 
-{% page-ref page="nivel-5-encapsulamento.md" %}
+{% page-ref page="nivel-5.md" %}
 
 
 

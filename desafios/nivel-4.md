@@ -41,5 +41,5 @@ Se você quiser testar mais a sua fórmula, é possível configurá-la para que 
 
 ## Próximos passos 
 
-👉 Se você completou o quarto desafio, vamos para o [**quinto nível**](nivel-5-encapsulamento.md)!
+👉 Se você completou o quarto desafio, vamos para o [**quinto nível**](nivel-5.md)!
 
