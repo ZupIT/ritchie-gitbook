@@ -29,12 +29,19 @@ The **`second challenge`** is to understand how to manipulate credentials inputs
 
 {% page-ref page="level-2.md" %}
 
-The **`third challenge`** is to give an example of how to call API services inside a formula.
+The **`third challenge`** is to understand how to manipulate conditional inputs.
+
+{% page-ref page="level-3-conditional-inputs.md" %}
+
+The **`fourth challenge`** is to give an example of how to call API services inside a formula.
 
 {% page-ref page="level-3.md" %}
 
-The **`fourth challenge`** is to apply the formula encapsulation concept.[  
-](https://app.gitbook.com/@zup-products/s/ritchie/~/diff/drafts/-MHIAf91S1RlTOvJs_KU/challenges/level-4-encapsulation/@drafts)
+The **`fifth challenge`** is to apply the formula encapsulation concept.
+
+{% page-ref page="level-4-encapsulation.md" %}
+
+
 
 {% hint style="warning" %}
 We will add more challenging tasks in the future.   

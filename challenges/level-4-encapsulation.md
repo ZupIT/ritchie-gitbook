@@ -4,7 +4,7 @@ description: >-
   concept.
 ---
 
-# Level 4: Encapsulation
+# Level 5: Encapsulation
 
 ## Objective
 
