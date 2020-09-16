@@ -6,9 +6,9 @@ description: >-
 
 # Nível 3: API
 
-## 1. Objetivo
+## Objetivo
 
-Criar uma fórmula que vai **retornar um JSON contendo o endereço associado a um CEP.**
+Neste tutorial, a ideia é criar uma fórmula que vai **retornar um JSON contendo o endereço associado a um CEP.**
 
 {% hint style="info" %}
 Sugestão de comando: **`rit brazil get address`**

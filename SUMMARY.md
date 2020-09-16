@@ -27,6 +27,7 @@
 * [Como usar a flag STDIN](tutoriais/como-usar-a-flag-stdin/README.md)
   * [Comandos de fórmulas](tutoriais/como-usar-a-flag-stdin/comandos-de-formulas.md)
   * [Comandos Core](tutoriais/como-usar-a-flag-stdin/comandos-core.md)
+* [Como encapsular fórmulas?](tutoriais/como-encapsular-formulas.md)
 
 ## DESAFIOS
 
@@ -34,6 +35,7 @@
 * [Nível 1: Inputs básicos](desafios/nivel-1-formulas-simples.md)
 * [Nível 2: Credenciais](desafios/nivel-2.md)
 * [Nível 3: API](desafios/nivel-3.md)
+* [Nível 4: Encapsulamento](desafios/nivel-4-encapsulamento.md)
 
 ## Referência <a id="developer"></a>
 

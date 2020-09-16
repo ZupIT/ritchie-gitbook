@@ -33,6 +33,10 @@ O **`terceiro desafio`** é para você testar um exemplo de como chamar serviço
 
 {% page-ref page="nivel-3.md" %}
 
+O **`quarto desafio`** é para você aplicar o conceito de encapsulamento de fórmulas.
+
+{% page-ref page="nivel-4-encapsulamento.md" %}
+
 
 
 {% hint style="warning" %}

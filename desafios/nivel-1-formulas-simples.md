@@ -6,7 +6,7 @@ description: >-
 
 # Nível 1: Inputs básicos
 
-## Objetivo da tarefa
+## Objetivo
 
 Neste tutorial, a ideia é ensinar você a criar uma fórmula simples que, neste caso, irá **somar 2 números positivos**.
 

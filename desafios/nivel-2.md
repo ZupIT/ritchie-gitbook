@@ -4,9 +4,9 @@ description: 'Nesta seção, você encontrará o passo a passo para usar credenc
 
 # Nível 2: Credenciais
 
-## Objetivo da tarefa
+## Objetivo
 
-Criar uma fórmula que vai **retornar um JSON contendo as credenciais do Github.**
+Neste tutorial, a ideia é criar uma fórmula que vai **retornar um JSON contendo as credenciais do Github.**
 
 {% hint style="info" %}
 Sugestão de comando: **`rit github get credentials`**
