@@ -14,8 +14,8 @@ To do so, you'll have to use the **conditional field** as explained on the [**co
 
 This formula needs to contain \(at least\) those two inputs parameters:
 
-* Profile \(`PROFILE`\).
-* Profile tool \(`TOOL`\).
+* [ ] Profile \(`PROFILE`\). 
+* [ ] Profile tool \(`TOOL`\).
 
 The formula inputs will have to respect the diagram below:
 

@@ -29,7 +29,7 @@ You'll find all the informations you need in the [**how to manipulate credential
 
 The formula needs to follow the next steps:
 
-1. Extract inputs parameters. 
+1. Extract all inputs parameters. 
 2. Create the JSON with Github credentials. 
 3. Return the result on the terminal.
 

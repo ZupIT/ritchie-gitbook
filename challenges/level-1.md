@@ -18,14 +18,14 @@ Command suggestion: **`rit math sum numbers`**
 
 This formula needs to contain \(at least\) those two inputs parameters:
 
-* Number one \(`NUMBER_ONE`\).
-* Number two \(`NUMBER_TWO`\).
+* [ ] Number one \(`NUMBER_ONE`\). 
+* [ ] Number two \(`NUMBER_TWO`\).
 
 ## Step by step
 
 The formula needs to follow the next steps:
 
-1. Extract inputs parameters. 
+1. Extract all inputs parameters. 
 2. Convert inputs to integers \(there is currently no _**integer**_ `type` in inputs config.json file\). 
 3. Sum both numbers. 
 4. Return the result on the terminal.
