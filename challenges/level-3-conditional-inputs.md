@@ -25,7 +25,7 @@ The formula inputs will have to respect the diagram below:
 
 The formula needs to follow the next steps:
 
-1. Extract inputs parameters. 
+1. Extract all inputs parameters. 
 2. Return the selected profile on the terminal. 
 3. Return the selected tool on the terminal.
 
