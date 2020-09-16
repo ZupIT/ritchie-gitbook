@@ -8,9 +8,14 @@ description: >-
 
 ## Objective
 
-Create a formula on Ritchie that will **encapsulate another formula inside it.**  
+Create a formula on Ritchie that will **encapsulate another formula inside it.**
+
+{% hint style="warning" %}
+You'll find all the informations you need in the [**how to encapsulate formulas**](../how-to/how-to-1.md) tutorial section.
+{% endhint %}
+
   
-The idea is to encapsulate the **`rit demo coffee-go`** formula inside the **Hello World** formula template.
+****The idea is to encapsulate the **`rit demo coffee-go`** formula inside the **Hello World** formula template.
 
 {% hint style="info" %}
 Command suggestion: **`rit encapsulate coffee`**
