@@ -2,7 +2,7 @@
 description: 'In this section, you will understand how to  encapsulate formulas on Ritchie.'
 ---
 
-# How to encapsulate formulas?
+# How to encapsulate formulas
 
 ## What is an encapsulation?
 

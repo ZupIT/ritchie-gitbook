@@ -27,7 +27,7 @@
 * [How to use the STDIN flag](how-to/how-to-use-the-stdin-flag/README.md)
   * [Formulas commands](how-to/how-to-use-the-stdin-flag/formulas-commands.md)
   * [Core Commands](how-to/how-to-use-the-stdin-flag/core-commands.md)
-* [How to encapsulate formulas?](how-to/how-to-1.md)
+* [How to encapsulate formulas](how-to/how-to-1.md)
 
 ## CHALLENGES
 
