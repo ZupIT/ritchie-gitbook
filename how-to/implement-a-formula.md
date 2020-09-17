@@ -37,6 +37,38 @@ Each input is composed of the following fields:
   * `operator`: A logical operator to compare. Supports **`==`**, **`!=`**, **`<`**, **`>`**, **`<=`**, and **`>=`.**
   * `value`: The desired value to compare to.
 
+**Conditional input example:**
+
+```text
+"inputs": [
+    {
+      "label": "Select a system:",
+      "name": "system",
+      "type": "text",
+      "items": [
+        "LINUX",
+        "MACOS",
+        "WINDOWS"
+      ]
+    },
+    {
+      "condition": {
+        "variable":"system",
+        "operator":"==",
+        "value":"LINUX"
+      },
+      "label": "Select a LINUX OS:",
+      "name": "linux-os",
+      "type": "text",
+      "items": [
+        "UBUNTU",
+        "FEDORA",
+        "CENTOS"
+      ]
+    }
+  ]
+```
+
 {% hint style="warning" %}
 Once an input is informed on Ritchie CLI, it is saved as a **local variable** during the formula execution.
 {% endhint %}
