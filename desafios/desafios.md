@@ -12,7 +12,7 @@ O objetivo desta seção é ajuda você a entender melhor o passo a passo de div
 
 ### Premissas
 
-Para realizar os desafios que estão propostos nas próximas páginas, você precisa ter concluído algumas configurações da seção de tutoriais. São elas: 
+Para realizar os desafios que estão propostos nas próximas páginas, você precisa entender os seguintes conceitos: 
 
 1. \*\*\*\*[**Como executar fórmulas**](../tutoriais/commands/)**.**
 2. \*\*\*\*[**Como criar fórmulas**](../tutoriais/como-criar-formulas.md)**.**
