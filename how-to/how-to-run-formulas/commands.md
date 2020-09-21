@@ -6,13 +6,19 @@ description: You will find in this section how to run a "hello-world" formula.
 
 ## Hello World
 
-After you finished the previous steps - __[**installation**](../../getting-started/installation/) ****and ****[**initialization**](../../getting-started/initialization.md) ****- the ****[**hello-world formula**](https://github.com/ZupIT/ritchie-formulas/tree/master/demo/hello-world) ****will be available ****to test Ritchie.
+After you finished the previous steps -[**installation**](../../getting-started/installation/) ****and ****[**initialization**](../../getting-started/initialization.md) ****- to access the ****[**hello-world formula**](https://github.com/ZupIT/ritchie-formulas/tree/master/demo/hello-world) ****to test Ritchie, you'll need to add the [**ritchie-formulas-demo**](https://github.com/ZupIT/ritchie-formulas-demo) repository **`locally`**.
 
-{% hint style="warning" %}
-This command is available since [**release 2.0.1**](https://github.com/ZupIT/ritchie-formulas/releases) of [**ritchie-formulas**](https://github.com/ZupIT/ritchie-formulas) repository. 
+To do so, you can use the **`rit add repo`** command, or execute the command line below:
 
-You can check which version of the repository you're using with the**`rit list repo`** command.
+```text
+echo '{"provider":"Github", "name":"demo", "version":"2.0.0", "url":"https://github.com/ZupIT/ritchie-formulas-demo", "token": null, "priority":"1"}' | rit add repo --stdin
+```
+
+{% hint style="info" %}
+You can check which repositories you're using with the**`rit list repo`** command.
 {% endhint %}
+
+**Now that you have added the `demo` repository, you can execute this tutorial commands.**
 
 On Ritchie, you have 4 possibilities to run a formula: 
 
