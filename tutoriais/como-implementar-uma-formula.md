@@ -37,6 +37,38 @@ Outras informações disponíveis nesse arquivo são:
   * `operator`: O operador lógico usado para comparar. Supporta ==, !=, &lt;, &gt;, &lt;=, and &gt;=
   * `value`: O valor que se deseja usar para comparação.
 
+**Exemplo de uso do input condicional:**
+
+```text
+"inputs": [
+    {
+      "label": "Select a system:",
+      "name": "system",
+      "type": "text",
+      "items": [
+        "LINUX",
+        "MACOS",
+        "WINDOWS"
+      ]
+    },
+    {
+      "condition": {
+        "variable":"system",
+        "operator":"==",
+        "value":"LINUX"
+      },
+      "label": "Select a LINUX OS:",
+      "name": "linux-os",
+      "type": "text",
+      "items": [
+        "UBUNTU",
+        "FEDORA",
+        "CENTOS"
+      ]
+    }
+  ]
+```
+
 {% hint style="warning" %}
 Quando um parâmetro de entrada é informado no Ritchie CLI, ele é salvo como **variável de ambiente** durante a execução da fórmula.
 {% endhint %}
