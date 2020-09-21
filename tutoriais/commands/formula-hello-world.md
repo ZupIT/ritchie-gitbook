@@ -8,13 +8,19 @@ description: >-
 
 ## Hello World
 
-Depois de finalizar os passos anteriores -  [**instalação**](../../getting-started/installation/) e [**inicialização**](../../getting-started/initialization.md) -,  você poderá executar a [**fórmula hello world**](https://github.com/ZupIT/ritchie-formulas/tree/master/demo/hello-world) para testar o Ritchie.
+Depois de finalizar os passos anteriores -  [**instalação**](../../getting-started/installation/) e [**inicialização**](../../getting-started/initialization.md) -,  para acessar a [**fórmula hello world**](https://github.com/ZupIT/ritchie-formulas/tree/master/demo/hello-world) para testar o Ritchie, será necessário adicionar o repositório [**ritchie-formulas-demo**](https://github.com/ZupIT/ritchie-formulas-demo) localmente.
+
+Para fazer isso, você pode usar o comando **`rit add repo`**, ou executar a linha de comando abaixo:
+
+```text
+echo '{"provider":"Github", "name":"demo", "version":"2.0.0", "url":"https://github.com/ZupIT/ritchie-formulas-demo", "token": null, "priority":"1"}' | rit add repo --stdin
+```
 
 {% hint style="info" %}
-Esse comando foi disponibilizado na [**release 2.0.1**](https://github.com/ZupIT/ritchie-formulas/releases) do repositório[ **ritchie-formulas**](https://github.com/ZupIT/ritchie-formulas).   
-  
-É possível verificar qual versão do repositório está sendo usada executando o comando **`rit list repo`**.
+É possível verificar os repositórios estão sendo usados executando o comando **`rit list repo`**.
 {% endhint %}
+
+**Agora que você adicionou o repositório de demo, você pode executar os comandos desse tutorial.**
 
 No Ritchie, é possível, você tem 4 possibilidades de rodar uma fórmula: 
 
