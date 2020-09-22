@@ -13,7 +13,7 @@ Depois de finalizar os passos anteriores -  [**instalação**](../../getting-sta
 Para fazer isso, você pode usar o comando **`rit add repo`**, ou executar a linha de comando abaixo:
 
 ```text
-echo '{"provider":"Github", "name":"demo", "version":"2.0.0", "url":"https://github.com/ZupIT/ritchie-formulas-demo", "token": null, "priority":"1"}' | rit add repo --stdin
+echo '{"provider":"Github", "name":"demo", "version":"2.0.0", "url":"https://github.com/ZupIT/ritchie-formulas-demo", "token": null, "priority":1}' | rit add repo --stdin
 ```
 
 {% hint style="info" %}
