@@ -11,7 +11,7 @@ After you finished the previous steps -[**installation**](../../getting-started/
 To do so, you can use the **`rit add repo`** command, or execute the command line below:
 
 ```text
-echo '{"provider":"Github", "name":"demo", "version":"2.0.0", "url":"https://github.com/ZupIT/ritchie-formulas-demo", "token": null, "priority":"1"}' | rit add repo --stdin
+echo '{"provider":"Github", "name":"demo", "version":"2.0.0", "url":"https://github.com/ZupIT/ritchie-formulas-demo", "token": null, "priority":1}' | rit add repo --stdin
 ```
 
 {% hint style="info" %}
