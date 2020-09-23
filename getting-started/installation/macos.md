@@ -21,6 +21,8 @@ To install **md5sum** with _**MacPorts**_ , use: `sudo port install md5sha1sum`
 
 ## Step 2: Installing command
 
+### First option
+
 The command used to install Ritchie at your terminal is:
 
 ```text
@@ -30,6 +32,14 @@ curl -fsSL https://commons-repo.ritchiecli.io/install.sh | bash
 {% hint style="info" %}
 If you prefer, you also can follow with the[ **manual installation**.](manual-installation.md)
 {% endhint %}
+
+### Second option
+
+You can also **download the package** to **install it manually** through the command line below:
+
+```text
+curl --output ~/Desktop/Ritchie-CLI-macos-installer-x64.pkg --location https://commons-repo.ritchiecli.io/latest/Ritchie-CLI-macos-installer-x64.pkg
+```
 
 ## Step 3: Verify installation 
 
