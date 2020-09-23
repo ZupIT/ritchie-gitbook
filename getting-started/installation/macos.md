@@ -35,7 +35,7 @@ If you prefer, you also can follow with the[ **manual installation**.](manual-in
 
 ### Second option
 
-You can also **download the package** to **install it manually** through the command line below:
+You can also **download the Ritchie CLI package** through the command line below, to **install it manually.**
 
 ```text
 curl --output ~/Desktop/Ritchie-CLI-macos-installer-x64.pkg --location https://commons-repo.ritchiecli.io/latest/Ritchie-CLI-macos-installer-x64.pkg
