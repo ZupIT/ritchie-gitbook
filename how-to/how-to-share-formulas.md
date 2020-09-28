@@ -32,5 +32,5 @@ On this section, you saw how to share a formula on Ritchie. To keep configuring 
 
 👉 Check out how to [**manipulate credentials**](https://docs.ritchiecli.io/how-to/manipulate-credentials) with your formulas.
 
-👉 Check out our [**list of commands**](../developer/list-of-commands.md) to see the available automations on our community repo. 
+👉 Check out our [**list of commands**](../reference/list-of-commands.md) to see the available automations on our community repo. 
 

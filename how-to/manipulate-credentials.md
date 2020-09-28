@@ -118,5 +118,5 @@ github  	 default	  {"token":"***************", "email":"***************", "user
 
 On this section, you saw how to manipulate credentials on Ritchie. To keep configuring the formula: 
 
-👉 Check out our [**list of commands**](../developer/list-of-commands.md) to see the available automations on our community repo. 
+👉 Check out our [**list of commands**](../reference/list-of-commands.md) to see the available automations on our community repo. 
 
