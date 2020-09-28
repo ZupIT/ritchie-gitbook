@@ -39,7 +39,7 @@ The user has to inform 5 different kinds of inputs:
 4. The **`local repository path`** you wish to publish
 5. The **`release version`** to generate
 
-![rit publish repo command](../.gitbook/assets/rit-publish-repo.gif)
+![rit publish repo command](../../.gitbook/assets/rit-publish-repo.gif)
 
 {% hint style="warning" %}
 As shown on the example above, you can check if the publication has been successful by using the **`rit list repo`** command and see if the published repository appears.
@@ -61,5 +61,5 @@ To publish a formula manually, you need to push it on a **Github / Gitlab** repo
 
 On this section, you saw how to publish a formula on Ritchie. To keep configuring the formula: 
 
-👉 Check out [**how to share formulas**](how-to-share-formulas.md)**.** 
+👉 Check out [**how to share formulas**](share-formulas.md)**.** 
 

@@ -26,19 +26,19 @@ You can follow the installation step by step according do the operational system
 
 ### How to create a new formula on Ritchie?
 
-Using the command `rit create formula` , you can create formulas using any programming language. Check out more in [**create a formula section**](how-to/how-to-create-formulas.md). 
+Using the command `rit create formula` , you can create formulas using any programming language. Check out more in [**create a formula section**](how-to/formulas/how-to-create-formulas.md). 
 
 ### Como executar fórmulas?
 
-You can execute your formulas locally or through Docker. Check out more in [**create a formula section**](how-to/how-to-create-formulas.md). 
+You can execute your formulas locally or through Docker. Check out more in [**create a formula section**](how-to/formulas/how-to-create-formulas.md). 
 
 ### How to build fórmulas on Ritchie? 
 
-You can build a formula by running the `$ rit build formula` command. Check out more in [**build a formula section.**](how-to/build-a-formula.md)\*\*\*\*
+You can build a formula by running the `$ rit build formula` command. Check out more in [**build a formula section.**](how-to/formulas/build-a-formula.md)\*\*\*\*
 
 ### How to publish formulas on Ritchie?
 
-You can publish a formula by creating a Github's repository and adding a release version of this formula. Check out more in [**publish a formula section**](how-to/how-to-publish-a-formula.md).
+You can publish a formula by creating a Github's repository and adding a release version of this formula. Check out more in [**publish a formula section**](how-to/formulas/publish-a-formula.md).
 
 ## Community
 

@@ -30,7 +30,7 @@ Once you finished Ritchie's installation, it is necessary to initialize it. To d
 
 Last \(but not least\), run a "hello-world" on Ritchie to confirm if your installation went well. Check out more on the following page. 
 
-{% page-ref page="how-to/how-to-run-formulas/commands.md" %}
+{% page-ref page="how-to/formulas/how-to-run-formulas/commands.md" %}
 
 {% hint style="success" %}
 Well done, you're ready to use Ritchie on your projects! 

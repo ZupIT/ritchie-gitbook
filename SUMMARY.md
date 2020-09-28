@@ -16,18 +16,19 @@
 
 ## Tutorials <a id="how-to"></a>
 
-* [How to run formulas](how-to/how-to-run-formulas/README.md)
-  * ["Hello World" formula](how-to/how-to-run-formulas/commands.md)
-* [How to create formulas](how-to/how-to-create-formulas.md)
-* [How to implement formulas](how-to/implement-a-formula.md)
-* [How to build formulas](how-to/build-a-formula.md)
-* [How to publish formulas](how-to/how-to-publish-a-formula.md)
-* [How to share formulas](how-to/how-to-share-formulas.md)
-* [How to manipulate credentials](how-to/manipulate-credentials.md)
-* [How to use the STDIN flag](how-to/how-to-use-the-stdin-flag/README.md)
+* [Formulas](how-to/formulas/README.md)
+  * [How to create formulas](how-to/formulas/how-to-create-formulas.md)
+  * [How to run formulas](how-to/formulas/how-to-run-formulas/README.md)
+    * ["Hello World" formula](how-to/formulas/how-to-run-formulas/commands.md)
+  * [How to implement formulas](how-to/formulas/implement-a-formula.md)
+  * [How to build formulas](how-to/formulas/build-a-formula.md)
+  * [How to publish formulas](how-to/formulas/publish-a-formula.md)
+  * [How to share formulas](how-to/formulas/share-formulas.md)
+  * [How to encapsulate formulas](how-to/formulas/encapsulate-formulas.md)
+* [Manipulating credentials](how-to/manipulate-credentials.md)
+* [Using STDIN flag](how-to/how-to-use-the-stdin-flag/README.md)
   * [Formulas commands](how-to/how-to-use-the-stdin-flag/formulas-commands.md)
   * [Core Commands](how-to/how-to-use-the-stdin-flag/core-commands.md)
-* [How to encapsulate formulas](how-to/how-to-1.md)
 
 ## CHALLENGES
 

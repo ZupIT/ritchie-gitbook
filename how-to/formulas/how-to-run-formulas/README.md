@@ -17,7 +17,7 @@ The **default formulas execution method** has been defined during the initializa
 rit set formula-runner
 ```
 
-![rit set formula-runner command](../../.gitbook/assets/large-gif-1374x404-.gif)
+![rit set formula-runner command](../../../.gitbook/assets/large-gif-1374x404-.gif)
 
 ### 1. Running locally
 

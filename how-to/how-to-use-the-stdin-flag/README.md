@@ -2,7 +2,7 @@
 description: 'In this section, you will find everything about STDIN flag.'
 ---
 
-# How to use the STDIN flag
+# Using STDIN flag
 
 Informing inputs through **arguments** or **flags** allows the user to automate workflows. It is particularly useful when you're manipulating other tools within a script, as you can automate operations without having to interact with the terminal. 
 

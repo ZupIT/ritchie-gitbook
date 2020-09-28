@@ -18,7 +18,7 @@ rit add repo
 
 Once the repository has been added, Ritchie will use the selected release on the repository to access the available formulas.
 
-![rit add repo command demonstration](../.gitbook/assets/rit-add-repo-3.gif)
+![rit add repo command demonstration](../../.gitbook/assets/rit-add-repo-3.gif)
 
 {% hint style="warning" %}
 If the formula repository is **private**, the user will have to inform his Github / Gitlab token.
@@ -32,5 +32,5 @@ On this section, you saw how to share a formula on Ritchie. To keep configuring 
 
 👉 Check out how to [**manipulate credentials**](https://docs.ritchiecli.io/how-to/manipulate-credentials) with your formulas.
 
-👉 Check out our [**list of commands**](../reference/list-of-commands.md) to see the available automations on our community repo. 
+👉 Check out our [**list of commands**](../../reference/list-of-commands.md) to see the available automations on our community repo. 
 

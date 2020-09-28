@@ -6,7 +6,7 @@ description: You will find in this section how to run a "hello-world" formula.
 
 ## Hello World
 
-After you finished the previous steps -[**installation**](../../getting-started/installation/) ****and ****[**initialization**](../../getting-started/initialization.md) ****- to access the ****[**hello-world formula**](https://github.com/ZupIT/ritchie-formulas/tree/master/demo/hello-world) ****to test Ritchie, you'll need to add the [**ritchie-formulas-demo**](https://github.com/ZupIT/ritchie-formulas-demo) repository **`locally`**.
+After you finished the previous steps -[**installation**](../../../getting-started/installation/) ****and ****[**initialization**](../../../getting-started/initialization.md) ****- to access the ****[**hello-world formula**](https://github.com/ZupIT/ritchie-formulas/tree/master/demo/hello-world) ****to test Ritchie, you'll need to add the [**ritchie-formulas-demo**](https://github.com/ZupIT/ritchie-formulas-demo) repository **`locally`**.
 
 To do so, you can use the **`rit add repo`** command, or execute the command line below:
 
@@ -41,7 +41,7 @@ rit demo hello-world
 
 Select an option for each input parameter and see how the magic works: 
 
-![rit demo hello-world](../../.gitbook/assets/large-gif-1054x366-%20%281%29.gif)
+![rit demo hello-world](../../../.gitbook/assets/large-gif-1054x366-%20%281%29.gif)
 
 This is the default command line execution, that runs the formula locally using **prompt** to inform the input parameters.
 
@@ -70,7 +70,7 @@ echo '{"input_text":"Dennis", "input_bool":"false", "input_list":"everything", "
 Ritchie uses the **json format** to execute STDIN commands
 {% endhint %}
 
-{% page-ref page="../how-to-use-the-stdin-flag/" %}
+{% page-ref page="../../how-to-use-the-stdin-flag/" %}
 
 ### Case 4: With Stdin and Docker
 

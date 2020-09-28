@@ -90,7 +90,7 @@ Depending on the chosen language, it may be necessary to update more files, for 
 
 {% tabs %}
 {% tab title="Golang" %}
-![](../.gitbook/assets/go.png)
+![](../../.gitbook/assets/go.png)
 
 According to the image above, you can see the editable files:
 
@@ -103,7 +103,7 @@ According to the image above, you can see the editable files:
 {% tab title="Java" %}
 
 
-![](../.gitbook/assets/java.png)
+![](../../.gitbook/assets/java.png)
 
 According to the image above, you can see the editable files:
 
@@ -114,7 +114,7 @@ According to the image above, you can see the editable files:
 {% endtab %}
 
 {% tab title="Node" %}
-![](../.gitbook/assets/node.png)
+![](../../.gitbook/assets/node.png)
 
 According to the image above, you can see the editable files:
 
@@ -125,7 +125,7 @@ According to the image above, you can see the editable files:
 {% endtab %}
 
 {% tab title="Python" %}
-![](../.gitbook/assets/python.png)
+![](../../.gitbook/assets/python.png)
 
 According to the image above, you can see the editable files:
 
@@ -136,7 +136,7 @@ According to the image above, you can see the editable files:
 {% endtab %}
 
 {% tab title="Shell" %}
-![](../.gitbook/assets/shell.png)
+![](../../.gitbook/assets/shell.png)
 
 According to the image above, you can see the editable files:
 
@@ -157,5 +157,5 @@ On this section, you saw how to implement a formula on Ritchie. To keep configur
 
 👉 Go to [**build a formula**](build-a-formula.md) to see how to continue the tests on the formulas you create. 
 
-👉 Go to [**publish a formula**](how-to-publish-a-formula.md) to see how to transfer your work to a public repository. 
+👉 Go to [**publish a formula**](publish-a-formula.md) to see how to transfer your work to a public repository. 
 

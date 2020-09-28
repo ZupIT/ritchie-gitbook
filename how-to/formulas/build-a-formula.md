@@ -29,5 +29,5 @@ rit build formula --watch
 
 On this section, you saw how to implement a formula on Ritchie. To keep configuring the formula: 
 
-👉 Go to [**publish a formula**](how-to-publish-a-formula.md) to see how to transfer your work to a public repository. 
+👉 Go to [**publish a formula**](publish-a-formula.md) to see how to transfer your work to a public repository. 
 

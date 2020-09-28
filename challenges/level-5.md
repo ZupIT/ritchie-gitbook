@@ -11,7 +11,7 @@ description: >-
 Create a formula on Ritchie that will **encapsulate another formula inside it.**
 
 {% hint style="warning" %}
-You'll find all the informations you need in the [**how to encapsulate formulas**](../how-to/how-to-1.md) tutorial section.
+You'll find all the informations you need in the [**how to encapsulate formulas**](../how-to/formulas/encapsulate-formulas.md) tutorial section.
 {% endhint %}
 
   
