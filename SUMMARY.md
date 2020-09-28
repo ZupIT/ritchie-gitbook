@@ -38,9 +38,9 @@
 * [Nível 4: API](desafios/nivel-4.md)
 * [Nível 5: Encapsulamento](desafios/nivel-5.md)
 
-## Referência <a id="developer"></a>
+## Referência <a id="reference"></a>
 
-* [Lista de Comandos](developer/lista-de-comandos-1.md)
+* [Lista de Comandos](reference/lista-de-comandos-1.md)
 * [Release Notes](https://github.com/ZupIT/ritchie-cli/releases)
 * [Roadmap](https://github.com/ZupIT/ritchie-cli/issues)
 

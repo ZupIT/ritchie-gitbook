@@ -34,5 +34,5 @@ Nesta seção, você viu como compartilhar uma fórmula no Ritchie. Para continu
 
 👉 Vá para página [**manipular credenciais**](lista-de-comandos.md) e veja como rodar esse comando com suas fórmulas.
 
-👉 Vá para página de [**lista de comandos**](../developer/lista-de-comandos-1.md) para ver as automações disponíveis no repositório da nossa comunidade. 
+👉 Vá para página de [**lista de comandos**](../reference/lista-de-comandos-1.md) para ver as automações disponíveis no repositório da nossa comunidade. 
 
