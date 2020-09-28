@@ -16,18 +16,19 @@
 
 ## Tutoriais
 
-* [Como executar fórmulas](tutoriais/commands/README.md)
-  * [Fórmula "Hello World"](tutoriais/commands/formula-hello-world.md)
-* [Como criar fórmulas](tutoriais/como-criar-formulas.md)
-* [Como implementar fórmulas](tutoriais/como-implementar-uma-formula.md)
-* [Como "buildar" fórmulas](tutoriais/build-a-formula.md)
-* [Como publicar fórmulas](tutoriais/como-publicar-formula.md)
-* [Como compartilhar fórmulas](tutoriais/como-compartilhar-formulas.md)
-* [Como manipular credenciais](tutoriais/lista-de-comandos.md)
-* [Como usar a flag STDIN](tutoriais/como-usar-a-flag-stdin/README.md)
+* [Fórmulas](tutoriais/formulas/README.md)
+  * [Como criar fórmulas](tutoriais/formulas/como-criar-formulas.md)
+  * [Como executar fórmulas](tutoriais/formulas/como-executar-formulas/README.md)
+    * [Fórmula "Hello World"](tutoriais/formulas/como-executar-formulas/formula-hello-world.md)
+  * [Como implementar fórmulas](tutoriais/formulas/como-implementar-uma-formula.md)
+  * [Como "buildar" fórmulas](tutoriais/formulas/build-a-formula.md)
+  * [Como publicar fórmulas](tutoriais/formulas/como-publicar-formula.md)
+  * [Como compartilhar fórmulas](tutoriais/formulas/como-compartilhar-formulas.md)
+  * [Como encapsular fórmulas](tutoriais/formulas/como-encapsular-formulas.md)
+* [Manipulando credenciais](tutoriais/manipular-credenciais.md)
+* [Usando a flag STDIN](tutoriais/como-usar-a-flag-stdin/README.md)
   * [Comandos de fórmulas](tutoriais/como-usar-a-flag-stdin/comandos-de-formulas.md)
   * [Comandos Core](tutoriais/como-usar-a-flag-stdin/comandos-core.md)
-* [Como encapsular fórmulas](tutoriais/como-encapsular-formulas.md)
 
 ## DESAFIOS
 

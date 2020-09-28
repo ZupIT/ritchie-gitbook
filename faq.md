@@ -26,19 +26,19 @@ Você pode seguir o passo a passo da instalação de acordo com sistema operacio
 
 ### Como criar uma nova fórmula no Ritchie?
 
-Usando o comando `rit create formula` , você pode criar fórmulas usando qualquer linguagem de programação. Saiba mais na [**seção como criar fórmulas.** ](tutoriais/como-criar-formulas.md)\*\*\*\*
+Usando o comando `rit create formula` , você pode criar fórmulas usando qualquer linguagem de programação. Saiba mais na [**seção como criar fórmulas.** ](tutoriais/formulas/como-criar-formulas.md)\*\*\*\*
 
 ### Como executar fórmulas?
 
-Você pode executar suas fórmulas de maneira local ou por meio do Docker. Saiba mais na [**seção como criar fórmulas.** ](tutoriais/como-criar-formulas.md)\*\*\*\*
+Você pode executar suas fórmulas de maneira local ou por meio do Docker. Saiba mais na [**seção como criar fórmulas.** ](tutoriais/formulas/como-criar-formulas.md)\*\*\*\*
 
 ### Como fazer o "build" de fórmulas no Ritchie? 
 
-Você faz o "build" da fórmula rodando o comando `$ rit build formula`. Veja mais como na [**seção build de fórmulas.**](tutoriais/build-a-formula.md)\*\*\*\*
+Você faz o "build" da fórmula rodando o comando `$ rit build formula`. Veja mais como na [**seção build de fórmulas.**](tutoriais/formulas/build-a-formula.md)\*\*\*\*
 
 ### Como publicar fórmulas no Ritchie?
 
-Você pode publicar uma fórmula criando um repositório no Github e adicionando uma release da sua fórmula. Veja mais na [**seção como publicar uma fórmula**](tutoriais/como-publicar-formula.md)**.** 
+Você pode publicar uma fórmula criando um repositório no Github e adicionando uma release da sua fórmula. Veja mais na [**seção como publicar uma fórmula**](tutoriais/formulas/como-publicar-formula.md)**.** 
 
 ## Comunidade
 

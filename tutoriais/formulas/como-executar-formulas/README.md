@@ -19,7 +19,7 @@ O **método de execução de fórmulas padrão** foi escolhido durante a etapa d
 rit set formula-runner
 ```
 
-![Comando rit set formula-runner](../../.gitbook/assets/large-gif-1374x404-.gif)
+![Comando rit set formula-runner](../../../.gitbook/assets/large-gif-1374x404-.gif)
 
 ### 1. Execução local
 

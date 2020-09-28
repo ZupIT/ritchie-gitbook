@@ -2,7 +2,7 @@
 description: 'Nesta seção, você encontrará tudo sobre a flag STDIN.'
 ---
 
-# Como usar a flag STDIN
+# Usando a flag STDIN
 
 Informar parâmetros de entrada através de **argumentos** ou **flags** permite que você automatize workflows. 
 

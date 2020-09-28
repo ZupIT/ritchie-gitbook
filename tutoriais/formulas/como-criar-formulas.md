@@ -22,7 +22,7 @@ Você deverá informar alguns parâmetros de entrada antes da sua execução:
 
 **Exemplo:** `rit demo create formula`
 
-![Exemplo de execu&#xE7;&#xE3;o do comando rit create formula](../.gitbook/assets/rit-create-formula-3.gif)
+![Exemplo de execu&#xE7;&#xE3;o do comando rit create formula](../../.gitbook/assets/rit-create-formula-3.gif)
 
 ### **Passo 2: Teste sua fórmula** 
 
@@ -30,7 +30,7 @@ Você pode testar diretamente a fórmula depois de sua criação. Isso é possí
 
 Nesse caso, o template da formula **"Hello World"** será executado como mostrado abaixo: 
 
-![Exemplo demo de f&#xF3;rmula &quot;Hello-World&quot;](../.gitbook/assets/large-gif-1054x366-.gif)
+![Exemplo demo de f&#xF3;rmula &quot;Hello-World&quot;](../../.gitbook/assets/large-gif-1054x366-.gif)
 
 Este template é composto por **3 parâmetros de entrada**, que representam os tipos de inputs atualmente disponíveis para serem usados no Ritchie:
 

@@ -20,7 +20,7 @@ rit add repo
 
 Uma vez que o repositório for adicionado, o Ritchie irá  usar a versão da release selecionada do repositório para acessar as fórmulas disponíveis.
 
-![rit add repo command demonstration](../.gitbook/assets/rit-add-repo-3.gif)
+![rit add repo command demonstration](../../.gitbook/assets/rit-add-repo-3.gif)
 
 {% hint style="warning" %}
 Note que se o repositório de fórmulas for **privado**, será necessário informar o token do seu Github/Gitlab. 
@@ -32,7 +32,7 @@ Para **checar** **os novos comandos de fórmulas adicionados**, você pode execu
 
 Nesta seção, você viu como compartilhar uma fórmula no Ritchie. Para continuar configurando sua fórmula:
 
-👉 Vá para página [**manipular credenciais**](lista-de-comandos.md) e veja como rodar esse comando com suas fórmulas.
+👉 Vá para página [**manipular credenciais**](../manipular-credenciais.md) e veja como rodar esse comando com suas fórmulas.
 
-👉 Vá para página de [**lista de comandos**](../reference/lista-de-comandos-1.md) para ver as automações disponíveis no repositório da nossa comunidade. 
+👉 Vá para página de [**lista de comandos**](../../reference/lista-de-comandos-1.md) para ver as automações disponíveis no repositório da nossa comunidade. 
 

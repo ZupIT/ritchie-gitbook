@@ -16,7 +16,7 @@ Esse comando vai pedir **três informações:**
 
 1. Se o usuário **quer contribuir anonimamente** as métricas do produto.
 2. Se o usuário **quer adicionar as fórmulas** da comunidade localmente.
-3. Se o usuário **quer usar o** [**método de execução de fórmulas**](../tutoriais/commands/) **local ou via docker**. ****
+3. Se o usuário **quer usar o** [**método de execução de fórmulas**](../tutoriais/formulas/como-executar-formulas/) **local ou via docker**. ****
 
 ![Comando rit init](../.gitbook/assets/rit-init%20%282%29.gif)
 
