@@ -18,10 +18,10 @@
 
 ## USE CASES
 
-* [First commands](use-cases/using-first-commands/README.md)
-  * [Context](use-cases/using-first-commands/context.md)
-  * [Credentials](use-cases/using-first-commands/credentials.md)
-  * [Repositories](use-cases/using-first-commands/repositories.md)
+* [First commands](use-cases/first-commands/README.md)
+  * [Context](use-cases/first-commands/context.md)
+  * [Credentials](use-cases/first-commands/credentials.md)
+  * [Repositories](use-cases/first-commands/repositories.md)
 * [First formulas](use-cases/first-formulas/README.md)
   * [Docker compose](use-cases/first-formulas/docker.md)
   * [Spring starter](use-cases/first-formulas/spring.md)
@@ -37,8 +37,8 @@
 
 ---
 
-* [How to contribute](community.md)
-* [Materials](contents.md)
+* [How to contribute](contribute.md)
+* [Materials](materials.md)
 * [About Ritchie](about-ritchie.md)
 * [Glossary](glossary.md)
 * [FAQ](faq.md)
