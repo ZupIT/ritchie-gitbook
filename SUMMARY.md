@@ -16,17 +16,17 @@
   * [Via prompt](getting-started/commands/via-prompt.md)
   * [Via stdin](getting-started/commands/via-stdin.md)
 
-## CASOS DE USO
+## CASOS DE USO <a id="use-cases"></a>
 
-* [Primeiros comandos](casos-de-uso/first-commands/README.md)
-  * [Contexto](casos-de-uso/first-commands/contexto.md)
-  * [Credenciais](casos-de-uso/first-commands/credenciais.md)
-  * [Repositórios](casos-de-uso/first-commands/repositorios.md)
-* [Primeiras fórmulas](casos-de-uso/first-formulas/README.md)
-  * [Untitled](casos-de-uso/first-formulas/untitled.md)
-  * [Docker compose](casos-de-uso/first-formulas/docker-compose.md)
-  * [Spring starter](casos-de-uso/first-formulas/spring-starter.md)
-* [Criando fórmulas](casos-de-uso/creating-formulas.md)
+* [Primeiros comandos](use-cases/first-commands/README.md)
+  * [Contexto](use-cases/first-commands/contexto.md)
+  * [Credenciais](use-cases/first-commands/credenciais.md)
+  * [Repositórios](use-cases/first-commands/repositorios.md)
+* [Primeiras fórmulas](use-cases/first-formulas/README.md)
+  * [Untitled](use-cases/first-formulas/untitled.md)
+  * [Docker compose](use-cases/first-formulas/docker-compose.md)
+  * [Spring starter](use-cases/first-formulas/spring-starter.md)
+* [Criando fórmulas](use-cases/creating-formulas.md)
 
 ## REFERÊNCIA
 

@@ -16,13 +16,13 @@ description: 'Nesta seção, você encontrará as principais perguntas sobre o R
 * [Como instalar o Ritchie? ](getting-started/installation/)
 * [Como o Ritchie funciona?](./#como-ritchie-funciona) 
 * [Como executar comandos com Ritchie?](getting-started/commands/)
-* [Como criar uma nova fórmula no Ritchie? \(Passo a passo\) ](casos-de-uso/creating-formulas.md)
+* [Como criar uma nova fórmula no Ritchie? \(Passo a passo\) ](use-cases/creating-formulas.md)
 * [Como criar uma nova fórmula no Ritchie? \(Vídeo\)](https://www.youtube.com/watch?v=B-6MFIIbpZI) 
 * [Qual a diferença entre as duas versões do Ritchie? ](getting-started/choosing-a-version.md)
 * [Com quais sistemas operacionais a Ritchie trabalha? ](getting-started/installation/)
 * [Quais linguagens de programação posso usar para criar fórmulas? ](./#linguagens-de-programacao)
 * [Quais ferramentas posso usar para criar fórmulas? ](./#ferramentas)
-* [Como definir credenciais no Ritchie?](casos-de-uso/first-commands/credenciais.md)
+* [Como definir credenciais no Ritchie?](use-cases/first-commands/credenciais.md)
 
 ## COMUNIDADE 
 
