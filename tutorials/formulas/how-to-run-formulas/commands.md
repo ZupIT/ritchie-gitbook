@@ -70,7 +70,7 @@ echo '{"input_text":"Dennis", "input_bool":"false", "input_list":"everything", "
 Ritchie uses the **json format** to execute STDIN commands
 {% endhint %}
 
-{% page-ref page="../../how-to-use-the-stdin-flag/" %}
+{% page-ref page="../../standard-inputs/" %}
 
 ### Case 4: With Stdin and Docker
 

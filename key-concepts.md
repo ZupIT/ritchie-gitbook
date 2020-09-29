@@ -28,7 +28,7 @@ Those input parameters can be informed in different ways:
 
 {% page-ref page="tutorials/formulas/how-to-run-formulas/commands.md" %}
 
-{% page-ref page="tutorials/how-to-use-the-stdin-flag/" %}
+{% page-ref page="tutorials/standard-inputs/" %}
 
 ## Command Tree
 

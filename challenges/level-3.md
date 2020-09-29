@@ -1,47 +1,49 @@
 ---
 description: >-
-  In this section, you will find a step by step to call API services using
+  In this section, you will find a step by step to use condition inputs on
   Ritchie.
 ---
 
-# Level 4: API
+# Level 3: Conditional Inputs
 
 ## Objective
 
-Create a formula on Ritchie that will **return the address datas from a ZipCode.**
+Create a formula on Ritchie that will **return the tool selected by the user according to its profile**.
+
+{% hint style="warning" %}
+You'll find all the information you need about the **conditional field** on the [**config.json file section**](https://docs.ritchiecli.io/how-to/implement-a-formula#1-config-json).
+{% endhint %}
 
 {% hint style="info" %}
-Command suggestion: **`rit brazil get address`**
+Command suggestion: **`rit get tools`**
 {% endhint %}
 
 ## Inputs
 
-This formula needs to contain \(at least\) this input parameter:
+This formula needs to contain \(at least\) those two inputs parameters:
 
-1. [ ] zipcode \(`ZIPCODE`\).
+* [ ] Profile \(`PROFILE`\). 
+* [ ] Profile tool \(`TOOL`\).
 
-{% hint style="warning" %}
-In Brazil we use a **CEP** as a **ZipCode**.   
-  
-Here is a suggestion of an API that return the address datas from a CEP to carry out the formula implementation: [**http://viacep.com.br/**](http://viacep.com.br/)\*\*\*\*
-{% endhint %}
+The formula inputs will have to respect the diagram below:
+
+![](../.gitbook/assets/ritchie-conditional-inputs.png)
 
 ## Step by step
 
 The formula needs to follow the next steps:
 
-1. Validate the ZipCode input format. 
-2. Call a service to get the address datas from the ZipCode. 
-3. Convert address datas to JSON format. 
-4. Return the result on the terminal.
+1. Extract all inputs parameters. 
+2. Return the selected profile on the terminal. 
+3. Return the selected tool on the terminal.
 
 ## Improvement suggestions
 
  If you want to play a little more, here are some suggestions:
 
-* [ ] Code a formula which will allow the user to get the ZipCode by entering address datas.\
+* [ ] Install the selected tool according to the computer OS.
 
 ## Next steps 
 
-👉 If you've completed the fourth challenge, let's go to the [**level 5 task**](level-4-encapsulation.md)!
+👉 If you've completed the third challenge, let's go to the [**level 4 task**](level-4.md)!
 

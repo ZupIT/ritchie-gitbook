@@ -18,7 +18,7 @@ Check out on the following topics how works this encapsulation.
 
 To perform a formula encapsulation, it is necessary to use the STDIN flag. On the following page, we have a detailed explanation to how this works: 
 
-{% page-ref page="../how-to-use-the-stdin-flag/" %}
+{% page-ref page="../standard-inputs/" %}
 
 ### 2. Execution <a id="2-execution"></a>
 

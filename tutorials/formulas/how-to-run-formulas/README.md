@@ -19,14 +19,14 @@ rit set formula-runner
 
 ![rit set formula-runner command](../../../.gitbook/assets/large-gif-1374x404-.gif)
 
-### 1. Running locally
+### 1. Locally
 
 To run a formula locally it is necessary to have the formula programming languages dependencies installed on the computer.
 
 **Example**: a ****formula written in **Node** will need **Node installed** on the computer, so it will be able to run locally.   
 
 
-### 2. Running through Docker
+### 2. Through Docker
 
 All formulas can run regardless the programming language used from the moment you have **`DOCKER`** installed and running.
 
@@ -34,9 +34,7 @@ All formulas can run regardless the programming language used from the moment yo
 Check out on the following example [**how to run a "Hello World" formula** ](commands.md)\*\*\*\*
 {% endhint %}
 
-
-
-### 3. Local & Docker Flags
+###  3. Local & Docker Flags
 
 You can force Ritchie CLI to execute a formula with a specific method using flags.
 
