@@ -16,7 +16,7 @@ This command will ask the user three questions:
 
 1. If he **wants to contribute anonymously** to Ritchie metrics.
 2. If he **wants to add the community** formulas locally.
-3. If he **wants the default** [**formula execution method**](../how-to/formulas/how-to-run-formulas/) **to be local or through docker.** 
+3. If he **wants the default** [**formula execution method**](../tutorials/formulas/how-to-run-formulas/) **to be local or through docker.** 
 
 ![rit init command](../.gitbook/assets/rit-init%20%283%29.gif)
 

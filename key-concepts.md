@@ -26,9 +26,9 @@ Those input parameters can be informed in different ways:
 
 ![](.gitbook/assets/start-end-ritchie%20%281%29.jpg)
 
-{% page-ref page="how-to/formulas/how-to-run-formulas/commands.md" %}
+{% page-ref page="tutorials/formulas/how-to-run-formulas/commands.md" %}
 
-{% page-ref page="how-to/how-to-use-the-stdin-flag/" %}
+{% page-ref page="tutorials/how-to-use-the-stdin-flag/" %}
 
 ## Command Tree
 

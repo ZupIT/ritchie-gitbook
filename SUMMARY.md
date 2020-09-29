@@ -14,21 +14,21 @@
   * [Manual Installation](getting-started/installation/manual-installation.md)
 * [Initialize CLI](getting-started/initialization.md)
 
-## Tutorials <a id="how-to"></a>
+## Tutorials
 
-* [Formulas](how-to/formulas/README.md)
-  * [How to create formulas](how-to/formulas/how-to-create-formulas.md)
-  * [How to run formulas](how-to/formulas/how-to-run-formulas/README.md)
-    * ["Hello World" formula](how-to/formulas/how-to-run-formulas/commands.md)
-  * [How to implement formulas](how-to/formulas/implement-a-formula.md)
-  * [How to build formulas](how-to/formulas/build-a-formula.md)
-  * [How to publish formulas](how-to/formulas/publish-a-formula.md)
-  * [How to share formulas](how-to/formulas/share-formulas.md)
-  * [How to encapsulate formulas](how-to/formulas/encapsulate-formulas.md)
-* [Manipulating credentials](how-to/manipulate-credentials.md)
-* [Using STDIN flag](how-to/how-to-use-the-stdin-flag/README.md)
-  * [Formulas commands](how-to/how-to-use-the-stdin-flag/formulas-commands.md)
-  * [Core Commands](how-to/how-to-use-the-stdin-flag/core-commands.md)
+* [Formulas](tutorials/formulas/README.md)
+  * [How to create formulas](tutorials/formulas/how-to-create-formulas.md)
+  * [How to run formulas](tutorials/formulas/how-to-run-formulas/README.md)
+    * ["Hello World" formula](tutorials/formulas/how-to-run-formulas/commands.md)
+  * [How to implement formulas](tutorials/formulas/implement-a-formula.md)
+  * [How to build formulas](tutorials/formulas/build-a-formula.md)
+  * [How to publish formulas](tutorials/formulas/publish-a-formula.md)
+  * [How to share formulas](tutorials/formulas/share-formulas.md)
+  * [How to encapsulate formulas](tutorials/formulas/encapsulate-formulas.md)
+* [Manipulating credentials](tutorials/credentials.md)
+* [Using STDIN flag](tutorials/how-to-use-the-stdin-flag/README.md)
+  * [Formulas commands](tutorials/how-to-use-the-stdin-flag/formulas-commands.md)
+  * [Core Commands](tutorials/how-to-use-the-stdin-flag/core-commands.md)
 
 ## CHALLENGES
 
