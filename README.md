@@ -16,7 +16,7 @@ Atualmente, o Ritchie possui **duas versões disponíveis** para ser usada. Nest
 
 ### **O que muda?**
 
-{% page-ref page="sobre-o-ritchie-2.0.md" %}
+{% page-ref page="ritchie-v2.0.md" %}
 
 ## **Como o Ritchie funciona?**
 

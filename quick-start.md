@@ -30,7 +30,7 @@ Assim que finalizar a instalação do rit, é momento de fazer sua inicializaç�
 
 Por último, rode um "hello-world" no Ritchie para confirmar se a instalação funcionou. Para isso,  basta seguir as orientações da página abaixo. 
 
-{% page-ref page="tutoriais/formulas/como-executar-formulas/" %}
+{% page-ref page="tutorials/formulas/como-executar-formulas/" %}
 
 {% hint style="success" %}
 Parabéns, você está pronto para usar o Ritchie nos seus projetos! 

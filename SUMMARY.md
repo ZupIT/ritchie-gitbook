@@ -2,7 +2,7 @@
 
 * [Visão geral](README.md)
 * [Principais conceitos](key-concepts.md)
-* [Ritchie V1.0 ➡ V2.0](sobre-o-ritchie-2.0.md)
+* [Ritchie V1.0 ➡ V2.0](ritchie-v2.0.md)
 * [Guia de começo rápido](quick-start.md)
 
 ## PRIMEIROS PASSOS <a id="getting-started"></a>
@@ -14,40 +14,44 @@
   * [Instalação Manual](getting-started/installation/manual-installation.md)
 * [Inicialização do CLI](getting-started/initialization.md)
 
-## Tutoriais
+## Tutoriais <a id="tutorials"></a>
 
-* [Fórmulas](tutoriais/formulas/README.md)
-  * [Como criar fórmulas](tutoriais/formulas/como-criar-formulas.md)
-  * [Como executar fórmulas](tutoriais/formulas/como-executar-formulas/README.md)
-    * [Fórmula "Hello World"](tutoriais/formulas/como-executar-formulas/formula-hello-world.md)
-  * [Como implementar fórmulas](tutoriais/formulas/como-implementar-uma-formula.md)
-  * [Como "buildar" fórmulas](tutoriais/formulas/build-a-formula.md)
-  * [Como publicar fórmulas](tutoriais/formulas/como-publicar-formula.md)
-  * [Como compartilhar fórmulas](tutoriais/formulas/como-compartilhar-formulas.md)
-  * [Como encapsular fórmulas](tutoriais/formulas/como-encapsular-formulas.md)
-* [Manipulando credenciais](tutoriais/manipular-credenciais.md)
-* [Usando a flag STDIN](tutoriais/como-usar-a-flag-stdin/README.md)
-  * [Comandos de fórmulas](tutoriais/como-usar-a-flag-stdin/comandos-de-formulas.md)
-  * [Comandos Core](tutoriais/como-usar-a-flag-stdin/comandos-core.md)
+* [Fórmulas](tutorials/formulas/README.md)
+  * [Como executar fórmulas](tutorials/formulas/como-executar-formulas/README.md)
+    * [Fórmula "Hello World"](tutorials/formulas/como-executar-formulas/formula-hello-world.md)
+  * [Como criar fórmulas](tutorials/formulas/como-criar-formulas.md)
+  * [Como implementar fórmulas](tutorials/formulas/como-implementar-uma-formula.md)
+  * [Como "buildar" fórmulas](tutorials/formulas/build-a-formula.md)
+  * [Como publicar fórmulas](tutorials/formulas/como-publicar-formula.md)
+  * [Como compartilhar fórmulas](tutorials/formulas/como-compartilhar-formulas.md)
+  * [Como encapsular fórmulas](tutorials/formulas/como-encapsular-formulas.md)
+* [Credenciais](tutorials/credencials/README.md)
+  * [Como definir credenciais](tutorials/credencials/como-definir-credenciais.md)
+  * [Como adicionar provedores](tutorials/credencials/how-to-add-providers.md)
+  * [Como usar credenciais como parâmetros de entrada](tutorials/credencials/how-to-use-credentials-as-formula-inputs.md)
+* [Standard Inputs](tutorials/standard-inputs/README.md)
+  * [Como usar a flag stdin](tutorials/standard-inputs/how-to-use-the-stdin-flag/README.md)
+    * [Comandos Core](tutorials/standard-inputs/how-to-use-the-stdin-flag/comandos-core.md)
+    * [Comandos de fórmulas](tutorials/standard-inputs/how-to-use-the-stdin-flag/comandos-de-formulas.md)
 
-## DESAFIOS
+## DESAFIOS <a id="challenges"></a>
 
-* [O que são esses desafios?](desafios/desafios.md)
-* [Nível 1: Inputs básicos](desafios/nivel-1.md)
-* [Nível 2: Credenciais](desafios/nivel-2.md)
-* [Nível 3: Inputs condicionais](desafios/nivel-3.md)
-* [Nível 4: API](desafios/nivel-4.md)
-* [Nível 5: Encapsulamento](desafios/nivel-5.md)
+* [O que são esses desafios?](challenges/explanation.md)
+* [Nível 1: Inputs básicos](challenges/level-1.md)
+* [Nível 2: Credenciais](challenges/level-2.md)
+* [Nível 3: Inputs condicionais](challenges/level-3.md)
+* [Nível 4: API](challenges/level-4.md)
+* [Nível 5: Encapsulamento](challenges/level-5.md)
 
 ## Referência <a id="reference"></a>
 
-* [Lista de Comandos](reference/lista-de-comandos-1.md)
+* [Lista de Comandos](reference/list-of-commands.md)
 * [Release Notes](https://github.com/ZupIT/ritchie-cli/releases)
 * [Roadmap](https://github.com/ZupIT/ritchie-cli/issues)
 
 ---
 
 * [Sobre Ritchie](about-ritchie.md)
-* [Glossário](glossario.md)
+* [Glossário](glossary.md)
 * [FAQ](faq.md)
 

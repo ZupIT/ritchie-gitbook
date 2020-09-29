@@ -26,9 +26,9 @@ Esses parâmetros de entrada podem ser informados de diversas maneiras:
 
 ![](.gitbook/assets/start-end-ritchie.jpg)
 
-{% page-ref page="tutoriais/formulas/como-executar-formulas/" %}
+{% page-ref page="tutorials/formulas/como-executar-formulas/" %}
 
-{% page-ref page="tutoriais/como-usar-a-flag-stdin/" %}
+{% page-ref page="tutorials/standard-inputs/" %}
 
 
 
