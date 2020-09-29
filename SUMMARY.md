@@ -44,7 +44,3 @@
 * [Glossário](glossary.md)
 * [FAQ](faq.md)
 
-## Desafios
-
-* [Nível 1](desafios/nivel-1.md)
-
