@@ -28,11 +28,11 @@
   * [Spring starter](use-cases/first-formulas/spring-starter.md)
 * [Criando fórmulas](use-cases/creating-formulas.md)
 
-## REFERÊNCIA
+## REFERÊNCIA <a id="reference"></a>
 
-* [CLI](referencia/cli.md)
-* [Fórmulas](referencia/formulas.md)
-* [Servidor](referencia/server.md)
+* [CLI](reference/cli.md)
+* [Fórmulas](reference/formulas.md)
+* [Servidor](reference/server.md)
 * [Releases](https://github.com/ZupIT/ritchie-cli/releases)
 * [Roadmap](https://github.com/ZupIT/ritchie-cli/issues)
 
