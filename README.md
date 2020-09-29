@@ -20,11 +20,11 @@ A ferramenta permite criar automações \(chamadas de **fórmulas** no contexto 
 
 O Ritchie funciona para **todos os sistemas operacionais.** Para saber mais informações de como instalar na sua máquina, basta clicar no sistema de sua preferência:
 
-{% page-ref page="primeiros-passos/instalando-ritchie/linux.md" %}
+{% page-ref page="getting-started/installation/linux.md" %}
 
-{% page-ref page="primeiros-passos/instalando-ritchie/windows.md" %}
+{% page-ref page="getting-started/installation/windows.md" %}
 
-{% page-ref page="primeiros-passos/instalando-ritchie/macos.md" %}
+{% page-ref page="getting-started/installation/macos.md" %}
 
 ### **Linguagens de programação**
 
