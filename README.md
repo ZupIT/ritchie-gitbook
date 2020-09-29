@@ -6,7 +6,7 @@ description: 'In this section, you will find all initial information about Ritch
 
 ## What is Ritchie?
 
-Ritchie is an **open source framework** that creates and tweaks a CLI for your team. It allows you to easily create, build and share formulas.
+Ritchie is an **open source framework** that allows you to create, store and share any kind of automations, executing them through command lines, to run operations or start workflows.
 
 {% embed url="https://youtu.be/PtKFco2pIqs" %}
 
@@ -18,13 +18,11 @@ Currently, Ritchie has **two available versions**. On this documentation, we'll 
 
 {% page-ref page="ritchie-v2.0.md" %}
 
-## **How does Ritchie work?**
+## **How does Ritchie work? → Through Formulas!**
 
-In a general context, the common process for executing a project is to create a whole previous infrastructure, defining a language in the system that will be programmed, downloading dependencies and defining the rules that should be used for the project.
+In Ritchie's context, **a formula is a script** that can be executed automatically or interactively through a command line.
 
-![WITHOUT Ritchie](.gitbook/assets/en-sem-ritchie.png)
+Adapting an existing script to Ritchie structure allows you to run it **locally** or through **Docker**, and to share it on a **Github** or **Gitlab** repository.
 
-**With Ritchie**, it's possible to define this configuration using a formula, creating this infrastructure directly by a command line, which in this case will delivered all the structure of the project with all files automatically configured. That helps on avoiding an important time spent on infrastructure and configurations.
-
-![WITH Ritchie](.gitbook/assets/en-com-ritchie.png)
+![](.gitbook/assets/formula-ritchie-en.jpg)
 
