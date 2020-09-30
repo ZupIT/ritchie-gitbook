@@ -6,7 +6,7 @@ description: 'In this section, you will find how to install Ritchie for Linux.'
 
 ## Step 1: Requirements
 
-If you want to efficiently use Ritchie on Linux, we recommend to install the following element configured:
+If you want to efficiently use Ritchie on Linux with version **`2.0.5 and earlier`**, we recommend to install the following element configured:
 
 * The **make** command
 
