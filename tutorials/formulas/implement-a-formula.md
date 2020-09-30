@@ -27,6 +27,7 @@ Each input is composed of the following fields:
 * `type`: _**text**_ \(string\), _**bool**_ \(boolean\), _**password**_ \(hidden string\) or [_**credentials**_](https://docs.ritchiecli.io/how-to/manipulate-credentials#how-to-use-credentials-as-formula-inputs). 
 * `label` : text appearing on the CLI asking for the input. 
 * `default` \(_optional_\): default input value \(if null\). 
+* `tutorial` \(_optional_\): input helper \[? for help\] 
 * `items` \(_optional_\): list of input variable options. 
 * `cache` \(_optional_\): 
   * `active`: if cache is enabled or not.
