@@ -27,6 +27,7 @@ Outras informações disponíveis nesse arquivo são:
 * `type`: _**text**_ \(string\), _**bool**_ \(boolean\), _**password**_ \(hidden string\) or [_**credenciais**_](https://docs.ritchiecli.io/v/v2.0-pt/tutoriais/lista-de-comandos#como-usar-credenciais-como-parametros-de-entrada). 
 * `label`: texto que aparecerá no CLI para pedir o input ao usuário. 
 * `default` \(_opcional_\): valor padrão do parâmetro \(se nulo\). 
+* `tutorial` \(_opcional_\): campo de ajuda para o parâmetro de entrada _\[? for help\]_ 
 * `items` \(_opcional_\) : lista de opções para o parâmetro. 
 * `cache` \(_opcional_\) : 
   * `active`: se o cache é habilitado ou não.
