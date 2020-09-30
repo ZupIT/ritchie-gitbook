@@ -6,7 +6,7 @@ description: 'Nesta seção, você verá como instalar o Ritchie para Linux.'
 
 ## Passo 1: Requisitos
 
-Para instalar e usar a **última versão do Ritchie**,  você deve ter o seguinte elemento configurado:
+Para instalar e usar o Ritchie no Linux na versão **`2.0.5 ou anterior`**,  você deve ter o seguinte elemento configurado:
 
 * O comando **make**
 
