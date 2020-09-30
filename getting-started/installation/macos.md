@@ -8,7 +8,7 @@ Para instalar a **última versão do Ritchie**, você precisa executar o comando
 
 ## Passo 1: Requisitos
 
-Se você quiser usar o Ritchie no MacOs, é necessário que você já tenha configurado alguns elementos:
+Se você quiser usar o Ritchie no MacOs na versão **`2.0.5 ou anterior`**, é necessário que você já tenha configurado alguns elementos:
 
 * O comando **make** \([**Veja como usar "make" no macOS**](https://stackoverflow.com/questions/1469994/using-make-on-os-x)\)
 * Ferramentas **md5sum**
