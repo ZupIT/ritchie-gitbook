@@ -8,7 +8,7 @@ To install the **latest version of Ritchie** for MacOS, you just have to run the
 
 ## Step 1: Requirements
 
-To use Ritchie on MacOs, we recommend to install the following elements:
+To use Ritchie on MacOs with version **`2.0.5 and earlier`**, we recommend to install the following elements:
 
 * The **make** command \([**Using "make" on macOS**](https://stackoverflow.com/questions/1469994/using-make-on-os-x)\)
 * **md5sum** tools
