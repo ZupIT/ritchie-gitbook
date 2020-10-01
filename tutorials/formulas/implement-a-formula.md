@@ -27,6 +27,7 @@ Each input is composed of the following fields:
 * `type`: _**text**_ \(string\), _**bool**_ \(boolean\), _**password**_ \(hidden string\) or [_**credentials**_](https://docs.ritchiecli.io/how-to/manipulate-credentials#how-to-use-credentials-as-formula-inputs). 
 * `label` : text appearing on the CLI asking for the input. 
 * `default` \(_optional_\): default input value \(if null\). 
+* `required` \(_optional_\): indicates if the input value is required or optional.
 * `tutorial` \(_optional_\): input helper _\[? for help\]_ 
 * `items` \(_optional_\): list of input variable options. 
 * `cache` \(_optional_\): 
@@ -49,6 +50,7 @@ Each input is composed of the following fields:
       "label": "Select a system:",
       "name": "system",
       "type": "text",
+      "required": true,
       "items": [
         "LINUX",
         "MACOS",
@@ -63,6 +65,7 @@ Each input is composed of the following fields:
       },
       "label": "Select a LINUX OS:",
       "name": "linux-os",
+      "required": false,
       "type": "text",
       "items": [
         "UBUNTU",
