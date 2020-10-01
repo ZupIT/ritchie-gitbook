@@ -37,6 +37,9 @@ Each input is composed of the following fields:
   * `variable`: The variable name used on a previous input for comparison.
   * `operator`: A logical operator to compare. Supports **`==`**, **`!=`**, **`<`**, **`>`**, **`<=`**, and **`>=`.**
   * `value`: The desired value to compare to.
+* `pattern` \(_optional_\): 
+  * `regex`: The regex pattern to validate the input
+  * `mismatchText`: error message when input doesn't match the regex pattern
 
 **Conditional input example:**
 
@@ -65,7 +68,11 @@ Each input is composed of the following fields:
         "UBUNTU",
         "FEDORA",
         "CENTOS"
-      ]
+      ],
+      "pattern": {
+        "regex": "UBUNTU|FEDORA|CENTOS",
+        "mismatchText": "Invalid option"
+      }
     }
   ]
 ```
