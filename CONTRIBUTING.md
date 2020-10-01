@@ -17,10 +17,10 @@ let you know so that you can rebase it.
 
 At the moment our documentation is divided in 4 parts / branches on Gitbook :
 
-version 1 (EN) : master
-version 1 (PT) : doc-portuguese
-version 2 (EN) : ritchie-v2.0
-version 2 (PT) : v2.0-pt
+- version 1 (EN) : master
+- version 1 (PT) : doc-portuguese
+- version 2 (EN) : ritchie-v2.0
+- version 2 (PT) : v2.0-pt
 
 Therefeore, ISSUES related to version 2.x.y will have to be implemented on ritchie-v2.0 or v2.0-pt branches.
 
