@@ -22,7 +22,7 @@ At the moment our documentation is divided in 4 parts / branches on Gitbook :
 - version 2 (EN) : ritchie-v2.0
 - version 2 (PT) : v2.0-pt
 
-Therefeore, ISSUES related to version 2.x.y will have to be implemented on ritchie-v2.0 or v2.0-pt branches.
+Therefore, ISSUES related to version 2.x.y will have to be implemented on ritchie-v2.0 or v2.0-pt branches.
 
 ## New features for the project
 
