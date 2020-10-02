@@ -27,6 +27,7 @@ Outras informações disponíveis nesse arquivo são:
 * `type`: _**text**_ \(string\), _**bool**_ \(boolean\), _**password**_ \(hidden string\) or [_**credenciais**_](https://docs.ritchiecli.io/v/v2.0-pt/tutoriais/lista-de-comandos#como-usar-credenciais-como-parametros-de-entrada). 
 * `label`: texto que aparecerá no CLI para pedir o input ao usuário. 
 * `default` \(_opcional_\): valor padrão do parâmetro \(se nulo\). 
+* `required` \(_optional_\): indica se parâmetro de entrada é obrigatório ou opcional.
 * `items` \(_opcional_\) : lista de opções para o parâmetro. 
 * `cache` \(_opcional_\) : 
   * `active`: se o cache é habilitado ou não.
@@ -45,6 +46,7 @@ Outras informações disponíveis nesse arquivo são:
       "label": "Select a system:",
       "name": "system",
       "type": "text",
+      "required": true,
       "items": [
         "LINUX",
         "MACOS",
@@ -59,6 +61,7 @@ Outras informações disponíveis nesse arquivo são:
       },
       "label": "Select a LINUX OS:",
       "name": "linux-os",
+      "required": false,
       "type": "text",
       "items": [
         "UBUNTU",
