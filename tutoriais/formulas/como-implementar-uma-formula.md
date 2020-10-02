@@ -37,6 +37,9 @@ Outras informações disponíveis nesse arquivo são:
   * `variable`: O nome da variável usada em um parâmetro anterior para comparação.
   * `operator`: O operador lógico usado para comparar. Supporta ==, !=, &lt;, &gt;, &lt;=, and &gt;=
   * `value`: O valor que se deseja usar para comparação.
+* `pattern` \(_optional_\): 
+  * `regex`: Padrão regex para validar o parâmetro de entrada.
+  * `mismatchText`: Mensagem de erro apresentada quando o parâmetro de entrada não corresponde ao padrão do regex.
 
 **Exemplo de uso do input condicional:**
 
@@ -67,7 +70,11 @@ Outras informações disponíveis nesse arquivo são:
         "UBUNTU",
         "FEDORA",
         "CENTOS"
-      ]
+      ],
+      "pattern": {
+        "regex": "UBUNTU|FEDORA|CENTOS",
+        "mismatchText": "Invalid option"
+      }
     }
   ]
 ```
