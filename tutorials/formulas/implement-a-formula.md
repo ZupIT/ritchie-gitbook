@@ -23,26 +23,26 @@ These input parameters are made up of the following fields:
 
 Each input is composed of the following fields:
 
-* `name`: variable name to extract. 
-* `type`: _**text**_ \(string\), _**bool**_ \(boolean\), _**password**_ \(hidden string\) or [_**credentials**_](https://docs.ritchiecli.io/how-to/manipulate-credentials#how-to-use-credentials-as-formula-inputs). 
-* `label` : text appearing on the CLI asking for the input. 
-* `default` \(_optional_\): default input value \(if null\). 
-* `required` \(_optional_\): boolean that indicates if the input value is required or optional.
-* `tutorial` \(_optional_\): input helper _\[? for help\]_ 
-* `items` \(_optional_\): list of input variable options. 
+* `name`: variable name to extract.  
+* `type`: _**text**_ \(string\), _**bool**_ \(boolean\), _**password**_ \(hidden string\) or [_**credentials**_](https://docs.ritchiecli.io/how-to/manipulate-credentials#how-to-use-credentials-as-formula-inputs).  
+* `label` : text appearing on the CLI asking for the input.  
+* `default` \(_optional_\): default input value \(if null\).  
+* `required` \(_optional_\): boolean that indicates if the input value is required or optional. 
+* `tutorial` \(_optional_\): input helper _\[? for help\]_  
+* `items` \(_optional_\): list of input variable options.  
 * `cache` \(_optional_\): 
   * `active`: if cache is enabled or not.
   * `qty`: amount of values to store.
-  * `newLabel`: text appearing on the CLI asking for a new input. 
+  * `newLabel`: text appearing on the CLI asking for a new input.  
 * `condition` \(_optional_\): Only shows this input if the given condition succeeds
   * `variable`: The variable name used on a previous input for comparison.
   * `operator`: A logical operator to compare. Supports **`==`**, **`!=`**, **`<`**, **`>`**, **`<=`**, and **`>=`.**
-  * `value`: The desired value to compare to.
+  * `value`: The desired value to compare to. 
 * `pattern` \(_optional_\): 
   * `regex`: The regex pattern to validate the input
   * `mismatchText`: error message when input doesn't match the regex pattern
 
-**Conditional input example:**
+**Conditional input example with Regex pattern:**
 
 ```text
 "inputs": [
