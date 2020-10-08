@@ -4,19 +4,19 @@ description: 'In this section, you will find how to implement formulas on Ritchi
 
 # How to implement formulas
 
-## How to implement? 
+## How to implement?
 
 Once you have [**created and tested your formula**](how-to-create-formulas.md), Ritchie will generate a local workspace. This is where you can start implementing the new automation by updating the **Hello World** template.
 
-### Editable files 
+### Editable files
 
-To do this configuration, you will have to update **3 files** located inside the **/src package** of the new formula’s root folder. 
+To do this configuration, you will have to update **3 files** located inside the **/src package** of the new formula’s root folder.
 
 #### 1.  **`config.json`**
 
 The **config.json** file contains the formula's input parameters. It allows the CLI to know what datas to ask the user when he runs the command in the terminal in order to process the formula correctly.
 
-These input parameters are made up of the following fields: 
+These input parameters are made up of the following fields:
 
 * a docker image builder
 * the formula inputs parameters.
@@ -27,7 +27,7 @@ Each input is composed of the following fields:
 * `type`: _**text**_ \(string\), _**bool**_ \(boolean\), _**password**_ \(hidden string\) or [_**credentials**_](https://docs.ritchiecli.io/how-to/manipulate-credentials#how-to-use-credentials-as-formula-inputs). 
 * `label` : text appearing on the CLI asking for the input. 
 * `default` \(_optional_\): default input value \(if null\). 
-* `required` \(_optional_\): indicates if the input value is required or optional.
+* `required` \(_optional_\): boolean that indicates if the input value is required or optional.
 * `tutorial` \(_optional_\): input helper _\[? for help\]_ 
 * `items` \(_optional_\): list of input variable options. 
 * `cache` \(_optional_\): 
@@ -112,8 +112,6 @@ According to the image above, you can see the editable files:
 {% endtab %}
 
 {% tab title="Java" %}
-
-
 ![](../../.gitbook/assets/java.png)
 
 According to the image above, you can see the editable files:
@@ -162,11 +160,11 @@ According to the image above, you can see the editable files:
 The structures defines the command, so **it's not indicated to update** folders names or include more files/folders **if not** in the **src/\*** folder.
 {% endhint %}
 
-## Next steps 
+## Next steps
 
-On this section, you saw how to implement a formula on Ritchie. To keep configuring the formula: 
+On this section, you saw how to implement a formula on Ritchie. To keep configuring the formula:
 
-👉 Go to [**build a formula**](build-a-formula.md) to see how to continue the tests on the formulas you create. 
+👉 Go to [**build a formula**](build-a-formula.md) to see how to continue the tests on the formulas you create.
 
-👉 Go to [**publish a formula**](publish-a-formula.md) to see how to transfer your work to a public repository. 
+👉 Go to [**publish a formula**](publish-a-formula.md) to see how to transfer your work to a public repository.
 
