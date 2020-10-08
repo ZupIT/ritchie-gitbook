@@ -40,7 +40,7 @@ Outras informações disponíveis nesse arquivo são:
   * `value`: O valor que se deseja usar para comparação. 
 * `pattern` \(_opcional_\): 
   * `regex`: O  modelo regex para validar o parâmetro.
-  * `mismatchText`: A mensagem de erro caso o parâmetro de entrada não é validado pelo modelo regex.
+  * `mismatchText`: A mensagem de erro caso o parâmetro de entrada seja invalidado pelo regex.
 
 **Exemplo de uso do input condicional com Regex:**
 
