@@ -27,6 +27,7 @@ Outras informações disponíveis nesse arquivo são:
 * `type`: _**text**_ \(string\), _**bool**_ \(boolean\), _**password**_ \(hidden string\) or [_**credenciais**_](https://docs.ritchiecli.io/v/v2.0-pt/tutoriais/lista-de-comandos#como-usar-credenciais-como-parametros-de-entrada). 
 * `label`: texto que aparecerá no CLI para pedir o input ao usuário. 
 * `default` \(_opcional_\): valor padrão do parâmetro \(se nulo\). 
+* `required` \(_opcional_\): boolean que indica se um campo é obrigatório ou opcional. 
 * `tutorial` \(_opcional_\): campo de ajuda para o parâmetro de entrada _\[? for help\]_ 
 * `items` \(_opcional_\) : lista de opções para o parâmetro. 
 * `cache` \(_opcional_\) : 
@@ -35,10 +36,13 @@ Outras informações disponíveis nesse arquivo são:
   * `newLabel`: texto que aparecerá no CLI para pedir um novo input ao usuário. 
 * `condition` \(_opcional_\): Apenas mostra esse parâmetro se a condicional funcionar.
   * `variable`: O nome da variável usada em um parâmetro anterior para comparação.
-  * `operator`: O operador lógico usado para comparar. Supporta ==, !=, &lt;, &gt;, &lt;=, and &gt;=
-  * `value`: O valor que se deseja usar para comparação.
+  * `operator`: O operador lógico usado para comparar. Suporta `==`, `!=`, `<`, `>`, `<=`, and `>=`
+  * `value`: O valor que se deseja usar para comparação. 
+* `pattern` \(_opcional_\): 
+  * `regex`: O  modelo regex para validar o parâmetro.
+  * `mismatchText`: A mensagem de erro caso o parâmetro de entrada não é validado pelo modelo regex.
 
-**Exemplo de uso do input condicional:**
+**Exemplo de uso do input condicional com Regex:**
 
 ```text
 "inputs": [
@@ -46,6 +50,7 @@ Outras informações disponíveis nesse arquivo são:
       "label": "Select a system:",
       "name": "system",
       "type": "text",
+      "required": true,
       "items": [
         "LINUX",
         "MACOS",
@@ -60,12 +65,17 @@ Outras informações disponíveis nesse arquivo são:
       },
       "label": "Select a LINUX OS:",
       "name": "linux-os",
+      "required": false,
       "type": "text",
       "items": [
         "UBUNTU",
         "FEDORA",
         "CENTOS"
-      ]
+      ],
+      "pattern": {
+        "regex": "UBUNTU|FEDORA|CENTOS",
+        "mismatchText": "Invalid option"
+      }
     }
   ]
 ```
