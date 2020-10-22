@@ -19,7 +19,7 @@ You will have to adapt the variable values of each JSON to perform the desired o
 rit init
 
 ```text
-echo '{"addRepo":"yes"}' | rit init --stdin
+echo '{"addCommons":"yes", "sendMetrics":"yes", "runType":"local"}' | rit init --stdin
 ```
 
 rit tutorial
