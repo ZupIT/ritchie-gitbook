@@ -65,7 +65,7 @@ Dependendo da operação, o **JSON** usado com o comando STDIN pode ser gerado d
 
 Nessa seção, você viu como funciona o encapsulamento de fórmulas no Ritchie.  Para continuar lendo sobre os comandos do Ritchie:
 
-👉 Cheque os [**desafios**](../../challenges/explanation.md) que criamos para você praticar as diversas funcionalidades do Ritchie.
+👉 Cheque os[ **desafios**](../../challenges/explanation.md) que criamos para você praticar as diversas funcionalidades do Ritchie.
 
-👉 Cheque a [**lista de comandos**](https://app.gitbook.com/@zup-products/s/ritchie/~/drafts/-MDPWwvUtJ2ZZfV8Mw44/v/v2.0-pt/developer/lista-de-comandos) para ver as automações disponíveis no repo da nossa comunidade. 
+👉 Cheque a [**lista de comandos**](../../reference/list-of-commands.md) para ver as automações disponíveis no repo da nossa comunidade. 
 
