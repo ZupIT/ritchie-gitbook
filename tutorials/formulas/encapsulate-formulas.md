@@ -65,7 +65,7 @@ Depending on the operation, the JSON used with the STDIN command could be genera
 
 You saw in this section how to use formula encapsulation. If you want to keep reading about Ritchie's commands:‌
 
-​👉 Check out the [**challenges**](https://app.gitbook.com/@zup-products/s/ritchie/~/diff/drafts/-MHIAf91S1RlTOvJs_KU/challenges/challenges/@drafts) we created to apply all the Ritchie concepts you learned.‌
+​👉 Check out the [**challenges**](../../challenges/explanation.md) we created to apply all the Ritchie concepts you learned.‌
 
-​👉 Check out our [**list of commands**](https://app.gitbook.com/@zup-products/s/ritchie/~/diff/drafts/-MHIAf91S1RlTOvJs_KU/developer/list-of-commands/@drafts) to see the available automations on our community repo.
+​👉 Check out our [**list of commands**](../../reference/list-of-commands.md) to see the available automations on our community repo.
 
