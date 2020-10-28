@@ -27,9 +27,9 @@ Sugestão de comando: **`rit math calculate`**
 
 Essa fórmula deverá conter \(pelo menos\) os três parâmetros de entrada. Veja como abaixo:
 
-* [ ] Number one \(`NUMBER_ONE`\). 
-* [ ] Number two \(`NUMBER_TWO`\). 
-* [ ] Operation \(`OPERATION`\).
+1. Number one \(`NUMBER_ONE`\). 
+2. Number two \(`NUMBER_TWO`\). 
+3. Operation \(`OPERATION`\).
 
 ## Passo a passo
 
@@ -47,6 +47,6 @@ Para implementar esta fórmula, será necessário seguir os passos abaixo:
 
 Se você quiser testar mais a sua fórmula, é possível configurá-la para que ela:
 
-* [ ] Adicione mais operações. 
-* [ ] Adicione a opção de informar qualquer quantidade de números como entradas.
+* Adicione mais operações.
+* Adicione a opção de informar qualquer quantidade de números como entradas.
 

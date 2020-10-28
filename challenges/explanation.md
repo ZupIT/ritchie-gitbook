@@ -41,6 +41,6 @@ O **`quarto desafio`** é para você aplicar o conceito de encapsulamento de fó
 
 
 {% hint style="warning" %}
-A ideia é que haja mais desafios nesta seção. Por isso, recomendamos que você confira essa página ocasionalmente. 
+A ideia é que haja mais desafios nesta seção. Por isso, recomendamos que você confira essa página periodicamente. 
 {% endhint %}
 

@@ -18,8 +18,8 @@ Sugestão de comando para tarefa: **`rit math sum numbers`**
 
 Essa fórmula deverá conter \(pelo menos\) os dois parâmetros de entrada. Veja como abaixo:
 
-* [ ] Number one \(`NUMBER_ONE`\). 
-* [ ] Number two \(`NUMBER_TWO`\).
+1. Number one \(`NUMBER_ONE`\). 
+2. Number two \(`NUMBER_TWO`\).
 
 ## Passo a passo
 
@@ -38,11 +38,11 @@ Parabéns! Você completou a tarefa de nível 1!
 
 Se você quiser testar mais a sua fórmula, é possível configurá-la para que ela:
 
-* [ ] Adicione uma validação dos parâmetros de entrada para retornar um erro ao usuário se o parâmetro não for um inteiro. 
-* [ ] Permita que usuário some números negativos com positivos. 
-* [ ] Permita que o usuário digite números decimais. 
+* Adicione uma validação dos parâmetros de entrada para retornar um erro ao usuário se o parâmetro não for um inteiro. 
+* Permita que usuário some números negativos com positivos. 
+* Permita que o usuário digite números decimais. 
 
 ## Próximos passos 
 
-👉 Se você completou o primeiro desafio, vamos para o [**segundo nível**](level-2.md)!
+👉 Se você completou o primeiro desafio, vamos para o[ **desafio nível 2**](level-2.md)!
 

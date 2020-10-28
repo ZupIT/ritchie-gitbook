@@ -22,8 +22,8 @@ Sugestão de comando: **`rit github get user`**
 
 Essa fórmula deverá conter \(pelo menos\) os two parâmetros de entrada abaixo:
 
-* [ ] Username \(`GIT_USER`\). 
-* [ ] Token \( `GIT_TOKEN`\).
+* Username \(`GIT_USER`\). 
+* Token \( `GIT_TOKEN`\).
 
 ## Passo a passo
 
@@ -37,12 +37,12 @@ A fórmula deverá respeitar os seguintes passos:
 
 Se você quiser testar mais a sua fórmula, é possível configurá-la para que ela:
 
-* [ ] Desenvolva alguma operação Github manipulando essas credenciais. 
-* [ ] Codifique uma fórmula que permitirá ao usuário criar um repositório no Github. 
-* [ ] Codifique uma fórmula que permitirá ao usuário fazer um **add**, **commit** e **push** usando apenas um comando. 
-* [ ] Codifique uma fórmula que permitirá ao usuário gerar uma **release** do repositório Github informado.
+* Desenvolva alguma operação Github manipulando essas credenciais. 
+* Codifique uma fórmula que permitirá ao usuário criar um repositório no Github. 
+* Codifique uma fórmula que permitirá ao usuário fazer um **add**, **commit** e **push** usando apenas um comando. 
+* Codifique uma fórmula que permitirá ao usuário gerar uma **release** do repositório Github informado.
 
 ## Próximos passos 
 
-👉 Se você completou o segundo desafio, vamos para o [**terceiro nível**](level-3.md)!
+👉 Se você completou o segundo desafio, vamos para o [**desafio nível 3**](level-3.md)!
 

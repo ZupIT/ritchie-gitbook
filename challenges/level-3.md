@@ -22,8 +22,8 @@ Sugestão de comando: **`rit get tools`**
 
 Essa fórmula deverá conter \(pelo menos\) os two parâmetros de entrada abaixo:
 
-* [ ] Profile \(`PROFILE`\). 
-* [ ] Profile tool \(`TOOL`\).
+* Profile \(`PROFILE`\). 
+* Profile tool \(`TOOL`\).
 
 Os parâmetros de entrada da fórmula deverão respeitar o diagrama abaixo:
 
@@ -41,9 +41,9 @@ A fórmula deverá respeitar os seguintes passos:
 
 Se você quiser aprimorar sua fórmula, é possível configurá-la para que ela:
 
-* [ ] Instala a ferramenta selecionada de acordo com o SO do computador.
+* Instale a ferramenta selecionada de acordo com o SO do computador.
 
 ## Próximos passos 
 
-👉 Se você completou o terceiro desafio, vamos para o [**quarto nível**](level-4.md)!
+👉 Se você completou o terceiro desafio, vamos para o [**desafio nível 4**](level-4.md)!
 
