@@ -40,7 +40,11 @@ Outras informações disponíveis nesse arquivo são:
   * `value`: O valor que se deseja usar para comparação. 
 * `pattern` \(_opcional_\): 
   * `regex`: O  modelo regex para validar o parâmetro.
-  * `mismatchText`: A mensagem de erro caso o parâmetro de entrada seja invalidado pelo regex.
+  * `mismatchText`: A mensagem de erro caso o parâmetro de entrada seja invalidado pelo regex. 
+* `type`: Adicionar **dynamic** entre a lista de opções \(com text, bool, password\).
+* `requestInfo` _\(opcional\):_
+  * `url`: A URL que consome o serviço GET, responsável por retornar a lista de objetos.
+  * `jsonPath`: Caminho da variável para extrair da lista retornada uma variável de cada objeto. \(Veja sobre ****[**como funciona o json path**](https://goessner.net/articles/JsonPath/)\).
 
 **Exemplo de uso do input condicional com Regex:**
 
