@@ -34,13 +34,9 @@ O **`terceiro desafio`** é para você entender como manipular inputs condiciona
 
 {% page-ref page="level-3.md" %}
 
-O **`quarto desafio`** é para você testar um exemplo de como chamar serviços de API dentro de uma fórmula.
+O **`quarto desafio`** é para você aplicar o conceito de encapsulamento de fórmulas.
 
 {% page-ref page="level-4.md" %}
-
-O **`quinto desafio`** é para você aplicar o conceito de encapsulamento de fórmulas.
-
-{% page-ref page="level-5.md" %}
 
 
 

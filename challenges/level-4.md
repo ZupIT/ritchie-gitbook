@@ -1,45 +1,52 @@
 ---
 description: >-
-  Nesta seção, você encontrará o passo a passo para fazer chamadas de serviços
-  API usando o Ritchie.
+  Nesta seção, você encontrará um passo a passo para usar o conceito de
+  encapsulamento de fórmula.
 ---
 
-# Nível 4: API
+# Nível 4: Encapsulamento
 
 ## Objetivo
 
-Neste tutorial, a ideia é criar uma fórmula que vai **retornar um JSON contendo o endereço associado a um CEP.**
+Neste tutorial, a ideia é criar uma fórmula que vai **encapsular outra fórmula dentro dela**.
+
+{% hint style="warning" %}
+Você encontrará todas as informações necessárias na seção do tutorial sobre[ **como encapsular fórmulas**](../tutorials/formulas/como-encapsular-formulas.md).
+{% endhint %}
+
+A ideia é encapsular pelo menos 2 fórmulas dentro de uma outra:
+
+* **`rit math sum numbers`** \(Nível 1\)
+* **`rit math multiply numbers`** \(TODO\)
 
 {% hint style="info" %}
-Sugestão de comando: **`rit brazil get address`**
+Sugestão de comando: **`rit math calculate`**
 {% endhint %}
 
 ## Parâmetros de entrada
 
-Essa fórmula deverá conter \(pelo menos\) o parâmetro de entrada abaixo:
+Essa fórmula deverá conter \(pelo menos\) os três parâmetros de entrada. Veja como abaixo:
 
-* [ ] CEP \(`CEP`\).
-
-{% hint style="warning" %}
-Aqui está uma sugestão de API que retorne os dados de endereço de um CEP para realizar a implementação da fórmula: [**http://viacep.com.br/**](http://viacep.com.br/)\*\*\*\*
-{% endhint %}
+* [ ] Number one \(`NUMBER_ONE`\). 
+* [ ] Number two \(`NUMBER_TWO`\). 
+* [ ] Operation \(`OPERATION`\).
 
 ## Passo a passo
 
-A fórmula deverá respeitar os seguintes passos:
+Para implementar esta fórmula, será necessário seguir os passos abaixo:   
+  
+**Premissa**: Criação da fórmula **`rit math multiply numbers`** \(igual ao nível 1\). 
 
-1. Validar o formato do CEP. 
-2. Realizar a busca dos dados. 
-3. Transformar os dados obtidos em JSON. 
-4. Retorno do resultado no terminal.
+1. Extraia todos os parâmetros de entrada. 
+2. Execute a fórmula rit de acordo com a operação selecionada: 
+   * **multiply** deve chamar a fórmula **`rit math multiply numbers`**
+   * **sum** deve chamar a fórmula **`rit math sum numbers`** 
+3. Retorne o resultado no terminal.
 
 ## Sugestões de melhorias
 
 Se você quiser testar mais a sua fórmula, é possível configurá-la para que ela:
 
-* Codifique uma fórmula que permitirá ao usuário obter o CEP inserindo dados do endereço.
-
-## Próximos passos 
-
-👉 Se você completou o quarto desafio, vamos para o [**quinto nível**](level-5.md)!
+* [ ] Adicione mais operações. 
+* [ ] Adicione a opção de informar qualquer quantidade de números como entradas.
 

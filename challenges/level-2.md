@@ -15,7 +15,7 @@ Você encontrará todas as informações necessárias na seção do tutorial sob
 {% endhint %}
 
 {% hint style="info" %}
-Sugestão de comando: **`rit github get credentials`**
+Sugestão de comando: **`rit github get user`**
 {% endhint %}
 
 ## Parâmetros de entrada
@@ -30,19 +30,19 @@ Essa fórmula deverá conter \(pelo menos\) os two parâmetros de entrada abaixo
 A fórmula deverá respeitar os seguintes passos:
 
 1. Extração dos parâmetros de entrada. 
-2. Criação do JSON com as credenciais do Github. 
+2. Consome a [**api do GitHub**](https://docs.github.com/en/free-pro-team@latest/rest/reference/users#get-a-user) ****para obter os dados do usuário**.** 
 3. Retorno do resultado no terminal.
 
 ## Sugestões de melhorias
 
 Se você quiser testar mais a sua fórmula, é possível configurá-la para que ela:
 
-* Desenvolva alguma operação Github manipulando essas credenciais. 
-* Codifique uma fórmula que permitirá ao usuário criar um repositório no Github. 
-* Codifique uma fórmula que permitirá ao usuário fazer um **add**, **commit** e **push** usando apenas um comando. 
-* Codifique uma fórmula que permitirá ao usuário gerar uma **release** do repositório Github informado.
+* [ ] Desenvolva alguma operação Github manipulando essas credenciais. 
+* [ ] Codifique uma fórmula que permitirá ao usuário criar um repositório no Github. 
+* [ ] Codifique uma fórmula que permitirá ao usuário fazer um **add**, **commit** e **push** usando apenas um comando. 
+* [ ] Codifique uma fórmula que permitirá ao usuário gerar uma **release** do repositório Github informado.
 
 ## Próximos passos 
 
-👉 Se você completou o segundo desafio, vamos para o [**terceiro nível**](level-4.md)!
+👉 Se você completou o segundo desafio, vamos para o [**terceiro nível**](level-3.md)!
 

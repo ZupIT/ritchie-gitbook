@@ -37,11 +37,10 @@
 ## DESAFIOS <a id="challenges"></a>
 
 * [O que são esses desafios?](challenges/explanation.md)
-* [Nível 1: Inputs básicos](challenges/level-1.md)
+* [Nível 1: Inputs](challenges/level-1.md)
 * [Nível 2: Credenciais](challenges/level-2.md)
 * [Nível 3: Inputs condicionais](challenges/level-3.md)
-* [Nível 4: API](challenges/level-4.md)
-* [Nível 5: Encapsulamento](challenges/level-5.md)
+* [Nível 4: Encapsulamento](challenges/level-4.md)
 
 ## Referência <a id="reference"></a>
 

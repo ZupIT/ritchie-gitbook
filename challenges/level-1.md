@@ -4,7 +4,7 @@ description: >-
   Ritchie.
 ---
 
-# Nível 1: Inputs básicos
+# Nível 1: Inputs
 
 ## Objetivo
 
@@ -38,10 +38,9 @@ Parabéns! Você completou a tarefa de nível 1!
 
 Se você quiser testar mais a sua fórmula, é possível configurá-la para que ela:
 
-* Adicione uma validação dos parâmetros de entrada para retornar um erro ao usuário se o parâmetro não for um inteiro. 
-* Permita que usuário some números negativos com positivos. 
-* Permita que o usuário digite números decimais.  
-* Permita que o usuário escolha realize outras operações, como subtração, multiplicação e divisão.
+* [ ] Adicione uma validação dos parâmetros de entrada para retornar um erro ao usuário se o parâmetro não for um inteiro. 
+* [ ] Permita que usuário some números negativos com positivos. 
+* [ ] Permita que o usuário digite números decimais. 
 
 ## Próximos passos 
 
