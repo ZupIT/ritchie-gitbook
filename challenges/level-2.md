@@ -22,8 +22,8 @@ Command suggestion: **`rit github get user`**
 
 This formula needs to contain \(at least\) those two inputs parameters:
 
-1. [ ] Username \(`GIT_USER`\). 
-2. [ ] Token \( `GIT_TOKEN`\).
+* Username \(`GIT_USER`\). 
+* Token \( `GIT_TOKEN`\).
 
 ## Step by step
 
@@ -37,10 +37,10 @@ The formula needs to follow the next steps:
 
  If you want to play a little more, here are some suggestions:
 
-* [ ] Develop some Github operation by manipulating these credentials. 
-* [ ] Code a formula which will allow the user to create a repository on Github. 
-* [ ] Code a formula which will allow the user to **add**, **commit** and **push** using one command only.  
-* [ ] Code a formula which will allow the user to generate a release of the informed Github repository.
+* Develop some Github operation by manipulating these credentials. 
+* Code a formula which will allow the user to create a repository on Github. 
+* Code a formula which will allow the user to **add**, **commit** and **push** using one command only.  
+* Code a formula which will allow the user to generate a release of the informed Github repository.
 
 ## Next steps 
 

@@ -22,8 +22,8 @@ Command suggestion: **`rit get tools`**
 
 This formula needs to contain \(at least\) those two inputs parameters:
 
-* [ ] Profile \(`PROFILE`\). 
-* [ ] Profile tool \(`TOOL`\).
+* Profile \(`PROFILE`\). 
+* Profile tool \(`TOOL`\).
 
 The formula inputs will have to respect the diagram below:
 
@@ -41,7 +41,7 @@ The formula needs to follow the next steps:
 
  If you want to play a little more, here are some suggestions:
 
-* [ ] Install the selected tool according to the computer OS.
+* Install the selected tool according to the computer OS.
 
 ## Next steps 
 

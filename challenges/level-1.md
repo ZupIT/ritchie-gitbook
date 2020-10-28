@@ -18,8 +18,8 @@ Command suggestion: **`rit math sum numbers`**
 
 This formula needs to contain \(at least\) those two inputs parameters:
 
-* [ ] Number one \(`NUMBER_ONE`\). 
-* [ ] Number two \(`NUMBER_TWO`\).
+1. Number one \(`NUMBER_ONE`\). 
+2. Number two \(`NUMBER_TWO`\).
 
 ## Step by step
 
@@ -38,9 +38,9 @@ Well done! You've completed the first task!
 
  If you want to play a little more, here are some suggestions:
 
-* [ ] Add a validation of the input parameters to return an error to the user if the parameter is not an integer. 
-* [ ] Allows the user to sum negative numbers with positive ones. 
-* [ ] Allows the user to digit decimals in addition to integers.
+* Add a validation of the input parameters to return an error to the user if the parameter is not an integer. 
+* Allows the user to sum negative numbers with positive ones. 
+* Allows the user to digit decimals in addition to integers.
 
 ## Next steps 
 

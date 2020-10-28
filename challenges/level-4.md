@@ -28,9 +28,9 @@ Command suggestion: **`rit math calculate`**
 
 This formula needs to contain \(at least\) those three inputs parameters:
 
-* [ ] Number one \(`NUMBER_ONE`\). 
-* [ ] Number two \(`NUMBER_TWO`\). 
-* [ ] Operation \(`OPERATION`\).
+1. Number one \(`NUMBER_ONE`\). 
+2. Number two \(`NUMBER_TWO`\). 
+3. Operation \(`OPERATION`\).
 
 ## Step by step
 
@@ -48,6 +48,6 @@ To implement this formula, it will be necessary to follow the steps below:
 
  If you want to play a little more, here are some suggestions:
 
-* [ ] Add more operations. 
-* [ ] Add the option to inform any quantity of numbers as inputs.
+* Add more operations. 
+* Add the option to inform any quantity of numbers as inputs.
 

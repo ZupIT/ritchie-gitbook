@@ -40,7 +40,11 @@ Each input is composed of the following fields:
   * `value`: The desired value to compare to. 
 * `pattern` \(_optional_\): 
   * `regex`: The regex pattern to validate the input
-  * `mismatchText`: error message when input doesn't match the regex pattern
+  * `mismatchText`: error message when input doesn't match the regex pattern 
+* `requestInfo` _\(optional\):_
+  * `type`: Dynamic
+  * `url`: URL to consume a GET service that will return a list of objects.
+  * `jsonPath`: Path to the variable to extract from the returned list, for each object. \(Check out ****[**how works the json path**](https://goessner.net/articles/JsonPath/)\).
 
 **Conditional input example with Regex pattern:**
 
