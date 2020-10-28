@@ -24,7 +24,45 @@ Once the repository has been added, Ritchie will use the selected release on the
 If the formula repository is **private**, the user will have to inform his Github / Gitlab token.
 {% endhint %}
 
-To **check** **the new added formulas command**, you can run the **`rit list repo`** command to check your new repository, and then run the **`rit --help`** command to take a look at new formulas groups that will appear.
+## How to see the repo latest version?
+
+{% hint style="info" %}
+This feature is available from Ritchie 2.2 version. 
+{% endhint %}
+
+On Ritchie, it is possible to check out new formula commands and if there is a new version of some repository you added locally.
+
+To do so, just follow these steps:
+
+1. Run the help command**`rit --help`**. The system will return a list with the group of available repositories. 
+
+```text
+(new version 2.12.1) commons repo commands:
+  beagle      Beagle commands
+  bitbucket   Manage bitbucket objects
+  clean-swift Manage clean-swift objects
+  docker      Manipulate Docker objects
+  git         Manipulate Git objects
+  github      Manipulate GitHub objects
+  gitlab      Manipulate GitLab objects
+  istio       Istio Service Mesh commands
+  jupyter     Manage jupyter objects
+  kafka       Kafka commands
+  kubernetes  Manipulate kubernetes objects
+  publish     Publish command
+  scaffold    Manipulate scaffold objects
+  xcode       Manage xcode objects
+```
+
+   2. If you prefer, run the **`rit list repo`** command, that returns informations about the imported repositories, like the latest version and the last available version.
+
+### How to update?
+
+To update the version of any repository, you just have to run the command below informing the repository and the version you wish to be updated.
+
+```text
+rit update repo
+```
 
 ## Next steps 
 
