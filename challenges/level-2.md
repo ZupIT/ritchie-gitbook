@@ -15,7 +15,7 @@ You'll find all the informations you need in the [**how to manipulate credential
 {% endhint %}
 
 {% hint style="info" %}
-Command suggestion: **`rit github get credentials`**
+Command suggestion: **`rit github get user`**
 {% endhint %}
 
 ## Inputs
@@ -30,7 +30,7 @@ This formula needs to contain \(at least\) those two inputs parameters:
 The formula needs to follow the next steps:
 
 1. Extract all inputs parameters. 
-2. Create the JSON with Github credentials. 
+2. Consume the [**GitHub api**](https://docs.github.com/en/free-pro-team@latest/rest/reference/users#get-a-user) to get the user data. 
 3. Return the result on the terminal.
 
 ## Improvement suggestions
@@ -44,5 +44,5 @@ The formula needs to follow the next steps:
 
 ## Next steps 
 
-👉 If you've completed the second challenge, let's go to [**level 3 task**](level-4.md)!
+👉 If you've completed the second challenge, let's go to [**level 3 task**](level-3.md)!
 

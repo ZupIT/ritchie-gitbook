@@ -1,47 +1,53 @@
 ---
 description: >-
-  In this section, you will find a step by step to call API services using
-  Ritchie.
+  In this section, you will find a step by step to use the formula encapsulation
+  concept.
 ---
 
-# Level 4: API
+# Level 4: Encapsulation
 
 ## Objective
 
-Create a formula on Ritchie that will **return the address datas from a ZipCode.**
+Create a formula on Ritchie that will **encapsulate another formula inside it.**
+
+{% hint style="warning" %}
+You'll find all the informations you need in the [**how to encapsulate formulas**](../tutorials/formulas/encapsulate-formulas.md) tutorial section.
+{% endhint %}
+
+  
+****The idea is to encapsulate at least 2 formulas inside another one: 
+
+* **`rit math sum numbers`** \(Level 1\)
+* **`rit math multiply numbers`** \(TODO\)
 
 {% hint style="info" %}
-Command suggestion: **`rit brazil get address`**
+Command suggestion: **`rit math calculate`**
 {% endhint %}
 
 ## Inputs
 
-This formula needs to contain \(at least\) this input parameter:
+This formula needs to contain \(at least\) those three inputs parameters:
 
-1. [ ] zipcode \(`ZIPCODE`\).
-
-{% hint style="warning" %}
-In Brazil we use a **CEP** as a **ZipCode**.   
-  
-Here is a suggestion of an API that return the address datas from a CEP to carry out the formula implementation: [**http://viacep.com.br/**](http://viacep.com.br/)\*\*\*\*
-{% endhint %}
+* [ ] Number one \(`NUMBER_ONE`\). 
+* [ ] Number two \(`NUMBER_TWO`\). 
+* [ ] Operation \(`OPERATION`\).
 
 ## Step by step
 
-The formula needs to follow the next steps:
+To implement this formula, it will be necessary to follow the steps below:
 
-1. Validate the ZipCode input format. 
-2. Call a service to get the address datas from the ZipCode. 
-3. Convert address datas to JSON format. 
-4. Return the result on the terminal.
+**Premisse:** Creation of the **`rit math multiply numbers`** formula \(same as level 1\).
+
+1. Extract all inputs parameters. 
+2. Execute the rit formula according to the selected operation:
+   * **multiply** should call **`rit math multiply numbers`**
+   * **sum** should call **`rit math sum numbers`**
+3. Return the result on the terminal.
 
 ## Improvement suggestions
 
  If you want to play a little more, here are some suggestions:
 
-* [ ] Code a formula which will allow the user to get the ZipCode by entering address datas.\
-
-## Next steps 
-
-👉 If you've completed the fourth challenge, let's go to the [**level 5 task**](level-5.md)!
+* [ ] Add more operations. 
+* [ ] Add the option to inform any quantity of numbers as inputs.
 

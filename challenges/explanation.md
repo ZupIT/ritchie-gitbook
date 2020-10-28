@@ -34,13 +34,9 @@ The **`third challenge`** is to understand how to manipulate conditional inputs.
 
 {% page-ref page="level-3.md" %}
 
-The **`fourth challenge`** is to give an example of how to call API services inside a formula.
+The **`fourth challenge`** is to apply the formula encapsulation concept.
 
 {% page-ref page="level-4.md" %}
-
-The **`fifth challenge`** is to apply the formula encapsulation concept.
-
-{% page-ref page="level-5.md" %}
 
 
 

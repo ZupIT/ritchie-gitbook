@@ -37,11 +37,10 @@
 ## CHALLENGES
 
 * [What are these challenges?](challenges/explanation.md)
-* [Level 1: Basic Inputs](challenges/level-1.md)
+* [Level 1: Inputs](challenges/level-1.md)
 * [Level 2: Credentials](challenges/level-2.md)
 * [Level 3: Conditional Inputs](challenges/level-3.md)
-* [Level 4: API](challenges/level-4.md)
-* [Level 5: Encapsulation](challenges/level-5.md)
+* [Level 4: Encapsulation](challenges/level-4.md)
 
 ## Reference
 

@@ -4,7 +4,7 @@ description: >-
   Ritchie.
 ---
 
-# Level 1: Basic Inputs
+# Level 1: Inputs
 
 ## Objective
 
@@ -40,8 +40,7 @@ Well done! You've completed the first task!
 
 * [ ] Add a validation of the input parameters to return an error to the user if the parameter is not an integer. 
 * [ ] Allows the user to sum negative numbers with positive ones. 
-* [ ] Allows the user to digit decimals in addition to integers. 
-* [ ] Allows the user to choose between several operations to manipulate the 2 numbers \(addition, multiplication, division\).
+* [ ] Allows the user to digit decimals in addition to integers.
 
 ## Next steps 
 
