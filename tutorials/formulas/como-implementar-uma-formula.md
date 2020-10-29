@@ -24,7 +24,7 @@ Essas entradas são feitas para os seguintes campos:
 Outras informações disponíveis nesse arquivo são: 
 
 * `name`: nome de variável para extração. 
-* `type`: _**text**_ \(string\), _**bool**_ \(boolean\), _**password**_ \(hidden string\) or [_**credenciais**_](https://docs.ritchiecli.io/v/v2.0-pt/tutoriais/lista-de-comandos#como-usar-credenciais-como-parametros-de-entrada). 
+* `type`: _**text**_ \(string\), _**bool**_ \(boolean\), _**password**_ \(hidden string\), [_**credenciais**_](https://docs.ritchiecli.io/v/v2.0-pt/tutoriais/lista-de-comandos#como-usar-credenciais-como-parametros-de-entrada) _ou **dynamic** \(funciona com o campo `request_info` abaixo\)_ 
 * `label`: texto que aparecerá no CLI para pedir o input ao usuário. 
 * `default` \(_opcional_\): valor padrão do parâmetro \(se nulo\). 
 * `required` \(_opcional_\): boolean que indica se um campo é obrigatório ou opcional. 
@@ -41,7 +41,6 @@ Outras informações disponíveis nesse arquivo são:
 * `pattern` \(_opcional_\): 
   * `regex`: O  modelo regex para validar o parâmetro.
   * `mismatchText`: A mensagem de erro caso o parâmetro de entrada seja invalidado pelo regex. 
-* `type`: Adicionar **dynamic** entre a lista de opções \(com text, bool, password\).
 * `requestInfo` _\(opcional\):_
   * `url`: A URL que consome o serviço GET, responsável por retornar a lista de objetos.
   * `jsonPath`: Caminho da variável para extrair da lista retornada uma variável de cada objeto. \(Veja sobre ****[**como funciona o json path**](https://goessner.net/articles/JsonPath/)\).
