@@ -24,7 +24,7 @@ These input parameters are made up of the following fields:
 Each input is composed of the following fields:
 
 * `name`: variable name to extract.  
-* `type`: _**text**_ \(string\), _**bool**_ \(boolean\), _**password**_ \(hidden string\),  [_**credentials**_](https://docs.ritchiecli.io/how-to/manipulate-credentials#how-to-use-credentials-as-formula-inputs) _****or **dynamic** \(cf request\_info field below\)_ 
+* `type`: _**text**_ \(string\), _**bool**_ \(boolean\), _**password**_ \(hidden string\),  [_**credentials**_](https://docs.ritchiecli.io/how-to/manipulate-credentials#how-to-use-credentials-as-formula-inputs) _****or **dynamic** \(associated with the `request_info` field below\)_ 
 * `label` : text appearing on the CLI asking for the input.  
 * `default` \(_optional_\): default input value \(if null\).  
 * `required` \(_optional_\): boolean that indicates if the input value is required or optional. 
