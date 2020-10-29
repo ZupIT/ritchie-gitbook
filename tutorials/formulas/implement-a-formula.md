@@ -24,7 +24,7 @@ These input parameters are made up of the following fields:
 Each input is composed of the following fields:
 
 * `name`: variable name to extract.  
-* `type`: _**text**_ \(string\), _**bool**_ \(boolean\), _**password**_ \(hidden string\) or [_**credentials**_](https://docs.ritchiecli.io/how-to/manipulate-credentials#how-to-use-credentials-as-formula-inputs).  
+* `type`: _**text**_ \(string\), _**bool**_ \(boolean\), _**password**_ \(hidden string\),  [_**credentials**_](https://docs.ritchiecli.io/how-to/manipulate-credentials#how-to-use-credentials-as-formula-inputs) _****or **dynamic** \(cf request\_info field below\)_ 
 * `label` : text appearing on the CLI asking for the input.  
 * `default` \(_optional_\): default input value \(if null\).  
 * `required` \(_optional_\): boolean that indicates if the input value is required or optional. 
@@ -41,7 +41,6 @@ Each input is composed of the following fields:
 * `pattern` \(_optional_\): 
   * `regex`: The regex pattern to validate the input
   * `mismatchText`: error message when input doesn't match the regex pattern 
-* `type`: Add **dynamic** on the option list \(with text, bool, password\)
 * `requestInfo` _\(optional\):_
   * `url`: URL to consume a GET service that will return a list of objects.
   * `jsonPath`: Path to the variable to extract from the returned list, for each object. \(Check out ****[**how works the json path**](https://goessner.net/articles/JsonPath/)\).
