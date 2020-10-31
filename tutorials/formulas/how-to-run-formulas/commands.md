@@ -6,7 +6,9 @@ description: You will find in this section how to run a "hello-world" formula.
 
 ## Hello World
 
-After you finished the previous steps -[**installation**](../../../getting-started/installation/) ****and ****[**initialization**](../../../getting-started/initialization.md) ****- to access the ****[**hello-world formula**](https://github.com/ZupIT/ritchie-formulas/tree/master/demo/hello-world) ****to test Ritchie, you'll need to add the [**ritchie-formulas-demo**](https://github.com/ZupIT/ritchie-formulas-demo) repository **`locally`**.
+{% hint style="warning" %}
+**Premisse**: After you finished the previous steps -[**installation**](../../../getting-started/installation/) ****and ****[**initialization**](../../../getting-started/initialization.md) ****- to access the ****[**hello-world formula**](https://github.com/ZupIT/ritchie-formulas/tree/master/demo/hello-world) ****to test Ritchie, you'll need to add the [**ritchie-formulas-demo**](https://github.com/ZupIT/ritchie-formulas-demo) repository **`locally`**.
+{% endhint %}
 
 To do so, you can use the **`rit add repo`** command, or execute the command line below:
 
