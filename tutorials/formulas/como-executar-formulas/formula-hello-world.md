@@ -8,7 +8,9 @@ description: >-
 
 ## Hello World
 
-Depois de finalizar os passos anteriores -  [**instalação**](../../../getting-started/installation/) e [**inicialização**](../../../getting-started/initialization.md) -,  para acessar a [**fórmula hello world**](https://github.com/ZupIT/ritchie-formulas/tree/master/demo/hello-world) para testar o Ritchie, será necessário adicionar o repositório [**ritchie-formulas-demo**](https://github.com/ZupIT/ritchie-formulas-demo) localmente.
+{% hint style="warning" %}
+**Premissa**: Depois de finalizar os passos anteriores -  [**instalação**](../../../getting-started/installation/) e [**inicialização**](../../../getting-started/initialization.md) -,  para acessar a [**fórmula hello world**](https://github.com/ZupIT/ritchie-formulas/tree/master/demo/hello-world) para testar o Ritchie, será necessário adicionar o repositório [**ritchie-formulas-demo**](https://github.com/ZupIT/ritchie-formulas-demo) localmente.
+{% endhint %}
 
 Para fazer isso, você pode usar o comando **`rit add repo`**, ou executar a linha de comando abaixo:
 
