@@ -67,7 +67,7 @@ Nesse caso, não é necessário ter **Golang** instalado.
 É também possível executar comando usando a flag **--stdin** \(Standard Input\). Dessa maneira, os parâmetros de entrada podem ser informados diretamente na linha de comando inicial:
 
 ```
-echo '{"input_text":"Dennis", "input_bool":"false", "input_list":"everything", "input_password":"Ritchie"}' | rit demo hello-world --stdin
+echo '{"input_text":"Dennis", "input_boolean":"true", "input_list":"everything", "input_password":"Ritchie"}' | rit demo hello-world --stdin
 ```
 
 {% hint style="warning" %}
@@ -81,7 +81,7 @@ Ritchie usa o formato **JSON** para executar comandos STDIN.
 Quando são usadas as 2 flags **--stdin** e **--docker**, é possível executar o comando remotamente informando os parâmetros de entrada na linha de comando inicial, sem necessidade de ação humana:
 
 ```text
-echo '{"input_text":"Dennis", "input_bool":"false", "input_list":"everything", "input_password":"Ritchie"}' | rit demo hello-world --stdin --docker
+echo '{"input_text":"Dennis", "input_boolean":"true", "input_list":"everything", "input_password":"Ritchie"}' | rit demo hello-world --stdin --docker
 ```
 
 {% hint style="info" %}
