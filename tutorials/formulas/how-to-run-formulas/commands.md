@@ -65,12 +65,8 @@ In that case, you won't need to have **Golang** installed.
 You can also run the command with the **--stdin** \(Standard input\) flag. This way, inputs parameters are informed directly with the command line. 
 
 ```
-echo '{"input_text":"Dennis", "input_bool":"false", "input_list":"everything", "input_password":"Ritchie"}' | rit demo hello-world --stdin
+echo '{"input_text":"Dennis", "input_boolean":"true", "input_list":"everything", "input_password":"Ritchie"}' | rit demo hello-world --stdinRitchie uses the json format to execute STDIN commands
 ```
-
-{% hint style="warning" %}
-Ritchie uses the **json format** to execute STDIN commands
-{% endhint %}
 
 {% page-ref page="../../standard-inputs/" %}
 
@@ -79,7 +75,7 @@ Ritchie uses the **json format** to execute STDIN commands
 When you combine both **--stdin** and **--docker** flags, it is finally possible to run a command remotely \(on a container\) with the input parameters directly informed on the command line:
 
 ```text
-echo '{"input_text":"Dennis", "input_bool":"false", "input_list":"everything", "input_password":"Ritchie"}' | rit demo hello-world --stdin --docker
+echo '{"input_text":"Dennis", "input_boolean":"true", "input_list":"everything", "input_password":"Ritchie"}' | rit demo hello-world --stdin --docker
 ```
 
 {% hint style="info" %}
