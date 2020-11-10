@@ -32,6 +32,6 @@ After you chose one of the available providers, Ritchie will ask you to fill the
 ```
 
 {% hint style="info" %}
-You can check out on [**formula's editable files**](../formulas/implement-a-formula.md#editable-files) to see how to manipulate the credentials defined in the session as formula input parameters \(inputs in the config.json file\).
+You can check out on [**formula's editable files**](../formulas/implement-a-formula/#editable-files) to see how to manipulate the credentials defined in the session as formula input parameters \(inputs in the config.json file\).
 {% endhint %}
 

@@ -1,0 +1,86 @@
+---
+description: 'In this section, you will find information about a Ritchie formula folder.'
+---
+
+# Formula Folder
+
+## What is the formula folder?
+
+This folder contains the files with the formula's behavior. 
+
+{% hint style="warning" %}
+The folder structures defines the command tree, so **it's not indicated to update** folders names or include more files/folders, **if not** in the **src/\*** folder.
+{% endhint %}
+
+Each programming language has its own specificities, but the formula's structure is almost always the same, no matter what language is used, and will contain:
+
+* a `config.json` file: to configure the formula inputs. 
+* a `main` file: to extract local variables. 
+* a `pkg/formula` folder: to implement the formula operation. 
+* a `Dockerfile` file: to build docker images. 
+* o `README` file: to explain what the formula does. 
+* a `Makefile` file: to compile the formula's code. 
+* a `metadata.json` file: to tag the formula's information. 
+* a `set_unmask.sh` file: used by the Makefile file. 
+* some `help.json` files: to configure formula helper messages on the CLI.
+
+You can find all [**languages templates**](https://github.com/ZupIT/ritchie-formulas/tree/master/templates/create_formula/languages) on the ritchie-formulas repository.
+
+### Formula folder examples
+
+{% tabs %}
+{% tab title="Golang" %}
+![](../../../.gitbook/assets/go.png)
+
+To change the formula's behavior for this language, you'll have at least to update the following files:
+
+* **config.json:** Update the inputs configurations.
+* **main.go:** Extract the inputs and call the formula's methods \(coded on **formula/\***\).
+* **formula/\*:** Code the formula's behavior.
+{% endtab %}
+
+{% tab title="Java" %}
+![](../../../.gitbook/assets/java.png)
+
+To change the formula's behavior for this language, you'll have at least to update the following files:
+
+* **config.json:** Update the inputs configurations.
+* **main.java:** Extract the inputs and call the formula's methods \(coded on **formula/\***\).
+* **formula/\*:** Code the formula's behavior.
+{% endtab %}
+
+{% tab title="Node" %}
+![](../../../.gitbook/assets/node.png)
+
+To change the formula's behavior for this language, you'll have at least to update the following files:
+
+* **config.json:** Update the inputs configurations.
+* **index.js:** Extract the inputs and call the formula's methods \(coded on **formula/\***\).
+* **formula/\*:** Code the formula's behavior.
+{% endtab %}
+
+{% tab title="Python" %}
+![](../../../.gitbook/assets/python.png)
+
+To change the formula's behavior for this language, you'll have at least to update the following files:
+
+* **config.json:** Update the inputs configurations.
+* **main.py:** Extract the inputs and call the formula's methods \(coded on **formula/\***\).
+* **formula/\*:** Code the formula's behavior.
+{% endtab %}
+
+{% tab title="Shell" %}
+![](../../../.gitbook/assets/shell.png)
+
+To change the formula's behavior for this language, you'll have at least to update the following files:
+
+* **config.json:** Update the inputs configurations.
+* **main.sh:** Extract the inputs and call the formula's methods \(coded on **formula/\***\).
+* **formula/\*:** Code the formula's behavior.
+{% endtab %}
+{% endtabs %}
+
+{% hint style="warning" %}
+The structures defines the command, so **it's not indicated to update** folders names or include more files/folders **if not** in the **src/\*** folder.
+{% endhint %}
+

@@ -16,7 +16,7 @@ To perform the tasks in this section, it will be necessary to understand the fol
 
 1. \*\*\*\*[**How to run formulas**](../tutorials/formulas/how-to-run-formulas/)**.**
 2. \*\*\*\*[**How to create formulas**](../tutorials/formulas/how-to-create-formulas.md)**.**
-3. \*\*\*\*[**How to implement formulas**](../tutorials/formulas/implement-a-formula.md)**.**
+3. \*\*\*\*[**How to implement formulas**](../tutorials/formulas/implement-a-formula/)**.**
 4. \*\*\*\*[**How to build formulas**](../tutorials/formulas/build-a-formula.md)**.**
 5. \*\*\*\*[**How to encapsulate formulas**](../tutorials/formulas/encapsulate-formulas.md)**.**
 
