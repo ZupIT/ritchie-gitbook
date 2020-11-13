@@ -30,6 +30,7 @@
   * [How to share formulas](tutorials/formulas/share-formulas.md)
   * [How to encapsulate formulas](tutorials/formulas/encapsulate-formulas.md)
 * [Credentials](tutorials/credentials/README.md)
+  * [Context](tutorials/credentials/context.md)
   * [How to set credentials](tutorials/credentials/how-to-set-credentials.md)
   * [How to add providers](tutorials/credentials/how-to-add-providers.md)
   * [How to use credentials as formula inputs](tutorials/credentials/how-to-use-credentials-as-formula-inputs.md)

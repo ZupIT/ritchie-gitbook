@@ -75,3 +75,10 @@ description: 'In this section, you will find the list of Ritchie''s main command
 | rit set credential | set new credentials for the context |
 | rit list credential | list all credential names and fields |
 
+### Workspace commands
+
+| Commands | Operation |
+| :--- | :--- |
+| rit list workspace | list all formula's workspaces  |
+| rit delete workspace | delete a specific formula's workspace |
+
