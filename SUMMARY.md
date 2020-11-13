@@ -33,6 +33,8 @@
   * [Como usar a flag stdin](tutorials/standard-inputs/how-to-use-the-stdin-flag/README.md)
     * [Comandos Core](tutorials/standard-inputs/how-to-use-the-stdin-flag/comandos-core.md)
     * [Comandos de fórmulas](tutorials/standard-inputs/how-to-use-the-stdin-flag/comandos-de-formulas.md)
+  * [Como usar input flags](tutorials/standard-inputs/como-usar-input-flags/README.md)
+    * [Comandos de fórmulas](tutorials/standard-inputs/como-usar-input-flags/comandos-de-formulas.md)
 
 ## DESAFIOS <a id="challenges"></a>
 

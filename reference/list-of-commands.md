@@ -8,20 +8,20 @@ description: 'Nesta seção, você encontrará uma lista com principais comandos
 
 | Comandos | Operação |
 | :--- | :--- |
-| rit init  | initialize Ritchie before use |
-| rit upgrade | upgrade to the last Ritchie stable version |
-| rit tutorial  | enable or disable the tutorial |
-| rit --version | return Ritchie currently installed version |
+| rit init  | inicia o Ritchie antes de usar |
+| rit upgrade | upgrade da última versão estável do Ritchie  |
+| rit tutorial  | habilita ou desabilita o tutorial  |
+| rit --version | retorna qual a versão atual instalada do Ritchie |
 
 ### Comandos de Repo 
 
 | Comandos | Operação |
 | :--- | :--- |
-| rit add repo | add a new repository \(to access repository formulas with Ritchie\) |
-| rit list repo |  ****show a list with all your available repositories |
-| rit update repo | update all repositories  \(to access new formulas from those repositories with Ritchie\) |
-| set repo-priority | set a repository priority |
-| rit delete repo | delete a repository \(to remove access to the repository formulas with Ritchie\) |
+| rit add repo | adiciona um novo repositório \(para ter acesso as fórmulas desse repositório com Ritchie\) |
+| rit list repo | lista todos os repositórios disponíveis  |
+| rit update repo | atualiza todos os repositórios \(para acessar novas fórmulas desses repositórios com o Ritchie\) |
+| set repo-priority | configura a prioridade do repositório  |
+| rit delete repo | apaga um repositório  \(remove o acesso ao repositório de fórmulas com o Ritchie\)  |
 
 ### Comandos de Fórmulas
 
@@ -36,17 +36,18 @@ description: 'Nesta seção, você encontrará uma lista com principais comandos
     <tr>
       <td style="text-align:left">rit create formula</td>
       <td style="text-align:left">
-        <p>create a new formula from scratch</p>
-        <p>(as well as a new local repository if necessary)</p>
+        <p>cria uma nova f&#xF3;rmula do zero</p>
+        <p>(como tamb&#xE9;m um novo reposit&#xF3;rio local, se necess&#xE1;rio)</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">rit build formula</td>
-      <td style="text-align:left">build a formula locally for test</td>
+      <td style="text-align:left">compila uma f&#xF3;rmula localmente para teste</td>
     </tr>
     <tr>
       <td style="text-align:left">rit build formula --watch</td>
-      <td style="text-align:left">build a formula monitoring the code to update real time changes</td>
+      <td style="text-align:left">Compila uma f&#xF3;rmula para teste, monitorando atualiza&#xE7;&#xF5;es
+        do c&#xF3;digo no tempo real</td>
     </tr>
   </tbody>
 </table>
@@ -55,23 +56,30 @@ description: 'Nesta seção, você encontrará uma lista com principais comandos
 
 | Comandos | Operação |
 | :--- | :--- |
-| rit completion zsh | add autocomplete via zsh |
-| rit completion bash | add autocomplete via bash |
-| rit completion fish | add autocomplete via fish |
-| rit completion powershell | add autocomplete via powershell |
+| rit completion zsh | adiciona o autocomplete via zsh |
+| rit completion bash | adiciona o autocomplete via bash |
+| rit completion fish | adiciona o autocomplete via fish |
+| rit completion powershell | adiciona o autocomplete via powershell |
 
 ### Comandos de Contexto
 
 | Comandos | Operação |
 | :--- | :--- |
-| rit set context | set a new context into the session |
-| rit show context | show the current session context |
-| rit delete context | delete a context from the session |
+| rit set context | configura um novo contexto na sessão |
+| rit show context | mostra o contexto usado na sessão atual |
+| rit delete context | remove um contexto da sessão |
 
 ### Comandos de Credenciais
 
 | Comandos | Operação |
 | :--- | :--- |
-| rit set credential | set new credentials for the context |
-| rit list credential | list all credential names and fields |
+| rit set credential | configura credenciais na sessão |
+| rit list credential | lista todas os nomes de credenciais e os campos |
+
+### Comandos de Workspace  <a id="workspace-commands"></a>
+
+| Comandos | Operações |
+| :--- | :--- |
+| rit list workspace | lista todas as fórmulas do workspace  |
+| rit delete workspace | remove uma fórmula específica do workspace |
 
