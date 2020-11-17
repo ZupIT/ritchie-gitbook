@@ -24,6 +24,7 @@
   * [Como "buildar" fórmulas](tutorials/formulas/build-a-formula.md)
   * [Como publicar fórmulas](tutorials/formulas/como-publicar-formula.md)
   * [Como compartilhar fórmulas](tutorials/formulas/como-compartilhar-formulas.md)
+  * [Como deletar fórmulas](tutorials/formulas/como-deletar-formulas.md)
   * [Como encapsular fórmulas](tutorials/formulas/como-encapsular-formulas.md)
 * [Credenciais](tutorials/credencials/README.md)
   * [Como definir credenciais](tutorials/credencials/como-definir-credenciais.md)
