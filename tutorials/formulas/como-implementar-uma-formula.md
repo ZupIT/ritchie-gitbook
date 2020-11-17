@@ -26,7 +26,14 @@ Outras informações disponíveis nesse arquivo são:
 * `name`: nome de variável para extração. 
 * `type`: _**text**_ \(string\), _**bool**_ \(boolean\), _**password**_ \(hidden string\), [_**credenciais**_](https://docs.ritchiecli.io/v/v2.0-pt/tutoriais/lista-de-comandos#como-usar-credenciais-como-parametros-de-entrada) _ou **dynamic** \(funciona com o campo `request_info` abaixo\)_ 
 * `label`: texto que aparecerá no CLI para pedir o input ao usuário. 
-* `default` \(_opcional_\): valor padrão do parâmetro \(se nulo\). 
+* `default` \(_opcional_\): valor padrão do parâmetro \(se nulo\).
+
+{% hint style="info" %}
+Você também pode fazer essa configuração "padrão" pela flag default, que te permite atribuir valores default configurados na fórmula. 
+
+Caso haja campos sem valor default, a flag continuará pedindo por esses parâmetros que devem estar configurados no seu arquivo config.json.
+{% endhint %}
+
 * `required` \(_opcional_\): boolean que indica se um campo é obrigatório ou opcional. 
 * `tutorial` \(_opcional_\): campo de ajuda para o parâmetro de entrada _\[? for help\]_ 
 * `items` \(_opcional_\) : lista de opções para o parâmetro. 

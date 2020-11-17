@@ -2,7 +2,9 @@
 description: 'Nesta seção, você encontrará uma lista com principais comandos do Ritchie.'
 ---
 
-# Lista de Comandos
+# Lista de Comandos e Flags
+
+## Comandos
 
 ### Comandos de Configuração
 
@@ -13,7 +15,7 @@ description: 'Nesta seção, você encontrará uma lista com principais comandos
 | rit tutorial  | habilita ou desabilita o tutorial  |
 | rit --version | retorna qual a versão atual instalada do Ritchie |
 
-### Comandos de Repo 
+### Comandos de Repositórios 
 
 | Comandos | Operação |
 | :--- | :--- |
@@ -52,7 +54,7 @@ description: 'Nesta seção, você encontrará uma lista com principais comandos
   </tbody>
 </table>
 
-### Comandos Autocomplete
+### Comandos de Autocomplete
 
 | Comandos | Operação |
 | :--- | :--- |
@@ -76,10 +78,22 @@ description: 'Nesta seção, você encontrará uma lista com principais comandos
 | rit set credential | configura credenciais na sessão |
 | rit list credential | lista todas os nomes de credenciais e os campos |
 
-### Comandos de Workspace  <a id="workspace-commands"></a>
+### Comandos de Workspaces <a id="workspace-commands"></a>
 
 | Comandos | Operações |
 | :--- | :--- |
 | rit list workspace | lista todas as fórmulas do workspace  |
 | rit delete workspace | remove uma fórmula específica do workspace |
+
+## Flags
+
+### Principais flags 
+
+| Flags | Operações |
+| :--- | :--- |
+| --default | atribui os valores _**default**_ configurados na fórmula |
+| --docker | executa a fórmula usando **Docker** |
+| --helper | retorna a lista dos comandos executáveis pelo usuário |
+| --local | executa a fórmula **localmente** |
+| --verbose | executa a fórmula sem detalhes dos logs |
 
