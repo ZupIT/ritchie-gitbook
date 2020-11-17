@@ -31,19 +31,19 @@ Each input parameter is composed of the following fields:
 {% hint style="warning" %}
 Once an input value is informed on Ritchie CLI, it is saved as a **local variable** during the formula execution.  
   
-The variable **name** will be convert **UPPERCASE** as the **local variable name**. 
+The variable **name** will be convert **uppercase** as the **local variable name**. 
 {% endhint %}
 
 > A good practice is to add a _**`RIT_`**_ suffix to each **`input name`** to avoid having conflicts with local variables.  
 >   
-> _**ex**: `rit_file_name` --&gt; `RIT_FILE_NAME`_
+> Example_: `rit_file_name` --&gt; `RIT_FILE_NAME`_
 
 * `type`: 
-  * _**text**_ \(string\), 
-  * _**bool**_ \(boolean\), 
-  * _**password**_ \(hidden string on CLI\), 
-  * _**credentials** \(specific type, learn more informations_ [_**here**_](https://docs.ritchiecli.io/tutorials/credentials#how-to-use-credentials-as-formula-inputs)_\)_
-  * _**dynamic** \(associated with the optional `request_info` field below\)_ 
+  * **text** \(string\), 
+  * **bool** \(boolean\), 
+  * **password** \(hidden string on CLI\), 
+  * **credentials** _\(specific type, learn more informations_ [_**here**_](https://docs.ritchiecli.io/tutorials/credentials#how-to-use-credentials-as-formula-inputs)_\)_
+  * **dynamic** _\(associated with the optional `request_info` field below\)_ 
 * `label` : text appearing on the CLI, asking for the input. 
 
 #### Input example with mandatory fields:
@@ -68,6 +68,12 @@ The variable **name** will be convert **UPPERCASE** as the **local variable name
       "default": "Dennis"
 }
 ```
+
+{% hint style="info" %}
+You also can make this default configuration with the default flag, which allows you to attribute default values configured on the formula.
+
+In case of fields without a default value, the flag will keep asking for this inputs that must be configured on your config.json file.
+{% endhint %}
 
 * `required`: boolean that indicates if the input value is required or optional.
 

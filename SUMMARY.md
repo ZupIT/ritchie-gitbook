@@ -28,6 +28,7 @@
   * [How to build formulas](tutorials/formulas/build-a-formula.md)
   * [How to publish formulas](tutorials/formulas/publish-a-formula.md)
   * [How to share formulas](tutorials/formulas/share-formulas.md)
+  * [How to delete formulas](tutorials/formulas/how-to-delete-formulas.md)
   * [How to encapsulate formulas](tutorials/formulas/encapsulate-formulas.md)
 * [Credentials](tutorials/credentials/README.md)
   * [Context](tutorials/credentials/context.md)
@@ -51,7 +52,7 @@
 
 ## Reference
 
-* [List of commands](reference/list-of-commands.md)
+* [List of commands and flags](reference/list-of-commands.md)
 * [Release Notes](https://github.com/ZupIT/ritchie-cli/releases)
 * [Roadmap](https://github.com/ZupIT/ritchie-cli/issues)
 

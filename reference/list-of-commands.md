@@ -2,7 +2,9 @@
 description: 'In this section, you will find the list of Ritchie''s main commands'
 ---
 
-# List of commands
+# List of commands and flags
+
+## Commands
 
 ### Configuration commands
 
@@ -81,4 +83,16 @@ description: 'In this section, you will find the list of Ritchie''s main command
 | :--- | :--- |
 | rit list workspace | list all formula's workspaces  |
 | rit delete workspace | delete a specific formula's workspace |
+
+## Flags 
+
+### Main flags
+
+| Flags | Operation |
+| :--- | :--- |
+| --default | attribute the **default** values configured on the formula. |
+| --docker | run a formula using **Docker** |
+| --helper | returns a list of executable commands for the user |
+| --local | run a formula **locally** |
+| --verbose | run a formula without log details |
 
