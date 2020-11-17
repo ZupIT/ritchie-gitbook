@@ -16,7 +16,7 @@ Para realizar os desafios que estão propostos nas próximas páginas, você pre
 
 1. \*\*\*\*[**Como executar fórmulas**](../tutorials/formulas/como-executar-formulas/)**.**
 2. \*\*\*\*[**Como criar fórmulas**](../tutorials/formulas/como-criar-formulas.md)**.**
-3. \*\*\*\*[**Como implementar fórmulas**](../tutorials/formulas/como-implementar-uma-formula.md)**.**
+3. \*\*\*\*[**Como implementar fórmulas**](../tutorials/formulas/como-implementar-uma-formula/)**.**
 4. \*\*\*\*[**Como "buildar" fórmulas**](../tutorials/formulas/build-a-formula.md)**.**
 5. \*\*\*\*[**Como encapsular formulas**](../tutorials/formulas/como-encapsular-formulas.md)**.**
 

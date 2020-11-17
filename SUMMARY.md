@@ -20,7 +20,11 @@
   * [Como executar fórmulas](tutorials/formulas/como-executar-formulas/README.md)
     * [Fórmula "Hello World"](tutorials/formulas/como-executar-formulas/formula-hello-world.md)
   * [Como criar fórmulas](tutorials/formulas/como-criar-formulas.md)
-  * [Como implementar fórmulas](tutorials/formulas/como-implementar-uma-formula.md)
+  * [Como implementar fórmulas](tutorials/formulas/como-implementar-uma-formula/README.md)
+    * [Pasta de fórmula](tutorials/formulas/como-implementar-uma-formula/pasta-de-formula.md)
+    * [Arquivo Config](tutorials/formulas/como-implementar-uma-formula/arquivo-config.md)
+    * [Arquivo Main](tutorials/formulas/como-implementar-uma-formula/arquivo-main.md)
+    * [Dependências](tutorials/formulas/como-implementar-uma-formula/dependencias.md)
   * [Como "buildar" fórmulas](tutorials/formulas/build-a-formula.md)
   * [Como publicar fórmulas](tutorials/formulas/como-publicar-formula.md)
   * [Como compartilhar fórmulas](tutorials/formulas/como-compartilhar-formulas.md)
@@ -47,7 +51,7 @@
 
 ## Referência <a id="reference"></a>
 
-* [Lista de Comandos e Flags](reference/list-of-commands.md)
+* [Lista de comandos e flags](reference/list-of-commands.md)
 * [Release Notes](https://github.com/ZupIT/ritchie-cli/releases)
 * [Roadmap](https://github.com/ZupIT/ritchie-cli/issues)
 * [Youtube](https://www.youtube.com/watch?v=UXSduwvLesk&list=PLkX9oUrQ1ev72KUhsB5gi80Y5Jb-DCV_F)

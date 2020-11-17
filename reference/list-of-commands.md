@@ -2,7 +2,7 @@
 description: 'Nesta seção, você encontrará uma lista com principais comandos do Ritchie.'
 ---
 
-# Lista de Comandos e Flags
+# Lista de comandos e flags
 
 ## Comandos
 
@@ -91,7 +91,7 @@ description: 'Nesta seção, você encontrará uma lista com principais comandos
 
 | Flags | Operações |
 | :--- | :--- |
-| --default | atribui os valores _**default**_ configurados na fórmula |
+| --default | atribui os valores **default** configurados na fórmula |
 | --docker | executa a fórmula usando **Docker** |
 | --helper | retorna a lista dos comandos executáveis pelo usuário |
 | --local | executa a fórmula **localmente** |
