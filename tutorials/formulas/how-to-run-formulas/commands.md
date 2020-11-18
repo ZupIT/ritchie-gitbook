@@ -13,7 +13,7 @@ description: You will find in this section how to run a "hello-world" formula.
 To do so, you can use the **`rit add repo`** command, or execute the command line below:
 
 ```text
-echo '{"provider":"Github", "name":"demo", "version":"2.0.0", "url":"https://github.com/ZupIT/ritchie-formulas-demo", "token": null, "priority":1}' | rit add repo --stdin
+echo '{"provider":"Github", "name":"demo", "version":"2.2.0", "url":"https://github.com/ZupIT/ritchie-formulas-demo", "token": null, "priority":1}' | rit add repo --stdin
 ```
 
 {% hint style="info" %}
@@ -22,12 +22,14 @@ You can check which repositories you're using with the**`rit list repo`** comman
 
 **Now that you have added the `demo` repository, you can execute this tutorial commands.**
 
-On Ritchie, you have 4 possibilities to run a formula: 
+On Ritchie, you have 6 possibilities to run a formula: 
 
 1. Using Prompt
 2. Using Prompt and Docker 
-3. Using Stdin
-4. Using Stdin and Docker 
+3. Using Input Flags
+4. Using Input Flags and Docker 
+5. Using Stdin
+6. Using Stdin and Docker 
 
 To do so, type the following commands lines: 
 
