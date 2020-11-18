@@ -62,26 +62,44 @@ O **Docker** precisa estar instalado e iniciado para conseguir executar comandos
 Nesse caso, não é necessário ter **Golang** instalado.
 {% endhint %}
 
-### Caso 3: Usando Stdin
+### Caso 3: Usando Input Flags
+
+Você também pode executar o comando informando as entradas por meio de flags \(você pode saber quais flags estão disponíveis usando  a flag **`--help`** ao executar um comando\). Desta forma, os parâmetros de entradas são informados diretamente na linha de comando.
+
+```
+rit demo hello-world --rit_input_text=Dennis --rit_input_boolean=true --rit_input_list=everything --rit_input_password=Ritchie
+```
+
+{% page-ref page="../../standard-inputs/como-usar-input-flags/" %}
+
+### Caso 4: Usando Input Flags & Docker
+
+Ao combinar os **`input flags`** com a flag do **`--docker`**, é possível executar um comando remotamente \(em um contêiner\) com os parâmetros de entrada informados diretamente na linha de comando:
+
+```
+rit demo hello-world --rit_input_text=Dennis --rit_input_boolean=true --rit_input_list=everything --rit_input_password=Ritchie --docker
+```
+
+### Caso 5: Usando Stdin
 
 É também possível executar comando usando a flag **--stdin** \(Standard Input\). Dessa maneira, os parâmetros de entrada podem ser informados diretamente na linha de comando inicial:
 
 ```
-echo '{"input_text":"Dennis", "input_boolean":"true", "input_list":"everything", "input_password":"Ritchie"}' | rit demo hello-world --stdin
+echo '{"rit_input_text":"Dennis", "rit_input_boolean":"true", "rit_input_list":"everything", "rit_input_password":"Ritchie"}' | rit demo hello-world --stdin
 ```
 
 {% hint style="warning" %}
 Ritchie usa o formato **JSON** para executar comandos STDIN.
 {% endhint %}
 
-{% page-ref page="../../standard-inputs/" %}
+{% page-ref page="../../standard-inputs/how-to-use-the-stdin-flag/" %}
 
-### Caso 4: Usando Stdin & Docker
+### Caso 6: Usando Stdin & Docker
 
 Quando são usadas as 2 flags **--stdin** e **--docker**, é possível executar o comando remotamente informando os parâmetros de entrada na linha de comando inicial, sem necessidade de ação humana:
 
 ```text
-echo '{"input_text":"Dennis", "input_boolean":"true", "input_list":"everything", "input_password":"Ritchie"}' | rit demo hello-world --stdin --docker
+echo '{"rit_input_text":"Dennis", "rit_input_boolean":"true", "rit_input_list":"everything", "rit_input_password":"Ritchie"}' | rit demo hello-world --stdin --docker
 ```
 
 {% hint style="info" %}
