@@ -60,22 +60,40 @@ rit demo hello-world --docker
 In that case, you won't need to have **Golang** installed.
 {% endhint %}
 
-### Case 3: With Stdin
+### Case 3: With Input Flags
 
-You can also run the command with the **--stdin** \(Standard input\) flag. This way, inputs parameters are informed directly with the command line. 
+You can also run the command informing the inputs through flags \(you can know which flags are available using the **`--help`** flag when executing a command\). This way, inputs parameters are informed directly with the command line. 
 
 ```
-echo '{"input_text":"Dennis", "input_boolean":"true", "input_list":"everything", "input_password":"Ritchie"}' | rit demo hello-world --stdinRitchie uses the json format to execute STDIN commands
+rit demo hello-world --rit_input_text=Dennis --rit_input_boolean=true --rit_input_list=everything --rit_input_password=Ritchie
 ```
 
-{% page-ref page="../../standard-inputs/" %}
+{% page-ref page="../../standard-inputs/how-to-use-input-flags/" %}
 
-### Case 4: With Stdin and Docker
+### Case 4: With Input flags and Docker
 
-When you combine both **--stdin** and **--docker** flags, it is finally possible to run a command remotely \(on a container\) with the input parameters directly informed on the command line:
+When you combine both **`input flags`** and the **`--docker`** flag, it is possible to run a command remotely \(on a container\) with the input parameters directly informed on the command line:
 
 ```text
-echo '{"input_text":"Dennis", "input_boolean":"true", "input_list":"everything", "input_password":"Ritchie"}' | rit demo hello-world --stdin --docker
+rit demo hello-world --rit_input_text=Dennis --rit_input_boolean=true --rit_input_list=everything --rit_input_password=Ritchie --docker
+```
+
+### Case 5: With Stdin
+
+You can also run the command with the **--stdin** \(Standard input\) flag. This way, inputs parameters are also informed directly with the command line. 
+
+```
+echo '{"rit_input_text":"Dennis", "rit_input_boolean":"true", "rit_input_list":"everything", "rit_input_password":"Ritchie"}' | rit demo hello-world --stdinRitchie uses the json format to execute STDIN commands
+```
+
+{% page-ref page="../../standard-inputs/how-to-use-the-stdin-flag/" %}
+
+### Case 6: With Stdin and Docker
+
+When you combine both **--stdin** and **--docker** flags, it is also possible to run a command remotely \(on a container\) with the input parameters directly informed on the command line:
+
+```text
+echo '{"rit_input_text":"Dennis", "rit_input_boolean":"true", "rit_input_list":"everything", "rit_input_password":"Ritchie"}' | rit demo hello-world --stdin --docker
 ```
 
 {% hint style="info" %}
