@@ -53,7 +53,7 @@ echo '{"name":"repoName"}' | rit delete repo --stdin
 rit create formula
 
 ```text
-echo '{"formulaCmd":"rit demo create formula", "lang"":"shell", "workspacePath":"/users/dennis/home/ritchie-formulas", "formulaPath":"/demo/create/formula"}' | rit create formula --stdin
+echo '{"formulaCmd":"rit demo create formula", "lang":"shell", "workspacePath":"/users/dennis/home/ritchie-formulas", "formulaPath":"/demo/create/formula"}' | rit create formula --stdin
 ```
 
 rit build formula 
@@ -87,7 +87,6 @@ echo '{"service":"provider", "type":"type", "credential": {"username":"credentia
 Alguns comandos core não precisam da flag stdin para serem executados. Isso acontece porque, nesse caso, eles não precisam informar nenhum parâmetro de entrada:
 
 * **`rit upgrade`**
-* **`rit tutorial`**
 * **`rit --version`**
 * **`rit completion`**
 * **`rit list repo`**
