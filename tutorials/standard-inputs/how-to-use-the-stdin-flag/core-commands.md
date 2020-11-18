@@ -87,7 +87,6 @@ echo '{"service":"provider", "type":"type", "credential": {"username":"credentia
 Some core commands don't need the stdin flag to be executed as they don't have any input parameter to inform:
 
 * **`rit upgrade`**
-* **`rit tutorial`**
 * **`rit --version`**
 * **`rit completion`**
 * **`rit list repo`**
