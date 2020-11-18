@@ -19,7 +19,7 @@ Será necessário adaptar o valor das variáveis para cada JSON retornar os resu
 rit init
 
 ```text
-echo '{"addCommons":"yes", "sendMetrics":"yes", "runType":"local"}' | rit init --stdin
+echo '{"addCommons":true, "sendMetrics":true, "runType":"local"}' | rit init --stdin
 ```
 
 rit tutorial
