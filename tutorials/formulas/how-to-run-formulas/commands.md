@@ -86,6 +86,10 @@ You can also run the command with the **--stdin** \(Standard input\) flag. This 
 echo '{"rit_input_text":"Dennis", "rit_input_boolean":"true", "rit_input_list":"everything", "rit_input_password":"Ritchie"}' | rit demo hello-world --stdinRitchie uses the json format to execute STDIN commands
 ```
 
+{% hint style="warning" %}
+Ritchie uses the **JSON** format to execute STDIN commands
+{% endhint %}
+
 {% page-ref page="../../standard-inputs/how-to-use-the-stdin-flag/" %}
 
 ### Case 6: With Stdin and Docker
