@@ -33,19 +33,13 @@ echo '{"tutorial":"enabled"}' | rit tutorial --stdin
 rit add repo
 
 ```text
-echo '{"provider":"Github", "name":"repoName", "version":"2.2.0", "url":"https://github.com/ZupIT/ritchie-formulas", "token": null, "priority":"1"}' | rit add repo --stdin
+echo '{"provider":"Github", "name":"repoName", "version":"2.2.0", "url":"https://github.com/ZupIT/ritchie-formulas", "token": null, "priority":1}' | rit add repo --stdin
 ```
 
 rit update repo
 
 ```text
 echo '{"name":"repoName", "version":"2.2.0"}' | rit update repo --stdin
-```
-
-rit set repo-priority
-
-```text
-echo '{"name":"repoName", "priority":"1"}' | rit set repo-priority --stdin
 ```
 
 rit delete repo
