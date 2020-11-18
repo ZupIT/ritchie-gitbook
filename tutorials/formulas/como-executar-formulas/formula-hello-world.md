@@ -15,7 +15,7 @@ description: >-
 Para fazer isso, você pode usar o comando **`rit add repo`**, ou executar a linha de comando abaixo:
 
 ```text
-echo '{"provider":"Github", "name":"demo", "version":"2.0.0", "url":"https://github.com/ZupIT/ritchie-formulas-demo", "token": null, "priority":1}' | rit add repo --stdin
+echo '{"provider":"Github", "name":"demo", "version":"2.2.0", "url":"https://github.com/ZupIT/ritchie-formulas-demo", "token": null, "priority":1}' | rit add repo --stdin
 ```
 
 {% hint style="info" %}
@@ -28,8 +28,10 @@ No Ritchie, é possível, você tem 4 possibilidades de rodar uma fórmula:
 
 1. Via Prompt 
 2. Via Prompt e Docker 
-3. Via Stdin
-4. Via Stdin e Docker 
+3. Via Input Flags
+4. Via Input Flags e Docker
+5. Via Stdin
+6. Via Stdin e Docker 
 
 Para isso, escreva um dos comandos abaixo:
 
