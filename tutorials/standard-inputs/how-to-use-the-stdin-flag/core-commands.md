@@ -53,7 +53,7 @@ echo '{"name":"repoName"}' | rit delete repo --stdin
 rit create formula
 
 ```text
-echo '{"formulaCmd":"rit demo create formula", "lang"":"shell", "workspacePath":"/users/dennis/home/ritchie-formulas", "formulaPath":"/demo/create/formula"}' | rit create formula --stdin
+echo '{"formulaCmd":"rit demo create formula", "lang":"shell", "workspacePath":"/users/dennis/home/ritchie-formulas", "formulaPath":"/demo/create/formula"}' | rit create formula --stdin
 ```
 
 rit build formula 
