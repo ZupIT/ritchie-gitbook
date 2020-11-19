@@ -22,8 +22,8 @@ Command suggestion: **`rit github get user`**
 
 This formula needs to contain \(at least\) those two inputs parameters:
 
-* Username \(`GIT_USER`\). 
-* Token \( `GIT_TOKEN`\).
+* Username \(`RIT_GIT_USER`\). 
+* Token \( `RIT_GIT_TOKEN`\).
 
 ## Step by step
 

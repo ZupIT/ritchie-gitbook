@@ -22,8 +22,8 @@ Command suggestion: **`rit get tools`**
 
 This formula needs to contain \(at least\) those two inputs parameters:
 
-* Profile \(`PROFILE`\). 
-* Profile tool \(`TOOL`\).
+* Profile \(`RIT_PROFILE`\). 
+* Profile tool \(`RIT_TOOL`\).
 
 The formula inputs will have to respect the diagram below:
 

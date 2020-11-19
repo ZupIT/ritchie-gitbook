@@ -18,8 +18,8 @@ Command suggestion: **`rit math sum numbers`**
 
 This formula needs to contain \(at least\) those two inputs parameters:
 
-1. Number one \(`NUMBER_ONE`\). 
-2. Number two \(`NUMBER_TWO`\).
+1. Number one \(`RIT_NUMBER_ONE`\). 
+2. Number two \(`RIT_NUMBER_TWO`\).
 
 ## Step by step
 

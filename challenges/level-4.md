@@ -28,9 +28,9 @@ Command suggestion: **`rit math calculate`**
 
 This formula needs to contain \(at least\) those three inputs parameters:
 
-1. Number one \(`NUMBER_ONE`\). 
-2. Number two \(`NUMBER_TWO`\). 
-3. Operation \(`OPERATION`\).
+1. Number one \(`RIT_UMBER_ONE`\). 
+2. Number two \(`RIT_NUMBER_TWO`\). 
+3. Operation \(`RIT_OPERATION`\).
 
 ## Step by step
 
