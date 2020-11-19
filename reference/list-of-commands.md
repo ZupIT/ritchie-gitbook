@@ -92,7 +92,7 @@ description: 'In this section, you will find the list of Ritchie''s main command
 | :--- | :--- |
 | --default | attribute the **default** values configured on the formula. |
 | --docker | run a formula using **Docker** |
-| --helper | returns a list of executable commands for the user |
+| --help | returns a list of executable commands for the user |
 | --local | run a formula **locally** |
 | --verbose | run a formula without log details |
 
