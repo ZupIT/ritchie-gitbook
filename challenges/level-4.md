@@ -10,9 +10,7 @@ description: >-
 
 Create a formula on Ritchie that will **encapsulate another formula inside it.**
 
-{% hint style="warning" %}
-You'll find all the informations you need in the [**how to encapsulate formulas**](../tutorials/formulas/encapsulate-formulas.md) tutorial section.
-{% endhint %}
+> You'll find all the informations you need in the [**how to encapsulate formulas**](../tutorials/formulas/encapsulate-formulas.md) tutorial section.
 
   
 ****The idea is to encapsulate at least 2 formulas inside another one: 

@@ -8,7 +8,7 @@ description: >-
 
 ## Objective
 
-Create a formula on Ritchie that will **sum two positive numbers**.
+On this tutorial, the idea is to teach you how to create a formula on Ritchie that will **sum two positive numbers**.
 
 {% hint style="info" %}
 Command suggestion: **`rit math sum numbers`**
@@ -16,7 +16,7 @@ Command suggestion: **`rit math sum numbers`**
 
 ## Inputs
 
-This formula needs to contain \(at least\) those two inputs parameters:
+This formula needs to contain \(at least\) those two inputs parameters, see below:
 
 1. Number one \(`RIT_NUMBER_ONE`\). 
 2. Number two \(`RIT_NUMBER_TWO`\).
@@ -39,8 +39,8 @@ Well done! You've completed the first task!
  If you want to play a little more, here are some suggestions:
 
 * Add a validation of the input parameters to return an error to the user if the parameter is not an integer. 
-* Allows the user to sum negative numbers with positive ones. 
-* Allows the user to digit decimals in addition to integers.
+* Allow the user to sum negative numbers with positive ones. 
+* Allow the user to digit decimals in addition to integers.
 
 ## Next steps 
 

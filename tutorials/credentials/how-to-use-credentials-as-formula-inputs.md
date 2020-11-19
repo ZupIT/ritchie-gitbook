@@ -43,3 +43,9 @@ PROVIDER	 CONTEXT	  CREDENTIAL
 github  	 default	  {"token":"***************", "email":"***************", "username":"***************"}
 ```
 
+## Next steps 
+
+You saw in this section how to deal with credentials on Ritchie. 
+
+👉 Check the [**commands list**](https://app.gitbook.com/@zup-products/s/ritchie/~/drafts/-MDPWwvUtJ2ZZfV8Mw44/v/v2.0-pt/developer/lista-de-comandos) to see the available automations on our community repo.  
+
