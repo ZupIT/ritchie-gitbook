@@ -16,9 +16,9 @@ As informações que o Ritchie irá solicitar são:
 
 * **Provider name:** Nome do novo provedor. Você pode nomear de acordo com sua preferência**.**
 * **Field name:** Nome da credencial que está nesse provedor.
-* **Field type:** Tipo de valor dessa credencial. Ele pode ser: **plain text** or **secret**. 
+* **Field type:** Tipo de valor dessa credencial. Ele pode ser: **plain text** ou **secret**. 
 
-Ao terminar essa configuração, você poderá configurar as credenciais seguindo as instruções passadas acima. 
+Ao terminar essa configuração, você poderá configurar as credenciais seguindo as instruções acima. 
 
 {% hint style="warning" %}
 Esse provedor, assim como suas informações, serão salvas de forma permanente no Ritchie. No entanto, você ainda poderá adicionar quantos provedores quiser. 

@@ -8,11 +8,9 @@ description: >-
 
 ## Objetivo
 
-Neste tutorial, a ideia é criar uma fórmula que vai **retornar a ferramenta selecionada pelo usuário de acordo com seu perfil**.
+Neste tutorial, a ideia é criar uma fórmula que vai **retornar a ferramenta selecionada pelo usuário de acordo com seu perfil**. 
 
-{% hint style="warning" %}
-Você encontrará todas as informações necessárias na seção do tutorial [**relacionada ao arquivo config.json**](https://docs.ritchiecli.io/v/v2.0-pt/tutoriais/como-implementar-uma-formula#1-config-json).
-{% endhint %}
+> Você encontrará todas as informações necessárias na seção do tutorial [**relacionada ao arquivo config.json**](https://docs.ritchiecli.io/v/v2.0-pt/tutoriais/como-implementar-uma-formula#1-config-json).
 
 {% hint style="info" %}
 Sugestão de comando: **`rit get tools`**

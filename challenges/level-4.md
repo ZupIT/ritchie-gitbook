@@ -10,9 +10,7 @@ description: >-
 
 Neste tutorial, a ideia é criar uma fórmula que vai **encapsular outra fórmula dentro dela**.
 
-{% hint style="warning" %}
-Você encontrará todas as informações necessárias na seção do tutorial sobre[ **como encapsular fórmulas**](../tutorials/formulas/como-encapsular-formulas.md).
-{% endhint %}
+> Você encontrará todas as informações necessárias na seção do tutorial sobre[ **como encapsular fórmulas**](../tutorials/formulas/como-encapsular-formulas.md).
 
 A ideia é encapsular pelo menos 2 fórmulas dentro de uma outra:
 
