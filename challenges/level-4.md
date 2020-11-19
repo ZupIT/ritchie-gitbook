@@ -25,9 +25,9 @@ Sugestão de comando: **`rit math calculate`**
 
 Essa fórmula deverá conter \(pelo menos\) os três parâmetros de entrada. Veja como abaixo:
 
-1. Number one \(`NUMBER_ONE`\). 
-2. Number two \(`NUMBER_TWO`\). 
-3. Operation \(`OPERATION`\).
+1. Number one \(`RIT_NUMBER_ONE`\). 
+2. Number two \(`RIT_NUMBER_TWO`\). 
+3. Operation \(`RIT_OPERATION`\).
 
 ## Passo a passo
 

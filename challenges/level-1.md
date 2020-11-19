@@ -18,8 +18,8 @@ Sugestão de comando para tarefa: **`rit math sum numbers`**
 
 Essa fórmula deverá conter \(pelo menos\) os dois parâmetros de entrada. Veja como abaixo:
 
-1. Number one \(`NUMBER_ONE`\). 
-2. Number two \(`NUMBER_TWO`\).
+1. Number one \(`RIT_NUMBER_ONE`\). 
+2. Number two \(`RIT_NUMBER_TWO`\).
 
 ## Passo a passo
 

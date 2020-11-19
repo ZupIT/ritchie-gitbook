@@ -20,8 +20,8 @@ Sugestão de comando: **`rit get tools`**
 
 Essa fórmula deverá conter \(pelo menos\) os two parâmetros de entrada abaixo:
 
-* Profile \(`PROFILE`\). 
-* Profile tool \(`TOOL`\).
+* Profile \(`RIT_PROFILE`\). 
+* Profile tool \(`RIT_TOOL`\).
 
 Os parâmetros de entrada da fórmula deverão respeitar o diagrama abaixo:
 

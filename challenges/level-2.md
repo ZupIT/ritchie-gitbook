@@ -18,8 +18,8 @@ Sugestão de comando: **`rit github get user`**
 
 Essa fórmula deverá conter \(pelo menos\) os two parâmetros de entrada abaixo:
 
-* Username \(`GIT_USER`\). 
-* Token \( `GIT_TOKEN`\).
+* Username \(`RIT_GIT_USER`\). 
+* Token \( `RIT_GIT_TOKEN`\).
 
 ## Passo a passo
 
