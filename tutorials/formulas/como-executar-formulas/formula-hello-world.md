@@ -24,7 +24,17 @@ echo '{"provider":"Github", "name":"demo", "version":"2.2.0", "url":"https://git
 
 **Agora que você adicionou o repositório de demo, você pode executar os comandos desse tutorial.**
 
-No Ritchie, é possível, você tem 4 possibilidades de rodar uma fórmula: 
+### **Premissa: Confere os detalhes da fórmula**
+
+Para obter os detalhes de uso de uma fórmula, é possível executar o comando usando a flag **`--help`**.
+
+```text
+rit demo hello-world --help
+```
+
+O retorno informará todas as flags disponíveis para a execução do comando.  
+  
+**No Ritchie, é possível, você tem 6 possibilidades de rodar uma fórmula através dessas flags:** 
 
 1. Via Prompt 
 2. Via Prompt e Docker 
