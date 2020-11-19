@@ -20,9 +20,19 @@ echo '{"provider":"Github", "name":"demo", "version":"2.2.0", "url":"https://git
 You can check which repositories you're using with the**`rit list repo`** command.
 {% endhint %}
 
-**Now that you have added the `demo` repository, you can execute this tutorial commands.**
+**Now that you have added the `demo` repository and check the details of the formula, you can execute this tutorial commands.**
 
-On Ritchie, you have 6 possibilities to run a formula: 
+### **Premisse: Check the formula's details**
+
+To get details about a formula, you can execute the command using with the `--help` flag:
+
+```text
+rit demo hello-world --help
+```
+
+It will return all the flags available for the command execution.
+
+#### On Ritchie, you have 6 possibilities to run a formula through those flags: 
 
 1. Using Prompt
 2. Using Prompt and Docker 
