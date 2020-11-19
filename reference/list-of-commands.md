@@ -93,7 +93,7 @@ description: 'Nesta seção, você encontrará uma lista com principais comandos
 | :--- | :--- |
 | --default | atribui os valores **default** configurados na fórmula |
 | --docker | executa a fórmula usando **Docker** |
-| --helper | retorna a lista dos comandos executáveis pelo usuário |
+| --help | retorna a lista dos comandos executáveis pelo usuário |
 | --local | executa a fórmula **localmente** |
 | --verbose | executa a fórmula sem detalhes dos logs |
 
