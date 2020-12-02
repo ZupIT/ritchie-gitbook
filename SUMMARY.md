@@ -54,7 +54,7 @@
 * [Lista de comandos e flags](reference/list-of-commands.md)
 * [Release Notes](https://github.com/ZupIT/ritchie-cli/releases)
 * [Roadmap](https://github.com/ZupIT/ritchie-cli/issues)
-* [Youtube](https://www.youtube.com/watch?v=UXSduwvLesk&list=PLkX9oUrQ1ev72KUhsB5gi80Y5Jb-DCV_F)
+* [Youtube](https://www.youtube.com/watch?v=GHrW68Nj358&list=PLkX9oUrQ1ev72KUhsB5gi80Y5Jb-DCV_F&index=1)
 
 ---
 
