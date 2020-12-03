@@ -32,6 +32,7 @@
   * [Como encapsular fórmulas](tutorials/formulas/como-encapsular-formulas.md)
 * [Credenciais](tutorials/credencials/README.md)
   * [Como definir credenciais](tutorials/credencials/como-definir-credenciais.md)
+  * [Como apagar credenciais](tutorials/credencials/como-apagar-credenciais.md)
   * [Como adicionar provedores](tutorials/credencials/how-to-add-providers.md)
   * [Como usar credenciais como parâmetros de entrada](tutorials/credencials/how-to-use-credentials-as-formula-inputs.md)
 * [Standard Inputs](tutorials/standard-inputs/README.md)

@@ -6,6 +6,12 @@ description: >-
 
 # Como "buildar" fórmulas
 
+{% hint style="danger" %}
+Essa funcionalidade não está mais disponível a partir da versão 2.5.0 do Ritchie. Isso porque o build da fórmula é feito de maneira automática. 
+
+Caso esteja usando uma versão anterior, basta seguir as orientações desta seção. 
+{% endhint %}
+
 ## Como "buildar"?
 
 Depois de [**criar uma fórmula**](como-criar-formulas.md),  se você quiser editar o código dela, será necessário fazer o build dessas alterações para testar o comando com a nova implementação. 

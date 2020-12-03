@@ -54,6 +54,10 @@ description: 'Nesta seção, você encontrará uma lista com principais comandos
   </tbody>
 </table>
 
+{% hint style="danger" %}
+O comando rit build formula foi depreciado a partir da versão 2.5.0 do Ritchie. 
+{% endhint %}
+
 ### Comandos de Autocomplete
 
 | Comandos | Operação |
@@ -77,6 +81,7 @@ description: 'Nesta seção, você encontrará uma lista com principais comandos
 | :--- | :--- |
 | rit set credential | configura credenciais na sessão |
 | rit list credential | lista todas os nomes de credenciais e os campos |
+| rit delete credential | permite apagar suas credenciais  |
 
 ### Comandos de Workspaces <a id="workspace-commands"></a>
 
