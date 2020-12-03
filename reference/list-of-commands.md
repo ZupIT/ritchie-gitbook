@@ -53,6 +53,10 @@ description: 'In this section, you will find the list of Ritchie''s main command
   </tbody>
 </table>
 
+{% hint style="danger" %}
+The rit build formula command was deprecated from Ritchie's version 2.5.0.
+{% endhint %}
+
 ### Autocomplete commands
 
 | Commands | Operation |

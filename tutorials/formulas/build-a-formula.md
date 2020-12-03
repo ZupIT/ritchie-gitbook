@@ -4,6 +4,12 @@ description: 'In this section, you will find how to build formulas on Ritchie.'
 
 # How to build formulas
 
+{% hint style="danger" %}
+This functionality is no longer available from Ritchie's 2.5.0 version. From now on, a formula build is automatically made on your CLI. 
+
+If you're using a previous version just follow the instructions of this section.
+{% endhint %}
+
 ## How to build?
 
 After [**creating a formula**](how-to-create-formulas.md),  if you want to edit the code of the formula, it's necessary to **build** these changes to test the command with the new implementation. 
