@@ -19,7 +19,9 @@ echo '{"provider":"Github", "name":"demo", "version":"2.2.0", "url":"https://git
 ```
 
 {% hint style="info" %}
-É possível verificar os repositórios estão sendo usados executando o comando **`rit list repo`**.
+Se você estiver usando a versão 2.5.0 do Ritchie, você não precisará rodar essa fórmula via STDIN.  
+  
+É possível ainda verificar os repositórios estão sendo usados executando o comando **`rit list repo`**.
 {% endhint %}
 
 **Agora que você adicionou o repositório de demo, você pode executar os comandos desse tutorial.**
