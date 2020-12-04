@@ -51,7 +51,7 @@ O nome da variável será convertida em maiúscula como o nome da variável loca
 ```text
 {
       "label": "Type your name:",
-      "name": "name",
+      "name": "rit_name",
       "type": "text",
 }
 ```
@@ -63,7 +63,7 @@ O nome da variável será convertida em maiúscula como o nome da variável loca
 ```text
 {
       "label": "Type your name:",
-      "name": "name",
+      "name": "rit_name",
       "type": "text",
       "default": "Dennis"
 }
@@ -80,7 +80,7 @@ Caso não haja campos com valor default, a flag continuará perguntando por par�
 ```text
 {
       "label": "Type your name:",
-      "name": "name",
+      "name": "rit_name",
       "type": "text",
       "required": true
 }
@@ -91,7 +91,7 @@ Caso não haja campos com valor default, a flag continuará perguntando por par�
 ```text
 {
       "label": "Type your name:",
-      "name": "name",
+      "name": "rit_name",
       "type": "text",
       "tutorial": "We are expecting you to write your name (ex: John)"
 }
@@ -102,7 +102,7 @@ Caso não haja campos com valor default, a flag continuará perguntando por par�
 ```text
 {
       "label": "Type your name:",
-      "name": "name",
+      "name": "rit_name",
       "type": "text",
       "items": [
             "Dennis",
@@ -120,7 +120,7 @@ Caso não haja campos com valor default, a flag continuará perguntando por par�
 ```text
 {
       "label": "Type your name:",
-      "name": "name",
+      "name": "rit_name",
       "type": "text",
       "cache": {
             "active": true,
@@ -139,18 +139,18 @@ Caso não haja campos com valor default, a flag continuará perguntando por par�
 ```text
 {
       "label": "Type your name:",
-      "name": "name",
+      "name": "rit_name",
       "type": "text",
       "default": "Dennis"
 },
 {
       "condition": {
-            variable: "name",
+            variable: "rit_name",
             "operator": "!=",
             "value": "Dennis"
       }
       "label": "What is your date of birth?",
-      "name": "date_of_birth",
+      "name": "rit_date_of_birth",
       "type": "text",
 }
 ```
@@ -162,7 +162,7 @@ Caso não haja campos com valor default, a flag continuará perguntando por par�
 ```text
 {
       "label": "What is your age",
-      "name": "age",
+      "name": "rit_age",
       "type": "text",
       "pattern": {
             "regex": [0-9],
@@ -178,7 +178,7 @@ Caso não haja campos com valor default, a flag continuará perguntando por par�
 ```text
 {
       "label": "Type your name:",
-      "name": "name",
+      "name": "rit_name",
       "type": "text",
       "requestInfo": {
             "url": "https://my-url.com",
@@ -197,7 +197,7 @@ Cada fórmula contém quantos parâmetros de entrada forem necessários, assim c
 "inputs": [
     {
       "label": "Select a system:",
-      "name": "system",
+      "name": "rit_system",
       "type": "text",
       "items": [
         "LINUX",
@@ -209,12 +209,12 @@ Cada fórmula contém quantos parâmetros de entrada forem necessários, assim c
     },
     {
       "condition": {
-        "variable":"system",
+        "variable":"rit_system",
         "operator":"==",
         "value":"LINUX"
       },
       "label": "Select a LINUX OS:",
-      "name": "linux-os",
+      "name": "rit_linux_os",
       "type": "text",
       "items": [
         "UBUNTU",
