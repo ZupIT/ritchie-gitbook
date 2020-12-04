@@ -17,8 +17,6 @@ echo '{"provider":"Github", "name":"demo", "version":"2.2.0", "url":"https://git
 ```
 
 {% hint style="info" %}
-If you're using the Ritchie's 2.5.0  version, than you won't need to run this formula through STDIN. 
-
 You can also check which repositories you're using with the**`rit list repo`** command.
 {% endhint %}
 
