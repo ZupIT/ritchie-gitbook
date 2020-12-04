@@ -51,7 +51,7 @@ The variable **name** will be convert **uppercase** as the **local variable name
 ```text
 {
       "label": "Type your name:",
-      "name": "name",
+      "name": "rit_name",
       "type": "text",
 }
 ```
@@ -63,7 +63,7 @@ The variable **name** will be convert **uppercase** as the **local variable name
 ```text
 {
       "label": "Type your name:",
-      "name": "name",
+      "name": "rit_name",
       "type": "text",
       "default": "Dennis"
 }
@@ -80,7 +80,7 @@ In case of fields without a default value, the flag will keep asking for this in
 ```text
 {
       "label": "Type your name:",
-      "name": "name",
+      "name": "rit_name",
       "type": "text",
       "required": true
 }
@@ -91,7 +91,7 @@ In case of fields without a default value, the flag will keep asking for this in
 ```text
 {
       "label": "Type your name:",
-      "name": "name",
+      "name": "rit_name",
       "type": "text",
       "tutorial": "We are expecting you to write your name (ex: John)"
 }
@@ -102,7 +102,7 @@ In case of fields without a default value, the flag will keep asking for this in
 ```text
 {
       "label": "Type your name:",
-      "name": "name",
+      "name": "rit_name",
       "type": "text",
       "items": [
             "Dennis",
@@ -120,7 +120,7 @@ In case of fields without a default value, the flag will keep asking for this in
 ```text
 {
       "label": "Type your name:",
-      "name": "name",
+      "name": "rit_name",
       "type": "text",
       "cache": {
             "active": true,
@@ -139,18 +139,18 @@ In case of fields without a default value, the flag will keep asking for this in
 ```text
 {
       "label": "Type your name:",
-      "name": "name",
+      "name": "rit_name",
       "type": "text",
       "default": "Dennis"
 },
 {
       "condition": {
-            variable: "name",
+            variable: "rit_name",
             "operator": "!=",
             "value": "Dennis"
       }
       "label": "What is your date of birth?",
-      "name": "date_of_birth",
+      "name": "rit_date_of_birth",
       "type": "text",
 }
 ```
@@ -162,7 +162,7 @@ In case of fields without a default value, the flag will keep asking for this in
 ```text
 {
       "label": "What is your age",
-      "name": "age",
+      "name": "rit_age",
       "type": "text",
       "pattern": {
             "regex": [0-9],
@@ -178,7 +178,7 @@ In case of fields without a default value, the flag will keep asking for this in
 ```text
 {
       "label": "Type your name:",
-      "name": "name",
+      "name": "rit_name",
       "type": "text",
       "requestInfo": {
             "url": "https://my-url.com",
@@ -197,7 +197,7 @@ Each formula can contain as many inputs as necessary, as well as any association
 "inputs": [
     {
       "label": "Select a system:",
-      "name": "system",
+      "name": "rit_system",
       "type": "text",
       "items": [
         "LINUX",
@@ -209,12 +209,12 @@ Each formula can contain as many inputs as necessary, as well as any association
     },
     {
       "condition": {
-        "variable":"system",
+        "variable":"rit_system",
         "operator":"==",
         "value":"LINUX"
       },
       "label": "Select a LINUX OS:",
-      "name": "linux-os",
+      "name": "rit_linux_os",
       "type": "text",
       "items": [
         "UBUNTU",
