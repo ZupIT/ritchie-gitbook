@@ -19,8 +19,6 @@ echo '{"provider":"Github", "name":"demo", "version":"2.2.0", "url":"https://git
 ```
 
 {% hint style="info" %}
-Se você estiver usando a versão 2.5.0 do Ritchie, você não precisará rodar essa fórmula via STDIN.  
-  
 É possível ainda verificar os repositórios estão sendo usados executando o comando **`rit list repo`**.
 {% endhint %}
 
