@@ -14,11 +14,11 @@ Ritchie is an **open source framework** that allows you to create, store and sha
 
 Currently, Ritchie has **two available versions**. On this documentation, we'll focus on **Ritchie** **version 2.0.**
 
-{% page-ref page="getting-started/installation/" %}
+{% page-ref page="getting-started/install-cli/" %}
 
 ### **What's new?**
 
-{% page-ref page="ritchie-v2.0.md" %}
+{% page-ref page="change-v1-to-v2.md" %}
 
 ## **How does Ritchie work? → Through Formulas!**
 

@@ -56,7 +56,7 @@ Workspace {
 
 On this section, you saw how to create a formula on Ritchie and test it. To keep configuring the formula: 
 
-👉 Go to [**implement a formula**](implement-a-formula/) to understand how to edit the files Ritchie creates after formula creation. 
+👉 Go to [**implement a formula**](how-to-implement-a-formula/) to understand how to edit the files Ritchie creates after formula creation. 
 
-👉 Go to [**build a formula**](build-a-formula.md) to see how to continue the tests on the formulas you create. 
+👉 Go to [**build a formula**](how-to-build-formulas.md) to see how to continue the tests on the formulas you create. 
 

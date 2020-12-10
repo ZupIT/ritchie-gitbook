@@ -22,7 +22,7 @@ Ritchie creates automation commands to improve the operational **developers'** *
 
 ### How to install Ritchie? 
 
-You can follow the installation step by step according do the operational system you're using. Check out more in [**installation section**](getting-started/installation/). 
+You can follow the installation step by step according do the operational system you're using. Check out more in [**installation section**](getting-started/install-cli/). 
 
 ### How to create a new formula on Ritchie?
 
@@ -34,11 +34,11 @@ You can execute your formulas locally or through Docker. Check out more in [**cr
 
 ### How to build fórmulas on Ritchie? 
 
-You can build a formula by running the `$ rit build formula` command. Check out more in [**build a formula section.**](tutorials/formulas/build-a-formula.md)\*\*\*\*
+You can build a formula by running the `$ rit build formula` command. Check out more in [**build a formula section.**](tutorials/formulas/how-to-build-formulas.md)\*\*\*\*
 
 ### How to publish formulas on Ritchie?
 
-You can publish a formula by creating a Github's repository and adding a release version of this formula. Check out more in [**publish a formula section**](tutorials/formulas/publish-a-formula.md).
+You can publish a formula by creating a Github's repository and adding a release version of this formula. Check out more in [**publish a formula section**](tutorials/formulas/how-to-publish-formulas.md).
 
 ## Community
 

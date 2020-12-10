@@ -26,7 +26,7 @@ Those input parameters can be informed in different ways:
 
 ![](.gitbook/assets/start-end-ritchie%20%281%29.jpg)
 
-{% page-ref page="tutorials/formulas/how-to-run-formulas/commands.md" %}
+{% page-ref page="tutorials/formulas/how-to-run-formulas/hello-world-formula.md" %}
 
 {% page-ref page="tutorials/standard-inputs/" %}
 
