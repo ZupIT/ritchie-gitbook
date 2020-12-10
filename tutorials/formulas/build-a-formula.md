@@ -7,7 +7,7 @@ description: >-
 # Como "buildar" fórmulas
 
 {% hint style="danger" %}
-Essa funcionalidade não está mais disponível a partir da versão 2.5.0 do Ritchie. Isso porque o build da fórmula é feito de maneira automática. 
+Essa funcionalidade não está mais disponível a partir da versão 2.5.0 do Ritchie. Isso porque o build da fórmula é feito de maneira automática: um repositório local criado assim que você implementa a fórmula
 
 Caso esteja usando uma versão anterior, basta seguir as orientações desta seção. 
 {% endhint %}

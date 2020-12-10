@@ -38,6 +38,17 @@ Este template é composto por **3 parâmetros de entrada**, que representam os t
 2. Uma amostra da **`lista de variáveis`** 
 3. Uma amostra das **`variáveis booleanas`** 
 
+Quando você terminar a criação da sua fórmula, ela será "buildada" e enviada para um repositório local específico de acordo com o nome do seu workspace, com o prefixo **"local"**. 
+
+**Exemplo:** se você tem um workspace com nome name my-work-name.
+
+```text
+Workspace {
+  Name: "my-work-name",
+  Dir: "/home/user/my-workspace-path"
+}
+```
+
 ## Próximos passos
 
 Nessa seção, você viu como criar e testar uma fórmula no Ritchie. Para continuar configurando a fórmula: 

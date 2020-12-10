@@ -8,10 +8,10 @@ description: >-
 
 ## O que é uma pasta de fórmula \(formula folder\)? 
 
-This folder contains the files with the formula's behavior. 
+Esta pasta contém arquivos com comportamento da fórmula.
 
 {% hint style="warning" %}
-The folder structures defines the command tree, so **it's not indicated to update** folders names or include more files/folders, **if not** in the **src/\*** folder.
+A estrutura das pastas define os comandos tree, por isso **não é recomendando que você atualize o nome dessas pastas**, ou inclua mais arquivos e/ou pastas, a menos que seja uma **pasta src/\*.**
 {% endhint %}
 
 Cada linguagem de programação possui suas próprias especificidades, mas a estrutura da fórmula é quase a mesma. Não importa em qual linguagem seja usada, ela irá conter:
@@ -26,7 +26,7 @@ Cada linguagem de programação possui suas próprias especificidades, mas a est
 | `Makefile file` | arquivo para compilar o código da fórmula |
 | `metadata.json file` | arquivo para "taguear" informações de uma fórmula  |
 | `set_unmask.sh file` | arquivo usado pelo `Makefile file` |
-| `help.json files` | arquivos usados para configurar mensagens de ajuda da fórmula no CLI |
+| `help.json files` | arquivos usados para configurar mensagens de ajuda da fórmula no CLI. |
 
 Você pode encontrar todos os [**templates de linguagens**](https://github.com/ZupIT/ritchie-formulas/tree/master/templates/create_formula/languages) no repositório ritchie-formulas.
 
