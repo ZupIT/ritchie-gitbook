@@ -21,7 +21,7 @@ Depending on the formula, the user might need to inform input parameters.
 Those input parameters can be informed in different ways:
 
 * After running the command on the terminal \(via **prompt**\) 
-* When typing the command on the terminal \(via **stdin**\) 
+* When typing the command on the terminal \(via **stdin** or **input flags**\) 
 * During the execution of the formula \(if coded using **prompt**\)
 
 ![](.gitbook/assets/start-end-ritchie%20%281%29.jpg)
@@ -60,8 +60,8 @@ The executable commands in Ritchie are the commands located at the last level of
   
 ****For example, in the image above: 
 
-* The **rit set context** command is executable, as it is at the last level of the tree. 
-* The **rit kafka create** command is not executable as there is an executable **topic** subcommand, at the last level of the tree.
+* The **`rit set context`** command is executable, as it is at the last level of the tree. 
+* The **`rit kafka create`** command is not executable as there is an executable **topic** subcommand, at the last level of the tree.
 
 This command tree concept is the **core** of Ritchie's structure.   
 
