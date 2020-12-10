@@ -21,7 +21,7 @@ Dependendo da fórmula, o usuário pode precisar informar alguns parâmetros de 
 Esses parâmetros de entrada podem ser informados de diversas maneiras:
 
 * Depois de executar o comando no terminal \(via **prompt**\)
-* Quando digitar a linha de comando no terminal \(via **stdin**\)
+* Quando digitar a linha de comando no terminal \(via **stdin** ou **input flags**\)
 * Durante a execução da fórmula \(se o código usou o **prompt**\)
 
 ![](.gitbook/assets/start-end-ritchie.jpg)
@@ -60,8 +60,8 @@ Os comandos executáveis no Ritchie são os comandos localizados no último nív
   
 ****Por exemplo, na imagem acima temos: 
 
-* O comando **rit set context** é executável, pois está no último nível da árvore.
-* O comando **rit kafka create** não é executável, pois ele tem um sub-comando **topic** executável no último nível da árvore.
+* O comando **`rit set context`** é executável, pois está no último nível da árvore.
+* O comando **`rit kafka create`** não é executável, pois ele tem um sub-comando **topic** executável no último nível da árvore.
 
 Esse conceito de árvore de comandos é o **núcleo** da estrutura do Ritchie. 
 
