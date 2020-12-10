@@ -22,7 +22,7 @@ Para realizar um encapsulamento de fórmula, é necessário usar a flag STDIN. N
 
 ### 2. Execução
 
-Ao [**implementar uma fórmula**](como-implementar-uma-formula/), você precisa pegar o arquivo onde a operação está codificada e executar a linha de comando associada à fórmula encapsulada.
+Ao [**implementar uma fórmula**](como-implementar-formulas/), você precisa pegar o arquivo onde a operação está codificada e executar a linha de comando associada à fórmula encapsulada.
 
 A linha de comando da fórmula encapsulada deve ser executada utilizando o flag STDIN e informando os seus parâmetros de entradas diretamente no código.
 
@@ -65,7 +65,7 @@ Dependendo da operação, o **JSON** usado com o comando STDIN pode ser gerado d
 
 Nessa seção, você viu como funciona o encapsulamento de fórmulas no Ritchie.  Para continuar lendo sobre os comandos do Ritchie:
 
-👉 Cheque os[ **desafios**](../../challenges/explanation.md) que criamos para você praticar as diversas funcionalidades do Ritchie.
+👉 Cheque os[ **desafios**](../../challenges/o-que-sao-esses-desafios.md) que criamos para você praticar as diversas funcionalidades do Ritchie.
 
-👉 Cheque a [**lista de comandos**](../../reference/list-of-commands.md) para ver as automações disponíveis no repo da nossa comunidade. 
+👉 Cheque a [**lista de comandos**](../../reference/lista-de-comandos-e-flags.md) para ver as automações disponíveis no repo da nossa comunidade. 
 

@@ -14,11 +14,11 @@ O Ritchie é um **framework open source** que permite criar, armazenar e compart
 
 Atualmente, o Ritchie possui **duas versões disponíveis** para ser usada. Nesta documentação,  o foco será no **Ritchie versão 2.0.**
 
-{% page-ref page="getting-started/installation/" %}
+{% page-ref page="getting-started/instalacao-cli/" %}
 
 ### **O que muda?**
 
-{% page-ref page="ritchie-v2.0.md" %}
+{% page-ref page="mudanca-v1-para-v2.md" %}
 
 ## **Como funciona? → Através de fórmulas !**
 

@@ -6,7 +6,7 @@ Você encontra tudo sobre como usar fórmulas nas páginas a seguir:
 
 {% page-ref page="como-executar-formulas/" %}
 
-{% page-ref page="como-publicar-formula.md" %}
+{% page-ref page="como-publicar-formulas.md" %}
 
 {% page-ref page="como-apagar-formulas.md" %}
 

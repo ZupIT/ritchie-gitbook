@@ -70,7 +70,7 @@ rit update repo
 
 Nesta seção, você viu como compartilhar uma fórmula no Ritchie. Para continuar configurando sua fórmula:
 
-👉 Vá para página [**manipular credenciais**](../credencials/) e veja como rodar esse comando com suas fórmulas.
+👉 Vá para página [**manipular credenciais**](../credenciais/) e veja como rodar esse comando com suas fórmulas.
 
-👉 Vá para página de [**lista de comandos**](../../reference/list-of-commands.md) para ver as automações disponíveis no repositório da nossa comunidade. 
+👉 Vá para página de [**lista de comandos**](../../reference/lista-de-comandos-e-flags.md) para ver as automações disponíveis no repositório da nossa comunidade. 
 

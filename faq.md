@@ -8,7 +8,7 @@ description: 'Nesta seção, você encontrará respostas para principais dúvida
 
 ### O que é Ritchie?
 
-O Ritchie é um **framework open source** que cria e ajusta o CLI para seu time. Ele permite que você crieI, faça o build e compartilhe [**fórmulas**](key-concepts.md#formulas) facilmente. Veja mais [**sobre o produto**](about-ritchie.md).
+O Ritchie é um **framework open source** que cria e ajusta o CLI para seu time. Ele permite que você crieI, faça o build e compartilhe [**fórmulas**](principais-conceitos.md#formulas) facilmente. Veja mais [**sobre o produto**](sobre-ritchie.md).
 
 ### O que o Ritchie faz?
 
@@ -22,7 +22,7 @@ O Ritchie cria automações para melhorar a experiência operacional dos desenvo
 
 ### Como instalar p Ritchie? 
 
-Você pode seguir o passo a passo da instalação de acordo com sistema operacional que estiver usando. Veja mais na [**seção de instalação.** ](getting-started/installation/)\*\*\*\*
+Você pode seguir o passo a passo da instalação de acordo com sistema operacional que estiver usando. Veja mais na [**seção de instalação.** ](getting-started/instalacao-cli/)\*\*\*\*
 
 ### Como criar uma nova fórmula no Ritchie?
 
@@ -34,11 +34,11 @@ Você pode executar suas fórmulas de maneira local ou por meio do Docker. Saiba
 
 ### Como fazer o "build" de fórmulas no Ritchie? 
 
-Você faz o "build" da fórmula rodando o comando `$ rit build formula`. Veja mais como na [**seção build de fórmulas.**](tutorials/formulas/build-a-formula.md)\*\*\*\*
+Você faz o "build" da fórmula rodando o comando `$ rit build formula`. Veja mais como na [**seção build de fórmulas.**](tutorials/formulas/como-buildar-formulas.md)\*\*\*\*
 
 ### Como publicar fórmulas no Ritchie?
 
-Você pode publicar uma fórmula criando um repositório no Github e adicionando uma release da sua fórmula. Veja mais na [**seção como publicar uma fórmula**](tutorials/formulas/como-publicar-formula.md)**.** 
+Você pode publicar uma fórmula criando um repositório no Github e adicionando uma release da sua fórmula. Veja mais na [**seção como publicar uma fórmula**](tutorials/formulas/como-publicar-formulas.md)**.** 
 
 ## Comunidade
 

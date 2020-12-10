@@ -9,7 +9,7 @@ description: >-
 ## Hello World
 
 {% hint style="warning" %}
-**Premissa**: Depois de finalizar os passos anteriores -  [**instalação**](../../../getting-started/installation/) e [**inicialização**](../../../getting-started/initialization.md) -,  para acessar a [**fórmula hello world**](https://github.com/ZupIT/ritchie-formulas/tree/master/demo/hello-world) para testar o Ritchie, será necessário adicionar o repositório [**ritchie-formulas-demo**](https://github.com/ZupIT/ritchie-formulas-demo) localmente.
+**Premissa**: Depois de finalizar os passos anteriores -  [**instalação**](../../../getting-started/instalacao-cli/) e [**inicialização**](../../../getting-started/inicializacao-cli.md) -,  para acessar a [**fórmula hello world**](https://github.com/ZupIT/ritchie-formulas/tree/master/demo/hello-world) para testar o Ritchie, será necessário adicionar o repositório [**ritchie-formulas-demo**](https://github.com/ZupIT/ritchie-formulas-demo) localmente.
 {% endhint %}
 
 Para fazer isso, você pode usar o comando **`rit add repo`**, ou executar a linha de comando abaixo:
@@ -104,7 +104,7 @@ echo '{"rit_input_text":"Dennis", "rit_input_boolean":"true", "rit_input_list":"
 Ritchie usa o formato **JSON** para executar comandos STDIN.
 {% endhint %}
 
-{% page-ref page="../../standard-inputs/how-to-use-the-stdin-flag/" %}
+{% page-ref page="../../standard-inputs/como-usar-flag-stdin/" %}
 
 ### Caso 6: Usando Stdin & Docker
 

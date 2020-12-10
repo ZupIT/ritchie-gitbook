@@ -15,7 +15,7 @@ Basicamente, há duas formas de informar os parâmetros de entrada diretamente n
 
 Você pode ver mais sobre cada uma delas nas páginas a seguir: 
 
-{% page-ref page="how-to-use-the-stdin-flag/" %}
+{% page-ref page="como-usar-flag-stdin/" %}
 
 {% page-ref page="como-usar-input-flags/" %}
 
