@@ -5,8 +5,8 @@ description: 'In this section, you will find how to build formulas on Ritchie.'
 # How to build formulas
 
 {% hint style="danger" %}
-This functionality is no longer available from Ritchie's 2.5.0 version. From now on, a formula build is automatically made on your CLI. 
-
+This functionality is no longer available from Ritchie's 2.5.0 version. From now on, a formula build is automatically made on your CLI: a local repo file will be created as soon as you implement the formula to host it.  
+  
 If you're using a previous version just follow the instructions of this section.
 {% endhint %}
 
