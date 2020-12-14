@@ -17,7 +17,7 @@ With formulas, the Input flags are based on the **inputs parameters names** info
 3. Formula execution with input flags:
 
 ```text
-rit demo formula --name='dennis' --surname='ritchie' --dateOfBirth='09/09/1941'
+rit demo formula --name=dennis --surname=ritchie --dateOfBirth=09/09/1941
 ```
 
 

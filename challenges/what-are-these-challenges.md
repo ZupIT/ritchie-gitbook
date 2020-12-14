@@ -18,7 +18,7 @@ To perform the tasks in this section, it will be necessary to understand the fol
 2. \*\*\*\*[**How to create formulas**](../tutorials/formulas/how-to-create-formulas.md)**.**
 3. \*\*\*\*[**How to implement formulas**](../tutorials/formulas/how-to-implement-a-formula/)**.**
 4. \*\*\*\*[**How to build formulas**](../tutorials/formulas/how-to-build-formulas.md)**.**
-5. \*\*\*\*[**How to encapsulate formulas**](../tutorials/formulas/how-to-encapsulate-formulas.md)**.**
+5. \*\*\*\*[**How to group formulas**](../tutorials/formulas/how-to-group-formulas.md)**.**
 
 ### Challenges 
 
@@ -34,7 +34,7 @@ The **`third challenge`** is to understand how to manipulate conditional inputs.
 
 {% page-ref page="level-3-conditional-inputs.md" %}
 
-The **`fourth challenge`** is to apply the formula encapsulation concept.
+The **`fourth challenge`** is to apply the formula aggregation concept.
 
 {% page-ref page="level-4-encapsulation.md" %}
 

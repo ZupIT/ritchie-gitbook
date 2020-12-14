@@ -29,7 +29,7 @@
   * [How to publish formulas](tutorials/formulas/how-to-publish-formulas.md)
   * [How to share formulas](tutorials/formulas/how-to-share-formulas.md)
   * [How to delete formulas](tutorials/formulas/how-to-delete-formulas.md)
-  * [How to encapsulate formulas](tutorials/formulas/how-to-encapsulate-formulas.md)
+  * [How to group formulas](tutorials/formulas/how-to-group-formulas.md)
 * [Credentials](tutorials/credentials/README.md)
   * [How to set credentials](tutorials/credentials/how-to-set-credentials.md)
   * [How to delete credentials](tutorials/credentials/how-to-delete-credentials.md)
@@ -48,7 +48,7 @@
 * [Level 1: Inputs](challenges/level-1-inputs.md)
 * [Level 2: Credentials](challenges/level-2-credentials.md)
 * [Level 3: Conditional Inputs](challenges/level-3-conditional-inputs.md)
-* [Level 4: Encapsulation](challenges/level-4-encapsulation.md)
+* [Level 4: Aggregation](challenges/level-4-encapsulation.md)
 
 ## Reference
 
