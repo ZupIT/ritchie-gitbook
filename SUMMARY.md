@@ -48,7 +48,7 @@
 * [Level 1: Inputs](challenges/level-1-inputs.md)
 * [Level 2: Credentials](challenges/level-2-credentials.md)
 * [Level 3: Conditional Inputs](challenges/level-3-conditional-inputs.md)
-* [Level 4: Aggregation](challenges/level-4-encapsulation.md)
+* [Level 4: Aggregation](challenges/level-4-aggregation.md)
 
 ## Reference
 

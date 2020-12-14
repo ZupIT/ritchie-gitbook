@@ -36,7 +36,7 @@ The **`third challenge`** is to understand how to manipulate conditional inputs.
 
 The **`fourth challenge`** is to apply the formula aggregation concept.
 
-{% page-ref page="level-4-encapsulation.md" %}
+{% page-ref page="level-4-aggregation.md" %}
 
 
 
