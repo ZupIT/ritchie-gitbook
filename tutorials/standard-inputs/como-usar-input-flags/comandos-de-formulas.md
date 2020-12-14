@@ -17,7 +17,7 @@ Com fórmulas, as Input flags tem como base os **nomes dos parâmetros de entrad
 3. Execução da fórmula com Input flags:
 
 ```text
-rit demo formula --name='dennis' --surname='ritchie' --dateOfBirth='09/09/1941'
+rit demo formula --name=dennis --surname=ritchie --dateOfBirth=09/09/1941
 ```
 
 {% hint style="danger" %}
