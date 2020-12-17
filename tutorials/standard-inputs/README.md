@@ -10,7 +10,7 @@ Informar parâmetros de entrada através de **argumentos** ou **flags** permite 
 
 Basicamente, há duas formas de informar os parâmetros de entrada diretamente na linha de comando: 
 
-1. Por meio da flag STDIN;
+1. Por meio da flag STDIN;     _**\(será depreciado no início de 2021\)**_
 2. Por meio de Input flags. 
 
 Você pode ver mais sobre cada uma delas nas páginas a seguir: 
