@@ -1,5 +1,9 @@
 # How to use the stdin flag
 
+{% hint style="danger" %}
+The STDIN flag will be deprecated in early 2021, as substituted by [input flags](../how-to-use-input-flags/).
+{% endhint %}
+
 {% hint style="info" %}
 The **`--stdin`** flag on Ritchie has been developed to inform input parameters directly on the command lines.  
   
