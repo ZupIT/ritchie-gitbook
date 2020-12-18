@@ -18,7 +18,7 @@ Sugestão de comando: **`rit get tools`**
 
 ## Parâmetros de entrada
 
-Essa fórmula deverá conter \(pelo menos\) os two parâmetros de entrada abaixo:
+Essa fórmula deverá conter \(pelo menos\) os dois parâmetros de entrada. Veja como abaixo:
 
 * Profile \(`RIT_PROFILE`\). 
 * Profile tool \(`RIT_TOOL`\).
