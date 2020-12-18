@@ -21,7 +21,8 @@ Each programming language has its own specificities, but the formula's structure
 | `pkg/formula file` | file to implement the formula operation. |
 | `Dockerfile` | file to build docker images. |
 | `README file` | file to explain what the formula does. |
-| `Makefile file` | file to compile the formula's code. |
+| `Makefile file` | file to compile the formula's code \(_will be deprecated 03/2020_\). |
+| `build.sh file` | file to compile the formula's code in shell. |
 | `metadata.json file` | file to tag the formula's information. |
 | `set_unmask.sh file` | file used by the Makefile file. |
 | `help.json files` | file to configure formula helper messages on the CLI. |
