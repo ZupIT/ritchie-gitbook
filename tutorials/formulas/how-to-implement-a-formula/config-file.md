@@ -56,6 +56,32 @@ The variable **name** will be convert **uppercase** as the **local variable name
 }
 ```
 
+#### Input example with the multiselect type:
+
+```text
+
+{
+      "label": "Choose one or more days: ",
+      "name": "rit_days",
+      "type": "multiselect",
+      "items": [
+           "Monday",
+           "Tuesday",
+           "Wednesday",
+           "Thursday",
+           "Friday",
+           "Saturday",
+           "Friday"
+      ]
+}
+```
+
+#### Some observations regarding the **`multiselect` type**
+
+* To select one of the options with the `multiselect` type, you must press the `space` key \(the`enter` key will move to the next input, if any\)
+* The options selected in the `multiselect` type field will return a string with the options separated by pipe \(`|`\) and without space example: `Monday | Wednesday | Friday`
+* It is suggested to use the `required` field as`true`, otherwise, if no option is selected, the local variable will be saved as `undefined` 
+
 ### Optional fields
 
 * `default`: default input value \(**if** **null**\). 
