@@ -56,6 +56,32 @@ O nome da variável será convertida em maiúscula como o nome da variável loca
 }
 ```
 
+#### Exemplo de parâmetro de entrada com Input tipo multiselect:
+
+```text
+
+{
+      "label": "Choose one or more days: ",
+      "name": "rit_days",
+      "type": "multiselect",
+      "items": [
+           "Monday",
+           "Tuesday",
+           "Wednesday",
+           "Thursday",
+           "Friday",
+           "Saturday",
+           "Friday"
+      ]
+}
+```
+
+#### Algumas observações a respeito o tipo **`multiselect`** 
+
+* Para selecionar uma das opções com tipo `multiselect`, você deve apertar a chave `space` \(a chave`enter` irá mover para o próximo parâmetro de entrada, se houver\)
+* As opções selecionadas no campo do tipo `multiselect` irão retornar uma string com as opções separadas por barra \(`|`\) e sem espaço, por exemplo: `Monday | Wednesday | Friday`
+* É sugerido que você use o campo `obrigatório` como`true`, caso contrário, se não houver uma opção selecionada, a variável local será salva como `undefined` .
+
 ### Campos opcionais
 
 * `default`: valor padrão do parâmetro \(se nulo\).
