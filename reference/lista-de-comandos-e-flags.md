@@ -67,13 +67,13 @@ O comando rit build formula foi depreciado a partir da versão 2.5.0 do Ritchie.
 | rit completion fish | adiciona o autocomplete via fish |
 | rit completion powershell | adiciona o autocomplete via powershell |
 
-### Comandos de Contexto
+### Comandos de Ambiente
 
 | Comandos | Operação |
 | :--- | :--- |
-| rit set context | configura um novo contexto na sessão |
-| rit show context | mostra o contexto usado na sessão atual |
-| rit delete context | remove um contexto da sessão |
+| rit set env | configura um novo ambiente |
+| rit show env | mostra o atual ambiente que foi usado |
+| rit delete env | apaga um ambiente |
 
 ### Comandos de Credenciais
 
@@ -98,7 +98,7 @@ O comando rit build formula foi depreciado a partir da versão 2.5.0 do Ritchie.
 | :--- | :--- |
 | --default | atribui os valores **default** configurados na fórmula |
 | --docker | executa a fórmula usando **Docker** |
-| --help | retorna a lista dos comandos executáveis pelo usuário |
+| --help | retorna a lista dos comandos executáveis que estão disponíveis e flags para o usuário |
 | --local | executa a fórmula **localmente** |
 | --verbose | executa a fórmula sem detalhes dos logs |
 

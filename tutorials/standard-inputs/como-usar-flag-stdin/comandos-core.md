@@ -62,24 +62,26 @@ rit build formula
 Sem suporte ainda
 {% endhint %}
 
-### Comandos de Contexto 
+### Comandos de Ambiente
 
-rit set context
-
-```text
-echo '{"context":"contextName"}' | rit set context --stdin
-```
-
-rit delete context
+rit set env
 
 ```text
-echo '{"context":"contextName"}' | rit delete context --stdin
+echo '{"env":"envName"}' | rit set env --stdin
 ```
+
+rit delete env
+
+```text
+echo '{"env":"envName"}' | rit delete env --stdin
+```
+
+### Comandos de Credenciais
 
 rit set credential
 
 ```text
-echo '{"service":"provider", "type":"type", "credential": {"username":"credentialUsername","token": "credentialToken"}}' | rit set credential --stdin
+echo '{"service":"provider", "type":"type", "credential": {"username":"credentialUserna
 ```
 
 ## Comandos Core sem STDIN
@@ -91,4 +93,5 @@ Alguns comandos core não precisam da flag stdin para serem executados. Isso aco
 * **`rit completion`**
 * **`rit list repo`**
 * **`rit list credential`**
+* **`rit set env`**
 

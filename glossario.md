@@ -6,17 +6,19 @@ description: >-
 
 # Glossário
 
-## Contexto
-
-No Ritchie, o contexto é o ambiente no qual você está trabalhando. Cada contexto terá suas próprias credenciais, o que significa que ele precisará executar ****fórmulas ****específicas.
-
 ## CLI
 
 Refere-se à interface de linha de comando, que é o programa responsável por processar comandos de um software ou qualquer programa computacional por meio de texto.
 
 ## Credencial
 
-São parâmetros de entrada re-utilizáveis que você pode utilizar no Ritchie \(exemplo: dados de acessos para alguma ferramenta ou api\).
+Refere-se a um parâmetro de entrada reutilizável que você pode utilizar no Ritchie \(exemplo: dados de acessos para alguma ferramenta ou api\).
+
+## Environment
+
+No Ritchie, cada ambiente \(environment\) possui suas próprias credenciais, que podem ser necessárias para executar fórmulas específicas através do CLI.  
+  
+_Por exemplo: é possível criar ambientes **pessoal** e **profissional** \(ou **prof** e **staging**\) ****com diferentes credenciais e trocar de um ambiente para o outro de acordo com suas necessidades._
 
 ## Fórmula
 
