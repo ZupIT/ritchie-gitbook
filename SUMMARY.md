@@ -13,6 +13,7 @@
   * [Windows](getting-started/install-cli/windows.md)
   * [Manual Installation](getting-started/install-cli/manual-installation.md)
 * [Initialize CLI](getting-started/initialize-cli.md)
+* [Upgrade CLI](getting-started/upgrade-cli.md)
 
 ## Tutorials
 
