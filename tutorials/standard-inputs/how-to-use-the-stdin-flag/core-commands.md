@@ -62,19 +62,21 @@ rit build formula
 Not supported yet
 {% endhint %}
 
-### Context commands
+### Environment commands
 
-rit set context
-
-```text
-echo '{"context":"contextName"}' | rit set context --stdin
-```
-
-rit delete context
+rit set env
 
 ```text
-echo '{"context":"contextName"}' | rit delete context --stdin
+echo '{"env":"envName"}' | rit set env --stdin
 ```
+
+rit delete env
+
+```text
+echo '{"env":"envName"}' | rit delete env --stdin
+```
+
+### Credential commands
 
 rit set credential
 
@@ -91,4 +93,5 @@ Some core commands don't need the stdin flag to be executed as they don't have a
 * **`rit completion`**
 * **`rit list repo`**
 * **`rit list credential`**
+* **`rit show env`**
 

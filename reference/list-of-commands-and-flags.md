@@ -66,13 +66,13 @@ The rit build formula command was deprecated from Ritchie's version 2.5.0.
 | rit completion fish | add autocomplete via fish |
 | rit completion powershell | add autocomplete via powershell |
 
-### Context commands
+### Env commands
 
 | Commands | Operation |
 | :--- | :--- |
-| rit set context | set a new context into the session |
-| rit show context | show the current session context |
-| rit delete context | delete a context from the session |
+| rit set env | set a new environment |
+| rit show env | show the current environment used |
+| rit delete env | delete a environment |
 
 ### Credential commands
 
@@ -96,7 +96,7 @@ The rit build formula command was deprecated from Ritchie's version 2.5.0.
 | :--- | :--- |
 | --default | attribute the **default** values configured on the formula. |
 | --docker | run a formula using **Docker** |
-| --help | returns a list of executable commands for the user |
+| --help | returns a list of executable available commands and flags for the user |
 | --local | run a formula **locally** |
 | --verbose | run a formula without log details |
 

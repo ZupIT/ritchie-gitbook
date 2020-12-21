@@ -4,10 +4,6 @@ description: You will find in this section more about common concepts on develop
 
 # Glossary
 
-## Context
-
-On Ritchie, context means the environment you're working with. Each context will have its credentials, that's meant to be configured once you start using the CLI. Each context will have its own credentials, which will be needed to execute specific formulas. 
-
 ## CLI
 
 It refers to a command line interface, which is a program that processes commands in a software or any computing program only through text. 
@@ -15,6 +11,12 @@ It refers to a command line interface, which is a program that processes command
 ## Credential
 
 It refers to reusable input parameters that you can use in Ritchie \(example: access data for any tool or api\).
+
+## Environment
+
+On Ritchie, each environment will have its own credentials, which can be necessary to execute specific formulas through the CLI.   
+  
+_For example: it's possible to create a **professional** and a **personal** environments \(or **prod** and **staging**\) with different credentials, and switch from an environment to another according to the necessity._
 
 ## Formula
 
