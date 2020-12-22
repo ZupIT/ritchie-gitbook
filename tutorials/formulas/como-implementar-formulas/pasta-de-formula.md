@@ -35,7 +35,7 @@ Você pode encontrar todos os [**templates de linguagens**](https://github.com/Z
 
 {% tabs %}
 {% tab title="Golang" %}
-![](../../../.gitbook/assets/go%20%281%29.png)
+![](../../../.gitbook/assets/go%20%281%29%20%281%29.png)
 
 De acordo com a imagem acima, você deve editar os arquivos:
 
@@ -46,7 +46,7 @@ De acordo com a imagem acima, você deve editar os arquivos:
 {% endtab %}
 
 {% tab title="Java" %}
-![](../../../.gitbook/assets/java%20%282%29.png)
+![](../../../.gitbook/assets/java%20%282%29%20%282%29.png)
 
 De acordo com a imagem acima, você deve editar os arquivos:
 
@@ -57,7 +57,7 @@ De acordo com a imagem acima, você deve editar os arquivos:
 {% endtab %}
 
 {% tab title="Node" %}
-![](../../../.gitbook/assets/node%20%283%29.png)
+![](../../../.gitbook/assets/node%20%283%29%20%282%29.png)
 
 De acordo com a imagem acima, você deve editar os arquivos:
 
@@ -68,7 +68,7 @@ De acordo com a imagem acima, você deve editar os arquivos:
 {% endtab %}
 
 {% tab title="Python" %}
-![](../../../.gitbook/assets/python%20%282%29.png)
+![](../../../.gitbook/assets/python%20%282%29%20%281%29.png)
 
 De acordo com a imagem acima, você deve editar os arquivos:
 
@@ -79,7 +79,7 @@ De acordo com a imagem acima, você deve editar os arquivos:
 {% endtab %}
 
 {% tab title="Shell" %}
-![](../../../.gitbook/assets/shell%20%282%29.png)
+![](../../../.gitbook/assets/shell%20%282%29%20%281%29.png)
 
 De acordo com a imagem acima, você deve editar os arquivos:
 

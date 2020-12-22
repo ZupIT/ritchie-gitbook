@@ -48,7 +48,7 @@ E, para permitir mais opções e liberdade aos usuários, também é possível s
 
 Usamos o prefixo **`rit`** para iniciar nossa árvore de comandos.
 
-![](.gitbook/assets/arvore-rit%20%281%29.png)
+![](.gitbook/assets/arvore-rit%20%281%29%20%281%29.png)
 
 {% hint style="warning" %}
 O comando **`rit`** é nosso comando pai, ou raíz. Ele não é executável \(significa que ele não vai iniciar nenhuma operação se você usar ele sozinho no terminal\).   
