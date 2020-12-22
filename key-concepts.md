@@ -48,7 +48,7 @@ To allow more options and freedom for users, it is also allowed to follow the pa
 
 The app name is Ritchie, so we use the name **`rit`** to start our command tree.
 
-![](.gitbook/assets/arvore-rit%20%281%29.png)
+![](.gitbook/assets/arvore-rit%20%281%29%20%281%29.png)
 
 {% hint style="warning" %}
 The **rit** command is therefore our parent command, or **root**. It is not executable \(it means that it will not start any operations if you use it alone in the terminal\), but has been configured to return the **helper command**.

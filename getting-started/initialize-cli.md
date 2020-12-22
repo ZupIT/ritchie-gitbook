@@ -18,7 +18,7 @@ This command will ask the user three questions:
 2. If he **wants to add the community** formulas locally.
 3. If he **wants the default** [**formula execution method**](../tutorials/formulas/how-to-run-formulas/) **to be local or through docker.** 
 
-![rit init command](../.gitbook/assets/rit-init%20%283%29.gif)
+![rit init command](../.gitbook/assets/rit-init%20%283%29%20%281%29.gif)
 
 Then, the command execution will create all the necessary configuration's files. 
 

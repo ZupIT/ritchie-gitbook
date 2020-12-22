@@ -26,5 +26,5 @@ In Ritchie's context, **a formula is a script** that can be executed automatical
 
 Adapting an existing script to Ritchie structure allows you to run it **locally** or through **Docker**, and to share it on a **Github** or **Gitlab** repository.
 
-![](.gitbook/assets/formula-ritchie-en.jpg)
+![](.gitbook/assets/formula-ritchie-en%20%281%29.jpg)
 

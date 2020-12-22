@@ -13,7 +13,7 @@ description: You will find in this section how to run a "hello-world" formula.
 To do so, you can use the **`rit add repo`** command, or execute the command line below:
 
 ```text
-echo '{"provider":"Github", "name":"demo", "version":"2.2.0", "url":"https://github.com/ZupIT/ritchie-formulas-demo", "token": null, "priority":1}' | rit add repo --stdin
+echo '{"provider":"Github", "name":"demo", "url":"https://github.com/ZupIT/ritchie-formulas-demo", "priority":1}' | rit add repo --stdin
 ```
 
 {% hint style="info" %}
