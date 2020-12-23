@@ -30,7 +30,7 @@ The grouped formula command line needs to be executed using **Standard Inputs**,
 
 The **`rit publish repo`** formula has been implemented using formula aggregation, that you can find its [**formula implementation**](https://github.com/ZupIT/ritchie-formulas/tree/master/publish/repo).
 
-On the example below, you'll find below how this aggregation works on the code part, using the STDINB flag.
+On the example below, you'll find below how this aggregation works on the code part, using **`Input flags`**.
 
 {% hint style="warning" %}
 This formula has been implemented using **`Shell`**and the reasoning would be the same for any other programming language.
@@ -41,11 +41,11 @@ runFormula() {
   if [ "Github" == $PROVIDER ]
   then
     echo "🐙 Github provider selected"
-    echo '{"privacy":"'$PRIVACY'", "project_name":"'$PROJECT_NAME'", "workspace_path":"'$WORKSPACE_PATH'", "version":"'$VERSION'"}' | rit github publish repo --stdin
+    rit github publish repo --privacy=$PRIVACY --project_name=$PROJECT_NAME --workspace_path=$WORKSPACE_PATH --version=$VERSION
   elif [ "Gitlab" == $PROVIDER ]
   then
     echo "🦊 Gitlab provider selected"
-    echo '{"privacy":"'$PRIVACY'", "project_name":"'$PROJECT_NAME'", "workspace_path":"'$WORKSPACE_PATH'", "version":"'$VERSION'"}' | rit gitlab publish repo --stdin
+    rit gitlab publish repo --privacy=$PRIVACY --project_name=$PROJECT_NAME --workspace_path=$WORKSPACE_PATH --version=$VERSION
   else
     echo "🤖 Unexpected Provider informed. Check it please and try again."
   fi
@@ -59,7 +59,7 @@ Here, according to the input informed by the user, two different formulas can be
 
 To do so, the grouped formulas inputs parameters are informed dynamically according to the inputs parameters of the main formula \(**`rit publish repo`**\). 
 
-Depending on the operation, the JSON used with the STDIN flag command could be generated according to other operations performed through the formula execution before executing the grouped formula command line.‌
+Depending on the operation, the **`input flags`** used for the command could be generated according to other operations performed through the formula execution before executing the grouped formula command line.‌
 
 ## Next steps <a id="next-steps"></a>
 
