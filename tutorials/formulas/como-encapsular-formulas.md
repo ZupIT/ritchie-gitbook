@@ -16,7 +16,7 @@ A seguir, veja como você pode fazer esse processo de encapsulamento:
 
 ### 1. Premissa 
 
-Para realizar um encapsulamento de fórmula, é necessário usar a flag STDIN. Na página a seguir, temos uma explicação mais detalhada de como ela funciona:
+Para realizar um encapsulamento de fórmula, é necessário usar **Standard Inputs**. Na página a seguir, temos uma explicação mais detalhada de como ela funciona:
 
 {% page-ref page="../standard-inputs/" %}
 
