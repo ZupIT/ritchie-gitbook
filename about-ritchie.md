@@ -16,7 +16,7 @@ Isso dará aos desenvolvedores a possibilidade de executar operações que eram 
 
 Dessa forma, os profissionais - de todas as frentes - ganham tempo para atuar em tarefas mais complexas e relevantes para gerar valor ao seu projeto.
 
-![Demonstra&#xE7;&#xE3;o de uma  formula seguindo o mindset NoOps](.gitbook/assets/rit-demo-deploy-project.gif)
+![Demonstra&#xE7;&#xE3;o de uma  formula seguindo o mindset NoOps](.gitbook/assets/rit-demo-deploy-project%20%281%29.gif)
 
 ## Qual o diferencial do Ritchie?
 

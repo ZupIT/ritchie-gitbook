@@ -20,7 +20,7 @@ Cada repositório deve conter os seguintes elementos:
 * Um arquivo copy-bin-configs.sh 
 * Um arquivo unzip-bin-configs.sh
 
-![Reposit&#xF3;rio de f&#xF3;rmulas da comunidade](../.gitbook/assets/screenshot-2020-05-22-at-17.27.48.png)
+![Reposit&#xF3;rio de f&#xF3;rmulas da comunidade](../.gitbook/assets/screenshot-2020-05-22-at-17.27.48%20%281%29.png)
 
 Cada **pasta de fórmula** vai conter o código executável e os arquivos referentes a uma fórmula.
 

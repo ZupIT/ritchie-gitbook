@@ -31,13 +31,13 @@ Esses parâmetros de entrada serão informados pelo usuário :
 ... antes de executar a fórmula de fato.  
 ****
 
-![](.gitbook/assets/fluxo-formulas.png)
+![](.gitbook/assets/fluxo-formulas%20%283%29.png)
 
 ### 
 
 ### Exemplo de execução de uma fórmula \(via prompt\)
 
-![](.gitbook/assets/rit-scaffold-generate-coffee-go%20%281%29.gif)
+![](.gitbook/assets/rit-scaffold-generate-coffee-go.gif)
 
 O **`rit scaffold generate coffee-go`** é um comando executável associado a uma fórmula na árvore do Ritchie.
 
@@ -69,7 +69,7 @@ E, para permitir mais opções e liberdade aos usuários, também foi permitido 
 
 O aplicativo chamando Ritchie, usamos o nome **rit** para iniciar nossa árvore de comandos.
 
-![](.gitbook/assets/arvore-rit.png)
+![](.gitbook/assets/arvore-rit%20%281%29.png)
 
 O comando rit é nosso comando pai, ou raíz. Ele não é executável \(significa que ele não vai iniciar nenhuma operação se você usa ele sozinho no terminal\). É necessário usar sub-comandos \(que são comandos filhos, ou ramos, do comando rit\) executáveis para conseguir iniciar algum processo.
 
