@@ -191,7 +191,7 @@ In case of fields without a default value, the flag will keep asking for this in
       "name": "rit_age",
       "type": "text",
       "pattern": {
-            "regex": [0-9],
+            "regex": "[0-9]",
             "mismatchText": "Only a integer value is allowed here (ex: 20)"
       }
 }
