@@ -24,7 +24,7 @@ Para realizar um encapsulamento de fórmula, é necessário usar **Standard Inpu
 
 Ao [**implementar uma fórmula**](como-implementar-formulas/), você precisa pegar o arquivo onde a operação está codificada e executar a linha de comando associada à fórmula encapsulada.
 
-A linha de comando da fórmula encapsulada deve ser executada utilizando o flag STDIN e informando os seus parâmetros de entradas diretamente no código.
+A linha de comando da fórmula encapsulada deve ser executada utilizando **Standard Inputs** e informando os seus parâmetros de entradas diretamente no código.
 
 ### 3. Exemplo
 
