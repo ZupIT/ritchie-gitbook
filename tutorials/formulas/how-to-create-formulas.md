@@ -51,7 +51,7 @@ When you finished your formula creation, it will be built and sent to a specific
 }
 ```
 
-A repository associated to this workspace will be added on the `/home/user/.rit/repos` folder 
+A repository associated to this workspace will be created on the `/home/user/.rit/repos` folder, and added on the `repositories.json` file.
 
 ```text
 [
