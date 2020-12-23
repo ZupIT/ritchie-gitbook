@@ -43,13 +43,27 @@ This template is composed of 4 **inputs parameters**, that ****represents the cu
 
 When you finished your formula creation, it will be built and sent to a specific repository according to the name of your workspace with the prefix **"local".** 
 
-**Example:** if we have a workspace with the name my-work-name.
+**Example:** if we have a workspace with the name `Default`.
 
 ```text
-Workspace {
-  Name: "my-work-name",
-  Dir: "/home/user/my-workspace-path"
+{
+    "Default":"/home/user/ritchie-formula-local"
 }
+```
+
+A repository associated to this workspace will be added on the `/home/user/.rit/repos` folder 
+
+```text
+[
+	{
+		"provider": "Local",
+		"name": "local-default",
+		"version": "0.0.0",
+		"url": "local repository",
+		"priority": 0,
+		"isLocal": true
+	}
+]
 ```
 
 ## Next steps 
