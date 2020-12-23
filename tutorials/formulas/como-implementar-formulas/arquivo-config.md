@@ -191,7 +191,7 @@ Caso não haja campos com valor default, a flag continuará perguntando por par�
       "name": "rit_age",
       "type": "text",
       "pattern": {
-            "regex": [0-9],
+            "regex": "[0-9]",
             "mismatchText": "Only a integer value is allowed here (ex: 20)"
       }
 }
