@@ -84,6 +84,12 @@ rit set credential
 echo '{"service":"provider", "type":"type", "credential": {"username":"credentialUserna
 ```
 
+rit delete credential
+
+```text
+echo '{"provider":"provider"}' | rit delete credential --stdin
+```
+
 ## Comandos Core sem STDIN
 
 Alguns comandos core não precisam da flag stdin para serem executados. Isso acontece porque, nesse caso, eles não precisam informar nenhum parâmetro de entrada:
