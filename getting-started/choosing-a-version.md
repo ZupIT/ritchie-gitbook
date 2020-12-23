@@ -15,7 +15,7 @@ Both versions were created to meet the different needs of infrastructure analyst
 
 In practice, the main difference between the versions is in the use \(or not\) of a server for storing the **formulas**, mandatory for those who use the Team Version, since, in the case of those who use Ritchie for corporate projects, it is necessary to ensure security information to protect sensitive data.
 
-![Versions single and team architecture ](../.gitbook/assets/team-and-single.png)
+![Versions single and team architecture ](../.gitbook/assets/team-and-single%20%282%29.png)
 
 ## **Comparing versions**
 

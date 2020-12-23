@@ -26,7 +26,7 @@ Each repository must contain the following elements:
 * a copy-bin-configs.sh file 
 * an unzip-bin-configs.sh file
 
-![](../.gitbook/assets/repo.png)
+![](../.gitbook/assets/screenshot-2020-05-22-at-17.27.48.png)
 
 Each **formula folder** will contain the executable code and files for a formula.
 

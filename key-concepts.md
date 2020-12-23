@@ -31,11 +31,11 @@ These input parameters will be informed by the user:
 ... before actually executing the formula.  
 ****
 
-![](.gitbook/assets/fluxo-formulas%20%283%29.png)
+![](.gitbook/assets/fluxo-formulas%20%283%29%20%283%29.png)
 
 ## Execution of a formula \(with prompt\)
 
-![](.gitbook/assets/rit-scaffold-generate-coffee-go.gif)
+![](.gitbook/assets/rit-scaffold-generate-coffee-go%20%281%29.gif)
 
 **`rit scaffold generate coffee-go`** is an executable command associated with a formula in the CLI's tree.
 
@@ -69,7 +69,7 @@ To allow more options and freedom for users, it is also allowed to follow the pa
 
 The app name is Ritchie, so we use the name **rit** to start our command tree.
 
-![](.gitbook/assets/arvore-rit%20%281%29.png)
+![](.gitbook/assets/arvore-rit%20%281%29%20%281%29.png)
 
 The **rit** command is therefore our parent command, or **root**. It is not executable \(it means that it will not start any operations if you use it alone in the terminal\). It is necessary to use executable sub-commands \(which are child commands, or branches, of the rit command\) in order to start any process.
 
