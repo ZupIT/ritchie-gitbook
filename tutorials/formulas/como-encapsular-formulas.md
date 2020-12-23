@@ -30,7 +30,7 @@ A linha de comando da fórmula encapsulada deve ser executada utilizando o flag 
 
 A fórmula **`rit publish repo`** foi implementada usando o encapsulamento de fórmula. Inclusive, você pode encontrar no Github a [**implementação dessa fórmula**](https://github.com/ZupIT/ritchie-formulas/tree/master/publish/repo)**.** 
 
-No exemplo abaixo, você verá como esse encapsulamento funciona na parte do código. 
+No exemplo abaixo, você verá como esse encapsulamento funciona na parte do código usando **`Input flags`**. 
 
 {% hint style="warning" %}
 Vale reforçar que essa fórmula foi implementada usando **Shell**, mas o raciocínio seria o mesmo para qualquer outra linguagem de programação.
@@ -41,11 +41,11 @@ runFormula() {
   if [ "Github" == $PROVIDER ]
   then
     echo "🐙 Github provider selected"
-    echo '{"privacy":"'$PRIVACY'", "project_name":"'$PROJECT_NAME'", "workspace_path":"'$WORKSPACE_PATH'", "version":"'$VERSION'"}' | rit github publish repo --stdin
+    rit github publish repo --privacy=$PRIVACY --project_name=$PROJECT_NAME --workspace_path=$WORKSPACE_PATH --version=$VERSION
   elif [ "Gitlab" == $PROVIDER ]
   then
     echo "🦊 Gitlab provider selected"
-    echo '{"privacy":"'$PRIVACY'", "project_name":"'$PROJECT_NAME'", "workspace_path":"'$WORKSPACE_PATH'", "version":"'$VERSION'"}' | rit gitlab publish repo --stdin
+    rit gitlab publish repo --privacy=$PRIVACY --project_name=$PROJECT_NAME --workspace_path=$WORKSPACE_PATH --version=$VERSION
   else
     echo "🤖 Unexpected Provider informed. Check it please and try again."
   fi
@@ -59,7 +59,7 @@ Aqui, de acordo com a entrada informada pelo usuário, duas fórmulas diferentes
 
 Para tanto, os parâmetros de entrada das fórmulas encapsuladas são informados dinamicamente de acordo com os parâmetros de entrada da fórmula principal \(**`rit publish repo`**\).
 
-Dependendo da operação, o **JSON** usado com o comando STDIN pode ser gerado de acordo com outras operações realizadas durante a execução da fórmula principal, antes de executar a linha de comando da fórmula encapsulada.
+Dependendo da operação, os **`inputs flags`** do comando podem ser gerados de acordo com outras operações realizadas durante a execução da fórmula principal, antes de executar a linha de comando da fórmula encapsulada.
 
 ## Próximos passos 
 
