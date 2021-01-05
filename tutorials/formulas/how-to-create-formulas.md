@@ -24,7 +24,7 @@ Then, you'll have to inform those inputs before running the formula:
 
 **Example:** `rit demo create formula`
 
-![Example of running rit create formula command](../../.gitbook/assets/rit-create-formula-3.gif)
+![Example of running rit create formula command](../../.gitbook/assets/rit_create_formula_demo.gif)
 
 ### **Step 2: Test your formula** 
 
