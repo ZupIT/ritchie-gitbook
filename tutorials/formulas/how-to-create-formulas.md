@@ -32,7 +32,7 @@ You can test the formula directly after its creation. That's possible because  t
 
 In that case, the formula **"Hello World" template** will be executed as shown below:
 
-![Example of &quot;Hello-Worl&quot; formula demo](../../.gitbook/assets/large-gif-1054x366-.gif)
+![Exemplo demo de f&#xF3;rmula &quot;Hello-World&quot;](../../.gitbook/assets/rit_demo_hello-world_hd.gif)
 
 This template is composed of 4 **inputs parameters**, that ****represents the currently available kinds of inputs to use Ritchie:
 
