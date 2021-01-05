@@ -22,7 +22,7 @@ Você deverá informar alguns parâmetros de entrada antes da sua execução:
 
 **Exemplo:** `rit demo create formula`
 
-![Exemplo de execu&#xE7;&#xE3;o do comando rit create formula](../../.gitbook/assets/rit-create-formula-3.gif)
+![Exemplo de execu&#xE7;&#xE3;o do comando rit create formula](../../.gitbook/assets/rit_create_formula_demo.gif)
 
 ### **Passo 2: Teste sua fórmula** 
 
