@@ -86,6 +86,7 @@ The rit build formula command was deprecated from Ritchie's version 2.5.0.
 | Commands | Operation |
 | :--- | :--- |
 | rit list workspace | list all formula's workspaces  |
+| rit add workspace | add a new workspace |
 | rit delete workspace | delete a specific formula's workspace |
 
 ## Flags 
