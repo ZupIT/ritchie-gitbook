@@ -38,7 +38,7 @@ Você faz o "build" da fórmula rodando o comando `$ rit build formula`. Veja ma
 
 ### Como publicar fórmulas no Ritchie?
 
-Você pode publicar uma fórmula criando um repositório no Github e adicionando uma release da sua fórmula. Veja mais na [**seção como publicar uma fórmula**](tutorials/formulas/como-publicar-formulas.md)**.** 
+Você pode publicar uma fórmula criando um repositório no Github, Gitlab ou Bitbucket e adicionando uma release da sua fórmula. Veja mais na [**seção como publicar uma fórmula**](tutorials/formulas/como-publicar-formulas.md)**.** 
 
 ## Comunidade
 
