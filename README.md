@@ -24,7 +24,7 @@ Currently, Ritchie has **two available versions**. On this documentation, we'll 
 
 In Ritchie's context, **a formula is a script** that can be executed automatically or interactively through a command line.
 
-Adapting an existing script to Ritchie structure allows you to run it **locally** or through **Docker**, and to share it on a **Github** or **Gitlab** repository.
+Adapting an existing script to Ritchie structure allows you to run it **locally** or through **Docker**, and to share it on **Bitbucket** ,**Github** or **Gitlab** repository.
 
 ![](.gitbook/assets/formula-ritchie-en%20%281%29.jpg)
 
