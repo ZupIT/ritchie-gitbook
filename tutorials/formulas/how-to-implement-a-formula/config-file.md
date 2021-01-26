@@ -20,14 +20,6 @@ These input parameters are made up of the following fields:
 }
 ```
 
-### Autocomplete
-
-When you're editing the config.json file, you have the option to  autocomplete the **paths** to your workspace instead of typing it. To do so, just hit **tab key**. 
-
-Check out how it works on the following example: 
-
-![Example of autocomplete input on Ritchie.](../../../.gitbook/assets/unnamed.gif)
-
 ## Input parameter configuration
 
 Each input parameter is composed of the following fields:
@@ -50,8 +42,9 @@ The variable **name** will be convert **uppercase** as the **local variable name
   * **text** \(string\), 
   * **bool** \(boolean\), 
   * **password** \(hidden string on CLI\), 
-  * **credentials** _\(specific type, learn more informations_ [_**here**_](https://docs.ritchiecli.io/tutorials/credentials#how-to-use-credentials-as-formula-inputs)_\)_
-  * **dynamic** _\(associated with the optional `request_info` field below\)_ 
+  * **credentials** _\(specific type, learn more informations_ [_**here**_](https://docs.ritchiecli.io/tutorials/credentials#how-to-use-credentials-as-formula-inputs)_\),_
+  * **dynamic** _\(associated with the optional `request_info` field below\),_
+  * **path:** enables the autocomplete to inform a path to a folder or a file \(string\). 
 * `label` : text appearing on the CLI, asking for the input. 
 
 #### Input example with mandatory fields:
@@ -81,6 +74,16 @@ The variable **name** will be convert **uppercase** as the **local variable name
            "Saturday",
            "Friday"
       ]
+}
+```
+
+#### Parameter example using autocomplete path: 
+
+```text
+{
+      "label": "Type the path to the folder with your file:",
+      "name": "rit_path",
+      "type": "path"
 }
 ```
 
