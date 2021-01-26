@@ -24,7 +24,7 @@ Atualmente, o Ritchie possui **duas versões disponíveis** para ser usada. Nest
 
 No contexto de Ritchie, **uma fórmula é um script** que pode ser executado automaticamente ou interativamente por meio de uma linha de comando.  
   
-Adaptar um script existente à estrutura Ritchie permite executá-lo **localmente** ou por meio do **Docker** e compartilhá-lo em um repositório **Github** ou **Gitlab**.
+Adaptar um script existente à estrutura Ritchie permite executá-lo **localmente** ou por meio do **Docker** e compartilhá-lo em um repositório do **Bitbucket**, **Github** ou **Gitlab**.
 
 ![](.gitbook/assets/formula-ritchie-en%20%281%29%20%281%29.jpg)
 
