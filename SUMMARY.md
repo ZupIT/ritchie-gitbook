@@ -41,6 +41,7 @@
     * [Comandos Core](tutorials/standard-inputs/como-usar-flag-stdin/comandos-core.md)
     * [Comandos de fórmulas](tutorials/standard-inputs/como-usar-flag-stdin/comandos-de-formulas.md)
   * [Como usar input flags](tutorials/standard-inputs/como-usar-input-flags/README.md)
+    * [Comandos Core](tutorials/standard-inputs/como-usar-input-flags/comandos-core.md)
     * [Comandos de fórmulas](tutorials/standard-inputs/como-usar-input-flags/comandos-de-formulas.md)
 
 ## DESAFIOS <a id="challenges"></a>

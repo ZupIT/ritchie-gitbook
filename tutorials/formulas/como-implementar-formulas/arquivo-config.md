@@ -20,6 +20,14 @@ Essas entradas são feitas para os seguintes campos:
 }
 ```
 
+### Autocomplete
+
+Quando você estiver editando o seu arquivo config.json, existe a opção de preencher automaticamente os **paths** do seu workspace, em vez de digitá-los. Para isso, basta apertar a tecla **tab.**
+
+Veja como funciona no exemplo a seguir:
+
+![Exemplo de autocomplete no Ritchie](../../../.gitbook/assets/unnamed.gif)
+
 ## Configuração dos parâmetros de entrada
 
 Cada parâmetro de entrada é composto pelos seguintes campos:
