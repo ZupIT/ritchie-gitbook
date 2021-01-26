@@ -20,14 +20,6 @@ Essas entradas são feitas para os seguintes campos:
 }
 ```
 
-### Autocomplete
-
-Quando você estiver editando o seu arquivo config.json, existe a opção de preencher automaticamente os **paths** do seu workspace, em vez de digitá-los. Para isso, basta apertar a tecla **tab.**
-
-Veja como funciona no exemplo a seguir:
-
-![Exemplo de autocomplete no Ritchie](../../../.gitbook/assets/unnamed.gif)
-
 ## Configuração dos parâmetros de entrada
 
 Cada parâmetro de entrada é composto pelos seguintes campos:
@@ -51,7 +43,8 @@ O nome da variável será convertida em maiúscula como o nome da variável loca
   * **bool** \(boolean\), 
   * **password** \(string escondida no CLI\), 
   * **credentials** _****_\(tipo específico, veja mais sobre [**aqui**](https://docs.ritchiecli.io/tutorials/credentials#how-to-use-credentials-as-formula-inputs)\)
-  * **dynamic** \(associado  ao campo opcional`request_info`\) 
+  * **dynamic** \(associado  ao campo opcional`request_info`\)
+  * **path:** habilita o `autocomplete` para o usuário informar o passo para uma pasta ou um arquivo \(string\). 
 * `label`: texto que aparecerá no CLI para pedir o input ao usuário.
 
 #### Exemplo de parâmetro de entrada com campos obrigatórios:
@@ -81,6 +74,16 @@ O nome da variável será convertida em maiúscula como o nome da variável loca
            "Saturday",
            "Friday"
       ]
+}
+```
+
+#### Exemplo de parâmetro usando o autocomplete do path: 
+
+```text
+{
+      "label": "Type the path to the folder with your file:",
+      "name": "rit_path",
+      "type": "path",
 }
 ```
 
