@@ -29,6 +29,8 @@ Each programming language has its own specificities, but the formula's structure
 
 You can find all [**languages templates**](https://github.com/ZupIT/ritchie-formulas/tree/master/templates/create_formula/languages) on the ritchie-formulas repository.
 
+
+
 ### Formula folder examples
 
 {% tabs %}

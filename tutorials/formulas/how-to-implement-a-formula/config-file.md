@@ -20,6 +20,14 @@ These input parameters are made up of the following fields:
 }
 ```
 
+### Autocomplete
+
+When you're editing the config.json file, you have the option to  autocomplete the **paths** to your workspace instead of typing it. To do so, just hit **tab key**. 
+
+Check out how it works on the following example: 
+
+![Example of autocomplete input on Ritchie.](../../../.gitbook/assets/unnamed.gif)
+
 ## Input parameter configuration
 
 Each input parameter is composed of the following fields:
