@@ -182,7 +182,7 @@ Caso não haja campos com valor default, a flag continuará perguntando por par�
 },
 {
       "condition": {
-            variable: "rit_name",
+            "variable": "rit_name",
             "operator": "!=",
             "value": "Dennis"
       }
