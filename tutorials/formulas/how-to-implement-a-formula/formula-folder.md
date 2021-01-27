@@ -35,7 +35,7 @@ You can find all [**languages templates**](https://github.com/ZupIT/ritchie-form
 
 {% tabs %}
 {% tab title="Golang" %}
-![](../../../.gitbook/assets/go%20%281%29.png)
+![](../../../.gitbook/assets/go%20%281%29%20%281%29.png)
 
 To change the formula's behavior for this language, you'll have at least to update the following files:
 
@@ -45,7 +45,7 @@ To change the formula's behavior for this language, you'll have at least to upda
 {% endtab %}
 
 {% tab title="Java" %}
-![](../../../.gitbook/assets/java%20%282%29.png)
+![](../../../.gitbook/assets/java%20%282%29%20%282%29.png)
 
 To change the formula's behavior for this language, you'll have at least to update the following files:
 
@@ -55,7 +55,7 @@ To change the formula's behavior for this language, you'll have at least to upda
 {% endtab %}
 
 {% tab title="Node" %}
-![](../../../.gitbook/assets/node%20%283%29.png)
+![](../../../.gitbook/assets/node%20%283%29%20%283%29.png)
 
 To change the formula's behavior for this language, you'll have at least to update the following files:
 
@@ -75,7 +75,7 @@ To change the formula's behavior for this language, you'll have at least to upda
 {% endtab %}
 
 {% tab title="Shell" %}
-![](../../../.gitbook/assets/shell%20%282%29.png)
+![](../../../.gitbook/assets/shell%20%282%29%20%281%29.png)
 
 To change the formula's behavior for this language, you'll have at least to update the following files:
 
