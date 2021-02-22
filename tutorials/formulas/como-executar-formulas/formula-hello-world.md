@@ -15,7 +15,7 @@ description: >-
 Para fazer isso, você pode usar o comando **`rit add repo`**, ou executar a linha de comando abaixo:
 
 ```text
-echo '{"provider":"Github", "name":"demo", "url":"https://github.com/ZupIT/ritchie-formulas-demo", "priority":1}' | rit add repo --stdin
+rit add repo --provider=Github --name=demo --repoUrl=https://github.com/ZupIT/ritchie-formulas-demo --priority=1
 ```
 
 {% hint style="info" %}
