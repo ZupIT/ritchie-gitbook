@@ -37,8 +37,9 @@ Este template é composto por **3 parâmetros de entrada**, que representam os t
 1. Uma amostra da **`variável de texto`** 
 2. Uma amostra da **`lista de variáveis`** 
 3. Uma amostra das **`variáveis booleanas`** 
+4. Uma amostra de **`segredo`** \(variável de texto escondida\)
 
-Quando você terminar a criação da sua fórmula, ela será "buildada" e enviada para um repositório local específico de acordo com o nome do seu workspace, com o prefixo **"local"**. 
+Quando você terminar a criação da sua fórmula e executa ela pela primeira fez, ela será "buildada" e enviada para um repositório local específico de acordo com o nome do seu workspace, com o prefixo **"local"**. 
 
 **Exemplo:** se tiver um workspace com o nome `Default`.
 
