@@ -21,6 +21,7 @@ Nos exemplos abaixo, sempre há a classe de uma fórmula com uma função `Run()
 {% tabs %}
 {% tab title="main.go" %}
 ```text
+	input1 := os.Getenv("INPUT_TEXT")
 	input2 := os.Getenv("INPUT_LIST")
 	input3, _ := strconv.ParseBool(os.Getenv("INPUT_BOOLEAN"))
 	input4 := os.Getenv("INPUT_PASSWORD")
