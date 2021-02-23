@@ -31,7 +31,7 @@ These input parameters will be informed by the user:
 ... before actually executing the formula.  
 ****
 
-![](.gitbook/assets/fluxo-formulas%20%283%29%20%283%29.png)
+![](.gitbook/assets/fluxo-formulas%20%283%29%20%283%29%20%283%29.png)
 
 ## Execution of a formula \(with prompt\)
 

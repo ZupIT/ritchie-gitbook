@@ -34,7 +34,7 @@ Ritchie has been developed using the **Golang** language.
 
 However, formulas can be written using **any programming language**.
 
-![](.gitbook/assets/screenshot-2020-05-08-at-17.54.34%20%281%29%20%281%29.png)
+![](.gitbook/assets/screenshot-2020-05-08-at-17.54.34%20%281%29%20%281%29%20%281%29.png)
 
 ## Tools
 
