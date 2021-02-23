@@ -17,7 +17,7 @@ As duas versões foram criadas para atender às diferentes necessidades de anali
 
 Na prática, a principal diferença entre as versões está no uso \(ou não\) de um servidor para armazenamento das **fórmulas**, obrigatório para quem utiliza a Versão Team, já que, no caso de quem utilizar o Ritchie para projetos corporativos, é necessário garantir segurança da informação para proteção de dados sensíveis.  ****
 
-![Arquitetura das vers&#xF5;es single e team](../.gitbook/assets/team-and-single%20%282%29%20%281%29.png)
+![Arquitetura das vers&#xF5;es single e team](../.gitbook/assets/team-and-single%20%282%29%20%281%29%20%281%29.png)
 
 ## **Comparando versões** 
 

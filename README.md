@@ -30,7 +30,7 @@ O Ritchie funciona para **todos os sistemas operacionais.** Para saber mais info
 
 Ritchie foi desenvolvido usando a linguagem do Google, o **Golang**. No entanto, as fórmulas podem ser escritas usando qualquer linguagem de programação.
 
-![Linguagens de programa&#xE7;&#xE3;o dispon&#xED;veis para usar Ritchie](.gitbook/assets/screenshot-2020-05-08-at-17.54.34%20%281%29.png)
+![Linguagens de programa&#xE7;&#xE3;o dispon&#xED;veis para usar Ritchie](.gitbook/assets/screenshot-2020-05-08-at-17.54.34%20%281%29%20%281%29.png)
 
 ### Ferramentas
 
