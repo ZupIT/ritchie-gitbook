@@ -41,7 +41,7 @@ This template is composed of 4 **inputs parameters**, that ****represents the cu
 3. A **`sample boolean`** variable
 4. A **`sample password`** variable
 
-When you finished your formula creation, it will be built and sent to a specific repository according to the name of your workspace with the prefix **"local".** 
+When you finished the formula creation and you execute the command, the formula will be built for the first time and the execution files will be sent to a specific repository according to the name of your workspace.
 
 **Example:** if we have a workspace with the name `Default`.
 
