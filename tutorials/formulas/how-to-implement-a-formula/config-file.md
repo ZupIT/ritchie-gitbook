@@ -216,7 +216,7 @@ In case of fields without a default value, the flag will keep asking for this in
 {
       "label": "Type your name:",
       "name": "rit_name",
-      "type": "text",
+      "type": "dynamic",
       "requestInfo": {
             "url": "https://my-url.com",
             "jsonPath": $['user']['name']
