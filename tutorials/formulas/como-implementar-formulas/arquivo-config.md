@@ -216,7 +216,7 @@ Caso não haja campos com valor default, a flag continuará perguntando por par�
 {
       "label": "Type your name:",
       "name": "rit_name",
-      "type": "text",
+      "type": "dynamic",
       "requestInfo": {
             "url": "https://my-url.com",
             "jsonPath": $['user']['name']
