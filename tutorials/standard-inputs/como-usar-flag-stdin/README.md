@@ -1,7 +1,7 @@
 # Como usar a flag stdin
 
 {% hint style="danger" %}
-A flag **--stdin** será descontinuada no início de 2021, sendo substituída pelos [input flags](../como-usar-input-flags/).
+A flag **--stdin** será descontinuada em 2021, sendo substituída pelos [input flags](../como-usar-input-flags/).
 {% endhint %}
 
 {% hint style="info" %}
