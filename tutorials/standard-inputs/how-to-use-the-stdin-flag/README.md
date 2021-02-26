@@ -1,7 +1,7 @@
 # How to use the stdin flag
 
 {% hint style="danger" %}
-The STDIN flag will be deprecated in early 2021, as substituted by [input flags](../how-to-use-input-flags/).
+The STDIN flag will be deprecated in 2021, as substituted by [input flags](../how-to-use-input-flags/).
 {% endhint %}
 
 {% hint style="info" %}
