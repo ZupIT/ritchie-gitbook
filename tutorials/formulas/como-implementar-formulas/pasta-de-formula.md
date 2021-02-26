@@ -23,7 +23,7 @@ Cada linguagem de programação possui suas próprias especificidades, mas a est
 | `pkg/formula file` | arquivo para implementar a operação da fórmula.  |
 | `Dockerfile` | arquivo para "buildar" imagens no Docker.  |
 | `README file` | arquivo para explicar o que faz uma fórmula. |
-| `Makefile file` | arquivo para compilar o código da fórmula \(_será depreciado em 03/2021_\). |
+| `Makefile file` | arquivo para compilar o código da fórmula \(_será depreciado em 2021_\). |
 | `build.sh file` | arquivo para compilar o código da fórmula em shell |
 | `metadata.json file` | arquivo para "taguear" informações de uma fórmula  |
 | `set_unmask.sh file` | arquivo usado pelo `Makefile file` |
