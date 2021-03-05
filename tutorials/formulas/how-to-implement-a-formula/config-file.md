@@ -40,12 +40,16 @@ The variable **name** will be convert **uppercase** as the **local variable name
 
 * `type`: 
   * **text** \(string\), 
-  * **bool** \(boolean\), 
+  * **list** \(string, associated with a list of **items**\),
+  * **bool** \(boolean, associated with a list of **items\*\***\), 
   * **password** \(hidden string on CLI\), 
+  * **multiselect** \(string, associated with a list of **items**\),
   * **credentials** _\(specific type, learn more informations_ [_**here**_](https://docs.ritchiecli.io/tutorials/credentials#how-to-use-credentials-as-formula-inputs)_\),_
   * **dynamic** _\(associated with the optional `request_info` field below\),_
   * **path:** enables the autocomplete to inform a path to a folder or a file \(string\). 
 * `label` : text appearing on the CLI, asking for the input. 
+
+_\*\* the **item list** for boolean value can be `false`, `true`, `"yes"` \(string\) or `"no"` \(string\)._
 
 #### Input example with mandatory fields:
 
