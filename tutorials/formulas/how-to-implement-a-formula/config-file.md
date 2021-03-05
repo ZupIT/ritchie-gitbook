@@ -42,7 +42,7 @@ The variable **name** will be convert **uppercase** as the **local variable name
   * **text** \(string\), 
   * **list** \(string, associated with a list of **items**\),
   * **bool** \(boolean, associated with a list of **items\*\***\), 
-  * **password** \(hidden string on CLI\), 
+  * **password** \(hidden string on the CLI\), 
   * **multiselect** \(string, associated with a list of **items**\),
   * **credentials** _\(specific type, learn more informations_ [_**here**_](https://docs.ritchiecli.io/tutorials/credentials#how-to-use-credentials-as-formula-inputs)_\),_
   * **dynamic** _\(associated with the optional `request_info` field below\),_
