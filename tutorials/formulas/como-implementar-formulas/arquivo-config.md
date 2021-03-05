@@ -49,7 +49,7 @@ O nome da variável será convertida em maiúscula como o nome da variável loca
   * **path:** habilita o `autocomplete` para o usuário informar o passo para uma pasta ou um arquivo \(string\). 
 * `label`: texto que aparecerá no CLI para pedir o input ao usuário.
 
-_\*\* os valores da **lista de items** para **booleano** podem ser `true`, `false`, `"yes"` \(string\) ou `"no"` \(string\)_
+_\*\* os valores da **lista de items** para **booleano** podem ser `true`, `false`, `"yes"` \(string\) ou `"no"` \(string\), onde "`yes"` será convertido para `true` e `"no"` para `false`._
 
 #### Exemplo de parâmetro de entrada com campos obrigatórios:
 
