@@ -49,7 +49,7 @@ The variable **name** will be convert **uppercase** as the **local variable name
   * **path:** enables the autocomplete to inform a path to a folder or a file \(string\). 
 * `label` : text appearing on the CLI, asking for the input. 
 
-_\*\* the **item list** for boolean values can be `false`, `true`, `"yes"` \(string\) or `"no"` \(string\)._
+_\*\* the **item list** for boolean values can be `false`, `true`, `"yes"` \(string\) or `"no"` \(string\), where `"yes"` will be convert to `true`, and `"no"` to `false`._
 
 #### Input example with mandatory fields:
 
