@@ -61,6 +61,20 @@ _\*\* the **item list** for boolean value can be `false`, `true`, `"yes"` \(stri
 }
 ```
 
+#### Input example with the boolean type:
+
+```text
+{
+      "label": "I'm of legal age:",
+      "name": "rit_legal_age",
+      "type": "bool",
+      "items": [
+           true,
+           false
+      ]
+}
+```
+
 #### Input example with the multiselect type:
 
 ```text
