@@ -40,12 +40,16 @@ O nome da variável será convertida em maiúscula como o nome da variável loca
 
 * `type`: 
   * **text** \(string\), 
-  * **bool** \(boolean\), 
+  * **list** \(string, associado a uma lista de **items**\)
+  * **bool** \(boolean, associado a uma lista de **items\*\***\), 
+  * **multiselect** \(string, associado a uma lista de **items**\)
   * **password** \(string escondida no CLI\), 
   * **credentials** _****_\(tipo específico, veja mais sobre [**aqui**](https://docs.ritchiecli.io/tutorials/credentials#how-to-use-credentials-as-formula-inputs)\)
   * **dynamic** \(associado  ao campo opcional`request_info`\)
   * **path:** habilita o `autocomplete` para o usuário informar o passo para uma pasta ou um arquivo \(string\). 
 * `label`: texto que aparecerá no CLI para pedir o input ao usuário.
+
+_\*\* os valores da **lista de items** associada ao tipo **bool** podem ser `true`, `false`, `"yes"` \(string\) ou `"no"` \(string\)_
 
 #### Exemplo de parâmetro de entrada com campos obrigatórios:
 
@@ -54,6 +58,20 @@ O nome da variável será convertida em maiúscula como o nome da variável loca
       "label": "Type your name:",
       "name": "rit_name",
       "type": "text",
+}
+```
+
+#### Exemplo de parâmetro de entrada com o tipo bool:
+
+```text
+{
+      "label": "I'm of legal age:",
+      "name": "rit_legal_age",
+      "type": "bool",
+      "items": [
+           true,
+           false
+      ]
 }
 ```
 
