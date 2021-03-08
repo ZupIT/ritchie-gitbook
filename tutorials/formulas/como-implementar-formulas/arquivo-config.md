@@ -221,7 +221,7 @@ Caso não haja campos com valor default, a flag continuará perguntando por par�
       "type": "text",
       "pattern": {
             "regex": "[0-9]",
-            "mismatchText": "Only a integer value is allowed here (ex: 20)"
+            "mismatchText": "Only a numerical value is allowed here (ex: 20)"
       }
 }
 ```
