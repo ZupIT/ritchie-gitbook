@@ -202,7 +202,7 @@ Caso não haja campos com valor default, a flag continuará perguntando por par�
             "variable": "rit_name",
             "operator": "!=",
             "value": "Dennis"
-      }
+      },
       "label": "What is your date of birth?",
       "name": "rit_date_of_birth",
       "type": "text",
