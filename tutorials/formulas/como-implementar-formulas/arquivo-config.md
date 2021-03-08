@@ -205,7 +205,7 @@ Caso não haja campos com valor default, a flag continuará perguntando por par�
       },
       "label": "What is your date of birth?",
       "name": "rit_date_of_birth",
-      "type": "text",
+      "type": "text"
 }
 ```
 
