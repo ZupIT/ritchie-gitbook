@@ -237,7 +237,7 @@ Caso não haja campos com valor default, a flag continuará perguntando por par�
       "type": "dynamic",
       "requestInfo": {
             "url": "https://my-url.com",
-            "jsonPath": $['user']['name']
+            "jsonPath": $..users
       }
 }
 ```
