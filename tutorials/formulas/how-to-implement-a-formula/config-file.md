@@ -206,10 +206,10 @@ In case of fields without a default value, the flag will keep asking for this in
             "variable": "rit_name",
             "operator": "!=",
             "value": "Dennis"
-      }
+      },
       "label": "What is your date of birth?",
       "name": "rit_date_of_birth",
-      "type": "text",
+      "type": "text"
 }
 ```
 
