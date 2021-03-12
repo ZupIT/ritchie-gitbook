@@ -39,13 +39,14 @@ O nome da variável será convertida em maiúscula como o nome da variável loca
 > Exemplo_: `rit_file_name` --&gt; `RIT_FILE_NAME`_
 
 * `type`: 
-  * **text** \(string\), 
-  * **list** \(string, associado a uma lista de **items**\),
-  * **bool** \(boolean, associado a uma lista de **items\*\***\), 
-  * **multiselect** \(string, associado a uma lista de **items**\),
-  * **password** \(string escondida no CLI\), 
-  * **credentials** _****_\(tipo específico, veja mais sobre [**aqui**](https://docs.ritchiecli.io/tutorials/credentials#how-to-use-credentials-as-formula-inputs)\),
-  * **dynamic** \(associado  ao campo opcional`request_info`\) 
+  * **text** _\(string\),_ 
+  * **list** _\(string, associado a uma lista de **items**\),_
+  * **bool** _\(boolean, associado a uma lista de **items\*\***\),_ 
+  * **multiselect** _\(string, associado a uma lista de **items**\),_
+  * **password** _\(string escondida no CLI\),_ 
+  * **credentials** _****\(tipo específico, veja mais sobre_ [_**aqui**_](https://docs.ritchiecli.io/tutorials/credentials#how-to-use-credentials-as-formula-inputs)_\),_
+  * **dynamic** _\(associado  ao campo opcional`request_info`\),_
+  * **path** _\(string, com auto-preenchimento usando `tab`\)_ 
 * `label`: texto que aparecerá no CLI para pedir o input ao usuário.
 
 _\*\* os valores da **lista de items** para **booleano** podem ser `true`, `false`, `"yes"` \(string\) ou `"no"` \(string\), onde `"yes"` será convertido para `true` e `"no"` para `false`._
