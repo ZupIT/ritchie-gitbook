@@ -46,7 +46,8 @@ The variable **name** will be convert **uppercase** as the **local variable name
   * **password** \(hidden string on the CLI\), 
   * **multiselect** \(string, associated with a list of **items**\),
   * **credentials** _\(specific type, learn more informations_ [_**here**_](https://docs.ritchiecli.io/tutorials/credentials#how-to-use-credentials-as-formula-inputs)_\),_
-  * **dynamic** _\(associated with the optional `request_info` field below\)_
+  * **dynamic** _\(associated with the optional `request_info` field below\),_
+  * _**path** \(autocomplete string with `tab` key\)_
 
   \_\_
 
@@ -209,7 +210,7 @@ In case of fields without a default value, the flag will keep asking for this in
       },
       "label": "What is your date of birth?",
       "name": "rit_date_of_birth",
-      "type": "text",
+      "type": "text"
 }
 ```
 
