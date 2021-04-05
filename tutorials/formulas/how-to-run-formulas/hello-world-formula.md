@@ -95,7 +95,7 @@ rit demo hello-world --rit_input_text=Dennis --rit_input_boolean=true --rit_inpu
 You can also run the command with the **--stdin** \(Standard input\) flag. This way, inputs parameters are also informed directly with the command line. 
 
 ```
-echo '{"rit_input_text":"Dennis", "rit_input_boolean":"true", "rit_input_list":"everything", "rit_input_password":"Ritchie"}' | rit demo hello-world --stdinRitchie uses the json format to execute STDIN commands
+echo '{"rit_input_text":"Dennis", "rit_input_boolean":"true", "rit_input_list":"everything", "rit_input_password":"Ritchie"}' | rit demo hello-world --stdin
 ```
 
 {% hint style="warning" %}
