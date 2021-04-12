@@ -73,11 +73,13 @@ _\*\* the **item list** for boolean values can be `false`, `true`, `"yes"` \(str
       "name": "rit_legal_age",
       "type": "bool",
       "items": [
-           true,
-           false
+           "true",
+           "false"
       ]
 }
 ```
+
+#### _**Note**: You can also use `"yes"` and `"no"` as option for the boolean type._
 
 #### Input example with the multiselect type:
 
