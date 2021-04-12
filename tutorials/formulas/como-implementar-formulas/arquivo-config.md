@@ -69,11 +69,13 @@ _\*\* os valores da **lista de items** para **booleano** podem ser `true`, `fals
       "name": "rit_legal_age",
       "type": "bool",
       "items": [
-           true,
-           false
+           "true",
+           "false"
       ]
 }
 ```
+
+_**Obs**: Os valores `"yes"` e `"no"` também podem ser usados com o tipo booleano para serem convertidos depois._
 
 #### Exemplo de parâmetro de entrada com o tipo multiselect:
 
