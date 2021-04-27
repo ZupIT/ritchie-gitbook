@@ -36,7 +36,13 @@ Todas as fórmulas podem ser executadas sem depender da linguagem usada a condi�
 Vamos no exemplo a seguir da [**seção fórmula hello world** ](formula-hello-world.md)para ver como isso funciona na prática.
 {% endhint %}
 
+{% hint style="warning" %}
+**Usuários do Docker no MacOS:** Para evitar o **‘Error: exit status 1’**, é preciso **desativar** o Cloud Experience, dependendo da sua versão.
 
+Veja como: Acesse no Docker:
+
+* Preferences &gt; Command Line&gt; Enable cloud experience.
+{% endhint %}
 
 ### 3. Local & Docker Flags
 
