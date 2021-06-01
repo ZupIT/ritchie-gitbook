@@ -24,6 +24,26 @@ curl -fsSL https://commons-repo.ritchiecli.io/install.sh | bash
 If you prefer, you also can follow with the[ **manual installation**.](manual-installation.md)
 {% endhint %}
 
+### Packages
+
+To download a specific package or version, you can use the **URLs** below on your navigator,  substituting the **`{VERSION}`** field according to the [project repository tags](https://github.com/ZupIT/ritchie-cli/tags):
+
+**Red Hat Package Manager**
+
+```text
+https://commons-repo.ritchiecli.io/{VERSION}/installer/ritchie.rpm
+```
+
+**Debian**
+
+```text
+https://commons-repo.ritchiecli.io/{VERSION}/installer/ritchie.deb
+```
+
+**Arch Linux**
+
+The **`tar.gz`** package is available on this [Arch Linux user repository](https://github.com/avelino/ritchie-cli-archpack) page \([repository reference](https://github.com/avelino/ritchie-cli-archpack)\).
+
 ## Step 3: Verify installation 
 
 You can confirm if your installation went well by running this command: 
