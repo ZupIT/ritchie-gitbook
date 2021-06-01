@@ -42,7 +42,7 @@ https://commons-repo.ritchiecli.io/{VERSION}/installer/ritchie.deb
 
 **Arch Linux**
 
-O pacote **`tar.gz`** é disponível nesta página: [Arch Linux user repository](https://github.com/avelino/ritchie-cli-archpack) \([repositório de referência](https://github.com/avelino/ritchie-cli-archpack)\).
+O pacote **`tar.gz`** é disponível nesta página: [Arch Linux user repository](https://aur.archlinux.org/packages/ritchie-cli/) \([repositório de referência](https://github.com/avelino/ritchie-cli-archpack)\).
 
 ## Passo 3: Verifique a instalação 
 
