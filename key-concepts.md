@@ -31,7 +31,7 @@ Esses parâmetros de entrada serão informados pelo usuário :
 ... antes de executar a fórmula de fato.  
 ****
 
-![](.gitbook/assets/fluxo-formulas%20%283%29%20%283%29.png)
+![](.gitbook/assets/fluxo-formulas%20%283%29%20%283%29%20%283%29.png)
 
 ### 
 
